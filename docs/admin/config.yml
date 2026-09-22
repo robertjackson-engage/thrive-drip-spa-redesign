@@ -1,0 +1,106 @@
+# ============================================================
+# ThrIVe Drip Spa — Content Manager (Sveltia / Decap compatible)
+# Staff log in here to edit blog posts, promotions, events and any text on the site.
+# Saving commits to the repo; a GitHub Action rebuilds & republishes in ~1 minute.
+# ------------------------------------------------------------
+backend:
+  name: github
+  repo: robertjackson-engage/thrive-drip-spa-redesign
+  branch: main
+# Local dev only: when the Sveltia CMS proxy server is running on localhost,
+# /admin edits local files directly with no GitHub login. Ignored in production.
+local_backend: true
+
+media_folder: "docs/assets/img"
+public_folder: "/assets/img"
+
+site_url: https://robertjackson-engage.github.io/thrive-drip-spa-redesign/
+display_url: https://robertjackson-engage.github.io/thrive-drip-spa-redesign/
+publish_mode: simple
+
+collections:
+  # ---------------- BLOG ----------------
+  - name: blog
+    label: "Blog Posts"
+    label_singular: "Blog Post"
+    folder: "content/blog"
+    create: true
+    slug: "{{slug}}"
+    summary: "{{title}}  —  {{date}}"
+    sortable_fields: [date, title]
+    fields:
+      - { name: title, label: "Title", widget: string }
+      - { name: date, label: "Date", widget: datetime, date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+      - { name: author, label: "Author", widget: string, default: "ThrIVe Drip Spa" }
+      - { name: image, label: "Cover Image", widget: image, required: false, hint: "Wide image works best (16:9)." }
+      - { name: excerpt, label: "Short Summary", widget: text, hint: "1–2 sentences shown on the blog index." }
+      - { name: category, label: "Category", widget: select, required: false, options: ["IV Therapy", "NAD+", "Beauty & Body", "Weight Loss", "Wellness", "Recovery", "News"] }
+      - { name: body, label: "Post Content", widget: markdown }
+
+  # ---------------- PROMOTIONS ----------------
+  - name: promotions
+    label: "Promotions & Specials"
+    label_singular: "Promotion"
+    folder: "content/promotions"
+    create: true
+    slug: "{{slug}}"
+    summary: "{{title}}  —  {{ends}}"
+    sortable_fields: [ends, title]
+    fields:
+      - { name: title, label: "Promotion name", widget: string }
+      - { name: price, label: "Price / offer (e.g. $99 or 25% off)", widget: string, required: false }
+      - { name: ends, label: "Valid through", widget: datetime, date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD", required: false }
+      - { name: image, label: "Image", widget: image, required: false }
+      - { name: link, label: "Button link", widget: string, required: false, default: "https://book.thrivedripspa.com" }
+      - { name: featured, label: "Show in the top promo bar?", widget: boolean, default: false, required: false }
+      - { name: body, label: "Details", widget: text }
+
+  # ---------------- EVENTS ----------------
+  - name: events
+    label: "Events"
+    label_singular: "Event"
+    folder: "content/events"
+    create: true
+    slug: "{{slug}}"
+    summary: "{{title}}  —  {{date}}"
+    sortable_fields: [date, title]
+    fields:
+      - { name: title, label: "Event name", widget: string }
+      - { name: date, label: "Date", widget: datetime, date_format: "YYYY-MM-DD", time_format: false, format: "YYYY-MM-DD" }
+      - { name: location, label: "Location", widget: string, required: false }
+      - { name: image, label: "Image", widget: image, required: false }
+      - { name: link, label: "RSVP / info link", widget: string, required: false }
+      - { name: body, label: "Description", widget: text }
+
+  # ---------------- SITE TEXT ----------------
+  - name: copy
+    label: "Site Text"
+    label_singular: "Page text"
+    folder: "content/copy"
+    extension: json
+    format: json
+    create: false
+    delete: false
+    identifier_field: page
+    summary: "{{page}}"
+    sortable_fields: [page]
+    description: >
+      Every piece of text on the site, page by page. "_site" holds the header, menus and footer
+      shared by all pages. Change the "Text" field — "Original" shows what the design started
+      with and "Where" tells you the element and the heading it sits under. Saving publishes on
+      the next build (about a minute). Tip: the Visual text editor (/admin/edit.html) lets you
+      click text on the live page instead.
+    fields:
+      - { name: page, label: "Page", widget: string, readonly: true }
+      - name: items
+        label: "Text on this page"
+        label_singular: "Text"
+        widget: list
+        allow_add: false
+        collapsed: true
+        summary: "{{fields.where}}  —  {{fields.text}}"
+        fields:
+          - { name: id, widget: hidden }
+          - { name: where, label: "Where", widget: string, readonly: true }
+          - { name: original, label: "Original", widget: text, readonly: true }
+          - { name: text, label: "Text", widget: text }

@@ -1,0 +1,671 @@
+{
+ "page": "beauty-drip",
+ "items": [
+  {
+   "id": "27d2765855",
+   "where": "Browser tab title",
+   "original": "Beauty Drip — $190 · $150 member | ThrIVe Drip Spa",
+   "text": "Beauty Drip — $190 · $150 member | ThrIVe Drip Spa"
+  },
+  {
+   "id": "7a8b3e924f",
+   "where": "Search-engine description",
+   "original": "Glow from the inside out. Refresh, renew, radiate. 1 L IV fluids, Electrolytes, High-dose Vitamin C, High-dose Glutathione. Good for dehydration, dull or dry skin, fine lines and wrinkles. Book at ten Texas lounges or mobile.",
+   "text": "Glow from the inside out. Refresh, renew, radiate. 1 L IV fluids, Electrolytes, High-dose Vitamin C, High-dose Glutathione. Good for dehydration, dull or dry skin, fine lines and wrinkles. Book at ten Texas lounges or mobile."
+  },
+  {
+   "id": "05a7d481f3",
+   "where": "a",
+   "original": "Home",
+   "text": "Home"
+  },
+  {
+   "id": "a4585e534f",
+   "where": "text",
+   "original": "/",
+   "text": "/"
+  },
+  {
+   "id": "030823431f",
+   "where": "a",
+   "original": "IV Drips",
+   "text": "IV Drips"
+  },
+  {
+   "id": "1a7ac4f794",
+   "where": "text",
+   "original": "/ Beauty Drip",
+   "text": "/ Beauty Drip"
+  },
+  {
+   "id": "37312a1906",
+   "where": "p",
+   "original": "Ageless Radiance",
+   "text": "Ageless Radiance"
+  },
+  {
+   "id": "464f2bf6c1",
+   "where": "span",
+   "original": "The",
+   "text": "The"
+  },
+  {
+   "id": "dda309feae",
+   "where": "span",
+   "original": "Beauty",
+   "text": "Beauty"
+  },
+  {
+   "id": "cc3831a5cd",
+   "where": "span",
+   "original": "Drip.",
+   "text": "Drip."
+  },
+  {
+   "id": "99b4567b9d",
+   "where": "p",
+   "original": "Glow from the inside out. Refresh, renew, radiate.",
+   "text": "Glow from the inside out. Refresh, renew, radiate."
+  },
+  {
+   "id": "e96a4e2d6f",
+   "where": "a",
+   "original": "Book This Drip",
+   "text": "Book This Drip"
+  },
+  {
+   "id": "6c886e19f9",
+   "where": "a",
+   "original": "All 12 Drips",
+   "text": "All 12 Drips"
+  },
+  {
+   "id": "a1c2eff764",
+   "where": "span",
+   "original": "$190 walk-in · $150 member",
+   "text": "$190 walk-in · $150 member"
+  },
+  {
+   "id": "e3afd1c6ab",
+   "where": "span",
+   "original": "30–45 minutes",
+   "text": "30–45 minutes"
+  },
+  {
+   "id": "1b4e1f3735",
+   "where": "span",
+   "original": "1 L IV fluids",
+   "text": "1 L IV fluids"
+  },
+  {
+   "id": "f0064797ce",
+   "where": "text",
+   "original": "High-dose Vitamin C, High-dose Glutathione",
+   "text": "High-dose Vitamin C, High-dose Glutathione"
+  },
+  {
+   "id": "0f680cca68",
+   "where": "text",
+   "original": "What's in the bag",
+   "text": "What's in the bag"
+  },
+  {
+   "id": "7ea4bdb94f",
+   "where": "h2",
+   "original": "Radiant renewal",
+   "text": "Radiant renewal"
+  },
+  {
+   "id": "93b17af203",
+   "where": "p · Radiant renewal",
+   "original": "Skin, hair and nails are built from the inside. High-dose vitamin C drives collagen while glutathione brightens and protects — the combination behind our most-booked drip for events and weddings. Add biotin and proline for hair and nails.",
+   "text": "Skin, hair and nails are built from the inside. High-dose vitamin C drives collagen while glutathione brightens and protects — the combination behind our most-booked drip for events and weddings. Add biotin and proline for hair and nails."
+  },
+  {
+   "id": "cc50acbbd9",
+   "where": "p · Radiant renewal",
+   "original": "Ingredients",
+   "text": "Ingredients"
+  },
+  {
+   "id": "1ed0d4e217",
+   "where": "span · Radiant renewal",
+   "original": "1 L IV fluids",
+   "text": "1 L IV fluids"
+  },
+  {
+   "id": "d2027c3f58",
+   "where": "span · Radiant renewal",
+   "original": "Electrolytes",
+   "text": "Electrolytes"
+  },
+  {
+   "id": "a5659aaeef",
+   "where": "span · Radiant renewal",
+   "original": "High-dose Vitamin C",
+   "text": "High-dose Vitamin C"
+  },
+  {
+   "id": "43570d567d",
+   "where": "span · Radiant renewal",
+   "original": "High-dose Glutathione",
+   "text": "High-dose Glutathione"
+  },
+  {
+   "id": "8f7e88ccf4",
+   "where": "p · Radiant renewal",
+   "original": "Boost your results",
+   "text": "Boost your results"
+  },
+  {
+   "id": "a76637df4b",
+   "where": "span · Radiant renewal",
+   "original": "Zinc",
+   "text": "Zinc"
+  },
+  {
+   "id": "fa7a42d8d6",
+   "where": "span · Radiant renewal",
+   "original": "Biotin",
+   "text": "Biotin"
+  },
+  {
+   "id": "0448172a2c",
+   "where": "span · Radiant renewal",
+   "original": "Proline",
+   "text": "Proline"
+  },
+  {
+   "id": "a7bedea9fb",
+   "where": "h3 · Radiant renewal",
+   "original": "Beauty Drip",
+   "text": "Beauty Drip"
+  },
+  {
+   "id": "18fc55c7a1",
+   "where": "div · Beauty Drip",
+   "original": "$150",
+   "text": "$150"
+  },
+  {
+   "id": "f1e4cd3139",
+   "where": "span · Beauty Drip",
+   "original": "member",
+   "text": "member"
+  },
+  {
+   "id": "7d88cf8eab",
+   "where": "strong · Beauty Drip",
+   "original": "$190",
+   "text": "$190"
+  },
+  {
+   "id": "0a3dabd3a0",
+   "where": "text · Beauty Drip",
+   "original": "walk-in · includes 1 L IV fluids",
+   "text": "walk-in · includes 1 L IV fluids"
+  },
+  {
+   "id": "3dc2afa138",
+   "where": "li · Beauty Drip",
+   "original": "Vitamin C — collagen synthesis and a brighter complexion",
+   "text": "Vitamin C — collagen synthesis and a brighter complexion"
+  },
+  {
+   "id": "ddad234b42",
+   "where": "li · Beauty Drip",
+   "original": "Glutathione — the antioxidant behind the glow",
+   "text": "Glutathione — the antioxidant behind the glow"
+  },
+  {
+   "id": "a66ad8c207",
+   "where": "li · Beauty Drip",
+   "original": "Electrolytes — hydration where skin needs it",
+   "text": "Electrolytes — hydration where skin needs it"
+  },
+  {
+   "id": "8d452bd0a0",
+   "where": "a · Beauty Drip",
+   "original": "Book Now",
+   "text": "Book Now"
+  },
+  {
+   "id": "033b2a226d",
+   "where": "span · Beauty Drip",
+   "original": "Ageless Radiance",
+   "text": "Ageless Radiance"
+  },
+  {
+   "id": "67d6c43863",
+   "where": "text · Beauty Drip",
+   "original": "Recommended for",
+   "text": "Recommended for"
+  },
+  {
+   "id": "570d2a9be6",
+   "where": "h2 · Beauty Drip",
+   "original": "Good for",
+   "text": "Good for"
+  },
+  {
+   "id": "d7884f7cb4",
+   "where": "span · Good for",
+   "original": "dehydration",
+   "text": "dehydration"
+  },
+  {
+   "id": "9b46577917",
+   "where": "p · Good for",
+   "original": "The Beauty Drip is a popular choice for clients dealing with:",
+   "text": "The Beauty Drip is a popular choice for clients dealing with:"
+  },
+  {
+   "id": "cccbab6b10",
+   "where": "li · Good for",
+   "original": "Dehydration",
+   "text": "Dehydration"
+  },
+  {
+   "id": "d7016f0258",
+   "where": "li · Good for",
+   "original": "Dull or dry skin",
+   "text": "Dull or dry skin"
+  },
+  {
+   "id": "b72c5f9bf6",
+   "where": "li · Good for",
+   "original": "Fine lines and wrinkles",
+   "text": "Fine lines and wrinkles"
+  },
+  {
+   "id": "05c8692c68",
+   "where": "li · Good for",
+   "original": "Low energy",
+   "text": "Low energy"
+  },
+  {
+   "id": "5921b2de94",
+   "where": "a · Good for",
+   "original": "Book This Drip",
+   "text": "Book This Drip"
+  },
+  {
+   "id": "7595aeff9b",
+   "where": "a · Good for",
+   "original": "Ask the concierge →",
+   "text": "Ask the concierge →"
+  },
+  {
+   "id": "33ab772ba9",
+   "where": "text · Good for",
+   "original": "Pair it with",
+   "text": "Pair it with"
+  },
+  {
+   "id": "7ee16a11f9",
+   "where": "h2 · Good for",
+   "original": "Other drips you might",
+   "text": "Other drips you might"
+  },
+  {
+   "id": "7b05cc5d77",
+   "where": "span · Other drips you might",
+   "original": "love",
+   "text": "love"
+  },
+  {
+   "id": "08e39900d8",
+   "where": "a · Other drips you might",
+   "original": "All 12 drips →",
+   "text": "All 12 drips →"
+  },
+  {
+   "id": "696ebd1505",
+   "where": "span · Other drips you might",
+   "original": "$150",
+   "text": "$150"
+  },
+  {
+   "id": "20583df0fe",
+   "where": "h3 · Other drips you might",
+   "original": "Hydrate",
+   "text": "Hydrate"
+  },
+  {
+   "id": "cf5b0a2d27",
+   "where": "p · Hydrate",
+   "original": "Hydrate with fluids and electrolytes to boost energy, support body function and help you feel your best.",
+   "text": "Hydrate with fluids and electrolytes to boost energy, support body function and help you feel your best."
+  },
+  {
+   "id": "3bd98e34f6",
+   "where": "span · Hydrate",
+   "original": "View drip →",
+   "text": "View drip →"
+  },
+  {
+   "id": "690818ad95",
+   "where": "span · Hydrate",
+   "original": "$190",
+   "text": "$190"
+  },
+  {
+   "id": "47bb8108b9",
+   "where": "h3 · Hydrate",
+   "original": "Myers",
+   "text": "Myers"
+  },
+  {
+   "id": "2a8e3da8d4",
+   "where": "p · Myers",
+   "original": "This nutrient-rich infusion supports energy, skin wellness and recovery — a popular choice for a boost from within.",
+   "text": "This nutrient-rich infusion supports energy, skin wellness and recovery — a popular choice for a boost from within."
+  },
+  {
+   "id": "132e55c00f",
+   "where": "span · Myers",
+   "original": "View drip →",
+   "text": "View drip →"
+  },
+  {
+   "id": "97f259c682",
+   "where": "span · Myers",
+   "original": "$190",
+   "text": "$190"
+  },
+  {
+   "id": "13001a2043",
+   "where": "h3 · Myers",
+   "original": "Detox",
+   "text": "Detox"
+  },
+  {
+   "id": "7436e65eed",
+   "where": "p · Detox",
+   "original": "Supports natural wellness and helps you feel more grounded, clear and recharged from within.",
+   "text": "Supports natural wellness and helps you feel more grounded, clear and recharged from within."
+  },
+  {
+   "id": "821f044fce",
+   "where": "span · Detox",
+   "original": "View drip →",
+   "text": "View drip →"
+  },
+  {
+   "id": "72f8d4c2a6",
+   "where": "span · Detox",
+   "original": "$190",
+   "text": "$190"
+  },
+  {
+   "id": "0ad3c406ce",
+   "where": "h3 · Detox",
+   "original": "Party",
+   "text": "Party"
+  },
+  {
+   "id": "5b0d90cbf2",
+   "where": "p · Party",
+   "original": "Rehydrate and recharge with fluids and nutrients designed to restore balance after a big night.",
+   "text": "Rehydrate and recharge with fluids and nutrients designed to restore balance after a big night."
+  },
+  {
+   "id": "195fef6f81",
+   "where": "span · Party",
+   "original": "View drip →",
+   "text": "View drip →"
+  },
+  {
+   "id": "def3b1aa46",
+   "where": "text · Party",
+   "original": "Memberships",
+   "text": "Memberships"
+  },
+  {
+   "id": "ded1d38a18",
+   "where": "h2 · Party",
+   "original": "More value",
+   "text": "More value"
+  },
+  {
+   "id": "a99345bbe7",
+   "where": "span · More value",
+   "original": "every month",
+   "text": "every month"
+  },
+  {
+   "id": "b61671a8e8",
+   "where": "p · More value",
+   "original": "Each month your membership loads a service credit worth more than what you pay — and it works on any service: drips, shots, boosters, NAD+ and BTL treatments.",
+   "text": "Each month your membership loads a service credit worth more than what you pay — and it works on any service: drips, shots, boosters, NAD+ and BTL treatments."
+  },
+  {
+   "id": "91fc35b21a",
+   "where": "a · More value",
+   "original": "Compare all plans →",
+   "text": "Compare all plans →"
+  },
+  {
+   "id": "0ae763c786",
+   "where": "h3 · More value",
+   "original": "Select",
+   "text": "Select"
+  },
+  {
+   "id": "e1c1f5f1ed",
+   "where": "div · Select",
+   "original": "$95",
+   "text": "$95"
+  },
+  {
+   "id": "5bf72d0a3c",
+   "where": "span · Select",
+   "original": "/mo",
+   "text": "/mo"
+  },
+  {
+   "id": "ea2e9dc9bf",
+   "where": "p · Select",
+   "original": "$140 monthly credit to spend on any service — more value than your membership fee, every month.",
+   "text": "$140 monthly credit to spend on any service — more value than your membership fee, every month."
+  },
+  {
+   "id": "7a2ebbc718",
+   "where": "li · Select",
+   "original": "Member pricing on every drip",
+   "text": "Member pricing on every drip"
+  },
+  {
+   "id": "7efdf9f292",
+   "where": "li · Select",
+   "original": "Birthday drip on us",
+   "text": "Birthday drip on us"
+  },
+  {
+   "id": "ed3c965c3e",
+   "where": "li · Select",
+   "original": "Priority booking & promos",
+   "text": "Priority booking & promos"
+  },
+  {
+   "id": "1db3858cc2",
+   "where": "li · Select",
+   "original": "Pause or cancel anytime",
+   "text": "Pause or cancel anytime"
+  },
+  {
+   "id": "bc6bb8d3d2",
+   "where": "a · Select",
+   "original": "Join Select",
+   "text": "Join Select"
+  },
+  {
+   "id": "f2e050a080",
+   "where": "span · Select",
+   "original": "Most popular",
+   "text": "Most popular"
+  },
+  {
+   "id": "9449172309",
+   "where": "h3 · Select",
+   "original": "Premium",
+   "text": "Premium"
+  },
+  {
+   "id": "dfa22d920f",
+   "where": "div · Premium",
+   "original": "$165",
+   "text": "$165"
+  },
+  {
+   "id": "ad74229147",
+   "where": "span · Premium",
+   "original": "/mo",
+   "text": "/mo"
+  },
+  {
+   "id": "c3434e7dc1",
+   "where": "p · Premium",
+   "original": "$260 monthly credit — your standard glow-up, fully covered, on any services you choose.",
+   "text": "$260 monthly credit — your standard glow-up, fully covered, on any services you choose."
+  },
+  {
+   "id": "01728622f6",
+   "where": "li · Premium",
+   "original": "Member pricing on every drip",
+   "text": "Member pricing on every drip"
+  },
+  {
+   "id": "30c6d03d88",
+   "where": "li · Premium",
+   "original": "Birthday drip on us",
+   "text": "Birthday drip on us"
+  },
+  {
+   "id": "08e3c2b30c",
+   "where": "li · Premium",
+   "original": "Priority booking & promos",
+   "text": "Priority booking & promos"
+  },
+  {
+   "id": "36b73b62df",
+   "where": "li · Premium",
+   "original": "Pause or cancel anytime",
+   "text": "Pause or cancel anytime"
+  },
+  {
+   "id": "4ef542d102",
+   "where": "a · Premium",
+   "original": "Join Premium",
+   "text": "Join Premium"
+  },
+  {
+   "id": "ac28b7bd04",
+   "where": "h3 · Premium",
+   "original": "Luxe",
+   "text": "Luxe"
+  },
+  {
+   "id": "84529e7b58",
+   "where": "div · Luxe",
+   "original": "$285",
+   "text": "$285"
+  },
+  {
+   "id": "569090b2af",
+   "where": "span · Luxe",
+   "original": "/mo",
+   "text": "/mo"
+  },
+  {
+   "id": "6655f17310",
+   "where": "p · Luxe",
+   "original": "$490 monthly credit — the full monthly reset, spent however you like.",
+   "text": "$490 monthly credit — the full monthly reset, spent however you like."
+  },
+  {
+   "id": "27f77f2fbf",
+   "where": "li · Luxe",
+   "original": "Member pricing on every drip",
+   "text": "Member pricing on every drip"
+  },
+  {
+   "id": "af699c5c82",
+   "where": "li · Luxe",
+   "original": "Birthday drip on us",
+   "text": "Birthday drip on us"
+  },
+  {
+   "id": "a28e479f06",
+   "where": "li · Luxe",
+   "original": "Priority booking & promos",
+   "text": "Priority booking & promos"
+  },
+  {
+   "id": "1ca3cee294",
+   "where": "li · Luxe",
+   "original": "Pause or cancel anytime",
+   "text": "Pause or cancel anytime"
+  },
+  {
+   "id": "22142a71c5",
+   "where": "a · Luxe",
+   "original": "Join Luxe",
+   "text": "Join Luxe"
+  },
+  {
+   "id": "3d4596a893",
+   "where": "p · Luxe",
+   "original": "Family, student and NAD+ memberships too — see",
+   "text": "Family, student and NAD+ memberships too — see"
+  },
+  {
+   "id": "1cc0816a7b",
+   "where": "a · Luxe",
+   "original": "all memberships",
+   "text": "all memberships"
+  },
+  {
+   "id": "732f9603bb",
+   "where": "text · Luxe",
+   "original": ". Pause or cancel anytime with the front desk.",
+   "text": ". Pause or cancel anytime with the front desk."
+  },
+  {
+   "id": "2bdd1e663e",
+   "where": "h2 · Luxe",
+   "original": "Book the",
+   "text": "Book the"
+  },
+  {
+   "id": "957dd54a44",
+   "where": "span · Book the",
+   "original": "Beauty",
+   "text": "Beauty"
+  },
+  {
+   "id": "8d3ccfb905",
+   "where": "text · Book the",
+   "original": "today.",
+   "text": "today."
+  },
+  {
+   "id": "660c1c49c3",
+   "where": "p · Book the",
+   "original": "Under a minute to book, no card required. Walk in, recline, and feel the difference before you leave.",
+   "text": "Under a minute to book, no card required. Walk in, recline, and feel the difference before you leave."
+  },
+  {
+   "id": "94ca587ca6",
+   "where": "a · Book the",
+   "original": "Book Your Drip",
+   "text": "Book Your Drip"
+  },
+  {
+   "id": "ef8f866e4e",
+   "where": "a · Book the",
+   "original": "Find a Location",
+   "text": "Find a Location"
+  }
+ ]
+}

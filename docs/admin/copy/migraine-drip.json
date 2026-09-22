@@ -1,0 +1,677 @@
+{
+ "page": "migraine-drip",
+ "items": [
+  {
+   "id": "a7cf7cd86c",
+   "where": "Browser tab title",
+   "original": "Migraine Drip — $190 · $150 member | ThrIVe Drip Spa",
+   "text": "Migraine Drip — $190 · $150 member | ThrIVe Drip Spa"
+  },
+  {
+   "id": "a81101ff40",
+   "where": "Search-engine description",
+   "original": "Relax with the ingredients needed to curb a nauseating migraine. 1 L IV fluids, Electrolytes, Magnesium, Reglan, Toradol. Good for migraine and headache, anxiety, dehydration. Book at ten Texas lounges or mobile.",
+   "text": "Relax with the ingredients needed to curb a nauseating migraine. 1 L IV fluids, Electrolytes, Magnesium, Reglan, Toradol. Good for migraine and headache, anxiety, dehydration. Book at ten Texas lounges or mobile."
+  },
+  {
+   "id": "58fd3f18f4",
+   "where": "a",
+   "original": "Home",
+   "text": "Home"
+  },
+  {
+   "id": "b172b3c0e2",
+   "where": "text",
+   "original": "/",
+   "text": "/"
+  },
+  {
+   "id": "5ec8cccc1e",
+   "where": "a",
+   "original": "IV Drips",
+   "text": "IV Drips"
+  },
+  {
+   "id": "19b5239a80",
+   "where": "text",
+   "original": "/ Migraine Drip",
+   "text": "/ Migraine Drip"
+  },
+  {
+   "id": "b1c4ee0e5b",
+   "where": "p",
+   "original": "Targeted Relief",
+   "text": "Targeted Relief"
+  },
+  {
+   "id": "2161bdeb00",
+   "where": "span",
+   "original": "The",
+   "text": "The"
+  },
+  {
+   "id": "8d8aeda7b0",
+   "where": "span",
+   "original": "Migraine",
+   "text": "Migraine"
+  },
+  {
+   "id": "d389a524a5",
+   "where": "span",
+   "original": "Drip.",
+   "text": "Drip."
+  },
+  {
+   "id": "2bfc05a53c",
+   "where": "p",
+   "original": "Relax with the ingredients needed to curb a nauseating migraine.",
+   "text": "Relax with the ingredients needed to curb a nauseating migraine."
+  },
+  {
+   "id": "8076cba938",
+   "where": "a",
+   "original": "Book This Drip",
+   "text": "Book This Drip"
+  },
+  {
+   "id": "75839d5b75",
+   "where": "a",
+   "original": "All 12 Drips",
+   "text": "All 12 Drips"
+  },
+  {
+   "id": "a9a4dc3f2b",
+   "where": "span",
+   "original": "$190 walk-in · $150 member",
+   "text": "$190 walk-in · $150 member"
+  },
+  {
+   "id": "040d7abd75",
+   "where": "span",
+   "original": "30–45 minutes",
+   "text": "30–45 minutes"
+  },
+  {
+   "id": "89f9193457",
+   "where": "span",
+   "original": "1 L IV fluids",
+   "text": "1 L IV fluids"
+  },
+  {
+   "id": "5d5aa73655",
+   "where": "text",
+   "original": "Magnesium, Reglan",
+   "text": "Magnesium, Reglan"
+  },
+  {
+   "id": "75a99fdb82",
+   "where": "text",
+   "original": "What's in the bag",
+   "text": "What's in the bag"
+  },
+  {
+   "id": "8c244e7cbc",
+   "where": "h2",
+   "original": "Calm & comfort",
+   "text": "Calm & comfort"
+  },
+  {
+   "id": "ea5d5d95b6",
+   "where": "p · Calm & comfort",
+   "original": "Magnesium calms inflammation and headache, Reglan settles the nausea of an acute migraine, and Toradol delivers fast NSAID pain relief. Benadryl can be added at no cost — you'll need a driver — and Zofran can substitute for Reglan. Plan on 30 minutes to an hour in the chair.",
+   "text": "Magnesium calms inflammation and headache, Reglan settles the nausea of an acute migraine, and Toradol delivers fast NSAID pain relief. Benadryl can be added at no cost — you'll need a driver — and Zofran can substitute for Reglan. Plan on 30 minutes to an hour in the chair."
+  },
+  {
+   "id": "e6c374934a",
+   "where": "p · Calm & comfort",
+   "original": "Ingredients",
+   "text": "Ingredients"
+  },
+  {
+   "id": "10f8bb346c",
+   "where": "span · Calm & comfort",
+   "original": "1 L IV fluids",
+   "text": "1 L IV fluids"
+  },
+  {
+   "id": "a3fa0b74ca",
+   "where": "span · Calm & comfort",
+   "original": "Electrolytes",
+   "text": "Electrolytes"
+  },
+  {
+   "id": "cee5b16a49",
+   "where": "span · Calm & comfort",
+   "original": "Magnesium",
+   "text": "Magnesium"
+  },
+  {
+   "id": "8e6d1fc625",
+   "where": "span · Calm & comfort",
+   "original": "Reglan",
+   "text": "Reglan"
+  },
+  {
+   "id": "1afd73b476",
+   "where": "span · Calm & comfort",
+   "original": "Toradol",
+   "text": "Toradol"
+  },
+  {
+   "id": "59bd9123d4",
+   "where": "p · Calm & comfort",
+   "original": "Boost your results",
+   "text": "Boost your results"
+  },
+  {
+   "id": "37bd288e15",
+   "where": "span · Calm & comfort",
+   "original": "Benadryl (free — bring a driver)",
+   "text": "Benadryl (free — bring a driver)"
+  },
+  {
+   "id": "f39218a2ea",
+   "where": "span · Calm & comfort",
+   "original": "B-Complex",
+   "text": "B-Complex"
+  },
+  {
+   "id": "4c0b2a1596",
+   "where": "h3 · Calm & comfort",
+   "original": "Migraine Drip",
+   "text": "Migraine Drip"
+  },
+  {
+   "id": "2e41626b42",
+   "where": "div · Migraine Drip",
+   "original": "$150",
+   "text": "$150"
+  },
+  {
+   "id": "1a9071c83c",
+   "where": "span · Migraine Drip",
+   "original": "member",
+   "text": "member"
+  },
+  {
+   "id": "53ab5fcbbf",
+   "where": "strong · Migraine Drip",
+   "original": "$190",
+   "text": "$190"
+  },
+  {
+   "id": "a430ee51fa",
+   "where": "text · Migraine Drip",
+   "original": "walk-in · includes 1 L IV fluids",
+   "text": "walk-in · includes 1 L IV fluids"
+  },
+  {
+   "id": "bc74c22627",
+   "where": "li · Migraine Drip",
+   "original": "Magnesium — inflammation, headaches, PMS and anxiety",
+   "text": "Magnesium — inflammation, headaches, PMS and anxiety"
+  },
+  {
+   "id": "2ec4a48be9",
+   "where": "li · Migraine Drip",
+   "original": "Reglan — nausea in acute migraine",
+   "text": "Reglan — nausea in acute migraine"
+  },
+  {
+   "id": "df5e6691d8",
+   "where": "li · Migraine Drip",
+   "original": "Toradol — fast-acting pain relief",
+   "text": "Toradol — fast-acting pain relief"
+  },
+  {
+   "id": "ad07bc6538",
+   "where": "a · Migraine Drip",
+   "original": "Book Now",
+   "text": "Book Now"
+  },
+  {
+   "id": "076bdb9a17",
+   "where": "span · Migraine Drip",
+   "original": "Targeted Relief",
+   "text": "Targeted Relief"
+  },
+  {
+   "id": "e05a06a69b",
+   "where": "text · Migraine Drip",
+   "original": "Recommended for",
+   "text": "Recommended for"
+  },
+  {
+   "id": "451b6c75de",
+   "where": "h2 · Migraine Drip",
+   "original": "Good for",
+   "text": "Good for"
+  },
+  {
+   "id": "85e3a8b033",
+   "where": "span · Good for",
+   "original": "migraine and headache",
+   "text": "migraine and headache"
+  },
+  {
+   "id": "26609978e6",
+   "where": "p · Good for",
+   "original": "The Migraine Drip is a popular choice for clients dealing with:",
+   "text": "The Migraine Drip is a popular choice for clients dealing with:"
+  },
+  {
+   "id": "7d5538de15",
+   "where": "li · Good for",
+   "original": "Migraine and headache",
+   "text": "Migraine and headache"
+  },
+  {
+   "id": "9db9c3a0fd",
+   "where": "li · Good for",
+   "original": "Anxiety",
+   "text": "Anxiety"
+  },
+  {
+   "id": "c115a87aba",
+   "where": "li · Good for",
+   "original": "Dehydration",
+   "text": "Dehydration"
+  },
+  {
+   "id": "990b8e039b",
+   "where": "li · Good for",
+   "original": "Muscle tightness",
+   "text": "Muscle tightness"
+  },
+  {
+   "id": "17f78726d2",
+   "where": "li · Good for",
+   "original": "Nausea and vomiting",
+   "text": "Nausea and vomiting"
+  },
+  {
+   "id": "529695f309",
+   "where": "a · Good for",
+   "original": "Book This Drip",
+   "text": "Book This Drip"
+  },
+  {
+   "id": "a41a6d98e7",
+   "where": "a · Good for",
+   "original": "Ask the concierge →",
+   "text": "Ask the concierge →"
+  },
+  {
+   "id": "fb0a723100",
+   "where": "text · Good for",
+   "original": "Pair it with",
+   "text": "Pair it with"
+  },
+  {
+   "id": "92a9119e8b",
+   "where": "h2 · Good for",
+   "original": "Other drips you might",
+   "text": "Other drips you might"
+  },
+  {
+   "id": "2656e5ed9d",
+   "where": "span · Other drips you might",
+   "original": "love",
+   "text": "love"
+  },
+  {
+   "id": "5b0447b221",
+   "where": "a · Other drips you might",
+   "original": "All 12 drips →",
+   "text": "All 12 drips →"
+  },
+  {
+   "id": "b7b4eccdf0",
+   "where": "span · Other drips you might",
+   "original": "$150",
+   "text": "$150"
+  },
+  {
+   "id": "e538019477",
+   "where": "h3 · Other drips you might",
+   "original": "Hydrate",
+   "text": "Hydrate"
+  },
+  {
+   "id": "bb7951e844",
+   "where": "p · Hydrate",
+   "original": "Hydrate with fluids and electrolytes to boost energy, support body function and help you feel your best.",
+   "text": "Hydrate with fluids and electrolytes to boost energy, support body function and help you feel your best."
+  },
+  {
+   "id": "4332faeba8",
+   "where": "span · Hydrate",
+   "original": "View drip →",
+   "text": "View drip →"
+  },
+  {
+   "id": "c7aba813e0",
+   "where": "span · Hydrate",
+   "original": "$190",
+   "text": "$190"
+  },
+  {
+   "id": "92361fc956",
+   "where": "h3 · Hydrate",
+   "original": "Myers",
+   "text": "Myers"
+  },
+  {
+   "id": "41528c7be5",
+   "where": "p · Myers",
+   "original": "This nutrient-rich infusion supports energy, skin wellness and recovery — a popular choice for a boost from within.",
+   "text": "This nutrient-rich infusion supports energy, skin wellness and recovery — a popular choice for a boost from within."
+  },
+  {
+   "id": "7d145db90f",
+   "where": "span · Myers",
+   "original": "View drip →",
+   "text": "View drip →"
+  },
+  {
+   "id": "ac5fb904a0",
+   "where": "span · Myers",
+   "original": "$190",
+   "text": "$190"
+  },
+  {
+   "id": "97a2eb4bc1",
+   "where": "h3 · Myers",
+   "original": "Detox",
+   "text": "Detox"
+  },
+  {
+   "id": "8fef2737c3",
+   "where": "p · Detox",
+   "original": "Supports natural wellness and helps you feel more grounded, clear and recharged from within.",
+   "text": "Supports natural wellness and helps you feel more grounded, clear and recharged from within."
+  },
+  {
+   "id": "f573e5d350",
+   "where": "span · Detox",
+   "original": "View drip →",
+   "text": "View drip →"
+  },
+  {
+   "id": "7d60d3d1f0",
+   "where": "span · Detox",
+   "original": "$190",
+   "text": "$190"
+  },
+  {
+   "id": "11975f2dde",
+   "where": "h3 · Detox",
+   "original": "Party",
+   "text": "Party"
+  },
+  {
+   "id": "f55023de96",
+   "where": "p · Party",
+   "original": "Rehydrate and recharge with fluids and nutrients designed to restore balance after a big night.",
+   "text": "Rehydrate and recharge with fluids and nutrients designed to restore balance after a big night."
+  },
+  {
+   "id": "a726f3bbca",
+   "where": "span · Party",
+   "original": "View drip →",
+   "text": "View drip →"
+  },
+  {
+   "id": "0cda391b0a",
+   "where": "text · Party",
+   "original": "Memberships",
+   "text": "Memberships"
+  },
+  {
+   "id": "aa7436bd0f",
+   "where": "h2 · Party",
+   "original": "More value",
+   "text": "More value"
+  },
+  {
+   "id": "5d71876d4c",
+   "where": "span · More value",
+   "original": "every month",
+   "text": "every month"
+  },
+  {
+   "id": "ac36ce0245",
+   "where": "p · More value",
+   "original": "Each month your membership loads a service credit worth more than what you pay — and it works on any service: drips, shots, boosters, NAD+ and BTL treatments.",
+   "text": "Each month your membership loads a service credit worth more than what you pay — and it works on any service: drips, shots, boosters, NAD+ and BTL treatments."
+  },
+  {
+   "id": "c3434b8397",
+   "where": "a · More value",
+   "original": "Compare all plans →",
+   "text": "Compare all plans →"
+  },
+  {
+   "id": "a3455ad41f",
+   "where": "h3 · More value",
+   "original": "Select",
+   "text": "Select"
+  },
+  {
+   "id": "3e55d8c500",
+   "where": "div · Select",
+   "original": "$95",
+   "text": "$95"
+  },
+  {
+   "id": "d8a354863d",
+   "where": "span · Select",
+   "original": "/mo",
+   "text": "/mo"
+  },
+  {
+   "id": "6a0e8833a5",
+   "where": "p · Select",
+   "original": "$140 monthly credit to spend on any service — more value than your membership fee, every month.",
+   "text": "$140 monthly credit to spend on any service — more value than your membership fee, every month."
+  },
+  {
+   "id": "0c0987dd86",
+   "where": "li · Select",
+   "original": "Member pricing on every drip",
+   "text": "Member pricing on every drip"
+  },
+  {
+   "id": "f24264b436",
+   "where": "li · Select",
+   "original": "Birthday drip on us",
+   "text": "Birthday drip on us"
+  },
+  {
+   "id": "56651f1326",
+   "where": "li · Select",
+   "original": "Priority booking & promos",
+   "text": "Priority booking & promos"
+  },
+  {
+   "id": "5d7d00d4a2",
+   "where": "li · Select",
+   "original": "Pause or cancel anytime",
+   "text": "Pause or cancel anytime"
+  },
+  {
+   "id": "ea83efa049",
+   "where": "a · Select",
+   "original": "Join Select",
+   "text": "Join Select"
+  },
+  {
+   "id": "46d0d70805",
+   "where": "span · Select",
+   "original": "Most popular",
+   "text": "Most popular"
+  },
+  {
+   "id": "8f15b95b83",
+   "where": "h3 · Select",
+   "original": "Premium",
+   "text": "Premium"
+  },
+  {
+   "id": "429d45a791",
+   "where": "div · Premium",
+   "original": "$165",
+   "text": "$165"
+  },
+  {
+   "id": "f50d45a3a2",
+   "where": "span · Premium",
+   "original": "/mo",
+   "text": "/mo"
+  },
+  {
+   "id": "5236fef547",
+   "where": "p · Premium",
+   "original": "$260 monthly credit — your standard glow-up, fully covered, on any services you choose.",
+   "text": "$260 monthly credit — your standard glow-up, fully covered, on any services you choose."
+  },
+  {
+   "id": "a55ebf9672",
+   "where": "li · Premium",
+   "original": "Member pricing on every drip",
+   "text": "Member pricing on every drip"
+  },
+  {
+   "id": "723cb4a166",
+   "where": "li · Premium",
+   "original": "Birthday drip on us",
+   "text": "Birthday drip on us"
+  },
+  {
+   "id": "07cea136f7",
+   "where": "li · Premium",
+   "original": "Priority booking & promos",
+   "text": "Priority booking & promos"
+  },
+  {
+   "id": "0fdc1d9e22",
+   "where": "li · Premium",
+   "original": "Pause or cancel anytime",
+   "text": "Pause or cancel anytime"
+  },
+  {
+   "id": "f28cfe1be2",
+   "where": "a · Premium",
+   "original": "Join Premium",
+   "text": "Join Premium"
+  },
+  {
+   "id": "1d3203b4b2",
+   "where": "h3 · Premium",
+   "original": "Luxe",
+   "text": "Luxe"
+  },
+  {
+   "id": "b01d16f249",
+   "where": "div · Luxe",
+   "original": "$285",
+   "text": "$285"
+  },
+  {
+   "id": "7a47cc7ced",
+   "where": "span · Luxe",
+   "original": "/mo",
+   "text": "/mo"
+  },
+  {
+   "id": "19538d5b30",
+   "where": "p · Luxe",
+   "original": "$490 monthly credit — the full monthly reset, spent however you like.",
+   "text": "$490 monthly credit — the full monthly reset, spent however you like."
+  },
+  {
+   "id": "dc96c89a93",
+   "where": "li · Luxe",
+   "original": "Member pricing on every drip",
+   "text": "Member pricing on every drip"
+  },
+  {
+   "id": "bbbf3dec5c",
+   "where": "li · Luxe",
+   "original": "Birthday drip on us",
+   "text": "Birthday drip on us"
+  },
+  {
+   "id": "29e5a1c41f",
+   "where": "li · Luxe",
+   "original": "Priority booking & promos",
+   "text": "Priority booking & promos"
+  },
+  {
+   "id": "341a638f8c",
+   "where": "li · Luxe",
+   "original": "Pause or cancel anytime",
+   "text": "Pause or cancel anytime"
+  },
+  {
+   "id": "73cf87e75e",
+   "where": "a · Luxe",
+   "original": "Join Luxe",
+   "text": "Join Luxe"
+  },
+  {
+   "id": "5780363df6",
+   "where": "p · Luxe",
+   "original": "Family, student and NAD+ memberships too — see",
+   "text": "Family, student and NAD+ memberships too — see"
+  },
+  {
+   "id": "2a213e2973",
+   "where": "a · Luxe",
+   "original": "all memberships",
+   "text": "all memberships"
+  },
+  {
+   "id": "f4d08e697d",
+   "where": "text · Luxe",
+   "original": ". Pause or cancel anytime with the front desk.",
+   "text": ". Pause or cancel anytime with the front desk."
+  },
+  {
+   "id": "6c665921e1",
+   "where": "h2 · Luxe",
+   "original": "Book the",
+   "text": "Book the"
+  },
+  {
+   "id": "9e5c4410b5",
+   "where": "span · Book the",
+   "original": "Migraine",
+   "text": "Migraine"
+  },
+  {
+   "id": "9a43278201",
+   "where": "text · Book the",
+   "original": "today.",
+   "text": "today."
+  },
+  {
+   "id": "fa70780856",
+   "where": "p · Book the",
+   "original": "Under a minute to book, no card required. Walk in, recline, and feel the difference before you leave.",
+   "text": "Under a minute to book, no card required. Walk in, recline, and feel the difference before you leave."
+  },
+  {
+   "id": "9969ef0f4a",
+   "where": "a · Book the",
+   "original": "Book Your Drip",
+   "text": "Book Your Drip"
+  },
+  {
+   "id": "fc6c1cc995",
+   "where": "a · Book the",
+   "original": "Find a Location",
+   "text": "Find a Location"
+  }
+ ]
+}

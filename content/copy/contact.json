@@ -1,0 +1,521 @@
+{
+ "page": "contact",
+ "items": [
+  {
+   "id": "5db61f81e9",
+   "where": "Browser tab title",
+   "original": "Contact ThrIVe Drip Spa — 844-820-1713",
+   "text": "Contact ThrIVe Drip Spa — 844-820-1713"
+  },
+  {
+   "id": "2b8b73962a",
+   "where": "Search-engine description",
+   "original": "Call, email or message ThrIVe Drip Spa. Direct lines for all ten lounges.",
+   "text": "Call, email or message ThrIVe Drip Spa. Direct lines for all ten lounges."
+  },
+  {
+   "id": "2ef7c8c6c1",
+   "where": "a",
+   "original": "Home",
+   "text": "Home"
+  },
+  {
+   "id": "3766c51bf0",
+   "where": "text",
+   "original": "/ Contact",
+   "text": "/ Contact"
+  },
+  {
+   "id": "1ebed79cb1",
+   "where": "p",
+   "original": "Contact",
+   "text": "Contact"
+  },
+  {
+   "id": "c378d04f4e",
+   "where": "span",
+   "original": "Say",
+   "text": "Say"
+  },
+  {
+   "id": "2116fa0064",
+   "where": "span",
+   "original": "hello.",
+   "text": "hello."
+  },
+  {
+   "id": "583c03e5d3",
+   "where": "p",
+   "original": "Questions about drips, memberships, mobile service or body contouring? Call, email, or send a note — a spa consultant will get back to you within one business day.",
+   "text": "Questions about drips, memberships, mobile service or body contouring? Call, email, or send a note — a spa consultant will get back to you within one business day."
+  },
+  {
+   "id": "c97fa48bd7",
+   "where": "a",
+   "original": "Call 844-820-1713",
+   "text": "Call 844-820-1713"
+  },
+  {
+   "id": "f5b518dbbb",
+   "where": "a",
+   "original": "Book Online",
+   "text": "Book Online"
+  },
+  {
+   "id": "21aeace1e4",
+   "where": "span",
+   "original": "Ten lounges",
+   "text": "Ten lounges"
+  },
+  {
+   "id": "76aa1cd199",
+   "where": "span",
+   "original": "info@thrivedripspa.com",
+   "text": "info@thrivedripspa.com"
+  },
+  {
+   "id": "55a6c33d4e",
+   "where": "span",
+   "original": "Open 7 days",
+   "text": "Open 7 days"
+  },
+  {
+   "id": "f6a56893dd",
+   "where": "text",
+   "original": "We reply fast",
+   "text": "We reply fast"
+  },
+  {
+   "id": "7957112ea0",
+   "where": "text",
+   "original": "Send a message",
+   "text": "Send a message"
+  },
+  {
+   "id": "885148fc60",
+   "where": "h2",
+   "original": "How can we",
+   "text": "How can we"
+  },
+  {
+   "id": "28888d6b56",
+   "where": "span · How can we",
+   "original": "help?",
+   "text": "help?"
+  },
+  {
+   "id": "8b4f01ce9f",
+   "where": "p · How can we",
+   "original": "Tell us what you're interested in and your preferred lounge. For bookings, the fastest route is online — under a minute, no card needed.",
+   "text": "Tell us what you're interested in and your preferred lounge. For bookings, the fastest route is online — under a minute, no card needed."
+  },
+  {
+   "id": "43b5502f5b",
+   "where": "label · How can we",
+   "original": "Full name",
+   "text": "Full name"
+  },
+  {
+   "id": "7f19c3b461",
+   "where": "label · How can we",
+   "original": "Email address",
+   "text": "Email address"
+  },
+  {
+   "id": "69100c3fb9",
+   "where": "label · How can we",
+   "original": "Phone",
+   "text": "Phone"
+  },
+  {
+   "id": "617cb234a1",
+   "where": "option · How can we",
+   "original": "",
+   "text": ""
+  },
+  {
+   "id": "5306d9f1d7",
+   "where": "option · How can we",
+   "original": "Memorial",
+   "text": "Memorial"
+  },
+  {
+   "id": "9cf5a673cc",
+   "where": "option · How can we",
+   "original": "Memorial Green",
+   "text": "Memorial Green"
+  },
+  {
+   "id": "ff895895ba",
+   "where": "option · How can we",
+   "original": "The Heights",
+   "text": "The Heights"
+  },
+  {
+   "id": "d978d88de2",
+   "where": "option · How can we",
+   "original": "West University",
+   "text": "West University"
+  },
+  {
+   "id": "533ce41cb2",
+   "where": "option · How can we",
+   "original": "Vintage Park",
+   "text": "Vintage Park"
+  },
+  {
+   "id": "b4186d01b2",
+   "where": "option · How can we",
+   "original": "Katy",
+   "text": "Katy"
+  },
+  {
+   "id": "6a6b89ac8f",
+   "where": "option · How can we",
+   "original": "The Woodlands",
+   "text": "The Woodlands"
+  },
+  {
+   "id": "1c2ab0f19e",
+   "where": "option · How can we",
+   "original": "Clear Lake",
+   "text": "Clear Lake"
+  },
+  {
+   "id": "714553e9d9",
+   "where": "option · How can we",
+   "original": "Highland Park",
+   "text": "Highland Park"
+  },
+  {
+   "id": "77bec1fc95",
+   "where": "option · How can we",
+   "original": "Fort Worth",
+   "text": "Fort Worth"
+  },
+  {
+   "id": "b38efbbcab",
+   "where": "option · How can we",
+   "original": "Mobile / Concierge",
+   "text": "Mobile / Concierge"
+  },
+  {
+   "id": "89bd093fb3",
+   "where": "label · How can we",
+   "original": "Preferred location",
+   "text": "Preferred location"
+  },
+  {
+   "id": "5c30f3ae2a",
+   "where": "option · How can we",
+   "original": "",
+   "text": ""
+  },
+  {
+   "id": "3ad56051a3",
+   "where": "option · How can we",
+   "original": "IV Drip Therapy",
+   "text": "IV Drip Therapy"
+  },
+  {
+   "id": "596bf79865",
+   "where": "option · How can we",
+   "original": "NAD+",
+   "text": "NAD+"
+  },
+  {
+   "id": "4e2f976af2",
+   "where": "option · How can we",
+   "original": "Boosters or Shots",
+   "text": "Boosters or Shots"
+  },
+  {
+   "id": "9ee3325148",
+   "where": "option · How can we",
+   "original": "Mobile / Concierge IV",
+   "text": "Mobile / Concierge IV"
+  },
+  {
+   "id": "a18550890b",
+   "where": "option · How can we",
+   "original": "Body Contouring (Emsculpt, EMFACE, EMTONE)",
+   "text": "Body Contouring (Emsculpt, EMFACE, EMTONE)"
+  },
+  {
+   "id": "ad66a280a5",
+   "where": "option · How can we",
+   "original": "Weight Loss",
+   "text": "Weight Loss"
+  },
+  {
+   "id": "d81a28735c",
+   "where": "option · How can we",
+   "original": "Memberships",
+   "text": "Memberships"
+  },
+  {
+   "id": "82335c89ac",
+   "where": "option · How can we",
+   "original": "Something else",
+   "text": "Something else"
+  },
+  {
+   "id": "8a5912f48f",
+   "where": "label · How can we",
+   "original": "I'm interested in",
+   "text": "I'm interested in"
+  },
+  {
+   "id": "fdbfe5fdb6",
+   "where": "label · How can we",
+   "original": "Message (optional)",
+   "text": "Message (optional)"
+  },
+  {
+   "id": "fd136091e0",
+   "where": "button · How can we",
+   "original": "Send Request",
+   "text": "Send Request"
+  },
+  {
+   "id": "8e5d70dab7",
+   "where": "p · How can we",
+   "original": "We'll reply by text or email within one business day. By submitting you agree to receive messages from ThrIVe Drip Spa; reply STOP to opt out.",
+   "text": "We'll reply by text or email within one business day. By submitting you agree to receive messages from ThrIVe Drip Spa; reply STOP to opt out."
+  },
+  {
+   "id": "e1ab0bdff6",
+   "where": "text · How can we",
+   "original": "Direct lines",
+   "text": "Direct lines"
+  },
+  {
+   "id": "e9d97839b5",
+   "where": "h2 · How can we",
+   "original": "Every",
+   "text": "Every"
+  },
+  {
+   "id": "ee428d46ca",
+   "where": "span · Every",
+   "original": "lounge",
+   "text": "lounge"
+  },
+  {
+   "id": "9a023893c4",
+   "where": "h4 · Every",
+   "original": "Memorial",
+   "text": "Memorial"
+  },
+  {
+   "id": "a71e84b278",
+   "where": "a · Every",
+   "original": "(713) 955-3747",
+   "text": "(713) 955-3747"
+  },
+  {
+   "id": "76ff091072",
+   "where": "a · Every",
+   "original": "1014 Wirt Rd, Ste 210, Houston, TX 77055",
+   "text": "1014 Wirt Rd, Ste 210, Houston, TX 77055"
+  },
+  {
+   "id": "067d5d70fb",
+   "where": "h4 · Every",
+   "original": "Memorial Green",
+   "text": "Memorial Green"
+  },
+  {
+   "id": "71acd7ef5d",
+   "where": "a · Every",
+   "original": "(346) 444-3747",
+   "text": "(346) 444-3747"
+  },
+  {
+   "id": "894d5aa383",
+   "where": "a · Every",
+   "original": "12505 Memorial Drive, Ste 120, Houston, TX 77024",
+   "text": "12505 Memorial Drive, Ste 120, Houston, TX 77024"
+  },
+  {
+   "id": "e933163828",
+   "where": "h4 · Every",
+   "original": "The Heights",
+   "text": "The Heights"
+  },
+  {
+   "id": "5b0d5ceb6e",
+   "where": "a · Every",
+   "original": "(346) 320-3114",
+   "text": "(346) 320-3114"
+  },
+  {
+   "id": "44d40a3a12",
+   "where": "a · Every",
+   "original": "2799 Katy Freeway, Suite 210, Houston, TX 77007",
+   "text": "2799 Katy Freeway, Suite 210, Houston, TX 77007"
+  },
+  {
+   "id": "d79d8e7df6",
+   "where": "h4 · Every",
+   "original": "West University",
+   "text": "West University"
+  },
+  {
+   "id": "cb8165faba",
+   "where": "a · Every",
+   "original": "(713) 955-3797",
+   "text": "(713) 955-3797"
+  },
+  {
+   "id": "ade4e85f7d",
+   "where": "a · Every",
+   "original": "3277 Southwest Freeway, Houston, TX 77027",
+   "text": "3277 Southwest Freeway, Houston, TX 77027"
+  },
+  {
+   "id": "8c08bd8450",
+   "where": "h4 · Every",
+   "original": "Vintage Park",
+   "text": "Vintage Park"
+  },
+  {
+   "id": "f28d4599c3",
+   "where": "a · Every",
+   "original": "(346) 712-3747",
+   "text": "(346) 712-3747"
+  },
+  {
+   "id": "2b409e8635",
+   "where": "a · Every",
+   "original": "10300 Louetta Rd, Ste 114, Houston, TX 77070",
+   "text": "10300 Louetta Rd, Ste 114, Houston, TX 77070"
+  },
+  {
+   "id": "cf326292fd",
+   "where": "h4 · Every",
+   "original": "Katy",
+   "text": "Katy"
+  },
+  {
+   "id": "e8b7c52937",
+   "where": "a · Every",
+   "original": "(346) 707-8703",
+   "text": "(346) 707-8703"
+  },
+  {
+   "id": "1c9470c801",
+   "where": "a · Every",
+   "original": "6445 FM 1463, Ste 120, Katy, TX 77494",
+   "text": "6445 FM 1463, Ste 120, Katy, TX 77494"
+  },
+  {
+   "id": "fdaaff9710",
+   "where": "h4 · Every",
+   "original": "The Woodlands",
+   "text": "The Woodlands"
+  },
+  {
+   "id": "c27d5449cc",
+   "where": "a · Every",
+   "original": "(281) 343-3747",
+   "text": "(281) 343-3747"
+  },
+  {
+   "id": "fc9391e8aa",
+   "where": "a · Every",
+   "original": "9595 Six Pines Dr, Ste 1460, The Woodlands, TX 77380",
+   "text": "9595 Six Pines Dr, Ste 1460, The Woodlands, TX 77380"
+  },
+  {
+   "id": "bf7d308935",
+   "where": "h4 · Every",
+   "original": "Clear Lake",
+   "text": "Clear Lake"
+  },
+  {
+   "id": "b190adb770",
+   "where": "a · Every",
+   "original": "(281) 783-4108",
+   "text": "(281) 783-4108"
+  },
+  {
+   "id": "4b2632894b",
+   "where": "a · Every",
+   "original": "3535 Clearlake City Blvd, Ste 700, Houston, TX 77059",
+   "text": "3535 Clearlake City Blvd, Ste 700, Houston, TX 77059"
+  },
+  {
+   "id": "1c5b02223c",
+   "where": "h4 · Every",
+   "original": "Highland Park",
+   "text": "Highland Park"
+  },
+  {
+   "id": "a95fd3659b",
+   "where": "a · Every",
+   "original": "(214) 214-3747",
+   "text": "(214) 214-3747"
+  },
+  {
+   "id": "a9632c0c4d",
+   "where": "a · Every",
+   "original": "5301 W Lovers Ln, Suite 103, Dallas, TX 75209",
+   "text": "5301 W Lovers Ln, Suite 103, Dallas, TX 75209"
+  },
+  {
+   "id": "5c52a2473b",
+   "where": "h4 · Every",
+   "original": "Fort Worth",
+   "text": "Fort Worth"
+  },
+  {
+   "id": "364f5d9ad1",
+   "where": "a · Every",
+   "original": "(682) 747-3747",
+   "text": "(682) 747-3747"
+  },
+  {
+   "id": "358d4a7d2a",
+   "where": "a · Every",
+   "original": "2708 S Hulen St, Fort Worth, TX 76109",
+   "text": "2708 S Hulen St, Fort Worth, TX 76109"
+  },
+  {
+   "id": "e41522f949",
+   "where": "p · Every",
+   "original": "Careers: antasia@thrivedripspa.com · Events & sponsorship: sydney@thrivedripspa.com · SMS support: bella@thrivedripspa.com · General: info@thrivedripspa.com",
+   "text": "Careers: antasia@thrivedripspa.com · Events & sponsorship: sydney@thrivedripspa.com · SMS support: bella@thrivedripspa.com · General: info@thrivedripspa.com"
+  },
+  {
+   "id": "6af505c33e",
+   "where": "h2 · Every",
+   "original": "Or just",
+   "text": "Or just"
+  },
+  {
+   "id": "c5db230d80",
+   "where": "span · Or just",
+   "original": "come in.",
+   "text": "come in."
+  },
+  {
+   "id": "7fe9009b76",
+   "where": "p · Or just",
+   "original": "Walk-ins are welcome at every lounge, seven days a week.",
+   "text": "Walk-ins are welcome at every lounge, seven days a week."
+  },
+  {
+   "id": "8c16e6ac94",
+   "where": "a · Or just",
+   "original": "Book Your Drip",
+   "text": "Book Your Drip"
+  },
+  {
+   "id": "ffffe32588",
+   "where": "a · Or just",
+   "original": "Find a Location",
+   "text": "Find a Location"
+  }
+ ]
+}

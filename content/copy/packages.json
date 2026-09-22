@@ -1,0 +1,449 @@
+{
+ "page": "packages",
+ "items": [
+  {
+   "id": "177c4e88ac",
+   "where": "Browser tab title",
+   "original": "IV Therapy, Shot & NAD+ Packages | ThrIVe Drip Spa",
+   "text": "IV Therapy, Shot & NAD+ Packages | ThrIVe Drip Spa"
+  },
+  {
+   "id": "a4073c1a53",
+   "where": "Search-engine description",
+   "original": "Buy 4 get 1 free on shots and boosters, NAD+ shot packages and loading doses, and members-only premium drip bundles.",
+   "text": "Buy 4 get 1 free on shots and boosters, NAD+ shot packages and loading doses, and members-only premium drip bundles."
+  },
+  {
+   "id": "d6011c3971",
+   "where": "a",
+   "original": "Home",
+   "text": "Home"
+  },
+  {
+   "id": "2629fde27d",
+   "where": "text",
+   "original": "/ Packages",
+   "text": "/ Packages"
+  },
+  {
+   "id": "3703511b1c",
+   "where": "p",
+   "original": "Package Options",
+   "text": "Package Options"
+  },
+  {
+   "id": "667c66d381",
+   "where": "span",
+   "original": "Buy more,",
+   "text": "Buy more,"
+  },
+  {
+   "id": "d66785ee56",
+   "where": "span",
+   "original": "thrive",
+   "text": "thrive"
+  },
+  {
+   "id": "ff6ee5f8d6",
+   "where": "span",
+   "original": "more.",
+   "text": "more."
+  },
+  {
+   "id": "b90ee995ec",
+   "where": "p",
+   "original": "Choosing a package is the easiest way to stay consistent with high-quality, science-backed wellness. Shots, boosters, NAD+ and members-only drip bundles — at a better rate than one at a time.",
+   "text": "Choosing a package is the easiest way to stay consistent with high-quality, science-backed wellness. Shots, boosters, NAD+ and members-only drip bundles — at a better rate than one at a time."
+  },
+  {
+   "id": "659cec9490",
+   "where": "a",
+   "original": "Book Now",
+   "text": "Book Now"
+  },
+  {
+   "id": "916a6857ac",
+   "where": "a",
+   "original": "Memberships",
+   "text": "Memberships"
+  },
+  {
+   "id": "bab126cbc6",
+   "where": "span",
+   "original": "Shots & boosters",
+   "text": "Shots & boosters"
+  },
+  {
+   "id": "259a365117",
+   "where": "span",
+   "original": "NAD+ loading doses",
+   "text": "NAD+ loading doses"
+  },
+  {
+   "id": "84bf642ec2",
+   "where": "span",
+   "original": "Members-only drip bundles",
+   "text": "Members-only drip bundles"
+  },
+  {
+   "id": "05bcdfd02c",
+   "where": "text",
+   "original": "Boost your health",
+   "text": "Boost your health"
+  },
+  {
+   "id": "8ebfcd9420",
+   "where": "text",
+   "original": "Shots & boosters",
+   "text": "Shots & boosters"
+  },
+  {
+   "id": "422e2e129e",
+   "where": "h2",
+   "original": "Stock up on",
+   "text": "Stock up on"
+  },
+  {
+   "id": "47e0ab615b",
+   "where": "span · Stock up on",
+   "original": "shots",
+   "text": "shots"
+  },
+  {
+   "id": "b2f05fdda8",
+   "where": "a · Stock up on",
+   "original": "Shot menu →",
+   "text": "Shot menu →"
+  },
+  {
+   "id": "481c5be72e",
+   "where": "th · Stock up on",
+   "original": "Package",
+   "text": "Package"
+  },
+  {
+   "id": "589397686f",
+   "where": "th · Stock up on",
+   "original": "Deal",
+   "text": "Deal"
+  },
+  {
+   "id": "61f5be24f4",
+   "where": "td · Stock up on",
+   "original": "Shots/Boosters — Premium",
+   "text": "Shots/Boosters — Premium"
+  },
+  {
+   "id": "01e1b72620",
+   "where": "small · Stock up on",
+   "original": "Any shot or booster",
+   "text": "Any shot or booster"
+  },
+  {
+   "id": "c7ca713323",
+   "where": "td · Stock up on",
+   "original": "Buy 4, get 1 free",
+   "text": "Buy 4, get 1 free"
+  },
+  {
+   "id": "32848baace",
+   "where": "td · Stock up on",
+   "original": "Shots/Boosters — Premium+",
+   "text": "Shots/Boosters — Premium+"
+  },
+  {
+   "id": "f68cda5c56",
+   "where": "small · Stock up on",
+   "original": "Any shot or booster",
+   "text": "Any shot or booster"
+  },
+  {
+   "id": "bbf1200149",
+   "where": "td · Stock up on",
+   "original": "Buy 8, get 3 free",
+   "text": "Buy 8, get 3 free"
+  },
+  {
+   "id": "eb64d668f0",
+   "where": "td · Stock up on",
+   "original": "B12 Package",
+   "text": "B12 Package"
+  },
+  {
+   "id": "95e706093f",
+   "where": "small · Stock up on",
+   "original": "Weekly energy",
+   "text": "Weekly energy"
+  },
+  {
+   "id": "f1b156f953",
+   "where": "td · Stock up on",
+   "original": "Buy 8, get 2 free",
+   "text": "Buy 8, get 2 free"
+  },
+  {
+   "id": "c3be772c1c",
+   "where": "td · Stock up on",
+   "original": "Tri-Immuno Package",
+   "text": "Tri-Immuno Package"
+  },
+  {
+   "id": "c48532070c",
+   "where": "small · Stock up on",
+   "original": "Immune support all season",
+   "text": "Immune support all season"
+  },
+  {
+   "id": "e19a3b2c07",
+   "where": "td · Stock up on",
+   "original": "5 for $300",
+   "text": "5 for $300"
+  },
+  {
+   "id": "d988740d63",
+   "where": "text · Stock up on",
+   "original": "NAD+",
+   "text": "NAD+"
+  },
+  {
+   "id": "cd8d2b5b79",
+   "where": "h2 · Stock up on",
+   "original": "NAD+",
+   "text": "NAD+"
+  },
+  {
+   "id": "3e7f281134",
+   "where": "span · NAD+",
+   "original": "packages",
+   "text": "packages"
+  },
+  {
+   "id": "0236123232",
+   "where": "a · NAD+",
+   "original": "About NAD+ →",
+   "text": "About NAD+ →"
+  },
+  {
+   "id": "3db4d010a0",
+   "where": "th · NAD+",
+   "original": "Package",
+   "text": "Package"
+  },
+  {
+   "id": "d7f4a31e6b",
+   "where": "th · NAD+",
+   "original": "Price",
+   "text": "Price"
+  },
+  {
+   "id": "f77ea2867d",
+   "where": "td · NAD+",
+   "original": "NAD+ Shot Package — Select",
+   "text": "NAD+ Shot Package — Select"
+  },
+  {
+   "id": "c41e9edfa3",
+   "where": "small · NAD+",
+   "original": "400 mg",
+   "text": "400 mg"
+  },
+  {
+   "id": "0c632ec8ba",
+   "where": "td · NAD+",
+   "original": "$300",
+   "text": "$300"
+  },
+  {
+   "id": "04af4be63e",
+   "where": "td · NAD+",
+   "original": "NAD+ Shot Package — Premium",
+   "text": "NAD+ Shot Package — Premium"
+  },
+  {
+   "id": "7e5c31f30c",
+   "where": "small · NAD+",
+   "original": "500 mg",
+   "text": "500 mg"
+  },
+  {
+   "id": "da16fc3bf7",
+   "where": "td · NAD+",
+   "original": "$375",
+   "text": "$375"
+  },
+  {
+   "id": "6001469ec1",
+   "where": "td · NAD+",
+   "original": "2-Day Loading Dose",
+   "text": "2-Day Loading Dose"
+  },
+  {
+   "id": "a13cb95d40",
+   "where": "small · NAD+",
+   "original": "2,500 mg",
+   "text": "2,500 mg"
+  },
+  {
+   "id": "c0bfdcb117",
+   "where": "td · NAD+",
+   "original": "$1,750 member · $2,375",
+   "text": "$1,750 member · $2,375"
+  },
+  {
+   "id": "799c10a55d",
+   "where": "td · NAD+",
+   "original": "3-Day Loading Dose",
+   "text": "3-Day Loading Dose"
+  },
+  {
+   "id": "016ca480d6",
+   "where": "small · NAD+",
+   "original": "3,500 mg",
+   "text": "3,500 mg"
+  },
+  {
+   "id": "535ac869ce",
+   "where": "td · NAD+",
+   "original": "$2,450 member · $3,325",
+   "text": "$2,450 member · $3,325"
+  },
+  {
+   "id": "7f3d248c6f",
+   "where": "td · NAD+",
+   "original": "5-Day Loading Dose",
+   "text": "5-Day Loading Dose"
+  },
+  {
+   "id": "45d233e251",
+   "where": "small · NAD+",
+   "original": "6,000 mg",
+   "text": "6,000 mg"
+  },
+  {
+   "id": "7aa63cdde3",
+   "where": "td · NAD+",
+   "original": "$4,200 member · $5,700",
+   "text": "$4,200 member · $5,700"
+  },
+  {
+   "id": "d0b7fbdc8d",
+   "where": "text · NAD+",
+   "original": "Members only",
+   "text": "Members only"
+  },
+  {
+   "id": "5b6528fd65",
+   "where": "h2 · NAD+",
+   "original": "Premium drip",
+   "text": "Premium drip"
+  },
+  {
+   "id": "9453e3d6a0",
+   "where": "span · Premium drip",
+   "original": "bundles",
+   "text": "bundles"
+  },
+  {
+   "id": "dbf8f30479",
+   "where": "a · Premium drip",
+   "original": "Become a member →",
+   "text": "Become a member →"
+  },
+  {
+   "id": "e259ade9eb",
+   "where": "h3 · Premium drip",
+   "original": "Premium Drips — Select",
+   "text": "Premium Drips — Select"
+  },
+  {
+   "id": "0ae31222d0",
+   "where": "div · Premium Drips — Select",
+   "original": "$500",
+   "text": "$500"
+  },
+  {
+   "id": "9d0f4017cf",
+   "where": "span · Premium Drips — Select",
+   "original": "4 drips",
+   "text": "4 drips"
+  },
+  {
+   "id": "f95645010a",
+   "where": "p · Premium Drips — Select",
+   "original": "Four premium drips ($190 menu) for $125 each. Members only.",
+   "text": "Four premium drips ($190 menu) for $125 each. Members only."
+  },
+  {
+   "id": "8dbca4681c",
+   "where": "a · Premium Drips — Select",
+   "original": "Book",
+   "text": "Book"
+  },
+  {
+   "id": "7aae8792f5",
+   "where": "span · Premium Drips — Select",
+   "original": "Best value",
+   "text": "Best value"
+  },
+  {
+   "id": "f6eee1de32",
+   "where": "h3 · Premium Drips — Select",
+   "original": "Premium Drips — Premium",
+   "text": "Premium Drips — Premium"
+  },
+  {
+   "id": "6611175d73",
+   "where": "div · Premium Drips — Premium",
+   "original": "$1,100",
+   "text": "$1,100"
+  },
+  {
+   "id": "7bda366f3e",
+   "where": "span · Premium Drips — Premium",
+   "original": "10 drips",
+   "text": "10 drips"
+  },
+  {
+   "id": "7f1fd4c419",
+   "where": "p · Premium Drips — Premium",
+   "original": "Ten premium drips for $110 each. Members only.",
+   "text": "Ten premium drips for $110 each. Members only."
+  },
+  {
+   "id": "3d477ec19f",
+   "where": "a · Premium Drips — Premium",
+   "original": "Book",
+   "text": "Book"
+  },
+  {
+   "id": "657f1e08ca",
+   "where": "h2 · Premium Drips — Premium",
+   "original": "Stay",
+   "text": "Stay"
+  },
+  {
+   "id": "11430534dd",
+   "where": "span · Stay",
+   "original": "consistent.",
+   "text": "consistent."
+  },
+  {
+   "id": "47647369d5",
+   "where": "p · Stay",
+   "original": "Packages are sold at every lounge — ask a spa consultant or book online.",
+   "text": "Packages are sold at every lounge — ask a spa consultant or book online."
+  },
+  {
+   "id": "286815cc85",
+   "where": "a · Stay",
+   "original": "Book Your Drip",
+   "text": "Book Your Drip"
+  },
+  {
+   "id": "0a853aa1c2",
+   "where": "a · Stay",
+   "original": "Find a Location",
+   "text": "Find a Location"
+  }
+ ]
+}

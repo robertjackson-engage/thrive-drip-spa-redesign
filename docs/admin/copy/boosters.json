@@ -1,0 +1,971 @@
+{
+ "page": "boosters",
+ "items": [
+  {
+   "id": "ced64e296e",
+   "where": "Browser tab title",
+   "original": "IV Boosters — Vitamin C, Glutathione, NAD+, B12 & more | ThrIVe Drip Spa",
+   "text": "IV Boosters — Vitamin C, Glutathione, NAD+, B12 & more | ThrIVe Drip Spa"
+  },
+  {
+   "id": "df561e4fc6",
+   "where": "Search-engine description",
+   "original": "Add targeted vitamins and medications to any drip from $25. 21 boosters including Glutathione, Zinc, Magnesium, Toradol, Biotin, Total Wellness and NAD+.",
+   "text": "Add targeted vitamins and medications to any drip from $25. 21 boosters including Glutathione, Zinc, Magnesium, Toradol, Biotin, Total Wellness and NAD+."
+  },
+  {
+   "id": "53e3802178",
+   "where": "a",
+   "original": "Home",
+   "text": "Home"
+  },
+  {
+   "id": "9d5437abae",
+   "where": "text",
+   "original": "/ Boosters",
+   "text": "/ Boosters"
+  },
+  {
+   "id": "d003fe36de",
+   "where": "p",
+   "original": "Instant Recharge",
+   "text": "Instant Recharge"
+  },
+  {
+   "id": "d013b975f9",
+   "where": "span",
+   "original": "Get the boost",
+   "text": "Get the boost"
+  },
+  {
+   "id": "c17f268b39",
+   "where": "span",
+   "original": "you",
+   "text": "you"
+  },
+  {
+   "id": "7249389ff4",
+   "where": "span",
+   "original": "need.",
+   "text": "need."
+  },
+  {
+   "id": "9a063b9eda",
+   "where": "p",
+   "original": "Any vitamin or nutrient deficiency can throw the body off. Boosters add targeted vitamins and medications to any drip from $25 — so your infusion does exactly what your week needs.",
+   "text": "Any vitamin or nutrient deficiency can throw the body off. Boosters add targeted vitamins and medications to any drip from $25 — so your infusion does exactly what your week needs."
+  },
+  {
+   "id": "dc67680287",
+   "where": "a",
+   "original": "Book a Drip + Booster",
+   "text": "Book a Drip + Booster"
+  },
+  {
+   "id": "6e12c68936",
+   "where": "a",
+   "original": "Vitamin Shots",
+   "text": "Vitamin Shots"
+  },
+  {
+   "id": "5f8c3713c9",
+   "where": "span",
+   "original": "From $25",
+   "text": "From $25"
+  },
+  {
+   "id": "1c037d4a0b",
+   "where": "span",
+   "original": "Add to any drip",
+   "text": "Add to any drip"
+  },
+  {
+   "id": "7803e24ac4",
+   "where": "span",
+   "original": "Member pricing on Immuno",
+   "text": "Member pricing on Immuno"
+  },
+  {
+   "id": "e336a4f722",
+   "where": "text",
+   "original": "21 boosters on the menu",
+   "text": "21 boosters on the menu"
+  },
+  {
+   "id": "9ca1523620",
+   "where": "text",
+   "original": "Booster menu",
+   "text": "Booster menu"
+  },
+  {
+   "id": "0da15e6a93",
+   "where": "h2",
+   "original": "Thrive with targeted",
+   "text": "Thrive with targeted"
+  },
+  {
+   "id": "8daec3fd70",
+   "where": "span · Thrive with targeted",
+   "original": "boosters",
+   "text": "boosters"
+  },
+  {
+   "id": "df7e1f25ed",
+   "where": "p · Thrive with targeted",
+   "original": "Delivering high-quality vitamins and medications straight into your drip.",
+   "text": "Delivering high-quality vitamins and medications straight into your drip."
+  },
+  {
+   "id": "97567396cd",
+   "where": "a · Thrive with targeted",
+   "original": "See the drips →",
+   "text": "See the drips →"
+  },
+  {
+   "id": "87b81da943",
+   "where": "th · Thrive with targeted",
+   "original": "Booster",
+   "text": "Booster"
+  },
+  {
+   "id": "e5db6c0a26",
+   "where": "th · Thrive with targeted",
+   "original": "Price",
+   "text": "Price"
+  },
+  {
+   "id": "8b1cda2a08",
+   "where": "td · Thrive with targeted",
+   "original": "Zofran",
+   "text": "Zofran"
+  },
+  {
+   "id": "0c9d17ee65",
+   "where": "small · Thrive with targeted",
+   "original": "Reduces nausea and vomiting — motion sickness, migraines, hangovers.",
+   "text": "Reduces nausea and vomiting — motion sickness, migraines, hangovers."
+  },
+  {
+   "id": "2692072676",
+   "where": "td · Thrive with targeted",
+   "original": "$25",
+   "text": "$25"
+  },
+  {
+   "id": "a772bd8461",
+   "where": "td · Thrive with targeted",
+   "original": "Vitamin C",
+   "text": "Vitamin C"
+  },
+  {
+   "id": "32a28362d2",
+   "where": "small · Thrive with targeted",
+   "original": "Antioxidant support for immunity, skin and collagen.",
+   "text": "Antioxidant support for immunity, skin and collagen."
+  },
+  {
+   "id": "10f7e17714",
+   "where": "td · Thrive with targeted",
+   "original": "$25",
+   "text": "$25"
+  },
+  {
+   "id": "4e552bed77",
+   "where": "td · Thrive with targeted",
+   "original": "Anti-Acid",
+   "text": "Anti-Acid"
+  },
+  {
+   "id": "68783ec298",
+   "where": "small · Thrive with targeted",
+   "original": "Reduces stomach acid — heartburn, reflux, ulcers.",
+   "text": "Reduces stomach acid — heartburn, reflux, ulcers."
+  },
+  {
+   "id": "3af65932d4",
+   "where": "td · Thrive with targeted",
+   "original": "$25",
+   "text": "$25"
+  },
+  {
+   "id": "4eca62dd72",
+   "where": "td · Thrive with targeted",
+   "original": "Magnesium",
+   "text": "Magnesium"
+  },
+  {
+   "id": "bf45b411db",
+   "where": "small · Thrive with targeted",
+   "original": "Nerve and muscle function, relaxation, migraines, sleep.",
+   "text": "Nerve and muscle function, relaxation, migraines, sleep."
+  },
+  {
+   "id": "525e9271d3",
+   "where": "td · Thrive with targeted",
+   "original": "$25",
+   "text": "$25"
+  },
+  {
+   "id": "2e8bbdeaad",
+   "where": "td · Thrive with targeted",
+   "original": "Toradol",
+   "text": "Toradol"
+  },
+  {
+   "id": "a536b04bb5",
+   "where": "small · Thrive with targeted",
+   "original": "Fast anti-inflammatory for pain, fever, migraines and post-workout aches.",
+   "text": "Fast anti-inflammatory for pain, fever, migraines and post-workout aches."
+  },
+  {
+   "id": "be4c593256",
+   "where": "td · Thrive with targeted",
+   "original": "$25",
+   "text": "$25"
+  },
+  {
+   "id": "6906da1588",
+   "where": "td · Thrive with targeted",
+   "original": "Zinc",
+   "text": "Zinc"
+  },
+  {
+   "id": "dd1ef7b9dd",
+   "where": "small · Thrive with targeted",
+   "original": "Immune support, wound healing, skin and inflammation.",
+   "text": "Immune support, wound healing, skin and inflammation."
+  },
+  {
+   "id": "1c9d6b2f4b",
+   "where": "td · Thrive with targeted",
+   "original": "$25",
+   "text": "$25"
+  },
+  {
+   "id": "30bc296083",
+   "where": "td · Thrive with targeted",
+   "original": "Reglan",
+   "text": "Reglan"
+  },
+  {
+   "id": "af9b0b9625",
+   "where": "small · Thrive with targeted",
+   "original": "Reflux, nausea, vomiting and bloating.",
+   "text": "Reflux, nausea, vomiting and bloating."
+  },
+  {
+   "id": "1c8cc04d90",
+   "where": "td · Thrive with targeted",
+   "original": "$25",
+   "text": "$25"
+  },
+  {
+   "id": "bf7f1707bf",
+   "where": "td · Thrive with targeted",
+   "original": "B12",
+   "text": "B12"
+  },
+  {
+   "id": "58618c1efa",
+   "where": "small · Thrive with targeted",
+   "original": "Energy, metabolism, mental clarity and red blood cells.",
+   "text": "Energy, metabolism, mental clarity and red blood cells."
+  },
+  {
+   "id": "6441cf05b4",
+   "where": "td · Thrive with targeted",
+   "original": "$25",
+   "text": "$25"
+  },
+  {
+   "id": "7ec99b9e64",
+   "where": "td · Thrive with targeted",
+   "original": "Benadryl",
+   "text": "Benadryl"
+  },
+  {
+   "id": "d9851c52d3",
+   "where": "small · Thrive with targeted",
+   "original": "Antihistamine for allergies, hay fever and cold symptoms.",
+   "text": "Antihistamine for allergies, hay fever and cold symptoms."
+  },
+  {
+   "id": "e68862c1f2",
+   "where": "td · Thrive with targeted",
+   "original": "$25",
+   "text": "$25"
+  },
+  {
+   "id": "2db128d090",
+   "where": "td · Thrive with targeted",
+   "original": "Proline",
+   "text": "Proline"
+  },
+  {
+   "id": "b9c853910a",
+   "where": "small · Thrive with targeted",
+   "original": "Amino acid for collagen, joints and gut health.",
+   "text": "Amino acid for collagen, joints and gut health."
+  },
+  {
+   "id": "efc0790575",
+   "where": "td · Thrive with targeted",
+   "original": "$25",
+   "text": "$25"
+  },
+  {
+   "id": "c4c2a3acb9",
+   "where": "td · Thrive with targeted",
+   "original": "ALA (Alpha Lipoic Acid)",
+   "text": "ALA (Alpha Lipoic Acid)"
+  },
+  {
+   "id": "b1e02da632",
+   "where": "small · Thrive with targeted",
+   "original": "Antioxidant for detox and energy.",
+   "text": "Antioxidant for detox and energy."
+  },
+  {
+   "id": "fb1d4d75e1",
+   "where": "td · Thrive with targeted",
+   "original": "from $25",
+   "text": "from $25"
+  },
+  {
+   "id": "24606b8d88",
+   "where": "td · Thrive with targeted",
+   "original": "Taurine",
+   "text": "Taurine"
+  },
+  {
+   "id": "f8c25ed7c3",
+   "where": "small · Thrive with targeted",
+   "original": "Athletic performance, fat burn and inflammation.",
+   "text": "Athletic performance, fat burn and inflammation."
+  },
+  {
+   "id": "02f9e47cd2",
+   "where": "td · Thrive with targeted",
+   "original": "from $40",
+   "text": "from $40"
+  },
+  {
+   "id": "963252ea7d",
+   "where": "td · Thrive with targeted",
+   "original": "Glutathione",
+   "text": "Glutathione"
+  },
+  {
+   "id": "758703a763",
+   "where": "small · Thrive with targeted",
+   "original": "Brightens skin, supports liver detox and immunity.",
+   "text": "Brightens skin, supports liver detox and immunity."
+  },
+  {
+   "id": "3571957711",
+   "where": "td · Thrive with targeted",
+   "original": "$40",
+   "text": "$40"
+  },
+  {
+   "id": "828de415b7",
+   "where": "td · Thrive with targeted",
+   "original": "Arginine",
+   "text": "Arginine"
+  },
+  {
+   "id": "e503c0d95d",
+   "where": "small · Thrive with targeted",
+   "original": "Circulation, oxygen flow, heart health and recovery.",
+   "text": "Circulation, oxygen flow, heart health and recovery."
+  },
+  {
+   "id": "bb519a71ee",
+   "where": "td · Thrive with targeted",
+   "original": "$40",
+   "text": "$40"
+  },
+  {
+   "id": "6747f50208",
+   "where": "td · Thrive with targeted",
+   "original": "Carnitine",
+   "text": "Carnitine"
+  },
+  {
+   "id": "b61e74bacb",
+   "where": "small · Thrive with targeted",
+   "original": "Fat metabolism, energy and performance.",
+   "text": "Fat metabolism, energy and performance."
+  },
+  {
+   "id": "ee1c2dca9f",
+   "where": "td · Thrive with targeted",
+   "original": "$40",
+   "text": "$40"
+  },
+  {
+   "id": "c0f500f446",
+   "where": "td · Thrive with targeted",
+   "original": "B-Complex",
+   "text": "B-Complex"
+  },
+  {
+   "id": "3b2645e74e",
+   "where": "small · Thrive with targeted",
+   "original": "Energy, metabolism, cognition and stress.",
+   "text": "Energy, metabolism, cognition and stress."
+  },
+  {
+   "id": "e94b622eb2",
+   "where": "td · Thrive with targeted",
+   "original": "$40",
+   "text": "$40"
+  },
+  {
+   "id": "3015396382",
+   "where": "td · Thrive with targeted",
+   "original": "Biotin",
+   "text": "Biotin"
+  },
+  {
+   "id": "eb6213678a",
+   "where": "small · Thrive with targeted",
+   "original": "Hair, skin, nails and metabolism (10 mg).",
+   "text": "Hair, skin, nails and metabolism (10 mg)."
+  },
+  {
+   "id": "3bf87397de",
+   "where": "td · Thrive with targeted",
+   "original": "$40",
+   "text": "$40"
+  },
+  {
+   "id": "e1b0002b45",
+   "where": "td · Thrive with targeted",
+   "original": "Total Wellness",
+   "text": "Total Wellness"
+  },
+  {
+   "id": "c1eeeeb339",
+   "where": "small · Thrive with targeted",
+   "original": "Amino-acid blend for energy, immunity and muscle.",
+   "text": "Amino-acid blend for energy, immunity and muscle."
+  },
+  {
+   "id": "cf0e7b0cd6",
+   "where": "td · Thrive with targeted",
+   "original": "$70",
+   "text": "$70"
+  },
+  {
+   "id": "34da895b44",
+   "where": "td · Thrive with targeted",
+   "original": "High-C",
+   "text": "High-C"
+  },
+  {
+   "id": "7f3652e5fd",
+   "where": "small · Thrive with targeted",
+   "original": "High-dose vitamin C.",
+   "text": "High-dose vitamin C."
+  },
+  {
+   "id": "77289c17f3",
+   "where": "td · Thrive with targeted",
+   "original": "$80",
+   "text": "$80"
+  },
+  {
+   "id": "de21650599",
+   "where": "td · Thrive with targeted",
+   "original": "NAD+",
+   "text": "NAD+"
+  },
+  {
+   "id": "5755a22098",
+   "where": "small · Thrive with targeted",
+   "original": "Energy, clarity, vitality and healthy aging.",
+   "text": "Energy, clarity, vitality and healthy aging."
+  },
+  {
+   "id": "f6f84920f1",
+   "where": "td · Thrive with targeted",
+   "original": "from $125",
+   "text": "from $125"
+  },
+  {
+   "id": "1de9151816",
+   "where": "td · Thrive with targeted",
+   "original": "Immuno",
+   "text": "Immuno"
+  },
+  {
+   "id": "39b56da612",
+   "where": "small · Thrive with targeted",
+   "original": "Vitamin C + Zinc + Glutathione blend.",
+   "text": "Vitamin C + Zinc + Glutathione blend."
+  },
+  {
+   "id": "62d905a085",
+   "where": "td · Thrive with targeted",
+   "original": "$160 · $130 member",
+   "text": "$160 · $130 member"
+  },
+  {
+   "id": "66eda0bf66",
+   "where": "p · Thrive with targeted",
+   "original": "Boosters are added to an IV drip. Want it on its own? See",
+   "text": "Boosters are added to an IV drip. Want it on its own? See"
+  },
+  {
+   "id": "455c51704d",
+   "where": "a · Thrive with targeted",
+   "original": "vitamin shots",
+   "text": "vitamin shots"
+  },
+  {
+   "id": "b9f252726d",
+   "where": "text · Thrive with targeted",
+   "original": ". Benadryl requires a driver.",
+   "text": ". Benadryl requires a driver."
+  },
+  {
+   "id": "e5a7d51ab5",
+   "where": "span · Thrive with targeted",
+   "original": "Built by nurses",
+   "text": "Built by nurses"
+  },
+  {
+   "id": "90deee6608",
+   "where": "text · Thrive with targeted",
+   "original": "Popular pairings",
+   "text": "Popular pairings"
+  },
+  {
+   "id": "ec070ce947",
+   "where": "h2 · Thrive with targeted",
+   "original": "Drips and boosters that",
+   "text": "Drips and boosters that"
+  },
+  {
+   "id": "fd28d356e2",
+   "where": "span · Drips and boosters that",
+   "original": "belong together",
+   "text": "belong together"
+  },
+  {
+   "id": "874f41d8b1",
+   "where": "strong · Drips and boosters that",
+   "original": "Myers + Glutathione",
+   "text": "Myers + Glutathione"
+  },
+  {
+   "id": "14053a7cf7",
+   "where": "text · Drips and boosters that",
+   "original": "for a brighter, calmer week.",
+   "text": "for a brighter, calmer week."
+  },
+  {
+   "id": "1a80a0e6ba",
+   "where": "strong · Drips and boosters that",
+   "original": "Party + Pepcid",
+   "text": "Party + Pepcid"
+  },
+  {
+   "id": "91e689bc4b",
+   "where": "text · Drips and boosters that",
+   "original": "when the night got away from you.",
+   "text": "when the night got away from you."
+  },
+  {
+   "id": "b353d742d5",
+   "where": "strong · Drips and boosters that",
+   "original": "Beauty + Biotin + Proline",
+   "text": "Beauty + Biotin + Proline"
+  },
+  {
+   "id": "b639d28069",
+   "where": "text · Drips and boosters that",
+   "original": "before the event.",
+   "text": "before the event."
+  },
+  {
+   "id": "710985ce96",
+   "where": "strong · Drips and boosters that",
+   "original": "Immuno + NAD+",
+   "text": "Immuno + NAD+"
+  },
+  {
+   "id": "efdafd7227",
+   "where": "text · Drips and boosters that",
+   "original": "when you can't afford to get sick.",
+   "text": "when you can't afford to get sick."
+  },
+  {
+   "id": "39d29d7ad7",
+   "where": "p · Drips and boosters that",
+   "original": "Not sure? Our spa consultants and nurses build combinations every day — ask at check-in or send us a note.",
+   "text": "Not sure? Our spa consultants and nurses build combinations every day — ask at check-in or send us a note."
+  },
+  {
+   "id": "ce8e9d82fa",
+   "where": "a · Drips and boosters that",
+   "original": "Book now",
+   "text": "Book now"
+  },
+  {
+   "id": "1c83c2e0ad",
+   "where": "text · Drips and boosters that",
+   "original": "Memberships",
+   "text": "Memberships"
+  },
+  {
+   "id": "2749e41157",
+   "where": "h2 · Drips and boosters that",
+   "original": "More value",
+   "text": "More value"
+  },
+  {
+   "id": "faed31e88c",
+   "where": "span · More value",
+   "original": "every month",
+   "text": "every month"
+  },
+  {
+   "id": "94d689ac5f",
+   "where": "p · More value",
+   "original": "Each month your membership loads a service credit worth more than what you pay — and it works on any service: drips, shots, boosters, NAD+ and BTL treatments.",
+   "text": "Each month your membership loads a service credit worth more than what you pay — and it works on any service: drips, shots, boosters, NAD+ and BTL treatments."
+  },
+  {
+   "id": "302744981b",
+   "where": "a · More value",
+   "original": "Compare all plans →",
+   "text": "Compare all plans →"
+  },
+  {
+   "id": "f9eab144c1",
+   "where": "h3 · More value",
+   "original": "Select",
+   "text": "Select"
+  },
+  {
+   "id": "b6c613c043",
+   "where": "div · Select",
+   "original": "$95",
+   "text": "$95"
+  },
+  {
+   "id": "e7ee0ab498",
+   "where": "span · Select",
+   "original": "/mo",
+   "text": "/mo"
+  },
+  {
+   "id": "cbb82054b5",
+   "where": "p · Select",
+   "original": "$140 monthly credit to spend on any service — more value than your membership fee, every month.",
+   "text": "$140 monthly credit to spend on any service — more value than your membership fee, every month."
+  },
+  {
+   "id": "f09585433b",
+   "where": "li · Select",
+   "original": "Member pricing on every drip",
+   "text": "Member pricing on every drip"
+  },
+  {
+   "id": "6aa3973942",
+   "where": "li · Select",
+   "original": "Birthday drip on us",
+   "text": "Birthday drip on us"
+  },
+  {
+   "id": "99fb0bad78",
+   "where": "li · Select",
+   "original": "Priority booking & promos",
+   "text": "Priority booking & promos"
+  },
+  {
+   "id": "84a0260277",
+   "where": "li · Select",
+   "original": "Pause or cancel anytime",
+   "text": "Pause or cancel anytime"
+  },
+  {
+   "id": "45a3d0fba2",
+   "where": "a · Select",
+   "original": "Join Select",
+   "text": "Join Select"
+  },
+  {
+   "id": "79556f0238",
+   "where": "span · Select",
+   "original": "Most popular",
+   "text": "Most popular"
+  },
+  {
+   "id": "c042667459",
+   "where": "h3 · Select",
+   "original": "Premium",
+   "text": "Premium"
+  },
+  {
+   "id": "0e45e02193",
+   "where": "div · Premium",
+   "original": "$165",
+   "text": "$165"
+  },
+  {
+   "id": "436cd4dca1",
+   "where": "span · Premium",
+   "original": "/mo",
+   "text": "/mo"
+  },
+  {
+   "id": "994f5256d0",
+   "where": "p · Premium",
+   "original": "$260 monthly credit — your standard glow-up, fully covered, on any services you choose.",
+   "text": "$260 monthly credit — your standard glow-up, fully covered, on any services you choose."
+  },
+  {
+   "id": "e08507cc4e",
+   "where": "li · Premium",
+   "original": "Member pricing on every drip",
+   "text": "Member pricing on every drip"
+  },
+  {
+   "id": "b0f4c09f49",
+   "where": "li · Premium",
+   "original": "Birthday drip on us",
+   "text": "Birthday drip on us"
+  },
+  {
+   "id": "99db356222",
+   "where": "li · Premium",
+   "original": "Priority booking & promos",
+   "text": "Priority booking & promos"
+  },
+  {
+   "id": "059359ac7f",
+   "where": "li · Premium",
+   "original": "Pause or cancel anytime",
+   "text": "Pause or cancel anytime"
+  },
+  {
+   "id": "fa6f15870a",
+   "where": "a · Premium",
+   "original": "Join Premium",
+   "text": "Join Premium"
+  },
+  {
+   "id": "43ce0a94bb",
+   "where": "h3 · Premium",
+   "original": "Luxe",
+   "text": "Luxe"
+  },
+  {
+   "id": "563e68a4f2",
+   "where": "div · Luxe",
+   "original": "$285",
+   "text": "$285"
+  },
+  {
+   "id": "98e02d677f",
+   "where": "span · Luxe",
+   "original": "/mo",
+   "text": "/mo"
+  },
+  {
+   "id": "b433db3c04",
+   "where": "p · Luxe",
+   "original": "$490 monthly credit — the full monthly reset, spent however you like.",
+   "text": "$490 monthly credit — the full monthly reset, spent however you like."
+  },
+  {
+   "id": "ebe5ec5453",
+   "where": "li · Luxe",
+   "original": "Member pricing on every drip",
+   "text": "Member pricing on every drip"
+  },
+  {
+   "id": "5220716e52",
+   "where": "li · Luxe",
+   "original": "Birthday drip on us",
+   "text": "Birthday drip on us"
+  },
+  {
+   "id": "61f5f137f5",
+   "where": "li · Luxe",
+   "original": "Priority booking & promos",
+   "text": "Priority booking & promos"
+  },
+  {
+   "id": "1a559e075d",
+   "where": "li · Luxe",
+   "original": "Pause or cancel anytime",
+   "text": "Pause or cancel anytime"
+  },
+  {
+   "id": "77dd3026e2",
+   "where": "a · Luxe",
+   "original": "Join Luxe",
+   "text": "Join Luxe"
+  },
+  {
+   "id": "23b3e67707",
+   "where": "p · Luxe",
+   "original": "Family, student and NAD+ memberships too — see",
+   "text": "Family, student and NAD+ memberships too — see"
+  },
+  {
+   "id": "9b1c26b4e3",
+   "where": "a · Luxe",
+   "original": "all memberships",
+   "text": "all memberships"
+  },
+  {
+   "id": "c279a60126",
+   "where": "text · Luxe",
+   "original": ". Pause or cancel anytime with the front desk.",
+   "text": ". Pause or cancel anytime with the front desk."
+  },
+  {
+   "id": "6a7b7ce0e7",
+   "where": "text · Luxe",
+   "original": "Buy in bulk",
+   "text": "Buy in bulk"
+  },
+  {
+   "id": "bfe0500bcd",
+   "where": "h2 · Luxe",
+   "original": "Shot & booster",
+   "text": "Shot & booster"
+  },
+  {
+   "id": "5d8f8c4784",
+   "where": "span · Shot & booster",
+   "original": "packages",
+   "text": "packages"
+  },
+  {
+   "id": "16eec3c16e",
+   "where": "a · Shot & booster",
+   "original": "All packages →",
+   "text": "All packages →"
+  },
+  {
+   "id": "1ddf9421eb",
+   "where": "th · Shot & booster",
+   "original": "Package",
+   "text": "Package"
+  },
+  {
+   "id": "493b1b3fee",
+   "where": "th · Shot & booster",
+   "original": "Deal",
+   "text": "Deal"
+  },
+  {
+   "id": "ce31a0c8cb",
+   "where": "td · Shot & booster",
+   "original": "Shots/Boosters — Premium",
+   "text": "Shots/Boosters — Premium"
+  },
+  {
+   "id": "e2e7f5a199",
+   "where": "small · Shot & booster",
+   "original": "Any $25–$40 shot or booster",
+   "text": "Any $25–$40 shot or booster"
+  },
+  {
+   "id": "b53690c207",
+   "where": "td · Shot & booster",
+   "original": "Buy 4, get 1 free",
+   "text": "Buy 4, get 1 free"
+  },
+  {
+   "id": "a33919d631",
+   "where": "td · Shot & booster",
+   "original": "Shots/Boosters — Premium+",
+   "text": "Shots/Boosters — Premium+"
+  },
+  {
+   "id": "409917c138",
+   "where": "small · Shot & booster",
+   "original": "Any $25–$40 shot or booster",
+   "text": "Any $25–$40 shot or booster"
+  },
+  {
+   "id": "c31fef4177",
+   "where": "td · Shot & booster",
+   "original": "Buy 8, get 3 free",
+   "text": "Buy 8, get 3 free"
+  },
+  {
+   "id": "a7c266905a",
+   "where": "td · Shot & booster",
+   "original": "B12 Package",
+   "text": "B12 Package"
+  },
+  {
+   "id": "f88d0818b9",
+   "where": "small · Shot & booster",
+   "original": "Weekly energy, sorted",
+   "text": "Weekly energy, sorted"
+  },
+  {
+   "id": "d2532d99da",
+   "where": "td · Shot & booster",
+   "original": "Buy 8, get 2 free",
+   "text": "Buy 8, get 2 free"
+  },
+  {
+   "id": "ee43fe15d5",
+   "where": "td · Shot & booster",
+   "original": "Tri-Immuno Package",
+   "text": "Tri-Immuno Package"
+  },
+  {
+   "id": "348a632e75",
+   "where": "small · Shot & booster",
+   "original": "Immune support through the season",
+   "text": "Immune support through the season"
+  },
+  {
+   "id": "6f9fb83b57",
+   "where": "td · Shot & booster",
+   "original": "5 for $300",
+   "text": "5 for $300"
+  },
+  {
+   "id": "c4b8cb86d2",
+   "where": "h2 · Shot & booster",
+   "original": "Add a little",
+   "text": "Add a little"
+  },
+  {
+   "id": "fc061f4f8e",
+   "where": "span · Add a little",
+   "original": "extra.",
+   "text": "extra."
+  },
+  {
+   "id": "11a97f866e",
+   "where": "p · Add a little",
+   "original": "Boosters from $25, added to any drip. Book online or ask your nurse at check-in.",
+   "text": "Boosters from $25, added to any drip. Book online or ask your nurse at check-in."
+  },
+  {
+   "id": "96fabf31ca",
+   "where": "a · Add a little",
+   "original": "Book Your Drip",
+   "text": "Book Your Drip"
+  },
+  {
+   "id": "47b85ce897",
+   "where": "a · Add a little",
+   "original": "Find a Location",
+   "text": "Find a Location"
+  }
+ ]
+}

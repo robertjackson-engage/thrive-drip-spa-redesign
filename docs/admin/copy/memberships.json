@@ -1,0 +1,665 @@
+{
+ "page": "memberships",
+ "items": [
+  {
+   "id": "c4f4bf037c",
+   "where": "Browser tab title",
+   "original": "Memberships from $95/mo | ThrIVe Drip Spa",
+   "text": "Memberships from $95/mo | ThrIVe Drip Spa"
+  },
+  {
+   "id": "585e01e1d2",
+   "where": "Search-engine description",
+   "original": "Select $95, Premium $165, Luxe $285 — monthly credits worth more than you pay, usable on any service. Family, student and NAD+ memberships. Pause or cancel anytime.",
+   "text": "Select $95, Premium $165, Luxe $285 — monthly credits worth more than you pay, usable on any service. Family, student and NAD+ memberships. Pause or cancel anytime."
+  },
+  {
+   "id": "5e2faac653",
+   "where": "a",
+   "original": "Home",
+   "text": "Home"
+  },
+  {
+   "id": "f8835a7100",
+   "where": "text",
+   "original": "/ Memberships",
+   "text": "/ Memberships"
+  },
+  {
+   "id": "f99fc9d712",
+   "where": "p",
+   "original": "Wellness Perks",
+   "text": "Wellness Perks"
+  },
+  {
+   "id": "8043b84f3d",
+   "where": "span",
+   "original": "Find your",
+   "text": "Find your"
+  },
+  {
+   "id": "7e442c4c29",
+   "where": "span",
+   "original": "membership.",
+   "text": "membership."
+  },
+  {
+   "id": "985439fb1e",
+   "where": "p",
+   "original": "Our memberships are shaped by how people actually live. Each month your membership loads a service credit worth more than what you pay — and it works on any service you choose: drips, shots, boosters, NAD+ and BTL treatments. Pause or cancel anytime.",
+   "text": "Our memberships are shaped by how people actually live. Each month your membership loads a service credit worth more than what you pay — and it works on any service you choose: drips, shots, boosters, NAD+ and BTL treatments. Pause or cancel anytime."
+  },
+  {
+   "id": "5a41218c91",
+   "where": "a",
+   "original": "Join Today",
+   "text": "Join Today"
+  },
+  {
+   "id": "f74d0bde72",
+   "where": "a",
+   "original": "Member Login",
+   "text": "Member Login"
+  },
+  {
+   "id": "bfd8e94453",
+   "where": "span",
+   "original": "Month-to-month",
+   "text": "Month-to-month"
+  },
+  {
+   "id": "853d30ac79",
+   "where": "span",
+   "original": "Credits roll over",
+   "text": "Credits roll over"
+  },
+  {
+   "id": "7cfdd29555",
+   "where": "span",
+   "original": "Birthday drip on us",
+   "text": "Birthday drip on us"
+  },
+  {
+   "id": "acbb154a1b",
+   "where": "text",
+   "original": "More value every month",
+   "text": "More value every month"
+  },
+  {
+   "id": "1f42840c1a",
+   "where": "text",
+   "original": "Memberships",
+   "text": "Memberships"
+  },
+  {
+   "id": "5afdf2effa",
+   "where": "h2",
+   "original": "More value",
+   "text": "More value"
+  },
+  {
+   "id": "fe031cb17e",
+   "where": "span · More value",
+   "original": "every month",
+   "text": "every month"
+  },
+  {
+   "id": "0472603268",
+   "where": "p · More value",
+   "original": "Each month your membership loads a service credit worth more than what you pay — and it works on any service: drips, shots, boosters, NAD+ and BTL treatments.",
+   "text": "Each month your membership loads a service credit worth more than what you pay — and it works on any service: drips, shots, boosters, NAD+ and BTL treatments."
+  },
+  {
+   "id": "71ea8689e6",
+   "where": "a · More value",
+   "original": "Compare all plans →",
+   "text": "Compare all plans →"
+  },
+  {
+   "id": "47c0b3c39a",
+   "where": "h3 · More value",
+   "original": "Select",
+   "text": "Select"
+  },
+  {
+   "id": "d2f1691a0e",
+   "where": "div · Select",
+   "original": "$95",
+   "text": "$95"
+  },
+  {
+   "id": "796baeafa7",
+   "where": "span · Select",
+   "original": "/mo",
+   "text": "/mo"
+  },
+  {
+   "id": "6b1a820bd0",
+   "where": "p · Select",
+   "original": "$140 monthly credit to spend on any service — more value than your membership fee, every month.",
+   "text": "$140 monthly credit to spend on any service — more value than your membership fee, every month."
+  },
+  {
+   "id": "74f08bfd75",
+   "where": "li · Select",
+   "original": "Member pricing on every drip",
+   "text": "Member pricing on every drip"
+  },
+  {
+   "id": "de62a91a33",
+   "where": "li · Select",
+   "original": "Birthday drip on us",
+   "text": "Birthday drip on us"
+  },
+  {
+   "id": "0f610d5a96",
+   "where": "li · Select",
+   "original": "Priority booking & promos",
+   "text": "Priority booking & promos"
+  },
+  {
+   "id": "f549068f69",
+   "where": "li · Select",
+   "original": "Pause or cancel anytime",
+   "text": "Pause or cancel anytime"
+  },
+  {
+   "id": "0f95e50685",
+   "where": "a · Select",
+   "original": "Join Select",
+   "text": "Join Select"
+  },
+  {
+   "id": "cce17040a8",
+   "where": "span · Select",
+   "original": "Most popular",
+   "text": "Most popular"
+  },
+  {
+   "id": "a71b069fd4",
+   "where": "h3 · Select",
+   "original": "Premium",
+   "text": "Premium"
+  },
+  {
+   "id": "7da6d7755f",
+   "where": "div · Premium",
+   "original": "$165",
+   "text": "$165"
+  },
+  {
+   "id": "4467dc24e2",
+   "where": "span · Premium",
+   "original": "/mo",
+   "text": "/mo"
+  },
+  {
+   "id": "fd03b7a1d2",
+   "where": "p · Premium",
+   "original": "$260 monthly credit — your standard glow-up, fully covered, on any services you choose.",
+   "text": "$260 monthly credit — your standard glow-up, fully covered, on any services you choose."
+  },
+  {
+   "id": "7a085b45bf",
+   "where": "li · Premium",
+   "original": "Member pricing on every drip",
+   "text": "Member pricing on every drip"
+  },
+  {
+   "id": "623c540861",
+   "where": "li · Premium",
+   "original": "Birthday drip on us",
+   "text": "Birthday drip on us"
+  },
+  {
+   "id": "80e2013283",
+   "where": "li · Premium",
+   "original": "Priority booking & promos",
+   "text": "Priority booking & promos"
+  },
+  {
+   "id": "5d989f2b70",
+   "where": "li · Premium",
+   "original": "Pause or cancel anytime",
+   "text": "Pause or cancel anytime"
+  },
+  {
+   "id": "5f56e879ba",
+   "where": "a · Premium",
+   "original": "Join Premium",
+   "text": "Join Premium"
+  },
+  {
+   "id": "adf72041eb",
+   "where": "h3 · Premium",
+   "original": "Luxe",
+   "text": "Luxe"
+  },
+  {
+   "id": "1771af151f",
+   "where": "div · Luxe",
+   "original": "$285",
+   "text": "$285"
+  },
+  {
+   "id": "031261ca84",
+   "where": "span · Luxe",
+   "original": "/mo",
+   "text": "/mo"
+  },
+  {
+   "id": "0cc5cb0cee",
+   "where": "p · Luxe",
+   "original": "$490 monthly credit — the full monthly reset, spent however you like.",
+   "text": "$490 monthly credit — the full monthly reset, spent however you like."
+  },
+  {
+   "id": "6b1ef13d66",
+   "where": "li · Luxe",
+   "original": "Member pricing on every drip",
+   "text": "Member pricing on every drip"
+  },
+  {
+   "id": "6ba0c94be3",
+   "where": "li · Luxe",
+   "original": "Birthday drip on us",
+   "text": "Birthday drip on us"
+  },
+  {
+   "id": "beb51e07db",
+   "where": "li · Luxe",
+   "original": "Priority booking & promos",
+   "text": "Priority booking & promos"
+  },
+  {
+   "id": "7545d7034b",
+   "where": "li · Luxe",
+   "original": "Pause or cancel anytime",
+   "text": "Pause or cancel anytime"
+  },
+  {
+   "id": "b4fc3071c3",
+   "where": "a · Luxe",
+   "original": "Join Luxe",
+   "text": "Join Luxe"
+  },
+  {
+   "id": "f376e85251",
+   "where": "p · Luxe",
+   "original": "Family, student and NAD+ memberships too — see",
+   "text": "Family, student and NAD+ memberships too — see"
+  },
+  {
+   "id": "3c18d383a9",
+   "where": "a · Luxe",
+   "original": "all memberships",
+   "text": "all memberships"
+  },
+  {
+   "id": "177b9c5336",
+   "where": "text · Luxe",
+   "original": ". Pause or cancel anytime with the front desk.",
+   "text": ". Pause or cancel anytime with the front desk."
+  },
+  {
+   "id": "e214e65d6d",
+   "where": "text · Luxe",
+   "original": "Family & student",
+   "text": "Family & student"
+  },
+  {
+   "id": "5f6400e900",
+   "where": "h2 · Luxe",
+   "original": "Memberships for the whole",
+   "text": "Memberships for the whole"
+  },
+  {
+   "id": "e2023fb9ea",
+   "where": "span · Memberships for the whole",
+   "original": "household",
+   "text": "household"
+  },
+  {
+   "id": "a16de54650",
+   "where": "p · Memberships for the whole",
+   "original": "Family plans require someone in the household with a regular IV membership. Student plans need a valid student ID.",
+   "text": "Family plans require someone in the household with a regular IV membership. Student plans need a valid student ID."
+  },
+  {
+   "id": "23d2c5cf54",
+   "where": "h3 · Memberships for the whole",
+   "original": "Family Premium",
+   "text": "Family Premium"
+  },
+  {
+   "id": "9d123887a8",
+   "where": "div · Family Premium",
+   "original": "$129",
+   "text": "$129"
+  },
+  {
+   "id": "57e130293e",
+   "where": "span · Family Premium",
+   "original": "/mo",
+   "text": "/mo"
+  },
+  {
+   "id": "7504a52dc2",
+   "where": "p · Family Premium",
+   "original": "1 Premium IV and 1 Wellness Booster each month.",
+   "text": "1 Premium IV and 1 Wellness Booster each month."
+  },
+  {
+   "id": "092edfa706",
+   "where": "a · Family Premium",
+   "original": "Join",
+   "text": "Join"
+  },
+  {
+   "id": "cbc41dea80",
+   "where": "h3 · Family Premium",
+   "original": "Family Luxe",
+   "text": "Family Luxe"
+  },
+  {
+   "id": "895203f171",
+   "where": "div · Family Luxe",
+   "original": "$229",
+   "text": "$229"
+  },
+  {
+   "id": "020c05a0c1",
+   "where": "span · Family Luxe",
+   "original": "/mo",
+   "text": "/mo"
+  },
+  {
+   "id": "f6ce89ebed",
+   "where": "p · Family Luxe",
+   "original": "2 Premium IVs and 1 Wellness Booster each month.",
+   "text": "2 Premium IVs and 1 Wellness Booster each month."
+  },
+  {
+   "id": "3ea324b200",
+   "where": "a · Family Luxe",
+   "original": "Join",
+   "text": "Join"
+  },
+  {
+   "id": "3c4e89d845",
+   "where": "h3 · Family Luxe",
+   "original": "Student Premium",
+   "text": "Student Premium"
+  },
+  {
+   "id": "a1f02754c8",
+   "where": "div · Student Premium",
+   "original": "$105",
+   "text": "$105"
+  },
+  {
+   "id": "1a5a51664d",
+   "where": "span · Student Premium",
+   "original": "/mo",
+   "text": "/mo"
+  },
+  {
+   "id": "0aba61d708",
+   "where": "p · Student Premium",
+   "original": "Same included services as Premium, with a valid student ID.",
+   "text": "Same included services as Premium, with a valid student ID."
+  },
+  {
+   "id": "839850d135",
+   "where": "a · Student Premium",
+   "original": "Join",
+   "text": "Join"
+  },
+  {
+   "id": "6c74718548",
+   "where": "h3 · Student Premium",
+   "original": "Student Luxe",
+   "text": "Student Luxe"
+  },
+  {
+   "id": "220fe2fea4",
+   "where": "div · Student Luxe",
+   "original": "$180",
+   "text": "$180"
+  },
+  {
+   "id": "01d7e3ac2b",
+   "where": "span · Student Luxe",
+   "original": "/mo",
+   "text": "/mo"
+  },
+  {
+   "id": "3d3e6ce189",
+   "where": "p · Student Luxe",
+   "original": "Same included services as Luxe, with a valid student ID.",
+   "text": "Same included services as Luxe, with a valid student ID."
+  },
+  {
+   "id": "b661981d25",
+   "where": "a · Student Luxe",
+   "original": "Join",
+   "text": "Join"
+  },
+  {
+   "id": "d0e4cffaa1",
+   "where": "text · Student Luxe",
+   "original": "NAD+ memberships",
+   "text": "NAD+ memberships"
+  },
+  {
+   "id": "191a4faf26",
+   "where": "h2 · Student Luxe",
+   "original": "Stay consistent with",
+   "text": "Stay consistent with"
+  },
+  {
+   "id": "44b5657cb9",
+   "where": "span · Stay consistent with",
+   "original": "NAD+",
+   "text": "NAD+"
+  },
+  {
+   "id": "6a1c64769f",
+   "where": "a · Stay consistent with",
+   "original": "About NAD+ →",
+   "text": "About NAD+ →"
+  },
+  {
+   "id": "ff4e927a65",
+   "where": "h3 · Stay consistent with",
+   "original": "NAD+ Premium",
+   "text": "NAD+ Premium"
+  },
+  {
+   "id": "fd05ed052d",
+   "where": "div · NAD+ Premium",
+   "original": "$350",
+   "text": "$350"
+  },
+  {
+   "id": "cebcfffe15",
+   "where": "span · NAD+ Premium",
+   "original": "/mo",
+   "text": "/mo"
+  },
+  {
+   "id": "ad293ae657",
+   "where": "p · NAD+ Premium",
+   "original": "500 mg of NAD+ every month.",
+   "text": "500 mg of NAD+ every month."
+  },
+  {
+   "id": "ddf21ea099",
+   "where": "a · NAD+ Premium",
+   "original": "Join NAD+",
+   "text": "Join NAD+"
+  },
+  {
+   "id": "ca24eafc79",
+   "where": "h3 · NAD+ Premium",
+   "original": "NAD+ Luxe",
+   "text": "NAD+ Luxe"
+  },
+  {
+   "id": "d07e9cb5be",
+   "where": "div · NAD+ Luxe",
+   "original": "$700",
+   "text": "$700"
+  },
+  {
+   "id": "885847cd62",
+   "where": "span · NAD+ Luxe",
+   "original": "/mo",
+   "text": "/mo"
+  },
+  {
+   "id": "a8a21de690",
+   "where": "p · NAD+ Luxe",
+   "original": "1,000 mg of NAD+ every month.",
+   "text": "1,000 mg of NAD+ every month."
+  },
+  {
+   "id": "2d33e6f08a",
+   "where": "a · NAD+ Luxe",
+   "original": "Join NAD+",
+   "text": "Join NAD+"
+  },
+  {
+   "id": "dd63603570",
+   "where": "h3 · NAD+ Luxe",
+   "original": "NAD+ Platinum",
+   "text": "NAD+ Platinum"
+  },
+  {
+   "id": "8ad2d79dae",
+   "where": "div · NAD+ Platinum",
+   "original": "$999",
+   "text": "$999"
+  },
+  {
+   "id": "da03b3e1d1",
+   "where": "span · NAD+ Platinum",
+   "original": "/mo",
+   "text": "/mo"
+  },
+  {
+   "id": "453c262906",
+   "where": "p · NAD+ Platinum",
+   "original": "1,500 mg of NAD+ every month.",
+   "text": "1,500 mg of NAD+ every month."
+  },
+  {
+   "id": "387de81bb9",
+   "where": "a · NAD+ Platinum",
+   "original": "Join NAD+",
+   "text": "Join NAD+"
+  },
+  {
+   "id": "6aa4003c96",
+   "where": "text · NAD+ Platinum",
+   "original": "Exclusive member perks",
+   "text": "Exclusive member perks"
+  },
+  {
+   "id": "7c09dc67b9",
+   "where": "h2 · NAD+ Platinum",
+   "original": "Why members",
+   "text": "Why members"
+  },
+  {
+   "id": "9083c638ce",
+   "where": "span · Why members",
+   "original": "stay",
+   "text": "stay"
+  },
+  {
+   "id": "bf9854d570",
+   "where": "h3 · Why members",
+   "original": "Birthday Drip",
+   "text": "Birthday Drip"
+  },
+  {
+   "id": "a61528535c",
+   "where": "p · Birthday Drip",
+   "original": "A complimentary drip in your birthday month. Our treat.",
+   "text": "A complimentary drip in your birthday month. Our treat."
+  },
+  {
+   "id": "9926ea7279",
+   "where": "h3 · Birthday Drip",
+   "original": "Priority Booking",
+   "text": "Priority Booking"
+  },
+  {
+   "id": "7583ae22ed",
+   "where": "p · Priority Booking",
+   "original": "Members get first access to appointments and exclusive promotions.",
+   "text": "Members get first access to appointments and exclusive promotions."
+  },
+  {
+   "id": "ee3dd3923a",
+   "where": "h3 · Priority Booking",
+   "original": "Exclusive Pricing",
+   "text": "Exclusive Pricing"
+  },
+  {
+   "id": "02778131fe",
+   "where": "p · Exclusive Pricing",
+   "original": "Member-only pricing on every drip ($150 vs $190 for a Myers), boosters, packages and more.",
+   "text": "Member-only pricing on every drip ($150 vs $190 for a Myers), boosters, packages and more."
+  },
+  {
+   "id": "0b83d9fef9",
+   "where": "h3 · Exclusive Pricing",
+   "original": "More Value Every Month",
+   "text": "More Value Every Month"
+  },
+  {
+   "id": "c261f242a0",
+   "where": "p · More Value Every Month",
+   "original": "Credits worth more than your fee, usable on NAD+, BTL services, drips, shots and boosters. Unused services roll over.",
+   "text": "Credits worth more than your fee, usable on NAD+, BTL services, drips, shots and boosters. Unused services roll over."
+  },
+  {
+   "id": "deb8d4ca0f",
+   "where": "p · More Value Every Month",
+   "original": "Membership credits can be used towards NAD+, BTL services, IV drips, shots and boosters. Month-to-month; pause or cancel anytime with the front desk.",
+   "text": "Membership credits can be used towards NAD+, BTL services, IV drips, shots and boosters. Month-to-month; pause or cancel anytime with the front desk."
+  },
+  {
+   "id": "38b66ffa72",
+   "where": "h2 · More Value Every Month",
+   "original": "Consistency is",
+   "text": "Consistency is"
+  },
+  {
+   "id": "ed257b3574",
+   "where": "span · Consistency is",
+   "original": "key.",
+   "text": "key."
+  },
+  {
+   "id": "c8abdb9896",
+   "where": "p · Consistency is",
+   "original": "Join at any lounge or online in about two minutes. Your first drip is waiting.",
+   "text": "Join at any lounge or online in about two minutes. Your first drip is waiting."
+  },
+  {
+   "id": "4ae8df55fd",
+   "where": "a · Consistency is",
+   "original": "Join Today",
+   "text": "Join Today"
+  },
+  {
+   "id": "a054a0611a",
+   "where": "a · Consistency is",
+   "original": "Member Login",
+   "text": "Member Login"
+  }
+ ]
+}

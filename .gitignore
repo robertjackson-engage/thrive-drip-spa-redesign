@@ -1,0 +1,7 @@
+scrape/
+.claude/
+__pycache__/
+*.pyc
+.DS_Store
+.anthropic-key
+.env

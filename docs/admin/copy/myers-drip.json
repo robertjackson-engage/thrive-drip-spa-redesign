@@ -1,0 +1,689 @@
+{
+ "page": "myers-drip",
+ "items": [
+  {
+   "id": "fec655ac94",
+   "where": "Browser tab title",
+   "original": "Myers Drip — $190 · $150 member | ThrIVe Drip Spa",
+   "text": "Myers Drip — $190 · $150 member | ThrIVe Drip Spa"
+  },
+  {
+   "id": "95a8d27032",
+   "where": "Search-engine description",
+   "original": "The classic cocktail — mood, skin, energy and inflammation, all in one bag. 1 L IV fluids, Electrolytes, Vitamin C, Magnesium, B-Complex, B12. Good for low mood, fatigue, insomnia. Book at ten Texas lounges or mobile.",
+   "text": "The classic cocktail — mood, skin, energy and inflammation, all in one bag. 1 L IV fluids, Electrolytes, Vitamin C, Magnesium, B-Complex, B12. Good for low mood, fatigue, insomnia. Book at ten Texas lounges or mobile."
+  },
+  {
+   "id": "0f8ff88883",
+   "where": "a",
+   "original": "Home",
+   "text": "Home"
+  },
+  {
+   "id": "5dc1415a25",
+   "where": "text",
+   "original": "/",
+   "text": "/"
+  },
+  {
+   "id": "cfe3ff8d5b",
+   "where": "a",
+   "original": "IV Drips",
+   "text": "IV Drips"
+  },
+  {
+   "id": "4d09e3cf9e",
+   "where": "text",
+   "original": "/ Myers Drip",
+   "text": "/ Myers Drip"
+  },
+  {
+   "id": "b76cd4d5c7",
+   "where": "p",
+   "original": "Feel Recharged",
+   "text": "Feel Recharged"
+  },
+  {
+   "id": "6311b431be",
+   "where": "span",
+   "original": "The",
+   "text": "The"
+  },
+  {
+   "id": "d5476d110d",
+   "where": "span",
+   "original": "Myers",
+   "text": "Myers"
+  },
+  {
+   "id": "3f9035abca",
+   "where": "span",
+   "original": "Drip.",
+   "text": "Drip."
+  },
+  {
+   "id": "a91f893a45",
+   "where": "p",
+   "original": "The classic cocktail — mood, skin, energy and inflammation, all in one bag.",
+   "text": "The classic cocktail — mood, skin, energy and inflammation, all in one bag."
+  },
+  {
+   "id": "9a399f3715",
+   "where": "a",
+   "original": "Book This Drip",
+   "text": "Book This Drip"
+  },
+  {
+   "id": "21daabfca3",
+   "where": "a",
+   "original": "All 12 Drips",
+   "text": "All 12 Drips"
+  },
+  {
+   "id": "d4f173e136",
+   "where": "span",
+   "original": "$190 walk-in · $150 member",
+   "text": "$190 walk-in · $150 member"
+  },
+  {
+   "id": "8949c81325",
+   "where": "span",
+   "original": "30–45 minutes",
+   "text": "30–45 minutes"
+  },
+  {
+   "id": "de335ab5ff",
+   "where": "span",
+   "original": "1 L IV fluids",
+   "text": "1 L IV fluids"
+  },
+  {
+   "id": "b3641bb911",
+   "where": "text",
+   "original": "Vitamin C, Magnesium",
+   "text": "Vitamin C, Magnesium"
+  },
+  {
+   "id": "df8ce738f2",
+   "where": "text",
+   "original": "What's in the bag",
+   "text": "What's in the bag"
+  },
+  {
+   "id": "ab7320ce3b",
+   "where": "h2",
+   "original": "What's inside, and why",
+   "text": "What's inside, and why"
+  },
+  {
+   "id": "6b1c83a187",
+   "where": "p · What's inside, and why",
+   "original": "Developed by Dr. John Myers, the Myers Drip has been known to enhance mood, improve the appearance of skin, elevate energy and reduce inflammation. Effects can last for weeks — many clients pair it with the Detox Drip or a Total Wellness booster.",
+   "text": "Developed by Dr. John Myers, the Myers Drip has been known to enhance mood, improve the appearance of skin, elevate energy and reduce inflammation. Effects can last for weeks — many clients pair it with the Detox Drip or a Total Wellness booster."
+  },
+  {
+   "id": "48311db6ce",
+   "where": "p · What's inside, and why",
+   "original": "Ingredients",
+   "text": "Ingredients"
+  },
+  {
+   "id": "599ecd18e2",
+   "where": "span · What's inside, and why",
+   "original": "1 L IV fluids",
+   "text": "1 L IV fluids"
+  },
+  {
+   "id": "6649b6f0af",
+   "where": "span · What's inside, and why",
+   "original": "Electrolytes",
+   "text": "Electrolytes"
+  },
+  {
+   "id": "3c4f333bfd",
+   "where": "span · What's inside, and why",
+   "original": "Vitamin C",
+   "text": "Vitamin C"
+  },
+  {
+   "id": "05eef4496f",
+   "where": "span · What's inside, and why",
+   "original": "Magnesium",
+   "text": "Magnesium"
+  },
+  {
+   "id": "4804e47257",
+   "where": "span · What's inside, and why",
+   "original": "B-Complex",
+   "text": "B-Complex"
+  },
+  {
+   "id": "776a443802",
+   "where": "span · What's inside, and why",
+   "original": "B12",
+   "text": "B12"
+  },
+  {
+   "id": "5a632639ac",
+   "where": "p · What's inside, and why",
+   "original": "Boost your results",
+   "text": "Boost your results"
+  },
+  {
+   "id": "e2ba50777b",
+   "where": "span · What's inside, and why",
+   "original": "Glutathione",
+   "text": "Glutathione"
+  },
+  {
+   "id": "ea1a009f35",
+   "where": "span · What's inside, and why",
+   "original": "Zinc",
+   "text": "Zinc"
+  },
+  {
+   "id": "786ff87e27",
+   "where": "h3 · What's inside, and why",
+   "original": "Myers Drip",
+   "text": "Myers Drip"
+  },
+  {
+   "id": "fc779c1a68",
+   "where": "div · Myers Drip",
+   "original": "$150",
+   "text": "$150"
+  },
+  {
+   "id": "7c43b7fc77",
+   "where": "span · Myers Drip",
+   "original": "member",
+   "text": "member"
+  },
+  {
+   "id": "1bbede266f",
+   "where": "strong · Myers Drip",
+   "original": "$190",
+   "text": "$190"
+  },
+  {
+   "id": "64a22711c3",
+   "where": "text · Myers Drip",
+   "original": "walk-in · includes 1 L IV fluids",
+   "text": "walk-in · includes 1 L IV fluids"
+  },
+  {
+   "id": "228bec15d9",
+   "where": "li · Myers Drip",
+   "original": "Vitamin C — tissue growth and repair, immune support, collagen",
+   "text": "Vitamin C — tissue growth and repair, immune support, collagen"
+  },
+  {
+   "id": "bdd1209dfc",
+   "where": "li · Myers Drip",
+   "original": "Magnesium — anti-inflammatory; supports calm, cardiovascular and bone health",
+   "text": "Magnesium — anti-inflammatory; supports calm, cardiovascular and bone health"
+  },
+  {
+   "id": "1a8efb7b01",
+   "where": "li · Myers Drip",
+   "original": "B vitamins — energy, stress resilience and cognition",
+   "text": "B vitamins — energy, stress resilience and cognition"
+  },
+  {
+   "id": "478cf0ad6f",
+   "where": "a · Myers Drip",
+   "original": "Book Now",
+   "text": "Book Now"
+  },
+  {
+   "id": "4ab0b4b848",
+   "where": "span · Myers Drip",
+   "original": "Feel Recharged",
+   "text": "Feel Recharged"
+  },
+  {
+   "id": "65a481875d",
+   "where": "text · Myers Drip",
+   "original": "Recommended for",
+   "text": "Recommended for"
+  },
+  {
+   "id": "cbac73824f",
+   "where": "h2 · Myers Drip",
+   "original": "Good for",
+   "text": "Good for"
+  },
+  {
+   "id": "9eedc433d7",
+   "where": "span · Good for",
+   "original": "low mood",
+   "text": "low mood"
+  },
+  {
+   "id": "40d5edc45d",
+   "where": "p · Good for",
+   "original": "The Myers Drip is a popular choice for clients dealing with:",
+   "text": "The Myers Drip is a popular choice for clients dealing with:"
+  },
+  {
+   "id": "ac1a283e20",
+   "where": "li · Good for",
+   "original": "Low mood",
+   "text": "Low mood"
+  },
+  {
+   "id": "8b38f2815b",
+   "where": "li · Good for",
+   "original": "Fatigue",
+   "text": "Fatigue"
+  },
+  {
+   "id": "34ea034231",
+   "where": "li · Good for",
+   "original": "Insomnia",
+   "text": "Insomnia"
+  },
+  {
+   "id": "5223e4749f",
+   "where": "li · Good for",
+   "original": "Migraines",
+   "text": "Migraines"
+  },
+  {
+   "id": "4dd2c9f27b",
+   "where": "li · Good for",
+   "original": "Muscle pain",
+   "text": "Muscle pain"
+  },
+  {
+   "id": "5ac32e1084",
+   "where": "li · Good for",
+   "original": "Menstrual cramps",
+   "text": "Menstrual cramps"
+  },
+  {
+   "id": "8363bece7d",
+   "where": "a · Good for",
+   "original": "Book This Drip",
+   "text": "Book This Drip"
+  },
+  {
+   "id": "01007266f5",
+   "where": "a · Good for",
+   "original": "Ask the concierge →",
+   "text": "Ask the concierge →"
+  },
+  {
+   "id": "6669bac2d3",
+   "where": "text · Good for",
+   "original": "Pair it with",
+   "text": "Pair it with"
+  },
+  {
+   "id": "0bb67ff75b",
+   "where": "h2 · Good for",
+   "original": "Other drips you might",
+   "text": "Other drips you might"
+  },
+  {
+   "id": "71913c2334",
+   "where": "span · Other drips you might",
+   "original": "love",
+   "text": "love"
+  },
+  {
+   "id": "fe72f64f45",
+   "where": "a · Other drips you might",
+   "original": "All 12 drips →",
+   "text": "All 12 drips →"
+  },
+  {
+   "id": "73dc888e72",
+   "where": "span · Other drips you might",
+   "original": "$150",
+   "text": "$150"
+  },
+  {
+   "id": "4e563a31fb",
+   "where": "h3 · Other drips you might",
+   "original": "Hydrate",
+   "text": "Hydrate"
+  },
+  {
+   "id": "75418c0dd9",
+   "where": "p · Hydrate",
+   "original": "Hydrate with fluids and electrolytes to boost energy, support body function and help you feel your best.",
+   "text": "Hydrate with fluids and electrolytes to boost energy, support body function and help you feel your best."
+  },
+  {
+   "id": "523a6d6316",
+   "where": "span · Hydrate",
+   "original": "View drip →",
+   "text": "View drip →"
+  },
+  {
+   "id": "d0ebe45d68",
+   "where": "span · Hydrate",
+   "original": "$190",
+   "text": "$190"
+  },
+  {
+   "id": "f84896dd64",
+   "where": "h3 · Hydrate",
+   "original": "Detox",
+   "text": "Detox"
+  },
+  {
+   "id": "1ab892e696",
+   "where": "p · Detox",
+   "original": "Supports natural wellness and helps you feel more grounded, clear and recharged from within.",
+   "text": "Supports natural wellness and helps you feel more grounded, clear and recharged from within."
+  },
+  {
+   "id": "c387bde155",
+   "where": "span · Detox",
+   "original": "View drip →",
+   "text": "View drip →"
+  },
+  {
+   "id": "71d2ff968a",
+   "where": "span · Detox",
+   "original": "$190",
+   "text": "$190"
+  },
+  {
+   "id": "83ef2ffeed",
+   "where": "h3 · Detox",
+   "original": "Party",
+   "text": "Party"
+  },
+  {
+   "id": "a2b1e70ab6",
+   "where": "p · Party",
+   "original": "Rehydrate and recharge with fluids and nutrients designed to restore balance after a big night.",
+   "text": "Rehydrate and recharge with fluids and nutrients designed to restore balance after a big night."
+  },
+  {
+   "id": "2d5aba42e0",
+   "where": "span · Party",
+   "original": "View drip →",
+   "text": "View drip →"
+  },
+  {
+   "id": "8c4e83f8d4",
+   "where": "span · Party",
+   "original": "$190",
+   "text": "$190"
+  },
+  {
+   "id": "a4b8395ce9",
+   "where": "h3 · Party",
+   "original": "Fit",
+   "text": "Fit"
+  },
+  {
+   "id": "f37a01cd23",
+   "where": "p · Fit",
+   "original": "Amino acids and nutrients that replenish vitamins and help you feel strong before or after workouts.",
+   "text": "Amino acids and nutrients that replenish vitamins and help you feel strong before or after workouts."
+  },
+  {
+   "id": "0111094c3d",
+   "where": "span · Fit",
+   "original": "View drip →",
+   "text": "View drip →"
+  },
+  {
+   "id": "d3a58873d3",
+   "where": "text · Fit",
+   "original": "Memberships",
+   "text": "Memberships"
+  },
+  {
+   "id": "6fc456c711",
+   "where": "h2 · Fit",
+   "original": "More value",
+   "text": "More value"
+  },
+  {
+   "id": "5ae60c27f8",
+   "where": "span · More value",
+   "original": "every month",
+   "text": "every month"
+  },
+  {
+   "id": "8646224ba0",
+   "where": "p · More value",
+   "original": "Each month your membership loads a service credit worth more than what you pay — and it works on any service: drips, shots, boosters, NAD+ and BTL treatments.",
+   "text": "Each month your membership loads a service credit worth more than what you pay — and it works on any service: drips, shots, boosters, NAD+ and BTL treatments."
+  },
+  {
+   "id": "4f23dabfb8",
+   "where": "a · More value",
+   "original": "Compare all plans →",
+   "text": "Compare all plans →"
+  },
+  {
+   "id": "3bfc39e28b",
+   "where": "h3 · More value",
+   "original": "Select",
+   "text": "Select"
+  },
+  {
+   "id": "049c1206b8",
+   "where": "div · Select",
+   "original": "$95",
+   "text": "$95"
+  },
+  {
+   "id": "6780c02a47",
+   "where": "span · Select",
+   "original": "/mo",
+   "text": "/mo"
+  },
+  {
+   "id": "6b69858dbd",
+   "where": "p · Select",
+   "original": "$140 monthly credit to spend on any service — more value than your membership fee, every month.",
+   "text": "$140 monthly credit to spend on any service — more value than your membership fee, every month."
+  },
+  {
+   "id": "a49403543c",
+   "where": "li · Select",
+   "original": "Member pricing on every drip",
+   "text": "Member pricing on every drip"
+  },
+  {
+   "id": "9a75447e51",
+   "where": "li · Select",
+   "original": "Birthday drip on us",
+   "text": "Birthday drip on us"
+  },
+  {
+   "id": "df81d86646",
+   "where": "li · Select",
+   "original": "Priority booking & promos",
+   "text": "Priority booking & promos"
+  },
+  {
+   "id": "8a674a6dec",
+   "where": "li · Select",
+   "original": "Pause or cancel anytime",
+   "text": "Pause or cancel anytime"
+  },
+  {
+   "id": "16296d7148",
+   "where": "a · Select",
+   "original": "Join Select",
+   "text": "Join Select"
+  },
+  {
+   "id": "ae0cbdf608",
+   "where": "span · Select",
+   "original": "Most popular",
+   "text": "Most popular"
+  },
+  {
+   "id": "511ecfd4a5",
+   "where": "h3 · Select",
+   "original": "Premium",
+   "text": "Premium"
+  },
+  {
+   "id": "62bdf6f521",
+   "where": "div · Premium",
+   "original": "$165",
+   "text": "$165"
+  },
+  {
+   "id": "40f08c0631",
+   "where": "span · Premium",
+   "original": "/mo",
+   "text": "/mo"
+  },
+  {
+   "id": "fdc0048b96",
+   "where": "p · Premium",
+   "original": "$260 monthly credit — your standard glow-up, fully covered, on any services you choose.",
+   "text": "$260 monthly credit — your standard glow-up, fully covered, on any services you choose."
+  },
+  {
+   "id": "44b8c2262b",
+   "where": "li · Premium",
+   "original": "Member pricing on every drip",
+   "text": "Member pricing on every drip"
+  },
+  {
+   "id": "e1b204621c",
+   "where": "li · Premium",
+   "original": "Birthday drip on us",
+   "text": "Birthday drip on us"
+  },
+  {
+   "id": "d7835600d6",
+   "where": "li · Premium",
+   "original": "Priority booking & promos",
+   "text": "Priority booking & promos"
+  },
+  {
+   "id": "d957bb5984",
+   "where": "li · Premium",
+   "original": "Pause or cancel anytime",
+   "text": "Pause or cancel anytime"
+  },
+  {
+   "id": "ab966f798b",
+   "where": "a · Premium",
+   "original": "Join Premium",
+   "text": "Join Premium"
+  },
+  {
+   "id": "c87eaa6193",
+   "where": "h3 · Premium",
+   "original": "Luxe",
+   "text": "Luxe"
+  },
+  {
+   "id": "28988d4ed1",
+   "where": "div · Luxe",
+   "original": "$285",
+   "text": "$285"
+  },
+  {
+   "id": "47ca2ef70e",
+   "where": "span · Luxe",
+   "original": "/mo",
+   "text": "/mo"
+  },
+  {
+   "id": "ad72f4c11f",
+   "where": "p · Luxe",
+   "original": "$490 monthly credit — the full monthly reset, spent however you like.",
+   "text": "$490 monthly credit — the full monthly reset, spent however you like."
+  },
+  {
+   "id": "24a483164a",
+   "where": "li · Luxe",
+   "original": "Member pricing on every drip",
+   "text": "Member pricing on every drip"
+  },
+  {
+   "id": "d28b0eb3fe",
+   "where": "li · Luxe",
+   "original": "Birthday drip on us",
+   "text": "Birthday drip on us"
+  },
+  {
+   "id": "5c20fb4642",
+   "where": "li · Luxe",
+   "original": "Priority booking & promos",
+   "text": "Priority booking & promos"
+  },
+  {
+   "id": "ef80a01ebd",
+   "where": "li · Luxe",
+   "original": "Pause or cancel anytime",
+   "text": "Pause or cancel anytime"
+  },
+  {
+   "id": "684ae82bf1",
+   "where": "a · Luxe",
+   "original": "Join Luxe",
+   "text": "Join Luxe"
+  },
+  {
+   "id": "aab720dd85",
+   "where": "p · Luxe",
+   "original": "Family, student and NAD+ memberships too — see",
+   "text": "Family, student and NAD+ memberships too — see"
+  },
+  {
+   "id": "fc8cdfccb6",
+   "where": "a · Luxe",
+   "original": "all memberships",
+   "text": "all memberships"
+  },
+  {
+   "id": "18f3dd6e01",
+   "where": "text · Luxe",
+   "original": ". Pause or cancel anytime with the front desk.",
+   "text": ". Pause or cancel anytime with the front desk."
+  },
+  {
+   "id": "e7acbf4bbd",
+   "where": "h2 · Luxe",
+   "original": "Book the",
+   "text": "Book the"
+  },
+  {
+   "id": "07bd58c85a",
+   "where": "span · Book the",
+   "original": "Myers",
+   "text": "Myers"
+  },
+  {
+   "id": "f628f628b9",
+   "where": "text · Book the",
+   "original": "today.",
+   "text": "today."
+  },
+  {
+   "id": "76a1b29d9a",
+   "where": "p · Book the",
+   "original": "Under a minute to book, no card required. Walk in, recline, and feel the difference before you leave.",
+   "text": "Under a minute to book, no card required. Walk in, recline, and feel the difference before you leave."
+  },
+  {
+   "id": "f79a1c0a8f",
+   "where": "a · Book the",
+   "original": "Book Your Drip",
+   "text": "Book Your Drip"
+  },
+  {
+   "id": "5168d2bf76",
+   "where": "a · Book the",
+   "original": "Find a Location",
+   "text": "Find a Location"
+  }
+ ]
+}

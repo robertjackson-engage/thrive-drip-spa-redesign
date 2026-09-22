@@ -1,0 +1,443 @@
+{
+ "page": "faq",
+ "items": [
+  {
+   "id": "4166fceb48",
+   "where": "Browser tab title",
+   "original": "FAQ — IV Therapy, Memberships & Body Contouring | ThrIVe Drip Spa",
+   "text": "FAQ — IV Therapy, Memberships & Body Contouring | ThrIVe Drip Spa"
+  },
+  {
+   "id": "90b02637f1",
+   "where": "Search-engine description",
+   "original": "Answers about IV drips, the Good Faith Exam, your first visit, memberships and BTL treatments at ThrIVe Drip Spa.",
+   "text": "Answers about IV drips, the Good Faith Exam, your first visit, memberships and BTL treatments at ThrIVe Drip Spa."
+  },
+  {
+   "id": "6ba75ed9ba",
+   "where": "a",
+   "original": "Home",
+   "text": "Home"
+  },
+  {
+   "id": "f35419b806",
+   "where": "text",
+   "original": "/ FAQ",
+   "text": "/ FAQ"
+  },
+  {
+   "id": "8f5840be9c",
+   "where": "p",
+   "original": "Quick Answers",
+   "text": "Quick Answers"
+  },
+  {
+   "id": "ebb6bcc58b",
+   "where": "span",
+   "original": "Frequently asked",
+   "text": "Frequently asked"
+  },
+  {
+   "id": "ddaf1e75d9",
+   "where": "span",
+   "original": "questions.",
+   "text": "questions."
+  },
+  {
+   "id": "9aec6c3f9c",
+   "where": "p",
+   "original": "Everything you want to know about IV drips, the Good Faith Exam, memberships, body contouring and your first visit. Can't find it? Ask the ThrIVe Concierge in the corner of your screen, or call us.",
+   "text": "Everything you want to know about IV drips, the Good Faith Exam, memberships, body contouring and your first visit. Can't find it? Ask the ThrIVe Concierge in the corner of your screen, or call us."
+  },
+  {
+   "id": "550034bd13",
+   "where": "a",
+   "original": "Book a Drip",
+   "text": "Book a Drip"
+  },
+  {
+   "id": "682d139e20",
+   "where": "a",
+   "original": "Call 844-820-1713",
+   "text": "Call 844-820-1713"
+  },
+  {
+   "id": "ed90417221",
+   "where": "span",
+   "original": "IV therapy",
+   "text": "IV therapy"
+  },
+  {
+   "id": "19916fd2cd",
+   "where": "span",
+   "original": "Your visit",
+   "text": "Your visit"
+  },
+  {
+   "id": "c124f6de22",
+   "where": "span",
+   "original": "Memberships",
+   "text": "Memberships"
+  },
+  {
+   "id": "7ddf9e57ae",
+   "where": "span",
+   "original": "Body & face",
+   "text": "Body & face"
+  },
+  {
+   "id": "21137b61ab",
+   "where": "text",
+   "original": "Informed choices",
+   "text": "Informed choices"
+  },
+  {
+   "id": "e64c9c830e",
+   "where": "text",
+   "original": "IV drip therapy",
+   "text": "IV drip therapy"
+  },
+  {
+   "id": "f4c7eb8c57",
+   "where": "h2",
+   "original": "About the",
+   "text": "About the"
+  },
+  {
+   "id": "6011c05ca6",
+   "where": "span · About the",
+   "original": "drips",
+   "text": "drips"
+  },
+  {
+   "id": "f4383203b4",
+   "where": "h3 · About the",
+   "original": "What is IV therapy?",
+   "text": "What is IV therapy?"
+  },
+  {
+   "id": "ff031cee05",
+   "where": "p · What is IV therapy?",
+   "original": "IV therapy administers vitamins, minerals, antioxidants and amino acids directly into the bloodstream through intravenous infusion. It bypasses the digestive system and has been clinically shown to be more effective than oral supplements.",
+   "text": "IV therapy administers vitamins, minerals, antioxidants and amino acids directly into the bloodstream through intravenous infusion. It bypasses the digestive system and has been clinically shown to be more effective than oral supplements."
+  },
+  {
+   "id": "859858bc8b",
+   "where": "h3 · What is IV therapy?",
+   "original": "Is IV therapy safe?",
+   "text": "Is IV therapy safe?"
+  },
+  {
+   "id": "11911442f7",
+   "where": "p · Is IV therapy safe?",
+   "original": "Our treatments are administered by experienced registered nurses using safe, effective procedures, after a Good Faith Exam with a licensed provider. Our spa consultants guide you through the process and build a personalized plan.",
+   "text": "Our treatments are administered by experienced registered nurses using safe, effective procedures, after a Good Faith Exam with a licensed provider. Our spa consultants guide you through the process and build a personalized plan."
+  },
+  {
+   "id": "14ef13075a",
+   "where": "h3 · Is IV therapy safe?",
+   "original": "Is it just a trend?",
+   "text": "Is it just a trend?"
+  },
+  {
+   "id": "fa02866020",
+   "where": "p · Is it just a trend?",
+   "original": "Celebrities and athletes made it visible, but the medical community has used IV therapy for decades to safely treat and manage a range of conditions and help people improve overall health.",
+   "text": "Celebrities and athletes made it visible, but the medical community has used IV therapy for decades to safely treat and manage a range of conditions and help people improve overall health."
+  },
+  {
+   "id": "57c26f2974",
+   "where": "h3 · Is it just a trend?",
+   "original": "Does the process hurt?",
+   "text": "Does the process hurt?"
+  },
+  {
+   "id": "5051e8215d",
+   "where": "p · Does the process hurt?",
+   "original": "Every client is different, but our goal is one 'stick'. Our registered nurses use lidocaine to numb the site for each treatment (if you have no allergy).",
+   "text": "Every client is different, but our goal is one 'stick'. Our registered nurses use lidocaine to numb the site for each treatment (if you have no allergy)."
+  },
+  {
+   "id": "e655d1ba5c",
+   "where": "h3 · Does the process hurt?",
+   "original": "How often can I get an IV?",
+   "text": "How often can I get an IV?"
+  },
+  {
+   "id": "c812cb8742",
+   "where": "p · How often can I get an IV?",
+   "original": "The benefits are felt with a single treatment. On average our clients visit one to two times per week, depending on their goals.",
+   "text": "The benefits are felt with a single treatment. On average our clients visit one to two times per week, depending on their goals."
+  },
+  {
+   "id": "898c1d47db",
+   "where": "h3 · How often can I get an IV?",
+   "original": "How long does it take?",
+   "text": "How long does it take?"
+  },
+  {
+   "id": "d937d0a7ab",
+   "where": "p · How long does it take?",
+   "original": "Drips average 30–45 minutes; a first visit runs 45–60 minutes with the Good Faith Exam. NAD+ infusions take up to two hours. Shots take minutes.",
+   "text": "Drips average 30–45 minutes; a first visit runs 45–60 minutes with the Good Faith Exam. NAD+ infusions take up to two hours. Shots take minutes."
+  },
+  {
+   "id": "f3a04da80e",
+   "where": "h3 · How long does it take?",
+   "original": "How long does IV therapy stay in my system?",
+   "text": "How long does IV therapy stay in my system?"
+  },
+  {
+   "id": "1aa29be492",
+   "where": "p · How long does IV therapy stay in my system?",
+   "original": "Fluids and electrolytes 2–3 days; vitamins 2–3 weeks (water-soluble C and B used within a day); minerals 1–2 weeks; antioxidants like glutathione 1–3 days. Effects on energy, skin and immunity often last longer.",
+   "text": "Fluids and electrolytes 2–3 days; vitamins 2–3 weeks (water-soluble C and B used within a day); minerals 1–2 weeks; antioxidants like glutathione 1–3 days. Effects on energy, skin and immunity often last longer."
+  },
+  {
+   "id": "103856cea5",
+   "where": "text · How long does IV therapy stay in my system?",
+   "original": "Your visit",
+   "text": "Your visit"
+  },
+  {
+   "id": "272433bc82",
+   "where": "h2 · How long does IV therapy stay in my system?",
+   "original": "Before you",
+   "text": "Before you"
+  },
+  {
+   "id": "c50113ad6d",
+   "where": "span · Before you",
+   "original": "arrive",
+   "text": "arrive"
+  },
+  {
+   "id": "b2459414a6",
+   "where": "h3 · Before you",
+   "original": "What is the Drip Lounge experience like?",
+   "text": "What is the Drip Lounge experience like?"
+  },
+  {
+   "id": "414bd029b8",
+   "where": "p · What is the Drip Lounge experience like?",
+   "original": "A relaxing lounge with reclining chairs, complimentary beverages, protein bars and cozy blankets. Read, work, watch TV or nap while your drip runs.",
+   "text": "A relaxing lounge with reclining chairs, complimentary beverages, protein bars and cozy blankets. Read, work, watch TV or nap while your drip runs."
+  },
+  {
+   "id": "fc35db9675",
+   "where": "h3 · What is the Drip Lounge experience like?",
+   "original": "What is the Good Faith Exam?",
+   "text": "What is the Good Faith Exam?"
+  },
+  {
+   "id": "ba0b437d52",
+   "where": "p · What is the Good Faith Exam?",
+   "original": "A Texas-required screening with a licensed provider before your first service, renewed annually. $35 ($45 with bloodwork), credited in full to your account. See the",
+   "text": "A Texas-required screening with a licensed provider before your first service, renewed annually. $35 ($45 with bloodwork), credited in full to your account. See the"
+  },
+  {
+   "id": "5693b32296",
+   "where": "a · What is the Good Faith Exam?",
+   "original": "GFE page",
+   "text": "GFE page"
+  },
+  {
+   "id": "1b8d1d4bd3",
+   "where": "h3 · What is the Good Faith Exam?",
+   "original": "What should I do before my first visit?",
+   "text": "What should I do before my first visit?"
+  },
+  {
+   "id": "7c8f8715f9",
+   "where": "p · What should I do before my first visit?",
+   "original": "Wear loose layers so a sleeve rolls up, eat a light meal, drink water, and arrive 10–15 minutes early. Afterwards, avoid heavy lifting and stay hydrated.",
+   "text": "Wear loose layers so a sleeve rolls up, eat a light meal, drink water, and arrive 10–15 minutes early. Afterwards, avoid heavy lifting and stay hydrated."
+  },
+  {
+   "id": "36b6efaea5",
+   "where": "h3 · What should I do before my first visit?",
+   "original": "Do I need an appointment?",
+   "text": "Do I need an appointment?"
+  },
+  {
+   "id": "98f0902200",
+   "where": "p · Do I need an appointment?",
+   "original": "Walk-ins are welcome, but booking online takes under a minute and guarantees your chair. No card is required to book.",
+   "text": "Walk-ins are welcome, but booking online takes under a minute and guarantees your chair. No card is required to book."
+  },
+  {
+   "id": "7df7ba0336",
+   "where": "h3 · Do I need an appointment?",
+   "original": "Do you offer financing?",
+   "text": "Do you offer financing?"
+  },
+  {
+   "id": "36a022a290",
+   "where": "p · Do you offer financing?",
+   "original": "Yes — Affirm financing is available on services and packages. eGift cards are available online for any amount.",
+   "text": "Yes — Affirm financing is available on services and packages. eGift cards are available online for any amount."
+  },
+  {
+   "id": "a4a18a1cb2",
+   "where": "text · Do you offer financing?",
+   "original": "Memberships",
+   "text": "Memberships"
+  },
+  {
+   "id": "c48e9687d9",
+   "where": "h2 · Do you offer financing?",
+   "original": "Member",
+   "text": "Member"
+  },
+  {
+   "id": "05913cd2a6",
+   "where": "span · Member",
+   "original": "questions",
+   "text": "questions"
+  },
+  {
+   "id": "f5a4cc9d1f",
+   "where": "a · Member",
+   "original": "See memberships →",
+   "text": "See memberships →"
+  },
+  {
+   "id": "d562ba93ec",
+   "where": "h3 · Member",
+   "original": "How do memberships work?",
+   "text": "How do memberships work?"
+  },
+  {
+   "id": "209b9766b2",
+   "where": "p · How do memberships work?",
+   "original": "Month-to-month. Each month your membership loads a service credit worth more than your fee — Select $95 → $140 credit, Premium $165 → $260, Luxe $285 → $490 — usable on drips, shots, boosters, NAD+ and BTL services. Unused services roll over, and you get a complimentary birthday drip.",
+   "text": "Month-to-month. Each month your membership loads a service credit worth more than your fee — Select $95 → $140 credit, Premium $165 → $260, Luxe $285 → $490 — usable on drips, shots, boosters, NAD+ and BTL services. Unused services roll over, and you get a complimentary birthday drip."
+  },
+  {
+   "id": "3336b7a4e5",
+   "where": "h3 · How do memberships work?",
+   "original": "Can I pause or cancel?",
+   "text": "Can I pause or cancel?"
+  },
+  {
+   "id": "190a222aa6",
+   "where": "p · Can I pause or cancel?",
+   "original": "Yes — pause or cancel anytime with the front desk at your lounge.",
+   "text": "Yes — pause or cancel anytime with the front desk at your lounge."
+  },
+  {
+   "id": "7e5b3b75d9",
+   "where": "h3 · Can I pause or cancel?",
+   "original": "What is member pricing?",
+   "text": "What is member pricing?"
+  },
+  {
+   "id": "33ee5514a8",
+   "where": "p · What is member pricing?",
+   "original": "Members save on every drip (Myers $150 vs $190, Immuno $250 vs $310), on the Immuno booster ($130 vs $160), on Normatec ($20 vs $25), and get access to members-only drip bundles.",
+   "text": "Members save on every drip (Myers $150 vs $190, Immuno $250 vs $310), on the Immuno booster ($130 vs $160), on Normatec ($20 vs $25), and get access to members-only drip bundles."
+  },
+  {
+   "id": "1909eb22b1",
+   "where": "text · What is member pricing?",
+   "original": "Body & face",
+   "text": "Body & face"
+  },
+  {
+   "id": "4b9f80f44e",
+   "where": "h2 · What is member pricing?",
+   "original": "BTL",
+   "text": "BTL"
+  },
+  {
+   "id": "3438aae45f",
+   "where": "span · BTL",
+   "original": "treatments",
+   "text": "treatments"
+  },
+  {
+   "id": "d4b010fcbe",
+   "where": "a · BTL",
+   "original": "Body & Face →",
+   "text": "Body & Face →"
+  },
+  {
+   "id": "1215dc6889",
+   "where": "h3 · BTL",
+   "original": "What areas does EMFACE treat?",
+   "text": "What areas does EMFACE treat?"
+  },
+  {
+   "id": "d98e8f961a",
+   "where": "p · What areas does EMFACE treat?",
+   "original": "The forehead and cheeks. Twenty-minute sessions, no needles, no downtime; best results after a series of four.",
+   "text": "The forehead and cheeks. Twenty-minute sessions, no needles, no downtime; best results after a series of four."
+  },
+  {
+   "id": "ea5c78b018",
+   "where": "h3 · What areas does EMFACE treat?",
+   "original": "How many Emsculpt NEO sessions do I need?",
+   "text": "How many Emsculpt NEO sessions do I need?"
+  },
+  {
+   "id": "ae0bf1e744",
+   "where": "p · How many Emsculpt NEO sessions do I need?",
+   "original": "Four 30-minute sessions, typically once per week. It feels like an intense workout with a warming sensation.",
+   "text": "Four 30-minute sessions, typically once per week. It feels like an intense workout with a warming sensation."
+  },
+  {
+   "id": "ae25cb73e4",
+   "where": "h3 · How many Emsculpt NEO sessions do I need?",
+   "original": "How does EMTONE work?",
+   "text": "How does EMTONE work?"
+  },
+  {
+   "id": "21e02ac32d",
+   "where": "p · How does EMTONE work?",
+   "original": "Simultaneous radiofrequency and targeted pressure energy to treat the causes of cellulite and tighten skin. About 20 minutes; most clients do four treatments.",
+   "text": "Simultaneous radiofrequency and targeted pressure energy to treat the causes of cellulite and tighten skin. About 20 minutes; most clients do four treatments."
+  },
+  {
+   "id": "e21651dabc",
+   "where": "h3 · How does EMTONE work?",
+   "original": "Is the infrared sauna different from a regular sauna?",
+   "text": "Is the infrared sauna different from a regular sauna?"
+  },
+  {
+   "id": "f93a3febab",
+   "where": "p · Is the infrared sauna different from a regular sauna?",
+   "original": "Yes — it warms the body directly at a lower air temperature, so you sweat deeply and comfortably. Offered at Vintage Park and Clear Lake.",
+   "text": "Yes — it warms the body directly at a lower air temperature, so you sweat deeply and comfortably. Offered at Vintage Park and Clear Lake."
+  },
+  {
+   "id": "cad4ffa2a3",
+   "where": "h2 · Is the infrared sauna different from a regular sauna?",
+   "original": "Still",
+   "text": "Still"
+  },
+  {
+   "id": "0ed7be1a52",
+   "where": "span · Still",
+   "original": "curious?",
+   "text": "curious?"
+  },
+  {
+   "id": "a191673304",
+   "where": "p · Still",
+   "original": "Our spa consultants are a call away — or book and ask your nurse in the chair.",
+   "text": "Our spa consultants are a call away — or book and ask your nurse in the chair."
+  },
+  {
+   "id": "0fb4cd3dba",
+   "where": "a · Still",
+   "original": "Call 844-820-1713",
+   "text": "Call 844-820-1713"
+  },
+  {
+   "id": "74946da787",
+   "where": "a · Still",
+   "original": "Book Now",
+   "text": "Book Now"
+  }
+ ]
+}

@@ -1,0 +1,641 @@
+{
+ "page": "book",
+ "items": [
+  {
+   "id": "2f200f90c3",
+   "where": "Browser tab title",
+   "original": "Book Online — Under a Minute, No Card Required | ThrIVe Drip Spa",
+   "text": "Book Online — Under a Minute, No Card Required | ThrIVe Drip Spa"
+  },
+  {
+   "id": "a4e6c2585c",
+   "where": "Search-engine description",
+   "original": "Book IV therapy at any ThrIVe lounge in under a minute. New clients save 25% on their first drip.",
+   "text": "Book IV therapy at any ThrIVe lounge in under a minute. New clients save 25% on their first drip."
+  },
+  {
+   "id": "e0bd81d451",
+   "where": "a",
+   "original": "Home",
+   "text": "Home"
+  },
+  {
+   "id": "8158b967d8",
+   "where": "text",
+   "original": "/ Book Now",
+   "text": "/ Book Now"
+  },
+  {
+   "id": "3498fd744b",
+   "where": "p",
+   "original": "Book online",
+   "text": "Book online"
+  },
+  {
+   "id": "cf3481d709",
+   "where": "span",
+   "original": "Feel better in",
+   "text": "Feel better in"
+  },
+  {
+   "id": "4c9e22c5c9",
+   "where": "span",
+   "original": "about",
+   "text": "about"
+  },
+  {
+   "id": "addb6ff30a",
+   "where": "span",
+   "original": "an hour.",
+   "text": "an hour."
+  },
+  {
+   "id": "887a449d4b",
+   "where": "p",
+   "original": "Physician-formulated IV therapy, delivered by licensed nurses. No membership, no card to book — you pay when you're in the chair. New clients save 25% on their first IV.",
+   "text": "Physician-formulated IV therapy, delivered by licensed nurses. No membership, no card to book — you pay when you're in the chair. New clients save 25% on their first IV."
+  },
+  {
+   "id": "4e5eb6295a",
+   "where": "a",
+   "original": "I'm New — Quick Booking",
+   "text": "I'm New — Quick Booking"
+  },
+  {
+   "id": "fa6f15d889",
+   "where": "a",
+   "original": "I'm a Client — Sign In",
+   "text": "I'm a Client — Sign In"
+  },
+  {
+   "id": "edca77968e",
+   "where": "span",
+   "original": "No card required",
+   "text": "No card required"
+  },
+  {
+   "id": "a5848c7766",
+   "where": "span",
+   "original": "Booked in under a minute",
+   "text": "Booked in under a minute"
+  },
+  {
+   "id": "d983d6d4ef",
+   "where": "span",
+   "original": "Licensed medical staff",
+   "text": "Licensed medical staff"
+  },
+  {
+   "id": "24726984c1",
+   "where": "text",
+   "original": "25% off your first IV",
+   "text": "25% off your first IV"
+  },
+  {
+   "id": "ff64169a15",
+   "where": "text",
+   "original": "Choose your lounge",
+   "text": "Choose your lounge"
+  },
+  {
+   "id": "77a8104323",
+   "where": "h2",
+   "original": "Book at a",
+   "text": "Book at a"
+  },
+  {
+   "id": "004dbb6cf1",
+   "where": "span · Book at a",
+   "original": "location",
+   "text": "location"
+  },
+  {
+   "id": "565120319e",
+   "where": "p · Book at a",
+   "original": "Pick your lounge to see live availability. Booking opens in our secure scheduling portal.",
+   "text": "Pick your lounge to see live availability. Booking opens in our secure scheduling portal."
+  },
+  {
+   "id": "811e065688",
+   "where": "a · Book at a",
+   "original": "Mobile IV instead →",
+   "text": "Mobile IV instead →"
+  },
+  {
+   "id": "e4e5788710",
+   "where": "span · Book at a",
+   "original": "Houston Metro",
+   "text": "Houston Metro"
+  },
+  {
+   "id": "6c989f66fc",
+   "where": "h3 · Book at a",
+   "original": "Memorial",
+   "text": "Memorial"
+  },
+  {
+   "id": "53e75a4cde",
+   "where": "p · Memorial",
+   "original": "1014 Wirt Rd, Ste 210, Houston, TX 77055",
+   "text": "1014 Wirt Rd, Ste 210, Houston, TX 77055"
+  },
+  {
+   "id": "b699cabed5",
+   "where": "br · Memorial",
+   "original": "(713) 955-3747",
+   "text": "(713) 955-3747"
+  },
+  {
+   "id": "250be7c0a0",
+   "where": "a · Memorial",
+   "original": "Book Memorial →",
+   "text": "Book Memorial →"
+  },
+  {
+   "id": "5b12dbf873",
+   "where": "span · Memorial",
+   "original": "Houston Metro",
+   "text": "Houston Metro"
+  },
+  {
+   "id": "cfdf49a45e",
+   "where": "h3 · Memorial",
+   "original": "Memorial Green",
+   "text": "Memorial Green"
+  },
+  {
+   "id": "90ff323cc1",
+   "where": "p · Memorial Green",
+   "original": "12505 Memorial Drive, Ste 120, Houston, TX 77024",
+   "text": "12505 Memorial Drive, Ste 120, Houston, TX 77024"
+  },
+  {
+   "id": "42e2bb27f3",
+   "where": "br · Memorial Green",
+   "original": "(346) 444-3747",
+   "text": "(346) 444-3747"
+  },
+  {
+   "id": "d18cf64814",
+   "where": "a · Memorial Green",
+   "original": "Book Memorial Green →",
+   "text": "Book Memorial Green →"
+  },
+  {
+   "id": "b508714645",
+   "where": "span · Memorial Green",
+   "original": "Houston Metro",
+   "text": "Houston Metro"
+  },
+  {
+   "id": "50b225f684",
+   "where": "h3 · Memorial Green",
+   "original": "The Heights",
+   "text": "The Heights"
+  },
+  {
+   "id": "4467d4a149",
+   "where": "p · The Heights",
+   "original": "2799 Katy Freeway, Suite 210, Houston, TX 77007",
+   "text": "2799 Katy Freeway, Suite 210, Houston, TX 77007"
+  },
+  {
+   "id": "ad2654fce9",
+   "where": "br · The Heights",
+   "original": "(346) 320-3114",
+   "text": "(346) 320-3114"
+  },
+  {
+   "id": "61bd851a83",
+   "where": "a · The Heights",
+   "original": "Book The Heights →",
+   "text": "Book The Heights →"
+  },
+  {
+   "id": "8e75b85def",
+   "where": "span · The Heights",
+   "original": "Houston Metro",
+   "text": "Houston Metro"
+  },
+  {
+   "id": "c71f50fe73",
+   "where": "h3 · The Heights",
+   "original": "West University",
+   "text": "West University"
+  },
+  {
+   "id": "46574bd0b4",
+   "where": "p · West University",
+   "original": "3277 Southwest Freeway, Houston, TX 77027",
+   "text": "3277 Southwest Freeway, Houston, TX 77027"
+  },
+  {
+   "id": "4b5a6d03b9",
+   "where": "br · West University",
+   "original": "(713) 955-3797",
+   "text": "(713) 955-3797"
+  },
+  {
+   "id": "fd1854df10",
+   "where": "a · West University",
+   "original": "Book West University →",
+   "text": "Book West University →"
+  },
+  {
+   "id": "66d75d54f3",
+   "where": "span · West University",
+   "original": "Houston Metro",
+   "text": "Houston Metro"
+  },
+  {
+   "id": "5aca5fdbe2",
+   "where": "h3 · West University",
+   "original": "Vintage Park",
+   "text": "Vintage Park"
+  },
+  {
+   "id": "3259242615",
+   "where": "p · Vintage Park",
+   "original": "10300 Louetta Rd, Ste 114, Houston, TX 77070",
+   "text": "10300 Louetta Rd, Ste 114, Houston, TX 77070"
+  },
+  {
+   "id": "9979d69d71",
+   "where": "br · Vintage Park",
+   "original": "(346) 712-3747",
+   "text": "(346) 712-3747"
+  },
+  {
+   "id": "7fa78f720e",
+   "where": "a · Vintage Park",
+   "original": "Book Vintage Park →",
+   "text": "Book Vintage Park →"
+  },
+  {
+   "id": "594dd62039",
+   "where": "span · Vintage Park",
+   "original": "Greater Houston",
+   "text": "Greater Houston"
+  },
+  {
+   "id": "7153a22f95",
+   "where": "h3 · Vintage Park",
+   "original": "Katy",
+   "text": "Katy"
+  },
+  {
+   "id": "c5a05cea8a",
+   "where": "p · Katy",
+   "original": "6445 FM 1463, Ste 120, Katy, TX 77494",
+   "text": "6445 FM 1463, Ste 120, Katy, TX 77494"
+  },
+  {
+   "id": "3c6cc621b3",
+   "where": "br · Katy",
+   "original": "(346) 707-8703",
+   "text": "(346) 707-8703"
+  },
+  {
+   "id": "bbadba2572",
+   "where": "a · Katy",
+   "original": "Book Katy →",
+   "text": "Book Katy →"
+  },
+  {
+   "id": "7c02e2f18c",
+   "where": "span · Katy",
+   "original": "Greater Houston",
+   "text": "Greater Houston"
+  },
+  {
+   "id": "0a8f72f675",
+   "where": "h3 · Katy",
+   "original": "The Woodlands",
+   "text": "The Woodlands"
+  },
+  {
+   "id": "e911285364",
+   "where": "p · The Woodlands",
+   "original": "9595 Six Pines Dr, Ste 1460, The Woodlands, TX 77380",
+   "text": "9595 Six Pines Dr, Ste 1460, The Woodlands, TX 77380"
+  },
+  {
+   "id": "95f9b52bd9",
+   "where": "br · The Woodlands",
+   "original": "(281) 343-3747",
+   "text": "(281) 343-3747"
+  },
+  {
+   "id": "6fdcf14dfc",
+   "where": "a · The Woodlands",
+   "original": "Book The Woodlands →",
+   "text": "Book The Woodlands →"
+  },
+  {
+   "id": "9ba12b4c14",
+   "where": "span · The Woodlands",
+   "original": "Greater Houston",
+   "text": "Greater Houston"
+  },
+  {
+   "id": "2e2c3b6c3b",
+   "where": "h3 · The Woodlands",
+   "original": "Clear Lake",
+   "text": "Clear Lake"
+  },
+  {
+   "id": "7dcadb4c8a",
+   "where": "p · Clear Lake",
+   "original": "3535 Clearlake City Blvd, Ste 700, Houston, TX 77059",
+   "text": "3535 Clearlake City Blvd, Ste 700, Houston, TX 77059"
+  },
+  {
+   "id": "5ccfa4e253",
+   "where": "br · Clear Lake",
+   "original": "(281) 783-4108",
+   "text": "(281) 783-4108"
+  },
+  {
+   "id": "c7b1bdece4",
+   "where": "a · Clear Lake",
+   "original": "Book Clear Lake →",
+   "text": "Book Clear Lake →"
+  },
+  {
+   "id": "553441cebf",
+   "where": "span · Clear Lake",
+   "original": "North Texas",
+   "text": "North Texas"
+  },
+  {
+   "id": "74b1d03564",
+   "where": "h3 · Clear Lake",
+   "original": "Highland Park",
+   "text": "Highland Park"
+  },
+  {
+   "id": "67239708e0",
+   "where": "p · Highland Park",
+   "original": "5301 W Lovers Ln, Suite 103, Dallas, TX 75209",
+   "text": "5301 W Lovers Ln, Suite 103, Dallas, TX 75209"
+  },
+  {
+   "id": "13650dcf5f",
+   "where": "br · Highland Park",
+   "original": "(214) 214-3747",
+   "text": "(214) 214-3747"
+  },
+  {
+   "id": "6614b576ac",
+   "where": "a · Highland Park",
+   "original": "Book Highland Park →",
+   "text": "Book Highland Park →"
+  },
+  {
+   "id": "f78b2f04c5",
+   "where": "span · Highland Park",
+   "original": "North Texas",
+   "text": "North Texas"
+  },
+  {
+   "id": "3886003a91",
+   "where": "h3 · Highland Park",
+   "original": "Fort Worth",
+   "text": "Fort Worth"
+  },
+  {
+   "id": "c35a222520",
+   "where": "p · Fort Worth",
+   "original": "2708 S Hulen St, Fort Worth, TX 76109",
+   "text": "2708 S Hulen St, Fort Worth, TX 76109"
+  },
+  {
+   "id": "21904059e6",
+   "where": "br · Fort Worth",
+   "original": "(682) 747-3747",
+   "text": "(682) 747-3747"
+  },
+  {
+   "id": "36b81a288a",
+   "where": "a · Fort Worth",
+   "original": "Book Fort Worth →",
+   "text": "Book Fort Worth →"
+  },
+  {
+   "id": "970d6afa30",
+   "where": "text · Fort Worth",
+   "original": "The menu",
+   "text": "The menu"
+  },
+  {
+   "id": "6544ece229",
+   "where": "h2 · Fort Worth",
+   "original": "What to",
+   "text": "What to"
+  },
+  {
+   "id": "d5455ca006",
+   "where": "span · What to",
+   "original": "book",
+   "text": "book"
+  },
+  {
+   "id": "ddf05c7acb",
+   "where": "th · What to",
+   "original": "Service",
+   "text": "Service"
+  },
+  {
+   "id": "14e9682aff",
+   "where": "th · What to",
+   "original": "Walk-in price",
+   "text": "Walk-in price"
+  },
+  {
+   "id": "988bc0348d",
+   "where": "td · What to",
+   "original": "Hydrate Drip",
+   "text": "Hydrate Drip"
+  },
+  {
+   "id": "5e88df7704",
+   "where": "small · What to",
+   "original": "Pure fluids and electrolytes to reset and rehydrate",
+   "text": "Pure fluids and electrolytes to reset and rehydrate"
+  },
+  {
+   "id": "1d43e475c6",
+   "where": "td · What to",
+   "original": "$150",
+   "text": "$150"
+  },
+  {
+   "id": "0f19aeb659",
+   "where": "td · What to",
+   "original": "Myers · Detox · Beauty · Slim · Party · Fit · Libido · Migraine",
+   "text": "Myers · Detox · Beauty · Slim · Party · Fit · Libido · Migraine"
+  },
+  {
+   "id": "0b3a738e91",
+   "where": "small · What to",
+   "original": "The classics — about 45 minutes in the chair",
+   "text": "The classics — about 45 minutes in the chair"
+  },
+  {
+   "id": "08e7189c89",
+   "where": "td · What to",
+   "original": "$190",
+   "text": "$190"
+  },
+  {
+   "id": "1d23468ae5",
+   "where": "td · What to",
+   "original": "High C Drip",
+   "text": "High C Drip"
+  },
+  {
+   "id": "b35f52813d",
+   "where": "small · What to",
+   "original": "10 g of vitamin C",
+   "text": "10 g of vitamin C"
+  },
+  {
+   "id": "643b29893d",
+   "where": "td · What to",
+   "original": "$230",
+   "text": "$230"
+  },
+  {
+   "id": "0f29b09997",
+   "where": "td · What to",
+   "original": "Immuno Drip",
+   "text": "Immuno Drip"
+  },
+  {
+   "id": "1ea783b0eb",
+   "where": "small · What to",
+   "original": "Our strongest immune formula",
+   "text": "Our strongest immune formula"
+  },
+  {
+   "id": "c124fee6c4",
+   "where": "td · What to",
+   "original": "$310",
+   "text": "$310"
+  },
+  {
+   "id": "580987e23b",
+   "where": "td · What to",
+   "original": "NAD+ Drip",
+   "text": "NAD+ Drip"
+  },
+  {
+   "id": "ed5c4318a7",
+   "where": "small · What to",
+   "original": "Up to two hours; shots from $50",
+   "text": "Up to two hours; shots from $50"
+  },
+  {
+   "id": "a02f0c54c2",
+   "where": "td · What to",
+   "original": "Consultant pricing",
+   "text": "Consultant pricing"
+  },
+  {
+   "id": "005fb07e22",
+   "where": "td · What to",
+   "original": "B12, pain-relief & anti-nausea shots",
+   "text": "B12, pain-relief & anti-nausea shots"
+  },
+  {
+   "id": "78498dce21",
+   "where": "small · What to",
+   "original": "In and out in 15 minutes",
+   "text": "In and out in 15 minutes"
+  },
+  {
+   "id": "93adb0a400",
+   "where": "td · What to",
+   "original": "$25",
+   "text": "$25"
+  },
+  {
+   "id": "5c26c91c35",
+   "where": "td · What to",
+   "original": "Body & face consultations",
+   "text": "Body & face consultations"
+  },
+  {
+   "id": "7c0c9aa01f",
+   "where": "small · What to",
+   "original": "Emsculpt NEO, EMFACE, EMTONE",
+   "text": "Emsculpt NEO, EMFACE, EMTONE"
+  },
+  {
+   "id": "f87ce5bc21",
+   "where": "td · What to",
+   "original": "Complimentary",
+   "text": "Complimentary"
+  },
+  {
+   "id": "a9d6710853",
+   "where": "td · What to",
+   "original": "Weight-loss consultation",
+   "text": "Weight-loss consultation"
+  },
+  {
+   "id": "c5d0c45b45",
+   "where": "small · What to",
+   "original": "Weekly injections",
+   "text": "Weekly injections"
+  },
+  {
+   "id": "a8361d5600",
+   "where": "td · What to",
+   "original": "In person or telehealth",
+   "text": "In person or telehealth"
+  },
+  {
+   "id": "7cff62e2a5",
+   "where": "p · What to",
+   "original": "Members pay $120–$250 per drip. A quick Good Faith Exam with a licensed provider is completed before your first treatment; the fee is credited back to your account.",
+   "text": "Members pay $120–$250 per drip. A quick Good Faith Exam with a licensed provider is completed before your first treatment; the fee is credited back to your account."
+  },
+  {
+   "id": "6e3effef61",
+   "where": "h2 · What to",
+   "original": "Ready when",
+   "text": "Ready when"
+  },
+  {
+   "id": "ce027ce59a",
+   "where": "span · Ready when",
+   "original": "you",
+   "text": "you"
+  },
+  {
+   "id": "93f3d03b51",
+   "where": "text · Ready when",
+   "original": "are.",
+   "text": "are."
+  },
+  {
+   "id": "bf34d25e98",
+   "where": "p · Ready when",
+   "original": "Prefer to talk? Call 844-820-1713 and a spa consultant will book you in.",
+   "text": "Prefer to talk? Call 844-820-1713 and a spa consultant will book you in."
+  },
+  {
+   "id": "9f7ba3a2e7",
+   "where": "a · Ready when",
+   "original": "Book Online",
+   "text": "Book Online"
+  },
+  {
+   "id": "7872c995de",
+   "where": "a · Ready when",
+   "original": "Call 844-820-1713",
+   "text": "Call 844-820-1713"
+  }
+ ]
+}

@@ -1,0 +1,683 @@
+{
+ "page": "party-drip",
+ "items": [
+  {
+   "id": "522c913ab5",
+   "where": "Browser tab title",
+   "original": "Party Drip — $190 · $150 member | ThrIVe Drip Spa",
+   "text": "Party Drip — $190 · $150 member | ThrIVe Drip Spa"
+  },
+  {
+   "id": "cd7eb7b318",
+   "where": "Search-engine description",
+   "original": "Rehydrate, recharge and feel like yourself again. 1 L IV fluids, Electrolytes, Toradol (anti-inflammatory), Zofran (anti-nausea). Good for dehydration, dizziness, headache. Book at ten Texas lounges or mobile.",
+   "text": "Rehydrate, recharge and feel like yourself again. 1 L IV fluids, Electrolytes, Toradol (anti-inflammatory), Zofran (anti-nausea). Good for dehydration, dizziness, headache. Book at ten Texas lounges or mobile."
+  },
+  {
+   "id": "7f3139787c",
+   "where": "a",
+   "original": "Home",
+   "text": "Home"
+  },
+  {
+   "id": "d7742d94d4",
+   "where": "text",
+   "original": "/",
+   "text": "/"
+  },
+  {
+   "id": "9e76680747",
+   "where": "a",
+   "original": "IV Drips",
+   "text": "IV Drips"
+  },
+  {
+   "id": "02e97b6a0b",
+   "where": "text",
+   "original": "/ Party Drip",
+   "text": "/ Party Drip"
+  },
+  {
+   "id": "93c1544ff6",
+   "where": "p",
+   "original": "Rewind Your Hangover",
+   "text": "Rewind Your Hangover"
+  },
+  {
+   "id": "79dfeb22f5",
+   "where": "span",
+   "original": "The",
+   "text": "The"
+  },
+  {
+   "id": "ce72a1a4c3",
+   "where": "span",
+   "original": "Party",
+   "text": "Party"
+  },
+  {
+   "id": "ea24a2b481",
+   "where": "span",
+   "original": "Drip.",
+   "text": "Drip."
+  },
+  {
+   "id": "1f3a5c7434",
+   "where": "p",
+   "original": "Rehydrate, recharge and feel like yourself again.",
+   "text": "Rehydrate, recharge and feel like yourself again."
+  },
+  {
+   "id": "16eebabacf",
+   "where": "a",
+   "original": "Book This Drip",
+   "text": "Book This Drip"
+  },
+  {
+   "id": "ec06ad6141",
+   "where": "a",
+   "original": "All 12 Drips",
+   "text": "All 12 Drips"
+  },
+  {
+   "id": "33aae24342",
+   "where": "span",
+   "original": "$190 walk-in · $150 member",
+   "text": "$190 walk-in · $150 member"
+  },
+  {
+   "id": "62a2da1a85",
+   "where": "span",
+   "original": "30–45 minutes",
+   "text": "30–45 minutes"
+  },
+  {
+   "id": "84506fa0fa",
+   "where": "span",
+   "original": "1 L IV fluids",
+   "text": "1 L IV fluids"
+  },
+  {
+   "id": "e40d1f3fbe",
+   "where": "text",
+   "original": "Toradol (anti-inflammatory), Zofran (anti-nausea)",
+   "text": "Toradol (anti-inflammatory), Zofran (anti-nausea)"
+  },
+  {
+   "id": "ca820b2ef0",
+   "where": "text",
+   "original": "What's in the bag",
+   "text": "What's in the bag"
+  },
+  {
+   "id": "528f3c1503",
+   "where": "h2",
+   "original": "Bounce-back infusion",
+   "text": "Bounce-back infusion"
+  },
+  {
+   "id": "8cc8d32fd8",
+   "where": "p · Bounce-back infusion",
+   "original": "Hangovers are dehydration plus the byproducts of ethanol — and the ability to bounce back only diminishes with age. The Party Drip pairs a full liter of fluids with anti-inflammatory and anti-nausea medication so you can get on with your day. ABC13's Natasha Barrett tried this one on air.",
+   "text": "Hangovers are dehydration plus the byproducts of ethanol — and the ability to bounce back only diminishes with age. The Party Drip pairs a full liter of fluids with anti-inflammatory and anti-nausea medication so you can get on with your day. ABC13's Natasha Barrett tried this one on air."
+  },
+  {
+   "id": "55552f7203",
+   "where": "p · Bounce-back infusion",
+   "original": "Ingredients",
+   "text": "Ingredients"
+  },
+  {
+   "id": "bb0baee101",
+   "where": "span · Bounce-back infusion",
+   "original": "1 L IV fluids",
+   "text": "1 L IV fluids"
+  },
+  {
+   "id": "03605d65db",
+   "where": "span · Bounce-back infusion",
+   "original": "Electrolytes",
+   "text": "Electrolytes"
+  },
+  {
+   "id": "3c303eff37",
+   "where": "span · Bounce-back infusion",
+   "original": "Toradol (anti-inflammatory)",
+   "text": "Toradol (anti-inflammatory)"
+  },
+  {
+   "id": "85ece4973b",
+   "where": "span · Bounce-back infusion",
+   "original": "Zofran (anti-nausea)",
+   "text": "Zofran (anti-nausea)"
+  },
+  {
+   "id": "b8decc289d",
+   "where": "p · Bounce-back infusion",
+   "original": "Boost your results",
+   "text": "Boost your results"
+  },
+  {
+   "id": "b369d77321",
+   "where": "span · Bounce-back infusion",
+   "original": "Extra 0.5 L fluids",
+   "text": "Extra 0.5 L fluids"
+  },
+  {
+   "id": "146c3a1de5",
+   "where": "span · Bounce-back infusion",
+   "original": "Pepcid",
+   "text": "Pepcid"
+  },
+  {
+   "id": "7beb0f35fd",
+   "where": "span · Bounce-back infusion",
+   "original": "Glutathione",
+   "text": "Glutathione"
+  },
+  {
+   "id": "2537e07ec7",
+   "where": "h3 · Bounce-back infusion",
+   "original": "Party Drip",
+   "text": "Party Drip"
+  },
+  {
+   "id": "be442f48f8",
+   "where": "div · Party Drip",
+   "original": "$150",
+   "text": "$150"
+  },
+  {
+   "id": "d42a264c84",
+   "where": "span · Party Drip",
+   "original": "member",
+   "text": "member"
+  },
+  {
+   "id": "03e9cdbb44",
+   "where": "strong · Party Drip",
+   "original": "$190",
+   "text": "$190"
+  },
+  {
+   "id": "25574434cd",
+   "where": "text · Party Drip",
+   "original": "walk-in · includes 1 L IV fluids",
+   "text": "walk-in · includes 1 L IV fluids"
+  },
+  {
+   "id": "ae58c0307a",
+   "where": "li · Party Drip",
+   "original": "Fluids and electrolytes to rehydrate fast",
+   "text": "Fluids and electrolytes to rehydrate fast"
+  },
+  {
+   "id": "6edbcd9b2e",
+   "where": "li · Party Drip",
+   "original": "Toradol for headache and body aches",
+   "text": "Toradol for headache and body aches"
+  },
+  {
+   "id": "633708f2f9",
+   "where": "li · Party Drip",
+   "original": "Zofran to settle the stomach",
+   "text": "Zofran to settle the stomach"
+  },
+  {
+   "id": "66c576eb5f",
+   "where": "li · Party Drip",
+   "original": "Add Pepcid for acid reflux or glutathione for the liver",
+   "text": "Add Pepcid for acid reflux or glutathione for the liver"
+  },
+  {
+   "id": "d2ccb9e115",
+   "where": "a · Party Drip",
+   "original": "Book Now",
+   "text": "Book Now"
+  },
+  {
+   "id": "e0a992873a",
+   "where": "span · Party Drip",
+   "original": "Rewind Your Hangover",
+   "text": "Rewind Your Hangover"
+  },
+  {
+   "id": "46cdfa94a9",
+   "where": "text · Party Drip",
+   "original": "Recommended for",
+   "text": "Recommended for"
+  },
+  {
+   "id": "09159a1d0e",
+   "where": "h2 · Party Drip",
+   "original": "Good for",
+   "text": "Good for"
+  },
+  {
+   "id": "02e0595a24",
+   "where": "span · Good for",
+   "original": "dehydration",
+   "text": "dehydration"
+  },
+  {
+   "id": "f1f38576a4",
+   "where": "p · Good for",
+   "original": "The Party Drip is a popular choice for clients dealing with:",
+   "text": "The Party Drip is a popular choice for clients dealing with:"
+  },
+  {
+   "id": "1ef847b92d",
+   "where": "li · Good for",
+   "original": "Dehydration",
+   "text": "Dehydration"
+  },
+  {
+   "id": "ad16d9bf33",
+   "where": "li · Good for",
+   "original": "Dizziness",
+   "text": "Dizziness"
+  },
+  {
+   "id": "5a72da07b1",
+   "where": "li · Good for",
+   "original": "Headache",
+   "text": "Headache"
+  },
+  {
+   "id": "33b7b8e0ff",
+   "where": "li · Good for",
+   "original": "Muscle aches",
+   "text": "Muscle aches"
+  },
+  {
+   "id": "090dbd6bab",
+   "where": "li · Good for",
+   "original": "Nausea",
+   "text": "Nausea"
+  },
+  {
+   "id": "9818d7ff70",
+   "where": "a · Good for",
+   "original": "Book This Drip",
+   "text": "Book This Drip"
+  },
+  {
+   "id": "575eca324e",
+   "where": "a · Good for",
+   "original": "Ask the concierge →",
+   "text": "Ask the concierge →"
+  },
+  {
+   "id": "19e84d3a3c",
+   "where": "text · Good for",
+   "original": "Pair it with",
+   "text": "Pair it with"
+  },
+  {
+   "id": "6fd4d692a7",
+   "where": "h2 · Good for",
+   "original": "Other drips you might",
+   "text": "Other drips you might"
+  },
+  {
+   "id": "582905443d",
+   "where": "span · Other drips you might",
+   "original": "love",
+   "text": "love"
+  },
+  {
+   "id": "20690fb8dd",
+   "where": "a · Other drips you might",
+   "original": "All 12 drips →",
+   "text": "All 12 drips →"
+  },
+  {
+   "id": "a0e7a3f59c",
+   "where": "span · Other drips you might",
+   "original": "$150",
+   "text": "$150"
+  },
+  {
+   "id": "cc327b9e42",
+   "where": "h3 · Other drips you might",
+   "original": "Hydrate",
+   "text": "Hydrate"
+  },
+  {
+   "id": "1bb9f89d73",
+   "where": "p · Hydrate",
+   "original": "Hydrate with fluids and electrolytes to boost energy, support body function and help you feel your best.",
+   "text": "Hydrate with fluids and electrolytes to boost energy, support body function and help you feel your best."
+  },
+  {
+   "id": "1f905b40da",
+   "where": "span · Hydrate",
+   "original": "View drip →",
+   "text": "View drip →"
+  },
+  {
+   "id": "98323c43d4",
+   "where": "span · Hydrate",
+   "original": "$190",
+   "text": "$190"
+  },
+  {
+   "id": "766cae4078",
+   "where": "h3 · Hydrate",
+   "original": "Myers",
+   "text": "Myers"
+  },
+  {
+   "id": "5cb1d30ffd",
+   "where": "p · Myers",
+   "original": "This nutrient-rich infusion supports energy, skin wellness and recovery — a popular choice for a boost from within.",
+   "text": "This nutrient-rich infusion supports energy, skin wellness and recovery — a popular choice for a boost from within."
+  },
+  {
+   "id": "b7960cba09",
+   "where": "span · Myers",
+   "original": "View drip →",
+   "text": "View drip →"
+  },
+  {
+   "id": "61fe5bc79a",
+   "where": "span · Myers",
+   "original": "$190",
+   "text": "$190"
+  },
+  {
+   "id": "77f567b7f9",
+   "where": "h3 · Myers",
+   "original": "Detox",
+   "text": "Detox"
+  },
+  {
+   "id": "cc4c7593a4",
+   "where": "p · Detox",
+   "original": "Supports natural wellness and helps you feel more grounded, clear and recharged from within.",
+   "text": "Supports natural wellness and helps you feel more grounded, clear and recharged from within."
+  },
+  {
+   "id": "8fe1e66efd",
+   "where": "span · Detox",
+   "original": "View drip →",
+   "text": "View drip →"
+  },
+  {
+   "id": "57fbfa2a81",
+   "where": "span · Detox",
+   "original": "$190",
+   "text": "$190"
+  },
+  {
+   "id": "d38b8a74d7",
+   "where": "h3 · Detox",
+   "original": "Fit",
+   "text": "Fit"
+  },
+  {
+   "id": "57aef57c5e",
+   "where": "p · Fit",
+   "original": "Amino acids and nutrients that replenish vitamins and help you feel strong before or after workouts.",
+   "text": "Amino acids and nutrients that replenish vitamins and help you feel strong before or after workouts."
+  },
+  {
+   "id": "65b9ca3bf5",
+   "where": "span · Fit",
+   "original": "View drip →",
+   "text": "View drip →"
+  },
+  {
+   "id": "4d45d08b8e",
+   "where": "text · Fit",
+   "original": "Memberships",
+   "text": "Memberships"
+  },
+  {
+   "id": "7c9da985ed",
+   "where": "h2 · Fit",
+   "original": "More value",
+   "text": "More value"
+  },
+  {
+   "id": "2ef2e7fda9",
+   "where": "span · More value",
+   "original": "every month",
+   "text": "every month"
+  },
+  {
+   "id": "450620b02b",
+   "where": "p · More value",
+   "original": "Each month your membership loads a service credit worth more than what you pay — and it works on any service: drips, shots, boosters, NAD+ and BTL treatments.",
+   "text": "Each month your membership loads a service credit worth more than what you pay — and it works on any service: drips, shots, boosters, NAD+ and BTL treatments."
+  },
+  {
+   "id": "27c108ecdc",
+   "where": "a · More value",
+   "original": "Compare all plans →",
+   "text": "Compare all plans →"
+  },
+  {
+   "id": "b2ea753bf9",
+   "where": "h3 · More value",
+   "original": "Select",
+   "text": "Select"
+  },
+  {
+   "id": "f38ce69acf",
+   "where": "div · Select",
+   "original": "$95",
+   "text": "$95"
+  },
+  {
+   "id": "344d60ba3f",
+   "where": "span · Select",
+   "original": "/mo",
+   "text": "/mo"
+  },
+  {
+   "id": "e1eadf8595",
+   "where": "p · Select",
+   "original": "$140 monthly credit to spend on any service — more value than your membership fee, every month.",
+   "text": "$140 monthly credit to spend on any service — more value than your membership fee, every month."
+  },
+  {
+   "id": "b8b501bef0",
+   "where": "li · Select",
+   "original": "Member pricing on every drip",
+   "text": "Member pricing on every drip"
+  },
+  {
+   "id": "35c4ae251f",
+   "where": "li · Select",
+   "original": "Birthday drip on us",
+   "text": "Birthday drip on us"
+  },
+  {
+   "id": "1eb128bd40",
+   "where": "li · Select",
+   "original": "Priority booking & promos",
+   "text": "Priority booking & promos"
+  },
+  {
+   "id": "eb9248d907",
+   "where": "li · Select",
+   "original": "Pause or cancel anytime",
+   "text": "Pause or cancel anytime"
+  },
+  {
+   "id": "eaccee1f3f",
+   "where": "a · Select",
+   "original": "Join Select",
+   "text": "Join Select"
+  },
+  {
+   "id": "2d36949a89",
+   "where": "span · Select",
+   "original": "Most popular",
+   "text": "Most popular"
+  },
+  {
+   "id": "2402b23cd4",
+   "where": "h3 · Select",
+   "original": "Premium",
+   "text": "Premium"
+  },
+  {
+   "id": "567b1cc34b",
+   "where": "div · Premium",
+   "original": "$165",
+   "text": "$165"
+  },
+  {
+   "id": "ccf1694686",
+   "where": "span · Premium",
+   "original": "/mo",
+   "text": "/mo"
+  },
+  {
+   "id": "a1e13a5090",
+   "where": "p · Premium",
+   "original": "$260 monthly credit — your standard glow-up, fully covered, on any services you choose.",
+   "text": "$260 monthly credit — your standard glow-up, fully covered, on any services you choose."
+  },
+  {
+   "id": "0725631e16",
+   "where": "li · Premium",
+   "original": "Member pricing on every drip",
+   "text": "Member pricing on every drip"
+  },
+  {
+   "id": "62af9a56a0",
+   "where": "li · Premium",
+   "original": "Birthday drip on us",
+   "text": "Birthday drip on us"
+  },
+  {
+   "id": "67885aa923",
+   "where": "li · Premium",
+   "original": "Priority booking & promos",
+   "text": "Priority booking & promos"
+  },
+  {
+   "id": "396def4549",
+   "where": "li · Premium",
+   "original": "Pause or cancel anytime",
+   "text": "Pause or cancel anytime"
+  },
+  {
+   "id": "b75d96f8f4",
+   "where": "a · Premium",
+   "original": "Join Premium",
+   "text": "Join Premium"
+  },
+  {
+   "id": "79da847a02",
+   "where": "h3 · Premium",
+   "original": "Luxe",
+   "text": "Luxe"
+  },
+  {
+   "id": "7ef52c4168",
+   "where": "div · Luxe",
+   "original": "$285",
+   "text": "$285"
+  },
+  {
+   "id": "7c299812d8",
+   "where": "span · Luxe",
+   "original": "/mo",
+   "text": "/mo"
+  },
+  {
+   "id": "f39dfdcc3e",
+   "where": "p · Luxe",
+   "original": "$490 monthly credit — the full monthly reset, spent however you like.",
+   "text": "$490 monthly credit — the full monthly reset, spent however you like."
+  },
+  {
+   "id": "0b357e57f5",
+   "where": "li · Luxe",
+   "original": "Member pricing on every drip",
+   "text": "Member pricing on every drip"
+  },
+  {
+   "id": "7b5d1be6fe",
+   "where": "li · Luxe",
+   "original": "Birthday drip on us",
+   "text": "Birthday drip on us"
+  },
+  {
+   "id": "207f9eca3a",
+   "where": "li · Luxe",
+   "original": "Priority booking & promos",
+   "text": "Priority booking & promos"
+  },
+  {
+   "id": "0b91b62369",
+   "where": "li · Luxe",
+   "original": "Pause or cancel anytime",
+   "text": "Pause or cancel anytime"
+  },
+  {
+   "id": "2794441999",
+   "where": "a · Luxe",
+   "original": "Join Luxe",
+   "text": "Join Luxe"
+  },
+  {
+   "id": "ece57f55cb",
+   "where": "p · Luxe",
+   "original": "Family, student and NAD+ memberships too — see",
+   "text": "Family, student and NAD+ memberships too — see"
+  },
+  {
+   "id": "e16505aac1",
+   "where": "a · Luxe",
+   "original": "all memberships",
+   "text": "all memberships"
+  },
+  {
+   "id": "86fb83b13c",
+   "where": "text · Luxe",
+   "original": ". Pause or cancel anytime with the front desk.",
+   "text": ". Pause or cancel anytime with the front desk."
+  },
+  {
+   "id": "0517577c5c",
+   "where": "h2 · Luxe",
+   "original": "Book the",
+   "text": "Book the"
+  },
+  {
+   "id": "65b937d5ed",
+   "where": "span · Book the",
+   "original": "Party",
+   "text": "Party"
+  },
+  {
+   "id": "1aae5e2af3",
+   "where": "text · Book the",
+   "original": "today.",
+   "text": "today."
+  },
+  {
+   "id": "74ef0fbcb0",
+   "where": "p · Book the",
+   "original": "Under a minute to book, no card required. Walk in, recline, and feel the difference before you leave.",
+   "text": "Under a minute to book, no card required. Walk in, recline, and feel the difference before you leave."
+  },
+  {
+   "id": "9f1913a449",
+   "where": "a · Book the",
+   "original": "Book Your Drip",
+   "text": "Book Your Drip"
+  },
+  {
+   "id": "74d031b2c6",
+   "where": "a · Book the",
+   "original": "Find a Location",
+   "text": "Find a Location"
+  }
+ ]
+}

@@ -1,0 +1,215 @@
+{
+ "page": "thank-you",
+ "items": [
+  {
+   "id": "9b1f1a8b40",
+   "where": "Browser tab title",
+   "original": "Thank You | ThrIVe Drip Spa",
+   "text": "Thank You | ThrIVe Drip Spa"
+  },
+  {
+   "id": "d08f95bf8c",
+   "where": "Search-engine description",
+   "original": "Thanks for contacting ThrIVe Drip Spa — we'll be in touch shortly.",
+   "text": "Thanks for contacting ThrIVe Drip Spa — we'll be in touch shortly."
+  },
+  {
+   "id": "91bce32b5a",
+   "where": "a",
+   "original": "Home",
+   "text": "Home"
+  },
+  {
+   "id": "42440414ab",
+   "where": "text",
+   "original": "/ Thank You",
+   "text": "/ Thank You"
+  },
+  {
+   "id": "065ae448d5",
+   "where": "p",
+   "original": "Thank you",
+   "text": "Thank you"
+  },
+  {
+   "id": "eb36cc02e0",
+   "where": "span",
+   "original": "For choosing",
+   "text": "For choosing"
+  },
+  {
+   "id": "028069a672",
+   "where": "span",
+   "original": "ThrIVe.",
+   "text": "ThrIVe."
+  },
+  {
+   "id": "81fe24060f",
+   "where": "p",
+   "original": "At ThrIVe, your health and comfort are our top priorities. Whether you're boosting immunity, recharging energy or giving your body a little extra love, we're here to help you feel your best — every time. We'll be in touch shortly.",
+   "text": "At ThrIVe, your health and comfort are our top priorities. Whether you're boosting immunity, recharging energy or giving your body a little extra love, we're here to help you feel your best — every time. We'll be in touch shortly."
+  },
+  {
+   "id": "877322e84e",
+   "where": "a",
+   "original": "Book a Drip",
+   "text": "Book a Drip"
+  },
+  {
+   "id": "331395b7cd",
+   "where": "a",
+   "original": "See the Drip Menu",
+   "text": "See the Drip Menu"
+  },
+  {
+   "id": "8242d323bc",
+   "where": "text",
+   "original": "Visit us",
+   "text": "Visit us"
+  },
+  {
+   "id": "dd9c74efd2",
+   "where": "h2",
+   "original": "Ten lounges.",
+   "text": "Ten lounges."
+  },
+  {
+   "id": "24eace13bb",
+   "where": "span · Ten lounges.",
+   "original": "One drip.",
+   "text": "One drip."
+  },
+  {
+   "id": "59831e4797",
+   "where": "p · Ten lounges.",
+   "original": "Founded in Houston as the first IV therapy drip spa in Texas — now across Greater Houston, Dallas and Fort Worth, plus mobile service to your door.",
+   "text": "Founded in Houston as the first IV therapy drip spa in Texas — now across Greater Houston, Dallas and Fort Worth, plus mobile service to your door."
+  },
+  {
+   "id": "7a2cddaa83",
+   "where": "a · Ten lounges.",
+   "original": "All locations + mobile →",
+   "text": "All locations + mobile →"
+  },
+  {
+   "id": "1bd43d6e73",
+   "where": "h3 · Ten lounges.",
+   "original": "Memorial",
+   "text": "Memorial"
+  },
+  {
+   "id": "981f0bc84b",
+   "where": "span · Memorial",
+   "original": "Houston →",
+   "text": "Houston →"
+  },
+  {
+   "id": "22bb34e07b",
+   "where": "h3 · Memorial",
+   "original": "Memorial Green",
+   "text": "Memorial Green"
+  },
+  {
+   "id": "93ed358b35",
+   "where": "span · Memorial Green",
+   "original": "Houston →",
+   "text": "Houston →"
+  },
+  {
+   "id": "09464814f9",
+   "where": "h3 · Memorial Green",
+   "original": "The Heights",
+   "text": "The Heights"
+  },
+  {
+   "id": "397c429ee4",
+   "where": "span · The Heights",
+   "original": "Houston →",
+   "text": "Houston →"
+  },
+  {
+   "id": "daac8027e4",
+   "where": "h3 · The Heights",
+   "original": "West University",
+   "text": "West University"
+  },
+  {
+   "id": "d9400860fa",
+   "where": "span · West University",
+   "original": "Houston →",
+   "text": "Houston →"
+  },
+  {
+   "id": "c26ef86c55",
+   "where": "h3 · West University",
+   "original": "Vintage Park",
+   "text": "Vintage Park"
+  },
+  {
+   "id": "6a9ffcf466",
+   "where": "span · Vintage Park",
+   "original": "Houston →",
+   "text": "Houston →"
+  },
+  {
+   "id": "3d67a8161b",
+   "where": "h3 · Vintage Park",
+   "original": "Katy",
+   "text": "Katy"
+  },
+  {
+   "id": "3c155bf4e8",
+   "where": "span · Katy",
+   "original": "Katy →",
+   "text": "Katy →"
+  },
+  {
+   "id": "bdc044bba2",
+   "where": "h3 · Katy",
+   "original": "The Woodlands",
+   "text": "The Woodlands"
+  },
+  {
+   "id": "45bb88a41f",
+   "where": "span · The Woodlands",
+   "original": "The Woodlands →",
+   "text": "The Woodlands →"
+  },
+  {
+   "id": "ea25f7df96",
+   "where": "h3 · The Woodlands",
+   "original": "Clear Lake",
+   "text": "Clear Lake"
+  },
+  {
+   "id": "1f27c1eb4d",
+   "where": "span · Clear Lake",
+   "original": "Houston →",
+   "text": "Houston →"
+  },
+  {
+   "id": "157329ef30",
+   "where": "h3 · Clear Lake",
+   "original": "Highland Park",
+   "text": "Highland Park"
+  },
+  {
+   "id": "11ee540381",
+   "where": "span · Highland Park",
+   "original": "Dallas →",
+   "text": "Dallas →"
+  },
+  {
+   "id": "f73a3ebff3",
+   "where": "h3 · Highland Park",
+   "original": "Fort Worth",
+   "text": "Fort Worth"
+  },
+  {
+   "id": "0ec1297f62",
+   "where": "span · Fort Worth",
+   "original": "Fort Worth →",
+   "text": "Fort Worth →"
+  }
+ ]
+}

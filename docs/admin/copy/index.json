@@ -1,0 +1,1403 @@
+{
+ "page": "index",
+ "items": [
+  {
+   "id": "9a54a7a8df",
+   "where": "Browser tab title",
+   "original": "IV Therapy, NAD+ & Wellness Spa | ThrIVe Drip Spa — Houston, Dallas & Fort Worth",
+   "text": "IV Therapy, NAD+ & Wellness Spa | ThrIVe Drip Spa — Houston, Dallas & Fort Worth"
+  },
+  {
+   "id": "019bc6366b",
+   "where": "Search-engine description",
+   "original": "ThrIVe Drip Spa: 12 signature IV drips, NAD+, boosters, shots, mobile IV and body contouring in Houston, Dallas and Fort Worth. Feel better in about an hour.",
+   "text": "ThrIVe Drip Spa: 12 signature IV drips, NAD+, boosters, shots, mobile IV and body contouring in Houston, Dallas and Fort Worth. Feel better in about an hour."
+  },
+  {
+   "id": "85fe396c4c",
+   "where": "p",
+   "original": "Houston · Dallas · Fort Worth · Mobile",
+   "text": "Houston · Dallas · Fort Worth · Mobile"
+  },
+  {
+   "id": "a65752e48d",
+   "where": "span",
+   "original": "Hydrate.",
+   "text": "Hydrate."
+  },
+  {
+   "id": "5feb369278",
+   "where": "span",
+   "original": "Energize.",
+   "text": "Energize."
+  },
+  {
+   "id": "418300a4d7",
+   "where": "span",
+   "original": "Thrive.",
+   "text": "Thrive."
+  },
+  {
+   "id": "443e820b54",
+   "where": "p",
+   "original": "Your destination for IV therapy, vitamin infusions and wellness spa services. Twelve signature drips, NAD+, boosters and shots — built by registered nurses, in a lounge that feels like a spa. Feel better in about an hour.",
+   "text": "Your destination for IV therapy, vitamin infusions and wellness spa services. Twelve signature drips, NAD+, boosters and shots — built by registered nurses, in a lounge that feels like a spa. Feel better in about an hour."
+  },
+  {
+   "id": "db2e6601b9",
+   "where": "a",
+   "original": "Book Your Drip",
+   "text": "Book Your Drip"
+  },
+  {
+   "id": "7b0be7c822",
+   "where": "a",
+   "original": "See the Drip Menu",
+   "text": "See the Drip Menu"
+  },
+  {
+   "id": "e9930dd957",
+   "where": "span",
+   "original": "Registered nurses",
+   "text": "Registered nurses"
+  },
+  {
+   "id": "73b793d055",
+   "where": "span",
+   "original": "30–45 minute drips",
+   "text": "30–45 minute drips"
+  },
+  {
+   "id": "0eafc754a4",
+   "where": "span",
+   "original": "10 lounges + mobile",
+   "text": "10 lounges + mobile"
+  },
+  {
+   "id": "532c1c3087",
+   "where": "span",
+   "original": "No card to book",
+   "text": "No card to book"
+  },
+  {
+   "id": "995006b914",
+   "where": "text",
+   "original": "Drips from $150 · members from $120",
+   "text": "Drips from $150 · members from $120"
+  },
+  {
+   "id": "bb86b220de",
+   "where": "span",
+   "original": "Welcome back",
+   "text": "Welcome back"
+  },
+  {
+   "id": "a49ef2ea77",
+   "where": "a",
+   "original": "Book with member pricing",
+   "text": "Book with member pricing"
+  },
+  {
+   "id": "b82e8c3358",
+   "where": "a",
+   "original": "Member portal",
+   "text": "Member portal"
+  },
+  {
+   "id": "0f5563a813",
+   "where": "a",
+   "original": "Member-only packages",
+   "text": "Member-only packages"
+  },
+  {
+   "id": "7820a38b81",
+   "where": "a",
+   "original": "This month's promos",
+   "text": "This month's promos"
+  },
+  {
+   "id": "13e68a833b",
+   "where": "a",
+   "original": "eGift cards",
+   "text": "eGift cards"
+  },
+  {
+   "id": "229c83560f",
+   "where": "span",
+   "original": "Hydrate",
+   "text": "Hydrate"
+  },
+  {
+   "id": "b4cc9c4fb8",
+   "where": "span",
+   "original": "Myers",
+   "text": "Myers"
+  },
+  {
+   "id": "8ac9f2f05e",
+   "where": "span",
+   "original": "Detox",
+   "text": "Detox"
+  },
+  {
+   "id": "1105d99844",
+   "where": "span",
+   "original": "Party",
+   "text": "Party"
+  },
+  {
+   "id": "8e227af099",
+   "where": "span",
+   "original": "Fit",
+   "text": "Fit"
+  },
+  {
+   "id": "3ec68de411",
+   "where": "span",
+   "original": "Slim",
+   "text": "Slim"
+  },
+  {
+   "id": "74e44c8404",
+   "where": "span",
+   "original": "Libido",
+   "text": "Libido"
+  },
+  {
+   "id": "29ac97fcfa",
+   "where": "span",
+   "original": "Beauty",
+   "text": "Beauty"
+  },
+  {
+   "id": "3af7b26a43",
+   "where": "span",
+   "original": "Migraine",
+   "text": "Migraine"
+  },
+  {
+   "id": "9668246de4",
+   "where": "span",
+   "original": "High C",
+   "text": "High C"
+  },
+  {
+   "id": "ae82223c80",
+   "where": "span",
+   "original": "NAD+",
+   "text": "NAD+"
+  },
+  {
+   "id": "b7fa3431e4",
+   "where": "span",
+   "original": "Immuno",
+   "text": "Immuno"
+  },
+  {
+   "id": "66bd668377",
+   "where": "span",
+   "original": "Hydrate",
+   "text": "Hydrate"
+  },
+  {
+   "id": "4b3ff148e6",
+   "where": "span",
+   "original": "Myers",
+   "text": "Myers"
+  },
+  {
+   "id": "e341e475ac",
+   "where": "span",
+   "original": "Detox",
+   "text": "Detox"
+  },
+  {
+   "id": "f67018afa7",
+   "where": "span",
+   "original": "Party",
+   "text": "Party"
+  },
+  {
+   "id": "3addf2a208",
+   "where": "span",
+   "original": "Fit",
+   "text": "Fit"
+  },
+  {
+   "id": "0216124bae",
+   "where": "span",
+   "original": "Slim",
+   "text": "Slim"
+  },
+  {
+   "id": "262c550ee9",
+   "where": "span",
+   "original": "Libido",
+   "text": "Libido"
+  },
+  {
+   "id": "34bbb879c9",
+   "where": "span",
+   "original": "Beauty",
+   "text": "Beauty"
+  },
+  {
+   "id": "9801985c05",
+   "where": "span",
+   "original": "Migraine",
+   "text": "Migraine"
+  },
+  {
+   "id": "e9cd3c583c",
+   "where": "span",
+   "original": "High C",
+   "text": "High C"
+  },
+  {
+   "id": "2d41faa1d7",
+   "where": "span",
+   "original": "NAD+",
+   "text": "NAD+"
+  },
+  {
+   "id": "01e8604cb3",
+   "where": "span",
+   "original": "Immuno",
+   "text": "Immuno"
+  },
+  {
+   "id": "b1c3d41fcb",
+   "where": "text",
+   "original": "The first IV drip spa in Texas",
+   "text": "The first IV drip spa in Texas"
+  },
+  {
+   "id": "80ab078402",
+   "where": "h2",
+   "original": "Health,",
+   "text": "Health,"
+  },
+  {
+   "id": "0fc3a049d9",
+   "where": "span · Health,",
+   "original": "innovated.",
+   "text": "innovated."
+  },
+  {
+   "id": "8587eaffad",
+   "where": "p · Health,",
+   "original": "ThrIVe Drip Spa was founded in Houston as the first IV therapy drip spa in Texas. We took treatments that have lived in hospitals for decades — a liter of fluids, vitamins straight to the bloodstream — and moved them into a lounge with reclining chairs, blankets and a nurse who knows your name.",
+   "text": "ThrIVe Drip Spa was founded in Houston as the first IV therapy drip spa in Texas. We took treatments that have lived in hospitals for decades — a liter of fluids, vitamins straight to the bloodstream — and moved them into a lounge with reclining chairs, blankets and a nurse who knows your name."
+  },
+  {
+   "id": "ab905a3836",
+   "where": "p · Health,",
+   "original": "Led by MIT graduate Dr. Eugene Lou, our drips are formulated by physicians and pharmacists and administered by registered nurses after a Good Faith Exam. Rehydrate, restore and recharge — then get on with your day.",
+   "text": "Led by MIT graduate Dr. Eugene Lou, our drips are formulated by physicians and pharmacists and administered by registered nurses after a Good Faith Exam. Rehydrate, restore and recharge — then get on with your day."
+  },
+  {
+   "id": "5972fd0e5e",
+   "where": "a · Health,",
+   "original": "Our story →",
+   "text": "Our story →"
+  },
+  {
+   "id": "58ef731336",
+   "where": "text · Health,",
+   "original": "12 signature drips",
+   "text": "12 signature drips"
+  },
+  {
+   "id": "7e95484f76",
+   "where": "h2 · Health,",
+   "original": "Pick your",
+   "text": "Pick your"
+  },
+  {
+   "id": "0b354cc6e0",
+   "where": "span · Pick your",
+   "original": "drip",
+   "text": "drip"
+  },
+  {
+   "id": "cc6e3a4424",
+   "where": "p · Pick your",
+   "original": "Every drip starts with a liter of fluids and electrolytes. Add boosters, stack a shot, or let our nurses build a custom formula so you look, feel and perform better.",
+   "text": "Every drip starts with a liter of fluids and electrolytes. Add boosters, stack a shot, or let our nurses build a custom formula so you look, feel and perform better."
+  },
+  {
+   "id": "caae75dcd5",
+   "where": "a · Pick your",
+   "original": "Full menu, boosters & shots →",
+   "text": "Full menu, boosters & shots →"
+  },
+  {
+   "id": "d2059d85eb",
+   "where": "span · Pick your",
+   "original": "$150",
+   "text": "$150"
+  },
+  {
+   "id": "d3bba817ff",
+   "where": "h3 · Pick your",
+   "original": "Hydrate",
+   "text": "Hydrate"
+  },
+  {
+   "id": "aa81224186",
+   "where": "p · Hydrate",
+   "original": "Hydrate with fluids and electrolytes to boost energy, support body function and help you feel your best.",
+   "text": "Hydrate with fluids and electrolytes to boost energy, support body function and help you feel your best."
+  },
+  {
+   "id": "b8967c5587",
+   "where": "span · Hydrate",
+   "original": "View drip →",
+   "text": "View drip →"
+  },
+  {
+   "id": "80547df1a5",
+   "where": "span · Hydrate",
+   "original": "$190",
+   "text": "$190"
+  },
+  {
+   "id": "05c01ac37a",
+   "where": "h3 · Hydrate",
+   "original": "Myers",
+   "text": "Myers"
+  },
+  {
+   "id": "adbd2e1a1f",
+   "where": "p · Myers",
+   "original": "This nutrient-rich infusion supports energy, skin wellness and recovery — a popular choice for a boost from within.",
+   "text": "This nutrient-rich infusion supports energy, skin wellness and recovery — a popular choice for a boost from within."
+  },
+  {
+   "id": "d52c08a714",
+   "where": "span · Myers",
+   "original": "View drip →",
+   "text": "View drip →"
+  },
+  {
+   "id": "50ca675b1b",
+   "where": "span · Myers",
+   "original": "$190",
+   "text": "$190"
+  },
+  {
+   "id": "d9945bb63e",
+   "where": "h3 · Myers",
+   "original": "Detox",
+   "text": "Detox"
+  },
+  {
+   "id": "deb71353a0",
+   "where": "p · Detox",
+   "original": "Supports natural wellness and helps you feel more grounded, clear and recharged from within.",
+   "text": "Supports natural wellness and helps you feel more grounded, clear and recharged from within."
+  },
+  {
+   "id": "f081451573",
+   "where": "span · Detox",
+   "original": "View drip →",
+   "text": "View drip →"
+  },
+  {
+   "id": "2ebff25007",
+   "where": "span · Detox",
+   "original": "$190",
+   "text": "$190"
+  },
+  {
+   "id": "eec421137b",
+   "where": "h3 · Detox",
+   "original": "Party",
+   "text": "Party"
+  },
+  {
+   "id": "a3621fc8bb",
+   "where": "p · Party",
+   "original": "Rehydrate and recharge with fluids and nutrients designed to restore balance after a big night.",
+   "text": "Rehydrate and recharge with fluids and nutrients designed to restore balance after a big night."
+  },
+  {
+   "id": "c8f9b5b797",
+   "where": "span · Party",
+   "original": "View drip →",
+   "text": "View drip →"
+  },
+  {
+   "id": "390ebaece1",
+   "where": "span · Party",
+   "original": "$190",
+   "text": "$190"
+  },
+  {
+   "id": "2f7b6cddeb",
+   "where": "h3 · Party",
+   "original": "Fit",
+   "text": "Fit"
+  },
+  {
+   "id": "842870567f",
+   "where": "p · Fit",
+   "original": "Amino acids and nutrients that replenish vitamins and help you feel strong before or after workouts.",
+   "text": "Amino acids and nutrients that replenish vitamins and help you feel strong before or after workouts."
+  },
+  {
+   "id": "729bb2be0a",
+   "where": "span · Fit",
+   "original": "View drip →",
+   "text": "View drip →"
+  },
+  {
+   "id": "6a76fe0d58",
+   "where": "span · Fit",
+   "original": "$190",
+   "text": "$190"
+  },
+  {
+   "id": "36b49125a9",
+   "where": "h3 · Fit",
+   "original": "Slim",
+   "text": "Slim"
+  },
+  {
+   "id": "177f014c7e",
+   "where": "p · Slim",
+   "original": "Support natural energy and feel refreshed with an infusion that complements your wellness goals and active lifestyle.",
+   "text": "Support natural energy and feel refreshed with an infusion that complements your wellness goals and active lifestyle."
+  },
+  {
+   "id": "f23d93450c",
+   "where": "span · Slim",
+   "original": "View drip →",
+   "text": "View drip →"
+  },
+  {
+   "id": "5d1d35f5d1",
+   "where": "span · Slim",
+   "original": "$190",
+   "text": "$190"
+  },
+  {
+   "id": "b926ede015",
+   "where": "h3 · Slim",
+   "original": "Libido",
+   "text": "Libido"
+  },
+  {
+   "id": "cdec3eec1d",
+   "where": "p · Libido",
+   "original": "Support vitality and energy with a formula that helps you feel more connected, confident and in tune with your body.",
+   "text": "Support vitality and energy with a formula that helps you feel more connected, confident and in tune with your body."
+  },
+  {
+   "id": "3801536362",
+   "where": "span · Libido",
+   "original": "View drip →",
+   "text": "View drip →"
+  },
+  {
+   "id": "e5dc9b0f13",
+   "where": "span · Libido",
+   "original": "$190",
+   "text": "$190"
+  },
+  {
+   "id": "e19b9c8258",
+   "where": "h3 · Libido",
+   "original": "Beauty",
+   "text": "Beauty"
+  },
+  {
+   "id": "105f1ad661",
+   "where": "p · Beauty",
+   "original": "Glow from within with nutrients that support skin hydration, inner balance and a radiant, refreshed feeling.",
+   "text": "Glow from within with nutrients that support skin hydration, inner balance and a radiant, refreshed feeling."
+  },
+  {
+   "id": "23298b135c",
+   "where": "span · Beauty",
+   "original": "View drip →",
+   "text": "View drip →"
+  },
+  {
+   "id": "acce24c2cb",
+   "where": "span · Beauty",
+   "original": "$190",
+   "text": "$190"
+  },
+  {
+   "id": "50c82e9888",
+   "where": "h3 · Beauty",
+   "original": "Migraine",
+   "text": "Migraine"
+  },
+  {
+   "id": "20c1554b35",
+   "where": "p · Migraine",
+   "original": "A soothing blend that supports relaxation and comfort when a migraine has you off balance.",
+   "text": "A soothing blend that supports relaxation and comfort when a migraine has you off balance."
+  },
+  {
+   "id": "6d05e7aca1",
+   "where": "span · Migraine",
+   "original": "View drip →",
+   "text": "View drip →"
+  },
+  {
+   "id": "9a24393726",
+   "where": "span · Migraine",
+   "original": "$230",
+   "text": "$230"
+  },
+  {
+   "id": "901a440d7c",
+   "where": "h3 · Migraine",
+   "original": "High C",
+   "text": "High C"
+  },
+  {
+   "id": "d727c6e58f",
+   "where": "p · High C",
+   "original": "Vitamin C and nutrients that support immunity, hydration and a refreshed, ready-to-go feeling.",
+   "text": "Vitamin C and nutrients that support immunity, hydration and a refreshed, ready-to-go feeling."
+  },
+  {
+   "id": "ca1862c4d1",
+   "where": "span · High C",
+   "original": "View drip →",
+   "text": "View drip →"
+  },
+  {
+   "id": "f29554e8d9",
+   "where": "span · High C",
+   "original": "Ask a consultant",
+   "text": "Ask a consultant"
+  },
+  {
+   "id": "30e49b6a8f",
+   "where": "h3 · High C",
+   "original": "NAD+",
+   "text": "NAD+"
+  },
+  {
+   "id": "77fd0e7dca",
+   "where": "p · NAD+",
+   "original": "Support focus, energy and clarity with NAD+, a coenzyme that helps recharge the body and sharpen the mind.",
+   "text": "Support focus, energy and clarity with NAD+, a coenzyme that helps recharge the body and sharpen the mind."
+  },
+  {
+   "id": "c32855d865",
+   "where": "span · NAD+",
+   "original": "View drip →",
+   "text": "View drip →"
+  },
+  {
+   "id": "30342baf86",
+   "where": "span · NAD+",
+   "original": "$310",
+   "text": "$310"
+  },
+  {
+   "id": "b5191022bb",
+   "where": "h3 · NAD+",
+   "original": "Immuno",
+   "text": "Immuno"
+  },
+  {
+   "id": "5979f2c8aa",
+   "where": "p · Immuno",
+   "original": "Vitamin C, Zinc and Glutathione to boost immunity and promote strength, balance and resilience.",
+   "text": "Vitamin C, Zinc and Glutathione to boost immunity and promote strength, balance and resilience."
+  },
+  {
+   "id": "661b63339a",
+   "where": "span · Immuno",
+   "original": "View drip →",
+   "text": "View drip →"
+  },
+  {
+   "id": "d11bc4c48c",
+   "where": "p · Immuno",
+   "original": "Walk-in prices shown. Members pay $120–$250. Drips take 30–45 minutes; boosters and shots take minutes.",
+   "text": "Walk-in prices shown. Members pay $120–$250. Drips take 30–45 minutes; boosters and shots take minutes."
+  },
+  {
+   "id": "05e956ad37",
+   "where": "div · Immuno",
+   "original": "Signature drips",
+   "text": "Signature drips"
+  },
+  {
+   "id": "0802bfb2ac",
+   "where": "div · Immuno",
+   "original": "Lounges across Texas",
+   "text": "Lounges across Texas"
+  },
+  {
+   "id": "6fd0186f5a",
+   "where": "div · Immuno",
+   "original": "Absorption, straight to the bloodstream",
+   "text": "Absorption, straight to the bloodstream"
+  },
+  {
+   "id": "9e0e3ed8a0",
+   "where": "span · Immuno",
+   "original": "min",
+   "text": "min"
+  },
+  {
+   "id": "1f1377ae55",
+   "where": "div · Immuno",
+   "original": "Or less in the chair",
+   "text": "Or less in the chair"
+  },
+  {
+   "id": "31bdd7b473",
+   "where": "text · Immuno",
+   "original": "How it works",
+   "text": "How it works"
+  },
+  {
+   "id": "0c858bdfd1",
+   "where": "h2 · Immuno",
+   "original": "Three steps to",
+   "text": "Three steps to"
+  },
+  {
+   "id": "d19789792d",
+   "where": "span · Three steps to",
+   "original": "better",
+   "text": "better"
+  },
+  {
+   "id": "30c8d65318",
+   "where": "a · Three steps to",
+   "original": "Read about the Good Faith Exam →",
+   "text": "Read about the Good Faith Exam →"
+  },
+  {
+   "id": "341ef34cba",
+   "where": "h3 · Three steps to",
+   "original": "Consultation",
+   "text": "Consultation"
+  },
+  {
+   "id": "153bf452f1",
+   "where": "p · Consultation",
+   "original": "Book online in under a minute — no card, no account. A licensed provider completes a quick Good Faith Exam and our consultants help you pick from the 12 signature drips.",
+   "text": "Book online in under a minute — no card, no account. A licensed provider completes a quick Good Faith Exam and our consultants help you pick from the 12 signature drips."
+  },
+  {
+   "id": "61c993f16f",
+   "where": "h3 · Consultation",
+   "original": "Customization",
+   "text": "Customization"
+  },
+  {
+   "id": "0e7a4424f3",
+   "where": "p · Customization",
+   "original": "We tailor your drip with boosters for whatever the week threw at you — fatigue, headaches, muscle recovery, skin, immunity — or build a fully custom formula.",
+   "text": "We tailor your drip with boosters for whatever the week threw at you — fatigue, headaches, muscle recovery, skin, immunity — or build a fully custom formula."
+  },
+  {
+   "id": "835026e856",
+   "where": "h3 · Customization",
+   "original": "Administration",
+   "text": "Administration"
+  },
+  {
+   "id": "476a126c07",
+   "where": "p · Administration",
+   "original": "Recline, pick a drink and a blanket, and let a registered nurse take it from there. 100% absorption, 30–45 minutes, and you walk out feeling like yourself again.",
+   "text": "Recline, pick a drink and a blanket, and let a registered nurse take it from there. 100% absorption, 30–45 minutes, and you walk out feeling like yourself again."
+  },
+  {
+   "id": "7d827d3f7d",
+   "where": "span · Administration",
+   "original": "Body · Face · Wellness",
+   "text": "Body · Face · Wellness"
+  },
+  {
+   "id": "c492d2bf46",
+   "where": "text · Administration",
+   "original": "Most loved",
+   "text": "Most loved"
+  },
+  {
+   "id": "20a24d8c57",
+   "where": "h2 · Administration",
+   "original": "The treatments Texas",
+   "text": "The treatments Texas"
+  },
+  {
+   "id": "e1fbb59453",
+   "where": "span · The treatments Texas",
+   "original": "keeps booking",
+   "text": "keeps booking"
+  },
+  {
+   "id": "fc7864014a",
+   "where": "strong · The treatments Texas",
+   "original": "NAD+",
+   "text": "NAD+"
+  },
+  {
+   "id": "1674ced61c",
+   "where": "text · The treatments Texas",
+   "original": "for focus, energy and healthy aging.",
+   "text": "for focus, energy and healthy aging."
+  },
+  {
+   "id": "13fee9aa91",
+   "where": "strong · The treatments Texas",
+   "original": "Weight-loss injections",
+   "text": "Weight-loss injections"
+  },
+  {
+   "id": "2fcc3c58a1",
+   "where": "text · The treatments Texas",
+   "original": "with telehealth consults.",
+   "text": "with telehealth consults."
+  },
+  {
+   "id": "78d85cf946",
+   "where": "strong · The treatments Texas",
+   "original": "Emsculpt NEO, EMFACE and EMTONE",
+   "text": "Emsculpt NEO, EMFACE and EMTONE"
+  },
+  {
+   "id": "fd44feda06",
+   "where": "text · The treatments Texas",
+   "original": "to sculpt, lift and smooth with zero downtime. And",
+   "text": "to sculpt, lift and smooth with zero downtime. And"
+  },
+  {
+   "id": "9a7fe4bf69",
+   "where": "strong · The treatments Texas",
+   "original": "mobile IV",
+   "text": "mobile IV"
+  },
+  {
+   "id": "4dc8349079",
+   "where": "text · The treatments Texas",
+   "original": "that brings the whole menu to your home, hotel, office or event.",
+   "text": "that brings the whole menu to your home, hotel, office or event."
+  },
+  {
+   "id": "647ec2c810",
+   "where": "p · The treatments Texas",
+   "original": "Everything is delivered by licensed medical professionals in a setting that feels like a spa — because consistency is the secret, and consistency should be a pleasure.",
+   "text": "Everything is delivered by licensed medical professionals in a setting that feels like a spa — because consistency is the secret, and consistency should be a pleasure."
+  },
+  {
+   "id": "0452f89852",
+   "where": "a · The treatments Texas",
+   "original": "NAD+ Therapy",
+   "text": "NAD+ Therapy"
+  },
+  {
+   "id": "7f1af059e7",
+   "where": "a · The treatments Texas",
+   "original": "Body & Face",
+   "text": "Body & Face"
+  },
+  {
+   "id": "c61921e476",
+   "where": "a · The treatments Texas",
+   "original": "Weight Loss",
+   "text": "Weight Loss"
+  },
+  {
+   "id": "5e49c694e5",
+   "where": "text · The treatments Texas",
+   "original": "Memberships",
+   "text": "Memberships"
+  },
+  {
+   "id": "91d4954ea2",
+   "where": "h2 · The treatments Texas",
+   "original": "More value",
+   "text": "More value"
+  },
+  {
+   "id": "f3d7c18d7e",
+   "where": "span · More value",
+   "original": "every month",
+   "text": "every month"
+  },
+  {
+   "id": "5f380d56cc",
+   "where": "p · More value",
+   "original": "Each month your membership loads a service credit worth more than what you pay — and it works on any service: drips, shots, boosters, NAD+ and BTL treatments.",
+   "text": "Each month your membership loads a service credit worth more than what you pay — and it works on any service: drips, shots, boosters, NAD+ and BTL treatments."
+  },
+  {
+   "id": "670bb01126",
+   "where": "a · More value",
+   "original": "Compare all plans →",
+   "text": "Compare all plans →"
+  },
+  {
+   "id": "9c97bbfead",
+   "where": "h3 · More value",
+   "original": "Select",
+   "text": "Select"
+  },
+  {
+   "id": "fa06950ad1",
+   "where": "div · Select",
+   "original": "$95",
+   "text": "$95"
+  },
+  {
+   "id": "4c6dd4244e",
+   "where": "span · Select",
+   "original": "/mo",
+   "text": "/mo"
+  },
+  {
+   "id": "d0cf12f767",
+   "where": "p · Select",
+   "original": "$140 monthly credit to spend on any service — more value than your membership fee, every month.",
+   "text": "$140 monthly credit to spend on any service — more value than your membership fee, every month."
+  },
+  {
+   "id": "0c2b60a353",
+   "where": "li · Select",
+   "original": "Member pricing on every drip",
+   "text": "Member pricing on every drip"
+  },
+  {
+   "id": "85022f2fd6",
+   "where": "li · Select",
+   "original": "Birthday drip on us",
+   "text": "Birthday drip on us"
+  },
+  {
+   "id": "32dd09328e",
+   "where": "li · Select",
+   "original": "Priority booking & promos",
+   "text": "Priority booking & promos"
+  },
+  {
+   "id": "ae47006898",
+   "where": "li · Select",
+   "original": "Pause or cancel anytime",
+   "text": "Pause or cancel anytime"
+  },
+  {
+   "id": "64ae82384c",
+   "where": "a · Select",
+   "original": "Join Select",
+   "text": "Join Select"
+  },
+  {
+   "id": "8649370ae5",
+   "where": "span · Select",
+   "original": "Most popular",
+   "text": "Most popular"
+  },
+  {
+   "id": "f9d8090191",
+   "where": "h3 · Select",
+   "original": "Premium",
+   "text": "Premium"
+  },
+  {
+   "id": "b2fcfda39a",
+   "where": "div · Premium",
+   "original": "$165",
+   "text": "$165"
+  },
+  {
+   "id": "081a4db09a",
+   "where": "span · Premium",
+   "original": "/mo",
+   "text": "/mo"
+  },
+  {
+   "id": "79db2726dc",
+   "where": "p · Premium",
+   "original": "$260 monthly credit — your standard glow-up, fully covered, on any services you choose.",
+   "text": "$260 monthly credit — your standard glow-up, fully covered, on any services you choose."
+  },
+  {
+   "id": "5f7069608b",
+   "where": "li · Premium",
+   "original": "Member pricing on every drip",
+   "text": "Member pricing on every drip"
+  },
+  {
+   "id": "e812c812ec",
+   "where": "li · Premium",
+   "original": "Birthday drip on us",
+   "text": "Birthday drip on us"
+  },
+  {
+   "id": "1cc380fa82",
+   "where": "li · Premium",
+   "original": "Priority booking & promos",
+   "text": "Priority booking & promos"
+  },
+  {
+   "id": "0702a9330b",
+   "where": "li · Premium",
+   "original": "Pause or cancel anytime",
+   "text": "Pause or cancel anytime"
+  },
+  {
+   "id": "9213167c68",
+   "where": "a · Premium",
+   "original": "Join Premium",
+   "text": "Join Premium"
+  },
+  {
+   "id": "a90a104be1",
+   "where": "h3 · Premium",
+   "original": "Luxe",
+   "text": "Luxe"
+  },
+  {
+   "id": "9bdb6c1ef6",
+   "where": "div · Luxe",
+   "original": "$285",
+   "text": "$285"
+  },
+  {
+   "id": "d5189f57be",
+   "where": "span · Luxe",
+   "original": "/mo",
+   "text": "/mo"
+  },
+  {
+   "id": "e3b782fac4",
+   "where": "p · Luxe",
+   "original": "$490 monthly credit — the full monthly reset, spent however you like.",
+   "text": "$490 monthly credit — the full monthly reset, spent however you like."
+  },
+  {
+   "id": "3d1e3f8a12",
+   "where": "li · Luxe",
+   "original": "Member pricing on every drip",
+   "text": "Member pricing on every drip"
+  },
+  {
+   "id": "6947c0371b",
+   "where": "li · Luxe",
+   "original": "Birthday drip on us",
+   "text": "Birthday drip on us"
+  },
+  {
+   "id": "b0d4e49a2c",
+   "where": "li · Luxe",
+   "original": "Priority booking & promos",
+   "text": "Priority booking & promos"
+  },
+  {
+   "id": "71ea486100",
+   "where": "li · Luxe",
+   "original": "Pause or cancel anytime",
+   "text": "Pause or cancel anytime"
+  },
+  {
+   "id": "a79434f8b3",
+   "where": "a · Luxe",
+   "original": "Join Luxe",
+   "text": "Join Luxe"
+  },
+  {
+   "id": "0722edd24d",
+   "where": "p · Luxe",
+   "original": "Family, student and NAD+ memberships too — see",
+   "text": "Family, student and NAD+ memberships too — see"
+  },
+  {
+   "id": "205437f464",
+   "where": "a · Luxe",
+   "original": "all memberships",
+   "text": "all memberships"
+  },
+  {
+   "id": "7412746836",
+   "where": "text · Luxe",
+   "original": ". Pause or cancel anytime with the front desk.",
+   "text": ". Pause or cancel anytime with the front desk."
+  },
+  {
+   "id": "b5e50ec0d4",
+   "where": "text · Luxe",
+   "original": "From the founder",
+   "text": "From the founder"
+  },
+  {
+   "id": "b04a59c9df",
+   "where": "h2 · Luxe",
+   "original": "Stay optimized to look, feel and",
+   "text": "Stay optimized to look, feel and"
+  },
+  {
+   "id": "1a500f4db6",
+   "where": "span · Stay optimized to look, feel and",
+   "original": "perform",
+   "text": "perform"
+  },
+  {
+   "id": "da857acbd1",
+   "where": "p · Stay optimized to look, feel and",
+   "original": "\"ThrIVe is a preventative-health-oriented wellness center designed to help people mitigate the risks of stress from work and their environment — and allow oneself to stay optimized to look, feel and perform better every day.\"",
+   "text": "\"ThrIVe is a preventative-health-oriented wellness center designed to help people mitigate the risks of stress from work and their environment — and allow oneself to stay optimized to look, feel and perform better every day.\""
+  },
+  {
+   "id": "b07344768c",
+   "where": "p · Stay optimized to look, feel and",
+   "original": "— Dr. Eugene Lou, MD · CEO & founder. MIT graduate, orthopedic surgeon for more than 20 years, published at the Whitehead Institute alongside three Nobel laureates.",
+   "text": "— Dr. Eugene Lou, MD · CEO & founder. MIT graduate, orthopedic surgeon for more than 20 years, published at the Whitehead Institute alongside three Nobel laureates."
+  },
+  {
+   "id": "b607c3dd56",
+   "where": "a · Stay optimized to look, feel and",
+   "original": "Meet the team →",
+   "text": "Meet the team →"
+  },
+  {
+   "id": "24d162e9b3",
+   "where": "text · Stay optimized to look, feel and",
+   "original": "Happy customers",
+   "text": "Happy customers"
+  },
+  {
+   "id": "d82a431614",
+   "where": "h2 · Stay optimized to look, feel and",
+   "original": "Where wellness meets",
+   "text": "Where wellness meets"
+  },
+  {
+   "id": "a19f4b619b",
+   "where": "span · Where wellness meets",
+   "original": "happiness",
+   "text": "happiness"
+  },
+  {
+   "id": "06959d925b",
+   "where": "blockquote · Where wellness meets",
+   "original": "The lounge is gorgeous, the nurses are gentle, and I walked out feeling like a new person. Jasmine is the best.",
+   "text": "The lounge is gorgeous, the nurses are gentle, and I walked out feeling like a new person. Jasmine is the best."
+  },
+  {
+   "id": "7e211a1f72",
+   "where": "figcaption · Where wellness meets",
+   "original": "Google review · Memorial",
+   "text": "Google review · Memorial"
+  },
+  {
+   "id": "14a5a45b27",
+   "where": "blockquote · Where wellness meets",
+   "original": "I had a hangover, and then I found ThrIVe. The Party Drip fixed me in 40 minutes. Booked again before I left.",
+   "text": "I had a hangover, and then I found ThrIVe. The Party Drip fixed me in 40 minutes. Booked again before I left."
+  },
+  {
+   "id": "aae29db965",
+   "where": "figcaption · Where wellness meets",
+   "original": "Google review · West University",
+   "text": "Google review · West University"
+  },
+  {
+   "id": "c8c0cff848",
+   "where": "blockquote · Where wellness meets",
+   "original": "Stephanie explained every ingredient in my Myers drip and made my first IV completely painless. Beautiful, calm space.",
+   "text": "Stephanie explained every ingredient in my Myers drip and made my first IV completely painless. Beautiful, calm space."
+  },
+  {
+   "id": "5a2ad2ec2e",
+   "where": "figcaption · Where wellness meets",
+   "original": "Google review · The Woodlands",
+   "text": "Google review · The Woodlands"
+  },
+  {
+   "id": "f09e4799c2",
+   "where": "blockquote · Where wellness meets",
+   "original": "Emsculpt NEO here has been a game changer. Four sessions in and the difference is real — and the staff are so kind.",
+   "text": "Emsculpt NEO here has been a game changer. Four sessions in and the difference is real — and the staff are so kind."
+  },
+  {
+   "id": "a770f5eb2a",
+   "where": "figcaption · Where wellness meets",
+   "original": "Google review · Highland Park",
+   "text": "Google review · Highland Park"
+  },
+  {
+   "id": "6f77bb6bfe",
+   "where": "p · Where wellness meets",
+   "original": "4,500+ Google reviews across our ten Texas lounges.",
+   "text": "4,500+ Google reviews across our ten Texas lounges."
+  },
+  {
+   "id": "71e1ae1f4c",
+   "where": "text · Where wellness meets",
+   "original": "Visit us",
+   "text": "Visit us"
+  },
+  {
+   "id": "34131695d2",
+   "where": "h2 · Where wellness meets",
+   "original": "Ten lounges.",
+   "text": "Ten lounges."
+  },
+  {
+   "id": "8dcce99f4b",
+   "where": "span · Ten lounges.",
+   "original": "One drip.",
+   "text": "One drip."
+  },
+  {
+   "id": "799b8f0796",
+   "where": "p · Ten lounges.",
+   "original": "Founded in Houston as the first IV therapy drip spa in Texas — now across Greater Houston, Dallas and Fort Worth, plus mobile service to your door.",
+   "text": "Founded in Houston as the first IV therapy drip spa in Texas — now across Greater Houston, Dallas and Fort Worth, plus mobile service to your door."
+  },
+  {
+   "id": "a3e0c3efcf",
+   "where": "a · Ten lounges.",
+   "original": "All locations + mobile →",
+   "text": "All locations + mobile →"
+  },
+  {
+   "id": "ab44ef37bd",
+   "where": "h3 · Ten lounges.",
+   "original": "Memorial",
+   "text": "Memorial"
+  },
+  {
+   "id": "dc9fd4fa7e",
+   "where": "span · Memorial",
+   "original": "Houston →",
+   "text": "Houston →"
+  },
+  {
+   "id": "296327b11c",
+   "where": "h3 · Memorial",
+   "original": "Memorial Green",
+   "text": "Memorial Green"
+  },
+  {
+   "id": "d0a12a6b7c",
+   "where": "span · Memorial Green",
+   "original": "Houston →",
+   "text": "Houston →"
+  },
+  {
+   "id": "1fb69acd1f",
+   "where": "h3 · Memorial Green",
+   "original": "The Heights",
+   "text": "The Heights"
+  },
+  {
+   "id": "d063b19119",
+   "where": "span · The Heights",
+   "original": "Houston →",
+   "text": "Houston →"
+  },
+  {
+   "id": "31fd01e475",
+   "where": "h3 · The Heights",
+   "original": "West University",
+   "text": "West University"
+  },
+  {
+   "id": "bc02c8aee1",
+   "where": "span · West University",
+   "original": "Houston →",
+   "text": "Houston →"
+  },
+  {
+   "id": "b6248cd0a4",
+   "where": "h3 · West University",
+   "original": "Vintage Park",
+   "text": "Vintage Park"
+  },
+  {
+   "id": "c2fa8d738c",
+   "where": "span · Vintage Park",
+   "original": "Houston →",
+   "text": "Houston →"
+  },
+  {
+   "id": "61ac5c4b57",
+   "where": "h3 · Vintage Park",
+   "original": "Katy",
+   "text": "Katy"
+  },
+  {
+   "id": "827ee9a0f3",
+   "where": "span · Katy",
+   "original": "Katy →",
+   "text": "Katy →"
+  },
+  {
+   "id": "5c9fe3db51",
+   "where": "h3 · Katy",
+   "original": "The Woodlands",
+   "text": "The Woodlands"
+  },
+  {
+   "id": "11884fbdd3",
+   "where": "span · The Woodlands",
+   "original": "The Woodlands →",
+   "text": "The Woodlands →"
+  },
+  {
+   "id": "0c7decc8d0",
+   "where": "h3 · The Woodlands",
+   "original": "Clear Lake",
+   "text": "Clear Lake"
+  },
+  {
+   "id": "290fbefae5",
+   "where": "span · Clear Lake",
+   "original": "Houston →",
+   "text": "Houston →"
+  },
+  {
+   "id": "29853b51ce",
+   "where": "h3 · Clear Lake",
+   "original": "Highland Park",
+   "text": "Highland Park"
+  },
+  {
+   "id": "9519b0a3ee",
+   "where": "span · Highland Park",
+   "original": "Dallas →",
+   "text": "Dallas →"
+  },
+  {
+   "id": "903a37132d",
+   "where": "h3 · Highland Park",
+   "original": "Fort Worth",
+   "text": "Fort Worth"
+  },
+  {
+   "id": "4be04602f8",
+   "where": "span · Fort Worth",
+   "original": "Fort Worth →",
+   "text": "Fort Worth →"
+  },
+  {
+   "id": "982f59fc31",
+   "where": "text · Fort Worth",
+   "original": "Frequently asked",
+   "text": "Frequently asked"
+  },
+  {
+   "id": "0c3efea856",
+   "where": "h2 · Fort Worth",
+   "original": "Our expert",
+   "text": "Our expert"
+  },
+  {
+   "id": "f1868ca4b5",
+   "where": "span · Our expert",
+   "original": "advice",
+   "text": "advice"
+  },
+  {
+   "id": "b1c0a02508",
+   "where": "a · Our expert",
+   "original": "All FAQs →",
+   "text": "All FAQs →"
+  },
+  {
+   "id": "f4f8d1c3d3",
+   "where": "h3 · Our expert",
+   "original": "What is IV vitamin therapy?",
+   "text": "What is IV vitamin therapy?"
+  },
+  {
+   "id": "aeb2032f43",
+   "where": "p · What is IV vitamin therapy?",
+   "original": "IV vitamin therapy delivers fluids and essential nutrients directly into the bloodstream for maximum absorption. Up to 85% of a vitamin pill can be lost to digestion; an IV delivers close to 100%. It helps combat dehydration, boost energy, support immunity and enhance overall wellness.",
+   "text": "IV vitamin therapy delivers fluids and essential nutrients directly into the bloodstream for maximum absorption. Up to 85% of a vitamin pill can be lost to digestion; an IV delivers close to 100%. It helps combat dehydration, boost energy, support immunity and enhance overall wellness."
+  },
+  {
+   "id": "09d2b7b2f5",
+   "where": "h3 · What is IV vitamin therapy?",
+   "original": "What is the Drip Lounge experience like?",
+   "text": "What is the Drip Lounge experience like?"
+  },
+  {
+   "id": "86fce44ed7",
+   "where": "p · What is the Drip Lounge experience like?",
+   "original": "Relaxing. You'll settle into a reclining lounge chair while a registered nurse places your IV and builds your drip. Complimentary beverages, protein bars and cozy blankets are part of the visit. Most drips take 30–45 minutes; NAD+ runs longer.",
+   "text": "Relaxing. You'll settle into a reclining lounge chair while a registered nurse places your IV and builds your drip. Complimentary beverages, protein bars and cozy blankets are part of the visit. Most drips take 30–45 minutes; NAD+ runs longer."
+  },
+  {
+   "id": "f6bd832854",
+   "where": "h3 · What is the Drip Lounge experience like?",
+   "original": "Are the treatments safe?",
+   "text": "Are the treatments safe?"
+  },
+  {
+   "id": "b8978ff67d",
+   "where": "p · Are the treatments safe?",
+   "original": "Every drip is administered by experienced registered nurses following a Good Faith Exam with a licensed provider. Our spa consultants walk you through the menu and help you choose. We're LegitScript certified.",
+   "text": "Every drip is administered by experienced registered nurses following a Good Faith Exam with a licensed provider. Our spa consultants walk you through the menu and help you choose. We're LegitScript certified."
+  },
+  {
+   "id": "0cb438260e",
+   "where": "h3 · Are the treatments safe?",
+   "original": "What can it help with?",
+   "text": "What can it help with?"
+  },
+  {
+   "id": "ed051684de",
+   "where": "p · What can it help with?",
+   "original": "Dehydration, fatigue, immune support, hangovers, migraine relief, athletic recovery, skin and beauty goals, and more. If you're not sure which drip fits, our nurses will build one for you.",
+   "text": "Dehydration, fatigue, immune support, hangovers, migraine relief, athletic recovery, skin and beauty goals, and more. If you're not sure which drip fits, our nurses will build one for you."
+  },
+  {
+   "id": "0a2dd9808e",
+   "where": "h3 · What can it help with?",
+   "original": "How fast does it work?",
+   "text": "How fast does it work?"
+  },
+  {
+   "id": "fd79ab93c1",
+   "where": "p · How fast does it work?",
+   "original": "Fluids and nutrients reach the bloodstream immediately. Many clients feel the difference before they leave the chair; the effects of a Myers or Beauty drip can last for weeks.",
+   "text": "Fluids and nutrients reach the bloodstream immediately. Many clients feel the difference before they leave the chair; the effects of a Myers or Beauty drip can last for weeks."
+  },
+  {
+   "id": "d565a87b75",
+   "where": "h2 · How fast does it work?",
+   "original": "Feel better in about",
+   "text": "Feel better in about"
+  },
+  {
+   "id": "6b4e99324f",
+   "where": "span · Feel better in about",
+   "original": "an hour.",
+   "text": "an hour."
+  },
+  {
+   "id": "7f2b125a93",
+   "where": "p · Feel better in about",
+   "original": "Physician-formulated drips, delivered by licensed nurses. No membership, no card to book — you pay when you're in the chair. New clients save 25% on their first IV.",
+   "text": "Physician-formulated drips, delivered by licensed nurses. No membership, no card to book — you pay when you're in the chair. New clients save 25% on their first IV."
+  },
+  {
+   "id": "3a1ed4c774",
+   "where": "a · Feel better in about",
+   "original": "Book Your Drip",
+   "text": "Book Your Drip"
+  },
+  {
+   "id": "6e78f1f218",
+   "where": "a · Feel better in about",
+   "original": "Find a Location",
+   "text": "Find a Location"
+  }
+ ]
+}

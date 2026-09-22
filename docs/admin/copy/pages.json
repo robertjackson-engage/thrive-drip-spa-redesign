@@ -1,0 +1,261 @@
+{
+ "repo": "robertjackson-engage/thrive-drip-spa-redesign",
+ "branch": "main",
+ "pages": [
+  {
+   "scope": "index",
+   "file": "index.html",
+   "title": "IV Therapy, NAD+ & Wellness Spa | ThrIVe Drip Spa — Houston, Dallas & Fort Worth"
+  },
+  {
+   "scope": "about",
+   "file": "about.html",
+   "title": "About ThrIVe Drip Spa — The First IV Drip Spa in Texas"
+  },
+  {
+   "scope": "beauty-drip",
+   "file": "beauty-drip.html",
+   "title": "Beauty Drip — $190 · $150 member | ThrIVe Drip Spa"
+  },
+  {
+   "scope": "blog",
+   "file": "blog.html",
+   "title": "Blog — IV Therapy, NAD+ & Wellness Insights | ThrIVe Drip Spa"
+  },
+  {
+   "scope": "body-contouring",
+   "file": "body-contouring.html",
+   "title": "Body & Face — Emsculpt NEO, EMFACE, EMTONE, Normatec, Infrared Sauna | ThrIVe Drip Spa"
+  },
+  {
+   "scope": "book",
+   "file": "book.html",
+   "title": "Book Online — Under a Minute, No Card Required | ThrIVe Drip Spa"
+  },
+  {
+   "scope": "careers",
+   "file": "careers.html",
+   "title": "Careers — Spa Consultants & Nurses | ThrIVe Drip Spa"
+  },
+  {
+   "scope": "contact",
+   "file": "contact.html",
+   "title": "Contact ThrIVe Drip Spa — 844-820-1713"
+  },
+  {
+   "scope": "detox-drip",
+   "file": "detox-drip.html",
+   "title": "Detox Drip — $190 · $150 member | ThrIVe Drip Spa"
+  },
+  {
+   "scope": "emface",
+   "file": "emface.html",
+   "title": "EMFACE in Houston & Dallas | ThrIVe Drip Spa"
+  },
+  {
+   "scope": "emsculpt",
+   "file": "emsculpt.html",
+   "title": "Emsculpt in Houston & Dallas | ThrIVe Drip Spa"
+  },
+  {
+   "scope": "emsculpt-neo",
+   "file": "emsculpt-neo.html",
+   "title": "Emsculpt NEO in Houston & Dallas | ThrIVe Drip Spa"
+  },
+  {
+   "scope": "emtone",
+   "file": "emtone.html",
+   "title": "EMTONE in Houston & Dallas | ThrIVe Drip Spa"
+  },
+  {
+   "scope": "events",
+   "file": "events.html",
+   "title": "Events — Demos, Pop-ups & Member Nights | ThrIVe Drip Spa"
+  },
+  {
+   "scope": "faq",
+   "file": "faq.html",
+   "title": "FAQ — IV Therapy, Memberships & Body Contouring | ThrIVe Drip Spa"
+  },
+  {
+   "scope": "fit-drip",
+   "file": "fit-drip.html",
+   "title": "Fit Drip — $190 · $150 member | ThrIVe Drip Spa"
+  },
+  {
+   "scope": "franchise",
+   "file": "franchise.html",
+   "title": "Franchise Opportunities | ThrIVe Drip Spa"
+  },
+  {
+   "scope": "gfe-process",
+   "file": "gfe-process.html",
+   "title": "Good Faith Exam Process | ThrIVe Drip Spa"
+  },
+  {
+   "scope": "high-c-drip",
+   "file": "high-c-drip.html",
+   "title": "High C Drip — $230 · $200 member | ThrIVe Drip Spa"
+  },
+  {
+   "scope": "hydrate-drip",
+   "file": "hydrate-drip.html",
+   "title": "Hydrate Drip — $150 · $120 member | ThrIVe Drip Spa"
+  },
+  {
+   "scope": "immuno-drip",
+   "file": "immuno-drip.html",
+   "title": "Immuno Drip — $310 · $250 member | ThrIVe Drip Spa"
+  },
+  {
+   "scope": "infrared-sauna",
+   "file": "infrared-sauna.html",
+   "title": "Infrared Sauna Therapy — Vintage Park & Clear Lake | ThrIVe Drip Spa"
+  },
+  {
+   "scope": "boosters",
+   "file": "boosters.html",
+   "title": "IV Boosters — Vitamin C, Glutathione, NAD+, B12 & more | ThrIVe Drip Spa"
+  },
+  {
+   "scope": "iv-therapy",
+   "file": "iv-therapy.html",
+   "title": "IV Drip Menu & Pricing | ThrIVe Drip Spa"
+  },
+  {
+   "scope": "packages",
+   "file": "packages.html",
+   "title": "IV Therapy, Shot & NAD+ Packages | ThrIVe Drip Spa"
+  },
+  {
+   "scope": "libido-drip",
+   "file": "libido-drip.html",
+   "title": "Libido Drip — $190 · $150 member | ThrIVe Drip Spa"
+  },
+  {
+   "scope": "locations",
+   "file": "locations.html",
+   "title": "Locations — Houston, Katy, The Woodlands, Clear Lake, Dallas & Fort Worth | ThrIVe Drip Spa"
+  },
+  {
+   "scope": "memberships",
+   "file": "memberships.html",
+   "title": "Memberships from $95/mo | ThrIVe Drip Spa"
+  },
+  {
+   "scope": "migraine-drip",
+   "file": "migraine-drip.html",
+   "title": "Migraine Drip — $190 · $150 member | ThrIVe Drip Spa"
+  },
+  {
+   "scope": "mobile-iv",
+   "file": "mobile-iv.html",
+   "title": "Mobile IV Therapy Houston — Concierge Drips to Your Door | ThrIVe Drip Spa"
+  },
+  {
+   "scope": "promotions",
+   "file": "promotions.html",
+   "title": "Monthly Promotions | ThrIVe Drip Spa"
+  },
+  {
+   "scope": "myers-drip",
+   "file": "myers-drip.html",
+   "title": "Myers Drip — $190 · $150 member | ThrIVe Drip Spa"
+  },
+  {
+   "scope": "nad",
+   "file": "nad.html",
+   "title": "NAD+ IV Therapy, Shots & Memberships | ThrIVe Drip Spa"
+  },
+  {
+   "scope": "normatec",
+   "file": "normatec.html",
+   "title": "Normatec Compression Recovery — $25 | ThrIVe Drip Spa"
+  },
+  {
+   "scope": "party-drip",
+   "file": "party-drip.html",
+   "title": "Party Drip — $190 · $150 member | ThrIVe Drip Spa"
+  },
+  {
+   "scope": "privacy",
+   "file": "privacy.html",
+   "title": "Privacy Policy | ThrIVe Drip Spa"
+  },
+  {
+   "scope": "slim-drip",
+   "file": "slim-drip.html",
+   "title": "Slim Drip — $190 · $150 member | ThrIVe Drip Spa"
+  },
+  {
+   "scope": "terms",
+   "file": "terms.html",
+   "title": "Terms & Conditions | ThrIVe Drip Spa"
+  },
+  {
+   "scope": "thank-you",
+   "file": "thank-you.html",
+   "title": "Thank You | ThrIVe Drip Spa"
+  },
+  {
+   "scope": "clear-lake",
+   "file": "clear-lake.html",
+   "title": "ThrIVe Drip Spa Clear Lake — IV Therapy in Houston, TX"
+  },
+  {
+   "scope": "fort-worth",
+   "file": "fort-worth.html",
+   "title": "ThrIVe Drip Spa Fort Worth — IV Therapy in Fort Worth, TX"
+  },
+  {
+   "scope": "highland-park",
+   "file": "highland-park.html",
+   "title": "ThrIVe Drip Spa Highland Park — IV Therapy in Dallas, TX"
+  },
+  {
+   "scope": "katy",
+   "file": "katy.html",
+   "title": "ThrIVe Drip Spa Katy — IV Therapy in Katy, TX"
+  },
+  {
+   "scope": "memorial-green",
+   "file": "memorial-green.html",
+   "title": "ThrIVe Drip Spa Memorial Green — IV Therapy in Houston, TX"
+  },
+  {
+   "scope": "memorial",
+   "file": "memorial.html",
+   "title": "ThrIVe Drip Spa Memorial — IV Therapy in Houston, TX"
+  },
+  {
+   "scope": "the-heights",
+   "file": "the-heights.html",
+   "title": "ThrIVe Drip Spa The Heights — IV Therapy in Houston, TX"
+  },
+  {
+   "scope": "the-woodlands",
+   "file": "the-woodlands.html",
+   "title": "ThrIVe Drip Spa The Woodlands — IV Therapy in The Woodlands, TX"
+  },
+  {
+   "scope": "vintage-park",
+   "file": "vintage-park.html",
+   "title": "ThrIVe Drip Spa Vintage Park — IV Therapy in Houston, TX"
+  },
+  {
+   "scope": "west-university",
+   "file": "west-university.html",
+   "title": "ThrIVe Drip Spa West University — IV Therapy in Houston, TX"
+  },
+  {
+   "scope": "shots",
+   "file": "shots.html",
+   "title": "Vitamin Shots — B12, Biotin, Lipo, NAD+, Vitamin D | ThrIVe Drip Spa"
+  },
+  {
+   "scope": "weight-loss",
+   "file": "weight-loss.html",
+   "title": "Weight Loss Injections & Telehealth Consults | ThrIVe Drip Spa"
+  }
+ ]
+}

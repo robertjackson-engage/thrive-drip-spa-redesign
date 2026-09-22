@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://robertjackson-engage.github.io/thrive-drip-spa-redesign/sitemap.xml

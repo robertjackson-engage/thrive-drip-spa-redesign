@@ -1,0 +1,683 @@
+{
+ "page": "slim-drip",
+ "items": [
+  {
+   "id": "66dd01bfb3",
+   "where": "Browser tab title",
+   "original": "Slim Drip — $190 · $150 member | ThrIVe Drip Spa",
+   "text": "Slim Drip — $190 · $150 member | ThrIVe Drip Spa"
+  },
+  {
+   "id": "8795157518",
+   "where": "Search-engine description",
+   "original": "Speed up metabolism with this boost of ingredients. 1 L IV fluids, Electrolytes, High-dose Carnitine, Amino acids, B12. Good for burn more fat, boost metabolism, grow and repair tissue. Book at ten Texas lounges or mobile.",
+   "text": "Speed up metabolism with this boost of ingredients. 1 L IV fluids, Electrolytes, High-dose Carnitine, Amino acids, B12. Good for burn more fat, boost metabolism, grow and repair tissue. Book at ten Texas lounges or mobile."
+  },
+  {
+   "id": "eae96afb21",
+   "where": "a",
+   "original": "Home",
+   "text": "Home"
+  },
+  {
+   "id": "717685eec9",
+   "where": "text",
+   "original": "/",
+   "text": "/"
+  },
+  {
+   "id": "a4fec419dd",
+   "where": "a",
+   "original": "IV Drips",
+   "text": "IV Drips"
+  },
+  {
+   "id": "be733dbf28",
+   "where": "text",
+   "original": "/ Slim Drip",
+   "text": "/ Slim Drip"
+  },
+  {
+   "id": "d2efb2cec9",
+   "where": "p",
+   "original": "Boost Your Burn",
+   "text": "Boost Your Burn"
+  },
+  {
+   "id": "d7ad1960e6",
+   "where": "span",
+   "original": "The",
+   "text": "The"
+  },
+  {
+   "id": "6c88d2897f",
+   "where": "span",
+   "original": "Slim",
+   "text": "Slim"
+  },
+  {
+   "id": "9b6ce56ea7",
+   "where": "span",
+   "original": "Drip.",
+   "text": "Drip."
+  },
+  {
+   "id": "20d404ce56",
+   "where": "p",
+   "original": "Speed up metabolism with this boost of ingredients.",
+   "text": "Speed up metabolism with this boost of ingredients."
+  },
+  {
+   "id": "27e422b33d",
+   "where": "a",
+   "original": "Book This Drip",
+   "text": "Book This Drip"
+  },
+  {
+   "id": "a580f71f50",
+   "where": "a",
+   "original": "All 12 Drips",
+   "text": "All 12 Drips"
+  },
+  {
+   "id": "0fe75f8de2",
+   "where": "span",
+   "original": "$190 walk-in · $150 member",
+   "text": "$190 walk-in · $150 member"
+  },
+  {
+   "id": "078e34c76f",
+   "where": "span",
+   "original": "30–45 minutes",
+   "text": "30–45 minutes"
+  },
+  {
+   "id": "d951d35e64",
+   "where": "span",
+   "original": "1 L IV fluids",
+   "text": "1 L IV fluids"
+  },
+  {
+   "id": "b45613de7a",
+   "where": "text",
+   "original": "High-dose Carnitine, Amino acids",
+   "text": "High-dose Carnitine, Amino acids"
+  },
+  {
+   "id": "c7a588af0d",
+   "where": "text",
+   "original": "What's in the bag",
+   "text": "What's in the bag"
+  },
+  {
+   "id": "5d85961390",
+   "where": "h2",
+   "original": "Ignite your energy",
+   "text": "Ignite your energy"
+  },
+  {
+   "id": "e4720a7bfe",
+   "where": "p · Ignite your energy",
+   "original": "Carnitine converts stored fat into energy and lifts mood; amino acids help regulate the hormones that drive metabolism. The Slim Drip is the infusion clients pair with a Lipo B or Lipo C injection — or our weight-loss program — to keep momentum going.",
+   "text": "Carnitine converts stored fat into energy and lifts mood; amino acids help regulate the hormones that drive metabolism. The Slim Drip is the infusion clients pair with a Lipo B or Lipo C injection — or our weight-loss program — to keep momentum going."
+  },
+  {
+   "id": "64e9d28e8d",
+   "where": "p · Ignite your energy",
+   "original": "Ingredients",
+   "text": "Ingredients"
+  },
+  {
+   "id": "42efa75fe9",
+   "where": "span · Ignite your energy",
+   "original": "1 L IV fluids",
+   "text": "1 L IV fluids"
+  },
+  {
+   "id": "683d6ce4ee",
+   "where": "span · Ignite your energy",
+   "original": "Electrolytes",
+   "text": "Electrolytes"
+  },
+  {
+   "id": "82459ef9b5",
+   "where": "span · Ignite your energy",
+   "original": "High-dose Carnitine",
+   "text": "High-dose Carnitine"
+  },
+  {
+   "id": "d2d17de905",
+   "where": "span · Ignite your energy",
+   "original": "Amino acids",
+   "text": "Amino acids"
+  },
+  {
+   "id": "d14a73b480",
+   "where": "span · Ignite your energy",
+   "original": "B12",
+   "text": "B12"
+  },
+  {
+   "id": "27656b8f78",
+   "where": "p · Ignite your energy",
+   "original": "Boost your results",
+   "text": "Boost your results"
+  },
+  {
+   "id": "47265831df",
+   "where": "span · Ignite your energy",
+   "original": "Taurine",
+   "text": "Taurine"
+  },
+  {
+   "id": "e9443bdd86",
+   "where": "span · Ignite your energy",
+   "original": "Lipo C shot",
+   "text": "Lipo C shot"
+  },
+  {
+   "id": "cb2fb9708d",
+   "where": "span · Ignite your energy",
+   "original": "GLP-1 shot",
+   "text": "GLP-1 shot"
+  },
+  {
+   "id": "245887fff2",
+   "where": "h3 · Ignite your energy",
+   "original": "Slim Drip",
+   "text": "Slim Drip"
+  },
+  {
+   "id": "4aedaa69ea",
+   "where": "div · Slim Drip",
+   "original": "$150",
+   "text": "$150"
+  },
+  {
+   "id": "55930886ad",
+   "where": "span · Slim Drip",
+   "original": "member",
+   "text": "member"
+  },
+  {
+   "id": "d982879045",
+   "where": "strong · Slim Drip",
+   "original": "$190",
+   "text": "$190"
+  },
+  {
+   "id": "0842d7abbd",
+   "where": "text · Slim Drip",
+   "original": "walk-in · includes 1 L IV fluids",
+   "text": "walk-in · includes 1 L IV fluids"
+  },
+  {
+   "id": "ba1cf38eb2",
+   "where": "li · Slim Drip",
+   "original": "Carnitine — fat to energy, brighter mood",
+   "text": "Carnitine — fat to energy, brighter mood"
+  },
+  {
+   "id": "fda3a89e42",
+   "where": "li · Slim Drip",
+   "original": "Amino acids — hormone regulation and tissue repair",
+   "text": "Amino acids — hormone regulation and tissue repair"
+  },
+  {
+   "id": "c5a2d4a64a",
+   "where": "li · Slim Drip",
+   "original": "Electrolytes — balance and hydration",
+   "text": "Electrolytes — balance and hydration"
+  },
+  {
+   "id": "08fb0896f4",
+   "where": "a · Slim Drip",
+   "original": "Book Now",
+   "text": "Book Now"
+  },
+  {
+   "id": "236b3e7dd2",
+   "where": "span · Slim Drip",
+   "original": "Boost Your Burn",
+   "text": "Boost Your Burn"
+  },
+  {
+   "id": "f01ad7bd2e",
+   "where": "text · Slim Drip",
+   "original": "Recommended for",
+   "text": "Recommended for"
+  },
+  {
+   "id": "abde37d6a8",
+   "where": "h2 · Slim Drip",
+   "original": "Good for",
+   "text": "Good for"
+  },
+  {
+   "id": "2f0b476543",
+   "where": "span · Good for",
+   "original": "burn more fat",
+   "text": "burn more fat"
+  },
+  {
+   "id": "1b0919cb2d",
+   "where": "p · Good for",
+   "original": "The Slim Drip is a popular choice for clients dealing with:",
+   "text": "The Slim Drip is a popular choice for clients dealing with:"
+  },
+  {
+   "id": "91c004701d",
+   "where": "li · Good for",
+   "original": "Burn more fat",
+   "text": "Burn more fat"
+  },
+  {
+   "id": "d1e08a2ba4",
+   "where": "li · Good for",
+   "original": "Boost metabolism",
+   "text": "Boost metabolism"
+  },
+  {
+   "id": "a0200680ae",
+   "where": "li · Good for",
+   "original": "Grow and repair tissue",
+   "text": "Grow and repair tissue"
+  },
+  {
+   "id": "cb8e8b81b0",
+   "where": "li · Good for",
+   "original": "Better workout performance",
+   "text": "Better workout performance"
+  },
+  {
+   "id": "0508585ea8",
+   "where": "li · Good for",
+   "original": "More energy",
+   "text": "More energy"
+  },
+  {
+   "id": "367b54c4c9",
+   "where": "a · Good for",
+   "original": "Book This Drip",
+   "text": "Book This Drip"
+  },
+  {
+   "id": "3331bfcdb2",
+   "where": "a · Good for",
+   "original": "Ask the concierge →",
+   "text": "Ask the concierge →"
+  },
+  {
+   "id": "ca66232be9",
+   "where": "text · Good for",
+   "original": "Pair it with",
+   "text": "Pair it with"
+  },
+  {
+   "id": "e23221b134",
+   "where": "h2 · Good for",
+   "original": "Other drips you might",
+   "text": "Other drips you might"
+  },
+  {
+   "id": "c9c60c30b1",
+   "where": "span · Other drips you might",
+   "original": "love",
+   "text": "love"
+  },
+  {
+   "id": "1c8007be9f",
+   "where": "a · Other drips you might",
+   "original": "All 12 drips →",
+   "text": "All 12 drips →"
+  },
+  {
+   "id": "0be3d7bcce",
+   "where": "span · Other drips you might",
+   "original": "$150",
+   "text": "$150"
+  },
+  {
+   "id": "153c1ed179",
+   "where": "h3 · Other drips you might",
+   "original": "Hydrate",
+   "text": "Hydrate"
+  },
+  {
+   "id": "4c98b118e9",
+   "where": "p · Hydrate",
+   "original": "Hydrate with fluids and electrolytes to boost energy, support body function and help you feel your best.",
+   "text": "Hydrate with fluids and electrolytes to boost energy, support body function and help you feel your best."
+  },
+  {
+   "id": "2b36d23ebe",
+   "where": "span · Hydrate",
+   "original": "View drip →",
+   "text": "View drip →"
+  },
+  {
+   "id": "5b052c064a",
+   "where": "span · Hydrate",
+   "original": "$190",
+   "text": "$190"
+  },
+  {
+   "id": "f0e44e3cc7",
+   "where": "h3 · Hydrate",
+   "original": "Myers",
+   "text": "Myers"
+  },
+  {
+   "id": "9b76beb9b7",
+   "where": "p · Myers",
+   "original": "This nutrient-rich infusion supports energy, skin wellness and recovery — a popular choice for a boost from within.",
+   "text": "This nutrient-rich infusion supports energy, skin wellness and recovery — a popular choice for a boost from within."
+  },
+  {
+   "id": "6cad2bddf2",
+   "where": "span · Myers",
+   "original": "View drip →",
+   "text": "View drip →"
+  },
+  {
+   "id": "644755b238",
+   "where": "span · Myers",
+   "original": "$190",
+   "text": "$190"
+  },
+  {
+   "id": "4fa8f1f43f",
+   "where": "h3 · Myers",
+   "original": "Detox",
+   "text": "Detox"
+  },
+  {
+   "id": "f089ee078f",
+   "where": "p · Detox",
+   "original": "Supports natural wellness and helps you feel more grounded, clear and recharged from within.",
+   "text": "Supports natural wellness and helps you feel more grounded, clear and recharged from within."
+  },
+  {
+   "id": "f4264b0d81",
+   "where": "span · Detox",
+   "original": "View drip →",
+   "text": "View drip →"
+  },
+  {
+   "id": "22802381f8",
+   "where": "span · Detox",
+   "original": "$190",
+   "text": "$190"
+  },
+  {
+   "id": "ad319b9d3b",
+   "where": "h3 · Detox",
+   "original": "Party",
+   "text": "Party"
+  },
+  {
+   "id": "faa521367f",
+   "where": "p · Party",
+   "original": "Rehydrate and recharge with fluids and nutrients designed to restore balance after a big night.",
+   "text": "Rehydrate and recharge with fluids and nutrients designed to restore balance after a big night."
+  },
+  {
+   "id": "7a95894b7b",
+   "where": "span · Party",
+   "original": "View drip →",
+   "text": "View drip →"
+  },
+  {
+   "id": "8b0de185ee",
+   "where": "text · Party",
+   "original": "Memberships",
+   "text": "Memberships"
+  },
+  {
+   "id": "f1aac56038",
+   "where": "h2 · Party",
+   "original": "More value",
+   "text": "More value"
+  },
+  {
+   "id": "caff85f2ad",
+   "where": "span · More value",
+   "original": "every month",
+   "text": "every month"
+  },
+  {
+   "id": "0398278e8a",
+   "where": "p · More value",
+   "original": "Each month your membership loads a service credit worth more than what you pay — and it works on any service: drips, shots, boosters, NAD+ and BTL treatments.",
+   "text": "Each month your membership loads a service credit worth more than what you pay — and it works on any service: drips, shots, boosters, NAD+ and BTL treatments."
+  },
+  {
+   "id": "ed3106688a",
+   "where": "a · More value",
+   "original": "Compare all plans →",
+   "text": "Compare all plans →"
+  },
+  {
+   "id": "48c0975691",
+   "where": "h3 · More value",
+   "original": "Select",
+   "text": "Select"
+  },
+  {
+   "id": "c019b9fb25",
+   "where": "div · Select",
+   "original": "$95",
+   "text": "$95"
+  },
+  {
+   "id": "e6952178bf",
+   "where": "span · Select",
+   "original": "/mo",
+   "text": "/mo"
+  },
+  {
+   "id": "cf89fec935",
+   "where": "p · Select",
+   "original": "$140 monthly credit to spend on any service — more value than your membership fee, every month.",
+   "text": "$140 monthly credit to spend on any service — more value than your membership fee, every month."
+  },
+  {
+   "id": "73e6e24fd2",
+   "where": "li · Select",
+   "original": "Member pricing on every drip",
+   "text": "Member pricing on every drip"
+  },
+  {
+   "id": "f4be357d28",
+   "where": "li · Select",
+   "original": "Birthday drip on us",
+   "text": "Birthday drip on us"
+  },
+  {
+   "id": "3714451256",
+   "where": "li · Select",
+   "original": "Priority booking & promos",
+   "text": "Priority booking & promos"
+  },
+  {
+   "id": "9eabbad7b4",
+   "where": "li · Select",
+   "original": "Pause or cancel anytime",
+   "text": "Pause or cancel anytime"
+  },
+  {
+   "id": "ed1284e827",
+   "where": "a · Select",
+   "original": "Join Select",
+   "text": "Join Select"
+  },
+  {
+   "id": "808d8c0e53",
+   "where": "span · Select",
+   "original": "Most popular",
+   "text": "Most popular"
+  },
+  {
+   "id": "e54dbdd738",
+   "where": "h3 · Select",
+   "original": "Premium",
+   "text": "Premium"
+  },
+  {
+   "id": "3e4d67c764",
+   "where": "div · Premium",
+   "original": "$165",
+   "text": "$165"
+  },
+  {
+   "id": "b258aa1ae5",
+   "where": "span · Premium",
+   "original": "/mo",
+   "text": "/mo"
+  },
+  {
+   "id": "1ac2a231e1",
+   "where": "p · Premium",
+   "original": "$260 monthly credit — your standard glow-up, fully covered, on any services you choose.",
+   "text": "$260 monthly credit — your standard glow-up, fully covered, on any services you choose."
+  },
+  {
+   "id": "7088abb5a1",
+   "where": "li · Premium",
+   "original": "Member pricing on every drip",
+   "text": "Member pricing on every drip"
+  },
+  {
+   "id": "25d6aa3f37",
+   "where": "li · Premium",
+   "original": "Birthday drip on us",
+   "text": "Birthday drip on us"
+  },
+  {
+   "id": "d54eb59d49",
+   "where": "li · Premium",
+   "original": "Priority booking & promos",
+   "text": "Priority booking & promos"
+  },
+  {
+   "id": "80738cb64e",
+   "where": "li · Premium",
+   "original": "Pause or cancel anytime",
+   "text": "Pause or cancel anytime"
+  },
+  {
+   "id": "cd68fe9c39",
+   "where": "a · Premium",
+   "original": "Join Premium",
+   "text": "Join Premium"
+  },
+  {
+   "id": "8fa5596a47",
+   "where": "h3 · Premium",
+   "original": "Luxe",
+   "text": "Luxe"
+  },
+  {
+   "id": "cbdbae0be1",
+   "where": "div · Luxe",
+   "original": "$285",
+   "text": "$285"
+  },
+  {
+   "id": "a148a2fd1d",
+   "where": "span · Luxe",
+   "original": "/mo",
+   "text": "/mo"
+  },
+  {
+   "id": "22f2f656cd",
+   "where": "p · Luxe",
+   "original": "$490 monthly credit — the full monthly reset, spent however you like.",
+   "text": "$490 monthly credit — the full monthly reset, spent however you like."
+  },
+  {
+   "id": "9e3f6e5e90",
+   "where": "li · Luxe",
+   "original": "Member pricing on every drip",
+   "text": "Member pricing on every drip"
+  },
+  {
+   "id": "e93b993dd0",
+   "where": "li · Luxe",
+   "original": "Birthday drip on us",
+   "text": "Birthday drip on us"
+  },
+  {
+   "id": "3970cae682",
+   "where": "li · Luxe",
+   "original": "Priority booking & promos",
+   "text": "Priority booking & promos"
+  },
+  {
+   "id": "f5290c894a",
+   "where": "li · Luxe",
+   "original": "Pause or cancel anytime",
+   "text": "Pause or cancel anytime"
+  },
+  {
+   "id": "7bae5fd3df",
+   "where": "a · Luxe",
+   "original": "Join Luxe",
+   "text": "Join Luxe"
+  },
+  {
+   "id": "875ef1e761",
+   "where": "p · Luxe",
+   "original": "Family, student and NAD+ memberships too — see",
+   "text": "Family, student and NAD+ memberships too — see"
+  },
+  {
+   "id": "0c0a480016",
+   "where": "a · Luxe",
+   "original": "all memberships",
+   "text": "all memberships"
+  },
+  {
+   "id": "44788e57a9",
+   "where": "text · Luxe",
+   "original": ". Pause or cancel anytime with the front desk.",
+   "text": ". Pause or cancel anytime with the front desk."
+  },
+  {
+   "id": "a910fa17b9",
+   "where": "h2 · Luxe",
+   "original": "Book the",
+   "text": "Book the"
+  },
+  {
+   "id": "5511355deb",
+   "where": "span · Book the",
+   "original": "Slim",
+   "text": "Slim"
+  },
+  {
+   "id": "eedd1dcbb4",
+   "where": "text · Book the",
+   "original": "today.",
+   "text": "today."
+  },
+  {
+   "id": "fe3a363c4b",
+   "where": "p · Book the",
+   "original": "Under a minute to book, no card required. Walk in, recline, and feel the difference before you leave.",
+   "text": "Under a minute to book, no card required. Walk in, recline, and feel the difference before you leave."
+  },
+  {
+   "id": "5fece179c1",
+   "where": "a · Book the",
+   "original": "Book Your Drip",
+   "text": "Book Your Drip"
+  },
+  {
+   "id": "7ed508b382",
+   "where": "a · Book the",
+   "original": "Find a Location",
+   "text": "Find a Location"
+  }
+ ]
+}

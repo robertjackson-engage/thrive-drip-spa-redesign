@@ -1,0 +1,653 @@
+{
+ "page": "shots",
+ "items": [
+  {
+   "id": "8adfa8e108",
+   "where": "Browser tab title",
+   "original": "Vitamin Shots — B12, Biotin, Lipo, NAD+, Vitamin D | ThrIVe Drip Spa",
+   "text": "Vitamin Shots — B12, Biotin, Lipo, NAD+, Vitamin D | ThrIVe Drip Spa"
+  },
+  {
+   "id": "6e6ecde1a1",
+   "where": "Search-engine description",
+   "original": "Fast-acting intramuscular vitamin injections from $25: B12, Biotin, Lipo B, Lipo C, Vitamin D3, Toradol, Zofran, CoQ10, Tri-Immuno and NAD+. In and out in 15 minutes.",
+   "text": "Fast-acting intramuscular vitamin injections from $25: B12, Biotin, Lipo B, Lipo C, Vitamin D3, Toradol, Zofran, CoQ10, Tri-Immuno and NAD+. In and out in 15 minutes."
+  },
+  {
+   "id": "575c856424",
+   "where": "a",
+   "original": "Home",
+   "text": "Home"
+  },
+  {
+   "id": "4ef3bc6d6a",
+   "where": "text",
+   "original": "/ Vitamin Shots",
+   "text": "/ Vitamin Shots"
+  },
+  {
+   "id": "920c81ac1e",
+   "where": "p",
+   "original": "Vital Boost",
+   "text": "Vital Boost"
+  },
+  {
+   "id": "87dc367af7",
+   "where": "span",
+   "original": "Vitamin shots,",
+   "text": "Vitamin shots,"
+  },
+  {
+   "id": "4c12fdcd8f",
+   "where": "span",
+   "original": "done in",
+   "text": "done in"
+  },
+  {
+   "id": "aef2be83aa",
+   "where": "span",
+   "original": "15 min.",
+   "text": "15 min."
+  },
+  {
+   "id": "cb6c7afa19",
+   "where": "p",
+   "original": "Intramuscular vitamin injections are the quickest way to support your routine. B12, Biotin, Lipo B, Lipo C, Vitamin D3, Toradol, NAD+ and more — fast-acting, from $25, no chair time required.",
+   "text": "Intramuscular vitamin injections are the quickest way to support your routine. B12, Biotin, Lipo B, Lipo C, Vitamin D3, Toradol, NAD+ and more — fast-acting, from $25, no chair time required."
+  },
+  {
+   "id": "87e586e634",
+   "where": "a",
+   "original": "Book a Shot",
+   "text": "Book a Shot"
+  },
+  {
+   "id": "ca9cc6a364",
+   "where": "a",
+   "original": "Boosters for Drips",
+   "text": "Boosters for Drips"
+  },
+  {
+   "id": "24cf2cb999",
+   "where": "span",
+   "original": "From $25",
+   "text": "From $25"
+  },
+  {
+   "id": "39c49aa3cf",
+   "where": "span",
+   "original": "No appointment chair time",
+   "text": "No appointment chair time"
+  },
+  {
+   "id": "1db3305916",
+   "where": "span",
+   "original": "Buy 4, get 1 free",
+   "text": "Buy 4, get 1 free"
+  },
+  {
+   "id": "ddc56d08af",
+   "where": "text",
+   "original": "Fast-acting injections",
+   "text": "Fast-acting injections"
+  },
+  {
+   "id": "2d87ba4fcb",
+   "where": "text",
+   "original": "Shot menu",
+   "text": "Shot menu"
+  },
+  {
+   "id": "89a04189a9",
+   "where": "h2",
+   "original": "The ultimate",
+   "text": "The ultimate"
+  },
+  {
+   "id": "d50764a446",
+   "where": "span · The ultimate",
+   "original": "energy boost",
+   "text": "energy boost"
+  },
+  {
+   "id": "1749544e69",
+   "where": "a · The ultimate",
+   "original": "Packages →",
+   "text": "Packages →"
+  },
+  {
+   "id": "3abb6f80a6",
+   "where": "th · The ultimate",
+   "original": "Shot",
+   "text": "Shot"
+  },
+  {
+   "id": "73beb8d517",
+   "where": "th · The ultimate",
+   "original": "Price",
+   "text": "Price"
+  },
+  {
+   "id": "050fa4ceee",
+   "where": "td · The ultimate",
+   "original": "Toradol",
+   "text": "Toradol"
+  },
+  {
+   "id": "a2b6a41180",
+   "where": "small · The ultimate",
+   "original": "Anti-inflammatory and pain relief; reduces fever.",
+   "text": "Anti-inflammatory and pain relief; reduces fever."
+  },
+  {
+   "id": "95b8436e5c",
+   "where": "td · The ultimate",
+   "original": "$25",
+   "text": "$25"
+  },
+  {
+   "id": "e6730b28a9",
+   "where": "td · The ultimate",
+   "original": "Zofran",
+   "text": "Zofran"
+  },
+  {
+   "id": "231fef5ee8",
+   "where": "small · The ultimate",
+   "original": "Anti-nausea, anti-vomiting.",
+   "text": "Anti-nausea, anti-vomiting."
+  },
+  {
+   "id": "1fa568c388",
+   "where": "td · The ultimate",
+   "original": "$25",
+   "text": "$25"
+  },
+  {
+   "id": "b1b678a905",
+   "where": "td · The ultimate",
+   "original": "B12",
+   "text": "B12"
+  },
+  {
+   "id": "7cb69eadd1",
+   "where": "small · The ultimate",
+   "original": "Methylcobalamin for energy, clarity and healthy nerves.",
+   "text": "Methylcobalamin for energy, clarity and healthy nerves."
+  },
+  {
+   "id": "e129cbca3c",
+   "where": "td · The ultimate",
+   "original": "$25",
+   "text": "$25"
+  },
+  {
+   "id": "b6a40e55a9",
+   "where": "td · The ultimate",
+   "original": "Fit Shot",
+   "text": "Fit Shot"
+  },
+  {
+   "id": "fd9993964a",
+   "where": "small · The ultimate",
+   "original": "Six-plus amino acids for endurance, repair and blood flow.",
+   "text": "Six-plus amino acids for endurance, repair and blood flow."
+  },
+  {
+   "id": "488d82e71e",
+   "where": "td · The ultimate",
+   "original": "$40",
+   "text": "$40"
+  },
+  {
+   "id": "1505804336",
+   "where": "td · The ultimate",
+   "original": "Vitamin D3",
+   "text": "Vitamin D3"
+  },
+  {
+   "id": "8288774e67",
+   "where": "small · The ultimate",
+   "original": "Bones, immunity, brain and cardiovascular support.",
+   "text": "Bones, immunity, brain and cardiovascular support."
+  },
+  {
+   "id": "6e07f89e85",
+   "where": "td · The ultimate",
+   "original": "$40",
+   "text": "$40"
+  },
+  {
+   "id": "77f1e3bf7e",
+   "where": "td · The ultimate",
+   "original": "Lipo B",
+   "text": "Lipo B"
+  },
+  {
+   "id": "104e536db6",
+   "where": "small · The ultimate",
+   "original": "B-complex + B12 for fat burning, energy and clarity.",
+   "text": "B-complex + B12 for fat burning, energy and clarity."
+  },
+  {
+   "id": "dfb1da8f70",
+   "where": "td · The ultimate",
+   "original": "$40",
+   "text": "$40"
+  },
+  {
+   "id": "ebdcf571d4",
+   "where": "td · The ultimate",
+   "original": "Lipo C",
+   "text": "Lipo C"
+  },
+  {
+   "id": "904774895a",
+   "where": "small · The ultimate",
+   "original": "Carnitine + B-complex to burn stored fat and lift energy.",
+   "text": "Carnitine + B-complex to burn stored fat and lift energy."
+  },
+  {
+   "id": "6e23fff59c",
+   "where": "td · The ultimate",
+   "original": "$40",
+   "text": "$40"
+  },
+  {
+   "id": "fba45f8d39",
+   "where": "td · The ultimate",
+   "original": "Biotin",
+   "text": "Biotin"
+  },
+  {
+   "id": "4662bfc097",
+   "where": "small · The ultimate",
+   "original": "Hair, skin, nails and metabolism.",
+   "text": "Hair, skin, nails and metabolism."
+  },
+  {
+   "id": "cacc66730f",
+   "where": "td · The ultimate",
+   "original": "$40",
+   "text": "$40"
+  },
+  {
+   "id": "658c9cf56e",
+   "where": "td · The ultimate",
+   "original": "CoQ10",
+   "text": "CoQ10"
+  },
+  {
+   "id": "2bb6a86c14",
+   "where": "small · The ultimate",
+   "original": "Heart health, blood-sugar regulation and less muscle fatigue.",
+   "text": "Heart health, blood-sugar regulation and less muscle fatigue."
+  },
+  {
+   "id": "99aeced5db",
+   "where": "td · The ultimate",
+   "original": "$40",
+   "text": "$40"
+  },
+  {
+   "id": "eeeaefd11d",
+   "where": "td · The ultimate",
+   "original": "Tri-Immuno",
+   "text": "Tri-Immuno"
+  },
+  {
+   "id": "d3ab14c92d",
+   "where": "small · The ultimate",
+   "original": "Immunity, detox and free-radical defense.",
+   "text": "Immunity, detox and free-radical defense."
+  },
+  {
+   "id": "2cb204ea9e",
+   "where": "td · The ultimate",
+   "original": "$70",
+   "text": "$70"
+  },
+  {
+   "id": "03692f3526",
+   "where": "td · The ultimate",
+   "original": "NAD+",
+   "text": "NAD+"
+  },
+  {
+   "id": "eb10f380a8",
+   "where": "small · The ultimate",
+   "original": "Cellular energy, DNA repair, anti-aging and cognition.",
+   "text": "Cellular energy, DNA repair, anti-aging and cognition."
+  },
+  {
+   "id": "404954728d",
+   "where": "td · The ultimate",
+   "original": "$50 · 50 mg / $75 · 75 mg / $100 · 100 mg",
+   "text": "$50 · 50 mg / $75 · 75 mg / $100 · 100 mg"
+  },
+  {
+   "id": "6a8613ca0e",
+   "where": "text · The ultimate",
+   "original": "Good to know",
+   "text": "Good to know"
+  },
+  {
+   "id": "28182dbd3d",
+   "where": "h2 · The ultimate",
+   "original": "Shots,",
+   "text": "Shots,"
+  },
+  {
+   "id": "b617c66edf",
+   "where": "span · Shots,",
+   "original": "explained",
+   "text": "explained"
+  },
+  {
+   "id": "7e9d0bd3dc",
+   "where": "a · Shots,",
+   "original": "All FAQs →",
+   "text": "All FAQs →"
+  },
+  {
+   "id": "8f5507cf65",
+   "where": "h3 · Shots,",
+   "original": "What are vitamin shots, and how do they work?",
+   "text": "What are vitamin shots, and how do they work?"
+  },
+  {
+   "id": "733f40464e",
+   "where": "p · What are vitamin shots, and how do they work?",
+   "original": "They're intramuscular injections of concentrated vitamins and nutrients. Because they bypass digestion, absorption is quick and complete.",
+   "text": "They're intramuscular injections of concentrated vitamins and nutrients. Because they bypass digestion, absorption is quick and complete."
+  },
+  {
+   "id": "768f4bce92",
+   "where": "h3 · What are vitamin shots, and how do they work?",
+   "original": "How long does it take to feel the effects?",
+   "text": "How long does it take to feel the effects?"
+  },
+  {
+   "id": "8d443c7144",
+   "where": "p · How long does it take to feel the effects?",
+   "original": "Usually within a few hours to a day. B12 and Lipo B tend to give an immediate lift; Biotin builds over weeks.",
+   "text": "Usually within a few hours to a day. B12 and Lipo B tend to give an immediate lift; Biotin builds over weeks."
+  },
+  {
+   "id": "af2cf11b42",
+   "where": "h3 · How long does it take to feel the effects?",
+   "original": "How often should I get them?",
+   "text": "How often should I get them?"
+  },
+  {
+   "id": "917b999a7c",
+   "where": "p · How often should I get them?",
+   "original": "B12 and Lipo C can be taken weekly; most others biweekly or monthly. Our nurses will suggest a cadence for your goals — packages make weekly shots easy.",
+   "text": "B12 and Lipo C can be taken weekly; most others biweekly or monthly. Our nurses will suggest a cadence for your goals — packages make weekly shots easy."
+  },
+  {
+   "id": "8168fb461b",
+   "where": "h3 · How often should I get them?",
+   "original": "Are vitamin shots safe?",
+   "text": "Are vitamin shots safe?"
+  },
+  {
+   "id": "5b19a635fb",
+   "where": "p · Are vitamin shots safe?",
+   "original": "Yes — when administered by trained medical professionals using medical-grade vitamins, as ours are. A quick Good Faith Exam is completed before your first visit.",
+   "text": "Yes — when administered by trained medical professionals using medical-grade vitamins, as ours are. A quick Good Faith Exam is completed before your first visit."
+  },
+  {
+   "id": "6194c397a2",
+   "where": "text · Are vitamin shots safe?",
+   "original": "Memberships",
+   "text": "Memberships"
+  },
+  {
+   "id": "41da584031",
+   "where": "h2 · Are vitamin shots safe?",
+   "original": "More value",
+   "text": "More value"
+  },
+  {
+   "id": "13466f0682",
+   "where": "span · More value",
+   "original": "every month",
+   "text": "every month"
+  },
+  {
+   "id": "59ea56ad88",
+   "where": "p · More value",
+   "original": "Each month your membership loads a service credit worth more than what you pay — and it works on any service: drips, shots, boosters, NAD+ and BTL treatments.",
+   "text": "Each month your membership loads a service credit worth more than what you pay — and it works on any service: drips, shots, boosters, NAD+ and BTL treatments."
+  },
+  {
+   "id": "df7c7b954f",
+   "where": "a · More value",
+   "original": "Compare all plans →",
+   "text": "Compare all plans →"
+  },
+  {
+   "id": "9629a96257",
+   "where": "h3 · More value",
+   "original": "Select",
+   "text": "Select"
+  },
+  {
+   "id": "814803e44c",
+   "where": "div · Select",
+   "original": "$95",
+   "text": "$95"
+  },
+  {
+   "id": "4c4fb10eb6",
+   "where": "span · Select",
+   "original": "/mo",
+   "text": "/mo"
+  },
+  {
+   "id": "ed22e742f4",
+   "where": "p · Select",
+   "original": "$140 monthly credit to spend on any service — more value than your membership fee, every month.",
+   "text": "$140 monthly credit to spend on any service — more value than your membership fee, every month."
+  },
+  {
+   "id": "d4ec104a0c",
+   "where": "li · Select",
+   "original": "Member pricing on every drip",
+   "text": "Member pricing on every drip"
+  },
+  {
+   "id": "3b1f4ad5a3",
+   "where": "li · Select",
+   "original": "Birthday drip on us",
+   "text": "Birthday drip on us"
+  },
+  {
+   "id": "b5d4b90a3f",
+   "where": "li · Select",
+   "original": "Priority booking & promos",
+   "text": "Priority booking & promos"
+  },
+  {
+   "id": "2d24aa5256",
+   "where": "li · Select",
+   "original": "Pause or cancel anytime",
+   "text": "Pause or cancel anytime"
+  },
+  {
+   "id": "526bb5f8e1",
+   "where": "a · Select",
+   "original": "Join Select",
+   "text": "Join Select"
+  },
+  {
+   "id": "c04beb0242",
+   "where": "span · Select",
+   "original": "Most popular",
+   "text": "Most popular"
+  },
+  {
+   "id": "5c377fd69f",
+   "where": "h3 · Select",
+   "original": "Premium",
+   "text": "Premium"
+  },
+  {
+   "id": "dbf79eba96",
+   "where": "div · Premium",
+   "original": "$165",
+   "text": "$165"
+  },
+  {
+   "id": "02f42e0360",
+   "where": "span · Premium",
+   "original": "/mo",
+   "text": "/mo"
+  },
+  {
+   "id": "80e8e78ae8",
+   "where": "p · Premium",
+   "original": "$260 monthly credit — your standard glow-up, fully covered, on any services you choose.",
+   "text": "$260 monthly credit — your standard glow-up, fully covered, on any services you choose."
+  },
+  {
+   "id": "92eebda9d9",
+   "where": "li · Premium",
+   "original": "Member pricing on every drip",
+   "text": "Member pricing on every drip"
+  },
+  {
+   "id": "3b15924bc5",
+   "where": "li · Premium",
+   "original": "Birthday drip on us",
+   "text": "Birthday drip on us"
+  },
+  {
+   "id": "6275e90442",
+   "where": "li · Premium",
+   "original": "Priority booking & promos",
+   "text": "Priority booking & promos"
+  },
+  {
+   "id": "8ac02fa738",
+   "where": "li · Premium",
+   "original": "Pause or cancel anytime",
+   "text": "Pause or cancel anytime"
+  },
+  {
+   "id": "418ddffd58",
+   "where": "a · Premium",
+   "original": "Join Premium",
+   "text": "Join Premium"
+  },
+  {
+   "id": "a9cea4bf76",
+   "where": "h3 · Premium",
+   "original": "Luxe",
+   "text": "Luxe"
+  },
+  {
+   "id": "2e7d5752c8",
+   "where": "div · Luxe",
+   "original": "$285",
+   "text": "$285"
+  },
+  {
+   "id": "1455b57040",
+   "where": "span · Luxe",
+   "original": "/mo",
+   "text": "/mo"
+  },
+  {
+   "id": "2426b2faff",
+   "where": "p · Luxe",
+   "original": "$490 monthly credit — the full monthly reset, spent however you like.",
+   "text": "$490 monthly credit — the full monthly reset, spent however you like."
+  },
+  {
+   "id": "f2ffdc69ad",
+   "where": "li · Luxe",
+   "original": "Member pricing on every drip",
+   "text": "Member pricing on every drip"
+  },
+  {
+   "id": "28cf4b1357",
+   "where": "li · Luxe",
+   "original": "Birthday drip on us",
+   "text": "Birthday drip on us"
+  },
+  {
+   "id": "c8e5037d05",
+   "where": "li · Luxe",
+   "original": "Priority booking & promos",
+   "text": "Priority booking & promos"
+  },
+  {
+   "id": "e2a868ef37",
+   "where": "li · Luxe",
+   "original": "Pause or cancel anytime",
+   "text": "Pause or cancel anytime"
+  },
+  {
+   "id": "66afb00d75",
+   "where": "a · Luxe",
+   "original": "Join Luxe",
+   "text": "Join Luxe"
+  },
+  {
+   "id": "b9c5664937",
+   "where": "p · Luxe",
+   "original": "Family, student and NAD+ memberships too — see",
+   "text": "Family, student and NAD+ memberships too — see"
+  },
+  {
+   "id": "974ca2ac05",
+   "where": "a · Luxe",
+   "original": "all memberships",
+   "text": "all memberships"
+  },
+  {
+   "id": "57923a7030",
+   "where": "text · Luxe",
+   "original": ". Pause or cancel anytime with the front desk.",
+   "text": ". Pause or cancel anytime with the front desk."
+  },
+  {
+   "id": "6946df3c58",
+   "where": "h2 · Luxe",
+   "original": "Quick.",
+   "text": "Quick."
+  },
+  {
+   "id": "5c2da137a4",
+   "where": "span · Quick.",
+   "original": "Effective.",
+   "text": "Effective."
+  },
+  {
+   "id": "ae2e252868",
+   "where": "text · Quick.",
+   "original": "Done.",
+   "text": "Done."
+  },
+  {
+   "id": "bffe089431",
+   "where": "p · Quick.",
+   "original": "Walk in for a shot at any lounge, or book online in under a minute.",
+   "text": "Walk in for a shot at any lounge, or book online in under a minute."
+  },
+  {
+   "id": "552cf2f330",
+   "where": "a · Quick.",
+   "original": "Book Your Drip",
+   "text": "Book Your Drip"
+  },
+  {
+   "id": "18ea008322",
+   "where": "a · Quick.",
+   "original": "Find a Location",
+   "text": "Find a Location"
+  }
+ ]
+}
