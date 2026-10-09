@@ -86,10 +86,10 @@
    "text": "$190 walk-in · $150 member"
   },
   {
-   "id": "078e34c76f",
+   "id": "864f44606c",
    "where": "span",
-   "original": "30–45 minutes",
-   "text": "30–45 minutes"
+   "original": "Registered nurses",
+   "text": "Registered nurses"
   },
   {
    "id": "d951d35e64",
@@ -116,10 +116,10 @@
    "text": "Ignite your energy"
   },
   {
-   "id": "e4720a7bfe",
+   "id": "2ecaef9635",
    "where": "p · Ignite your energy",
-   "original": "Carnitine converts stored fat into energy and lifts mood; amino acids help regulate the hormones that drive metabolism. The Slim Drip is the infusion clients pair with a Lipo B or Lipo C injection — or our weight-loss program — to keep momentum going.",
-   "text": "Carnitine converts stored fat into energy and lifts mood; amino acids help regulate the hormones that drive metabolism. The Slim Drip is the infusion clients pair with a Lipo B or Lipo C injection — or our weight-loss program — to keep momentum going."
+   "original": "Carnitine converts stored fat into energy and lifts mood; amino acids help regulate the hormones that drive metabolism. Pair the Slim Drip with a Taurine booster or an NAD+ shot for an extra metabolism boost — or with our weight-loss program — to keep momentum going.",
+   "text": "Carnitine converts stored fat into energy and lifts mood; amino acids help regulate the hormones that drive metabolism. Pair the Slim Drip with a Taurine booster or an NAD+ shot for an extra metabolism boost — or with our weight-loss program — to keep momentum going."
   },
   {
    "id": "64e9d28e8d",
@@ -170,10 +170,10 @@
    "text": "Taurine"
   },
   {
-   "id": "e9443bdd86",
+   "id": "3f23e22527",
    "where": "span · Ignite your energy",
-   "original": "Lipo C shot",
-   "text": "Lipo C shot"
+   "original": "NAD+ shot",
+   "text": "NAD+ shot"
   },
   {
    "id": "cb2fb9708d",
@@ -500,10 +500,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "9eabbad7b4",
+   "id": "fd10e45a88",
    "where": "li · Select",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "ed1284e827",
@@ -560,10 +560,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "80738cb64e",
+   "id": "34ac2ead1c",
    "where": "li · Premium",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "cd68fe9c39",
@@ -614,10 +614,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "f5290c894a",
+   "id": "96649b1629",
    "where": "li · Luxe",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "7bae5fd3df",
@@ -638,10 +638,10 @@
    "text": "all memberships"
   },
   {
-   "id": "44788e57a9",
+   "id": "ff0234c8c0",
    "where": "text · Luxe",
-   "original": ". Pause or cancel anytime with the front desk.",
-   "text": ". Pause or cancel anytime with the front desk."
+   "original": ". All memberships run on a month-to-month basis.",
+   "text": ". All memberships run on a month-to-month basis."
   },
   {
    "id": "a910fa17b9",

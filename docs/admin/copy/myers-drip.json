@@ -86,10 +86,10 @@
    "text": "$190 walk-in · $150 member"
   },
   {
-   "id": "8949c81325",
+   "id": "a8a867b417",
    "where": "span",
-   "original": "30–45 minutes",
-   "text": "30–45 minutes"
+   "original": "Registered nurses",
+   "text": "Registered nurses"
   },
   {
    "id": "de335ab5ff",
@@ -506,10 +506,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "8a674a6dec",
+   "id": "7b44aaf719",
    "where": "li · Select",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "16296d7148",
@@ -566,10 +566,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "d957bb5984",
+   "id": "3c5c6e5e4d",
    "where": "li · Premium",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "ab966f798b",
@@ -620,10 +620,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "ef80a01ebd",
+   "id": "d1b0bf829c",
    "where": "li · Luxe",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "684ae82bf1",
@@ -644,10 +644,10 @@
    "text": "all memberships"
   },
   {
-   "id": "18f3dd6e01",
+   "id": "5d8dce25d9",
    "where": "text · Luxe",
-   "original": ". Pause or cancel anytime with the front desk.",
-   "text": ". Pause or cancel anytime with the front desk."
+   "original": ". All memberships run on a month-to-month basis.",
+   "text": ". All memberships run on a month-to-month basis."
   },
   {
    "id": "e7acbf4bbd",

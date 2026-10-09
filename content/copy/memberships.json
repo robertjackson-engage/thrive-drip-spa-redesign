@@ -8,10 +8,10 @@
    "text": "Memberships from $95/mo | ThrIVe Drip Spa"
   },
   {
-   "id": "585e01e1d2",
+   "id": "f7852c04a5",
    "where": "Search-engine description",
-   "original": "Select $95, Premium $165, Luxe $285 — monthly credits worth more than you pay, usable on any service. Family, student and NAD+ memberships. Pause or cancel anytime.",
-   "text": "Select $95, Premium $165, Luxe $285 — monthly credits worth more than you pay, usable on any service. Family, student and NAD+ memberships. Pause or cancel anytime."
+   "original": "Select $95, Premium $165, Luxe $285 — monthly credits worth more than you pay, usable on any service. Family, student and NAD+ memberships, month to month.",
+   "text": "Select $95, Premium $165, Luxe $285 — monthly credits worth more than you pay, usable on any service. Family, student and NAD+ memberships, month to month."
   },
   {
    "id": "5e2faac653",
@@ -44,10 +44,10 @@
    "text": "membership."
   },
   {
-   "id": "985439fb1e",
+   "id": "2ff4f36bdb",
    "where": "p",
-   "original": "Our memberships are shaped by how people actually live. Each month your membership loads a service credit worth more than what you pay — and it works on any service you choose: drips, shots, boosters, NAD+ and BTL treatments. Pause or cancel anytime.",
-   "text": "Our memberships are shaped by how people actually live. Each month your membership loads a service credit worth more than what you pay — and it works on any service you choose: drips, shots, boosters, NAD+ and BTL treatments. Pause or cancel anytime."
+   "original": "Our memberships are shaped by how people actually live. Each month your membership loads a service credit worth more than what you pay — and it works on any service you choose: drips, shots, boosters, NAD+ and BTL treatments — on a month-to-month basis.",
+   "text": "Our memberships are shaped by how people actually live. Each month your membership loads a service credit worth more than what you pay — and it works on any service you choose: drips, shots, boosters, NAD+ and BTL treatments — on a month-to-month basis."
   },
   {
    "id": "5a41218c91",
@@ -158,10 +158,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "f549068f69",
+   "id": "2afde5cd40",
    "where": "li · Select",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "0f95e50685",
@@ -218,10 +218,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "5d989f2b70",
+   "id": "fc23f02fcf",
    "where": "li · Premium",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "5f56e879ba",
@@ -272,10 +272,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "7545d7034b",
+   "id": "a6d09700ad",
    "where": "li · Luxe",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "b4fc3071c3",
@@ -296,10 +296,10 @@
    "text": "all memberships"
   },
   {
-   "id": "177b9c5336",
+   "id": "738faeb108",
    "where": "text · Luxe",
-   "original": ". Pause or cancel anytime with the front desk.",
-   "text": ". Pause or cancel anytime with the front desk."
+   "original": ". All memberships run on a month-to-month basis.",
+   "text": ". All memberships run on a month-to-month basis."
   },
   {
    "id": "e214e65d6d",
@@ -626,10 +626,10 @@
    "text": "Credits worth more than your fee, usable on NAD+, BTL services, drips, shots and boosters. Unused services roll over."
   },
   {
-   "id": "deb8d4ca0f",
+   "id": "0e0d6966fb",
    "where": "p · More Value Every Month",
-   "original": "Membership credits can be used towards NAD+, BTL services, IV drips, shots and boosters. Month-to-month; pause or cancel anytime with the front desk.",
-   "text": "Membership credits can be used towards NAD+, BTL services, IV drips, shots and boosters. Month-to-month; pause or cancel anytime with the front desk."
+   "original": "Membership credits can be used towards NAD+, BTL services, IV drips, shots and boosters. Memberships run on a month-to-month basis.",
+   "text": "Membership credits can be used towards NAD+, BTL services, IV drips, shots and boosters. Memberships run on a month-to-month basis."
   },
   {
    "id": "38b66ffa72",

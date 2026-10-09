@@ -8,10 +8,10 @@
    "text": "Fit Drip — $190 · $150 member | ThrIVe Drip Spa"
   },
   {
-   "id": "9927e5a6b9",
+   "id": "df0bf95937",
    "where": "Search-engine description",
-   "original": "Enhanced muscle recovery and deep hydration in one powerful infusion. 1 L IV fluids, Electrolytes, L-Carnitine, L-Arginine, BCAAs. Good for maximum output, metabolism and fat burn, faster workout recovery. Book at ten Texas lounges or mobile.",
-   "text": "Enhanced muscle recovery and deep hydration in one powerful infusion. 1 L IV fluids, Electrolytes, L-Carnitine, L-Arginine, BCAAs. Good for maximum output, metabolism and fat burn, faster workout recovery. Book at ten Texas lounges or mobile."
+   "original": "Enhanced muscle recovery and deep hydration in one powerful infusion. 1 L IV fluids, Electrolytes, Total Wellness blend, Glutamine, Ornithine, Arginine, Lysine, Citrulline, Carnitine. Good for maximum output, metabolism and fat burn, faster workout recovery. Book at ten Texas lounges or mobile.",
+   "text": "Enhanced muscle recovery and deep hydration in one powerful infusion. 1 L IV fluids, Electrolytes, Total Wellness blend, Glutamine, Ornithine, Arginine, Lysine, Citrulline, Carnitine. Good for maximum output, metabolism and fat burn, faster workout recovery. Book at ten Texas lounges or mobile."
   },
   {
    "id": "d74427910f",
@@ -86,10 +86,10 @@
    "text": "$190 walk-in · $150 member"
   },
   {
-   "id": "2534c9f4b0",
+   "id": "46bcc28319",
    "where": "span",
-   "original": "30–45 minutes",
-   "text": "30–45 minutes"
+   "original": "Registered nurses",
+   "text": "Registered nurses"
   },
   {
    "id": "d3df3f8eae",
@@ -98,10 +98,10 @@
    "text": "1 L IV fluids"
   },
   {
-   "id": "a5c954c1cd",
+   "id": "52fab8add4",
    "where": "text",
-   "original": "L-Carnitine, L-Arginine",
-   "text": "L-Carnitine, L-Arginine"
+   "original": "Total Wellness amino blend",
+   "text": "Total Wellness amino blend"
   },
   {
    "id": "8496743174",
@@ -116,10 +116,10 @@
    "text": "Peak performance"
   },
   {
-   "id": "a0f7fd956e",
+   "id": "26e98f4270",
    "where": "p · Peak performance",
-   "original": "Built for pre-endurance and post-workout. L-Carnitine converts fat to energy, L-Arginine supports protein production and circulation, and BCAAs feed muscle growth while reducing soreness and fatigue. Stack it with a Fit Shot or B-Complex booster.",
-   "text": "Built for pre-endurance and post-workout. L-Carnitine converts fat to energy, L-Arginine supports protein production and circulation, and BCAAs feed muscle growth while reducing soreness and fatigue. Stack it with a Fit Shot or B-Complex booster."
+   "original": "Built for pre-endurance and post-workout. Our Total Wellness blend — glutamine, ornithine, arginine, lysine, citrulline and carnitine — supports muscle repair, circulation and energy so you recover faster and feel strong. Stack it with a CoQ10 shot for sustained energy levels and Zinc to help reduce inflammation.",
+   "text": "Built for pre-endurance and post-workout. Our Total Wellness blend — glutamine, ornithine, arginine, lysine, citrulline and carnitine — supports muscle repair, circulation and energy so you recover faster and feel strong. Stack it with a CoQ10 shot for sustained energy levels and Zinc to help reduce inflammation."
   },
   {
    "id": "376b7df5f1",
@@ -140,28 +140,22 @@
    "text": "Electrolytes"
   },
   {
-   "id": "4343353faf",
+   "id": "791e597fbd",
    "where": "span · Peak performance",
-   "original": "L-Carnitine",
-   "text": "L-Carnitine"
+   "original": "Total Wellness blend",
+   "text": "Total Wellness blend"
   },
   {
-   "id": "0bdefb512f",
+   "id": "03987a3625",
    "where": "span · Peak performance",
-   "original": "L-Arginine",
-   "text": "L-Arginine"
+   "original": "Glutamine",
+   "text": "Glutamine"
   },
   {
-   "id": "bbaa26bf7c",
+   "id": "9b9af1e058",
    "where": "span · Peak performance",
-   "original": "BCAAs",
-   "text": "BCAAs"
-  },
-  {
-   "id": "57bcc04274",
-   "where": "p · Peak performance",
-   "original": "Boost your results",
-   "text": "Boost your results"
+   "original": "Ornithine",
+   "text": "Ornithine"
   },
   {
    "id": "ba42f92103",
@@ -170,16 +164,40 @@
    "text": "Arginine"
   },
   {
+   "id": "8c24612d04",
+   "where": "span · Peak performance",
+   "original": "Lysine",
+   "text": "Lysine"
+  },
+  {
+   "id": "1c9b8e29fd",
+   "where": "span · Peak performance",
+   "original": "Citrulline",
+   "text": "Citrulline"
+  },
+  {
    "id": "0bc6df6917",
    "where": "span · Peak performance",
    "original": "Carnitine",
    "text": "Carnitine"
   },
   {
-   "id": "41b8a5f66d",
+   "id": "57bcc04274",
+   "where": "p · Peak performance",
+   "original": "Boost your results",
+   "text": "Boost your results"
+  },
+  {
+   "id": "9b25ee92b7",
    "where": "span · Peak performance",
-   "original": "Taurine",
-   "text": "Taurine"
+   "original": "CoQ10 shot — sustained energy",
+   "text": "CoQ10 shot — sustained energy"
+  },
+  {
+   "id": "15ccb6fa84",
+   "where": "span · Peak performance",
+   "original": "Zinc — helps reduce inflammation",
+   "text": "Zinc — helps reduce inflammation"
   },
   {
    "id": "28fdf7ad51",
@@ -212,22 +230,28 @@
    "text": "walk-in · includes 1 L IV fluids"
   },
   {
-   "id": "142cfa4383",
+   "id": "92aabbb1d2",
    "where": "li · Fit Drip",
-   "original": "L-Carnitine — turns fat into fuel for muscle, heart and brain",
-   "text": "L-Carnitine — turns fat into fuel for muscle, heart and brain"
+   "original": "Glutamine & Ornithine — muscle recovery and repair",
+   "text": "Glutamine & Ornithine — muscle recovery and repair"
   },
   {
-   "id": "83f66bc17b",
+   "id": "76ec5e3c0b",
    "where": "li · Fit Drip",
-   "original": "L-Arginine — protein production, circulation and blood pressure",
-   "text": "L-Arginine — protein production, circulation and blood pressure"
+   "original": "Arginine & Citrulline — circulation and blood flow",
+   "text": "Arginine & Citrulline — circulation and blood flow"
   },
   {
-   "id": "fb27f8181e",
+   "id": "dac111dc4b",
    "where": "li · Fit Drip",
-   "original": "BCAAs — muscle growth, less soreness, less fatigue",
-   "text": "BCAAs — muscle growth, less soreness, less fatigue"
+   "original": "Lysine — protein building and tissue repair",
+   "text": "Lysine — protein building and tissue repair"
+  },
+  {
+   "id": "59778ce0c1",
+   "where": "li · Fit Drip",
+   "original": "Carnitine — turns fat into fuel for muscle, heart and brain",
+   "text": "Carnitine — turns fat into fuel for muscle, heart and brain"
   },
   {
    "id": "ec50a58339",
@@ -494,10 +518,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "f0a7ec0f6c",
+   "id": "6248d08d4f",
    "where": "li · Select",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "0d656bd049",
@@ -554,10 +578,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "49d030cdbb",
+   "id": "0797dd2494",
    "where": "li · Premium",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "a754e7ba38",
@@ -608,10 +632,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "7b22ab5b3a",
+   "id": "bec4b055e2",
    "where": "li · Luxe",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "0df685a564",
@@ -632,10 +656,10 @@
    "text": "all memberships"
   },
   {
-   "id": "085f3ea7b1",
+   "id": "5e62b1340e",
    "where": "text · Luxe",
-   "original": ". Pause or cancel anytime with the front desk.",
-   "text": ". Pause or cancel anytime with the front desk."
+   "original": ". All memberships run on a month-to-month basis.",
+   "text": ". All memberships run on a month-to-month basis."
   },
   {
    "id": "5294166b96",

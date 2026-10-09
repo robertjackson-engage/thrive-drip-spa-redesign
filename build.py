@@ -110,16 +110,16 @@ LOCATIONS = [
          addr="1014 Wirt Rd, Ste 210, Houston, TX 77055", phone="(713) 955-3747", tel="7139553747",
          email="memorial@thrivedripspa.com", hours=HRS_STD, ig="thethrivedripspa", meevo="201102",
          maps="https://maps.app.goo.gl/V4M2erARLSVNh77t7", reviews=753, img="front-desk-phone.webp",
-         services=["emface", "emsculpt", "emsculpt-neo", "emtone"], kicker="Health Innovated",
+         services=["emface", "emsculpt-neo", "emtone"], kicker="Health Innovated",
          blurb="Located in the heart of Memorial, our spa offers a tranquil escape where wellness meets luxury — perfect for rejuvenation after a day in Houston's premier shopping and dining district.",
-         intro="Your wellness journey starts here. At ThrIVe Drip Spa in Memorial we offer more than hydration — a science-backed approach to feeling and performing your best, with our full IV menu plus the complete BTL body and face suite: EMFACE, Emsculpt, Emsculpt NEO and EMTONE."),
+         intro="Your wellness journey starts here. At ThrIVe Drip Spa in Memorial we offer more than hydration — a science-backed approach to feeling and performing your best, with our full IV menu plus the complete BTL body and face suite: EMFACE, Emsculpt NEO and EMTONE."),
     dict(slug="memorial-green", label="Memorial Green", city="Houston", region="Houston Metro",
          addr="12505 Memorial Drive, Ste 120, Houston, TX 77024", phone="(346) 444-3747", tel="3464443747",
          email="info@thrivedripspa.com", hours=[("Mon–Fri", "9:30am–7pm"), ("Sat–Sun", "9:30am–6:30pm")], ig="thrivedripspa_mg", meevo="202035",
          maps="https://maps.app.goo.gl/cpVtG7PpCzY8ffRu5", reviews=670, img="checkin-signing.webp",
-         services=["emface", "emsculpt", "emsculpt-neo", "styku", "boosters"], kicker="Advanced Wellness",
+         services=["emface", "emsculpt-neo", "styku", "boosters"], kicker="Advanced Wellness",
          blurb="Nestled in the upscale Memorial Green community, this location provides elite IV therapy in a refined setting designed for health-conscious professionals and residents.",
-         intro="Wellness should be efficient, effective and tailored to you. Memorial Green pairs our 12 signature drips with EMFACE, Emsculpt and Emsculpt NEO — plus Styku 3D body scanning, so you can measure your progress in under 60 seconds."),
+         intro="Wellness should be efficient, effective and tailored to you. Memorial Green pairs our 12 signature drips with EMFACE and Emsculpt NEO — plus Styku 3D body scanning, so you can measure your progress in under 60 seconds."),
     dict(slug="the-heights", label="The Heights", city="Houston", region="Houston Metro",
          addr="2799 Katy Freeway, Suite 210, Houston, TX 77007", phone="(346) 320-3114", tel="3463203114",
          email="admin_heightstx@gmail.com", hours=[("Mon–Fri", "9am–7pm"), ("Sat–Sun", "9:30am–6:30pm")], ig="thrivedripspa_heights", meevo="203017",
@@ -131,51 +131,51 @@ LOCATIONS = [
          addr="3277 Southwest Freeway, Houston, TX 77027", phone="(713) 955-3797", tel="7139553797",
          email="westu@thrivedripspa.com", hours=HRS_STD, ig="thethrivedripspa", meevo="201104",
          maps="https://maps.app.goo.gl/NhNB9wnE21tMpC1h9", reviews=684, img="neon-best-life.webp",
-         services=["emface", "emsculpt", "emsculpt-neo", "nad", "boosters"], kicker="Wellness Without Limits",
+         services=["emface", "emsculpt-neo", "nad", "boosters"], kicker="Wellness Without Limits",
          blurb="Serving the vibrant West U community, our spa is a wellness retreat for busy professionals, students and families seeking premium hydration and recovery.",
-         intro="Customized IV therapy, experienced wellness professionals, and a relaxing modern lounge under the neon — West University is where Houston comes to sculpt, lift and recover, with EMFACE, Emsculpt, Emsculpt NEO and the full NAD+ menu on site."),
+         intro="Customized IV therapy, experienced wellness professionals, and a relaxing modern lounge under the neon — West University is where Houston comes to sculpt, lift and recover, with EMFACE, Emsculpt NEO and the full NAD+ menu on site."),
     dict(slug="vintage-park", label="Vintage Park", city="Houston", region="Houston Metro",
          addr="10300 Louetta Rd, Ste 114, Houston, TX 77070", phone="(346) 712-3747", tel="3467123747",
          email="admin_vphtx@thrivedripspa.com", hours=HRS_STD, ig="thrivedripspa_vintagepark", meevo="203330",
          maps="https://maps.app.goo.gl/aABXn6RZds9U1FUS9", reviews=216, img="loc-vintage-park.jpg",
-         services=["emsculpt", "emsculpt-neo", "infrared-sauna", "boosters"], kicker="Inner Revitalization",
+         services=["emsculpt-neo", "boosters"], kicker="Inner Revitalization",
          blurb="Situated in the lively Vintage Park shopping district, this location is a wellness oasis for those looking to refresh and recharge after a day of shopping, dining or fitness.",
-         intro="Shape and restore at Vintage Park: signature drips and boosters, Emsculpt and Emsculpt NEO body contouring, and an infrared sauna to sweat it out at a lower, more comfortable temperature."),
+         intro="Shape and restore at Vintage Park: signature drips and boosters, plus Emsculpt NEO body contouring to burn fat and build muscle in 30-minute sessions."),
     dict(slug="katy", label="Katy", city="Katy", region="Greater Houston",
          addr="6445 FM 1463, Ste 120, Katy, TX 77494", phone="(346) 707-8703", tel="3467078703",
          email="manager_katyhtx@thrivedripspa.com", hours=HRS_STD, ig="thrivedripspa_katy", meevo="203033",
          maps="https://maps.app.goo.gl/PHdDQoVFodb1yiAK7", reviews=235, img="team-front-desk.webp",
-         services=[], kicker="Vibrance Unlocked",
+         services=["infrared-sauna"], kicker="Vibrance Unlocked",
          blurb="Conveniently located in Katy, our spa caters to the growing community with top-tier IV therapy — helping residents and athletes stay energized and at their best.",
-         intro="Relax, restore, rejuvenate. Katy is a pure drip lounge: 12 signature IV drips, boosters and vitamin shots, delivered by registered nurses in a bright, calm space just off FM 1463."),
+         intro="Relax, restore, rejuvenate. Katy pairs 12 signature IV drips, boosters and vitamin shots, delivered by registered nurses, with an infrared sauna for recovery days — all in a bright, calm space just off FM 1463."),
     dict(slug="the-woodlands", label="The Woodlands", city="The Woodlands", region="Greater Houston",
          addr="9595 Six Pines Dr, Ste 1460, The Woodlands, TX 77380", phone="(281) 343-3747", tel="2813433747",
          email="info@thrivedripspa.com", hours=[("Mon–Sun", "10am–6pm")], ig="thrivedripspa", meevo="201319",
          maps="https://maps.app.goo.gl/eY9qpj22prVBVRZZA", reviews=689, img="loc-woodlands.jpg",
-         services=["emsculpt", "emsculpt-neo"], kicker="Refresh &amp; Revive",
+         services=["emsculpt-neo"], kicker="Refresh &amp; Revive",
          blurb="Tucked away in the serene environment of The Woodlands, our spa offers an exclusive wellness experience for locals who prioritize health, beauty and relaxation.",
-         intro="Strength revived. The Woodlands pairs the full drip and shot menu with Emsculpt and Emsculpt NEO — burn fat and build muscle in 30-minute sessions, then settle into the lounge for your drip."),
+         intro="Strength revived. The Woodlands pairs the full drip and shot menu with Emsculpt NEO — burn fat and build muscle in 30-minute sessions, then settle into the lounge for your drip."),
     dict(slug="clear-lake", label="Clear Lake", city="Houston", region="Greater Houston",
          addr="3535 Clearlake City Blvd, Ste 700, Houston, TX 77059", phone="(281) 783-4108", tel="2817834108",
          email="admin_clearlaketx@thrivedripspa.com", hours=[("Mon–Fri", "9am–7pm"), ("Sun", "10am–6pm"), ("Sat", "Call for hours")], ig="thrivedripspa_clearlake", meevo="203215",
          maps="https://maps.app.goo.gl/8cscPquQKZmMoHvy7", reviews=352, img="lounge-couple-phones.webp",
-         services=["infrared-sauna", "emsculpt", "emsculpt-neo", "nad"], kicker="Renew &amp; Revitalize",
+         services=["infrared-sauna", "emsculpt-neo", "nad"], kicker="Renew &amp; Revitalize",
          blurb="Positioned near the heart of Clear Lake, this location is perfect for boaters and residents seeking premium hydration and wellness in a serene waterfront community.",
-         intro="Real results by the water: signature drips, NAD+ for balance and vitality, Emsculpt and Emsculpt NEO body contouring, and an infrared sauna for recovery days."),
+         intro="Real results by the water: signature drips, NAD+ for balance and vitality, Emsculpt NEO body contouring, and an infrared sauna for recovery days."),
     dict(slug="highland-park", label="Highland Park", city="Dallas", region="North Texas",
          addr="5301 W Lovers Ln, Suite 103, Dallas, TX 75209", phone="(214) 214-3747", tel="2142143747",
          email="admin_hpdallas@thrivedripspa.com", hours=HRS_STD, ig="thrivedripspa_highlandpark", meevo="203321",
          maps="https://maps.app.goo.gl/BCoZRjKenycPjTGF7", reviews=218, img="front-desk-welcome.webp",
-         services=["emface", "emsculpt", "emsculpt-neo", "emtone"], kicker="Luxury Wellness, Dallas",
+         services=["emface", "emsculpt-neo", "emtone"], kicker="Luxury Wellness, Dallas",
          blurb="Serving the prestigious Highland Park area, our spa delivers elite IV therapy to those who demand the best in one of Dallas' most luxurious neighborhoods.",
-         intro="Premium IV therapy, vitamin infusions and wellness spa services on Lovers Lane — with the complete BTL suite (EMFACE, Emsculpt, Emsculpt NEO, EMTONE) to elevate your glow, shape and refresh."),
+         intro="Premium IV therapy, vitamin infusions and wellness spa services on Lovers Lane — with the complete BTL suite (EMFACE, Emsculpt NEO, EMTONE) to elevate your glow, shape and refresh."),
     dict(slug="fort-worth", label="Fort Worth", city="Fort Worth", region="North Texas",
          addr="2708 S Hulen St, Fort Worth, TX 76109", phone="(682) 747-3747", tel="6827473747",
          email="admin_ftw@thrivedripspa.com", hours=HRS_STD, ig="thrivedripspa_ftworth", meevo="203322",
          maps="https://maps.app.goo.gl/iXfUq6jsh2SGkBCR8", reviews=313, img="wall-guests.webp",
-         services=["emface", "emsculpt", "emsculpt-neo"], kicker="Hydrate, Energize &amp; Restore",
+         services=["emface", "emsculpt-neo"], kicker="Hydrate, Energize &amp; Restore",
          blurb="Located in the dynamic city of Fort Worth, our spa provides cutting-edge IV therapy to professionals, athletes and visitors looking to optimize their wellness journey.",
-         intro="Rehydrate and recharge on Hulen Street with personalized IV drip therapy, vitamin boosters and shots — plus EMFACE, Emsculpt and Emsculpt NEO to contour and renew."),
+         intro="Rehydrate and recharge on Hulen Street with personalized IV drip therapy, vitamin boosters and shots — plus EMFACE and Emsculpt NEO to contour and renew."),
 ]
 LOC_BY = {l["slug"]: l for l in LOCATIONS}
 REGIONS = ["Houston Metro", "Greater Houston", "North Texas"]
@@ -187,88 +187,88 @@ def meevo(l):
 
 # ============================================================ data: drips
 DRIPS = [
-    dict(slug="hydrate", name="Hydrate", file="hydrate-drip.html", price=150, member=120, tile="tile-hydrate.webp", imgs=["drip-hydrate-1.webp", "drip-hydrate-2.webp"],
+    dict(slug="hydrate", name="Hydrate", file="hydrate-drip.html", price=150, member=120, tile="tile-hydrate.webp", imgs=["iv-bag-hang.webp", "lounge-chairs.webp"],
          kicker="Rapid Rehydration", tag="The original drip that started it all — and still stays strong.",
          card="Hydrate with fluids and electrolytes to boost energy, support body function and help you feel your best.",
          ingredients=["1 L IV fluids", "Electrolytes"], addons=["Extra 0.5 L fluids"],
          body="The Hydrate Drip is our foundational IV service — every drip on the menu begins here. Used in medicine for decades to treat dehydration, a liter of IV fluids with electrolytes goes straight to the bloodstream for instant relief when you're depleted from heat, travel, training, illness or one too many.",
          for_=["Brain fog", "Dehydration", "Fatigue", "Lethargy", "Muscle aches", "Weakness"],
          more_h="Instant hydration", more=["Classic IV hydration to reset how you feel", "Add an extra 0.5 L for maximum hydration", "Direct-to-bloodstream fluids and electrolytes", "Instant relief from dehydration symptoms", "Balances the mental, emotional and physical effects of running dry"]),
-    dict(slug="myers", name="Myers", file="myers-drip.html", price=190, member=150, tile="tile-myers.webp", imgs=["drip-myers-1.webp", "drip-myers-2.webp"],
+    dict(slug="myers", name="Myers", file="myers-drip.html", price=190, member=150, tile="tile-myers.webp", imgs=["nurse-mixing.webp", "lounge-two-guests.webp"],
          kicker="Feel Recharged", tag="The classic cocktail — mood, skin, energy and inflammation, all in one bag.",
          card="This nutrient-rich infusion supports energy, skin wellness and recovery — a popular choice for a boost from within.",
          ingredients=["1 L IV fluids", "Electrolytes", "Vitamin C", "Magnesium", "B-Complex", "B12"], addons=["Glutathione", "Zinc"],
          body="Developed by Dr. John Myers, the Myers Drip has been known to enhance mood, improve the appearance of skin, elevate energy and reduce inflammation. Effects can last for weeks — many clients pair it with the Detox Drip or a Total Wellness booster.",
          for_=["Low mood", "Fatigue", "Insomnia", "Migraines", "Muscle pain", "Menstrual cramps"],
          more_h="What's inside, and why", more=["Vitamin C — tissue growth and repair, immune support, collagen", "Magnesium — anti-inflammatory; supports calm, cardiovascular and bone health", "B vitamins — energy, stress resilience and cognition"]),
-    dict(slug="detox", name="Detox", file="detox-drip.html", price=190, member=150, tile="tile-detox.webp", imgs=["drip-detox-1.webp", "drip-detox-2.webp"],
+    dict(slug="detox", name="Detox", file="detox-drip.html", price=190, member=150, tile="tile-detox.webp", imgs=["iv-bags-rack.webp", "lounge-guest-relax.jpg"],
          kicker="The Ultimate Detox", tag="Help your body flush toxins more efficiently.",
          card="Supports natural wellness and helps you feel more grounded, clear and recharged from within.",
-         ingredients=["1 L IV fluids", "Electrolytes", "High-dose Glutathione"], addons=["Total Wellness", "Zinc", "Vitamin C"],
-         body="Stress, diet, alcohol and illness all leave a residue. The Detox Drip leads with high-dose glutathione — the body's master antioxidant — to support the liver, neutralize free radicals and leave you feeling clear. Combine with the Myers Drip or a Vitamin C booster for a full reset.",
+         ingredients=["1 L IV fluids", "Electrolytes", "Glutathione"], addons=["Total Wellness", "Zinc", "Vitamin C"],
+         body="Stress, diet, alcohol and illness all leave a residue. The Detox Drip leads with glutathione — the body's master antioxidant — to support the liver, neutralize free radicals and leave you feeling clear. Combine with the Myers Drip or a Vitamin C booster for a full reset.",
          for_=["Brain fog", "Fatigue", "Inflammation", "Stress", "A heavy week"],
-         more_h="Purify &amp; protect", more=["High-dose glutathione — antioxidant support, free-radical defense, immune function", "Electrolytes to restore balance", "A liver-focused formula for the morning after a heavy week"]),
-    dict(slug="party", name="Party", file="party-drip.html", price=190, member=150, tile="tile-party.webp", imgs=["drip-party-1.webp", "drip-party-2.webp"],
+         more_h="Purify &amp; protect", more=["Glutathione — antioxidant support, free-radical defense, immune function", "Electrolytes to restore balance", "A liver-focused formula for the morning after a heavy week"]),
+    dict(slug="party", name="Party", file="party-drip.html", price=190, member=150, tile="tile-party.webp", imgs=["lounge-friends.jpg", "wall-guests.webp"],
          kicker="Rewind Your Hangover", tag="Rehydrate, recharge and feel like yourself again.",
          card="Rehydrate and recharge with fluids and nutrients designed to restore balance after a big night.",
          ingredients=["1 L IV fluids", "Electrolytes", "Toradol (anti-inflammatory)", "Zofran (anti-nausea)"], addons=["Extra 0.5 L fluids", "Pepcid", "Glutathione"],
-         body="Hangovers are dehydration plus the byproducts of ethanol — and the ability to bounce back only diminishes with age. The Party Drip pairs a full liter of fluids with anti-inflammatory and anti-nausea medication so you can get on with your day. ABC13's Natasha Barrett tried this one on air.",
+         body="Hangovers are dehydration plus the byproducts of ethanol — and the ability to bounce back only diminishes with age. The Party Drip pairs a full liter of fluids with anti-inflammatory and anti-nausea medication so you can get on with your day. Before Toradol, make sure you haven't taken any NSAIDs (such as ibuprofen or naproxen) in the 4–6 hours prior and aren't allergic. Feeling extremely nauseous? Ask your nurse about a double dose of Zofran.",
          for_=["Dehydration", "Dizziness", "Headache", "Muscle aches", "Nausea"],
-         more_h="Bounce-back infusion", more=["Fluids and electrolytes to rehydrate fast", "Toradol for headache and body aches", "Zofran to settle the stomach", "Add Pepcid for acid reflux or glutathione for the liver"]),
-    dict(slug="fit", name="Fit", file="fit-drip.html", price=190, member=150, tile="tile-fit.webp", imgs=["drip-fit-1.webp", "drip-fit-2.webp"],
+         more_h="Bounce-back infusion", more=["Fluids and electrolytes to rehydrate fast", "Toradol for headache and body aches", "Zofran to settle the stomach — a double dose is available for extreme nausea", "Add Pepcid for acid reflux or glutathione for the liver"]),
+    dict(slug="fit", name="Fit", file="fit-drip.html", price=190, member=150, badge="Total Wellness amino blend", tile="tile-fit.webp", imgs=["iv-insert.webp", "lounge-couple-phones.webp"],
          kicker="Fuel Your Performance", tag="Enhanced muscle recovery and deep hydration in one powerful infusion.",
          card="Amino acids and nutrients that replenish vitamins and help you feel strong before or after workouts.",
-         ingredients=["1 L IV fluids", "Electrolytes", "L-Carnitine", "L-Arginine", "BCAAs"], addons=["Arginine", "Carnitine", "Taurine"],
-         body="Built for pre-endurance and post-workout. L-Carnitine converts fat to energy, L-Arginine supports protein production and circulation, and BCAAs feed muscle growth while reducing soreness and fatigue. Stack it with a Fit Shot or B-Complex booster.",
+         ingredients=["1 L IV fluids", "Electrolytes", "Total Wellness blend", "Glutamine", "Ornithine", "Arginine", "Lysine", "Citrulline", "Carnitine"], addons=["CoQ10 shot — sustained energy", "Zinc — helps reduce inflammation"],
+         body="Built for pre-endurance and post-workout. Our Total Wellness blend — glutamine, ornithine, arginine, lysine, citrulline and carnitine — supports muscle repair, circulation and energy so you recover faster and feel strong. Stack it with a CoQ10 shot for sustained energy levels and Zinc to help reduce inflammation.",
          for_=["Maximum output", "Metabolism and fat burn", "Faster workout recovery", "Less muscle soreness"],
-         more_h="Peak performance", more=["L-Carnitine — turns fat into fuel for muscle, heart and brain", "L-Arginine — protein production, circulation and blood pressure", "BCAAs — muscle growth, less soreness, less fatigue"]),
-    dict(slug="slim", name="Slim", file="slim-drip.html", price=190, member=150, tile="tile-slim.webp", imgs=["drip-slim-1.webp", "drip-slim-2.webp"],
+         more_h="Peak performance", more=["Glutamine &amp; Ornithine — muscle recovery and repair", "Arginine &amp; Citrulline — circulation and blood flow", "Lysine — protein building and tissue repair", "Carnitine — turns fat into fuel for muscle, heart and brain"]),
+    dict(slug="slim", name="Slim", file="slim-drip.html", price=190, member=150, tile="tile-slim.webp", imgs=["nurse-prep.webp", "step-3.jpg"],
          kicker="Boost Your Burn", tag="Speed up metabolism with this boost of ingredients.",
          card="Support natural energy and feel refreshed with an infusion that complements your wellness goals and active lifestyle.",
-         ingredients=["1 L IV fluids", "Electrolytes", "High-dose Carnitine", "Amino acids", "B12"], addons=["Taurine", "Lipo C shot", "GLP-1 shot"],
-         body="Carnitine converts stored fat into energy and lifts mood; amino acids help regulate the hormones that drive metabolism. The Slim Drip is the infusion clients pair with a Lipo B or Lipo C injection — or our weight-loss program — to keep momentum going.",
+         ingredients=["1 L IV fluids", "Electrolytes", "High-dose Carnitine", "Amino acids", "B12"], addons=["Taurine", "NAD+ shot", "GLP-1 shot"],
+         body="Carnitine converts stored fat into energy and lifts mood; amino acids help regulate the hormones that drive metabolism. Pair the Slim Drip with a Taurine booster or an NAD+ shot for an extra metabolism boost — or with our weight-loss program — to keep momentum going.",
          for_=["Burn more fat", "Boost metabolism", "Grow and repair tissue", "Better workout performance", "More energy"],
          more_h="Ignite your energy", more=["Carnitine — fat to energy, brighter mood", "Amino acids — hormone regulation and tissue repair", "Electrolytes — balance and hydration"]),
-    dict(slug="libido", name="Libido", file="libido-drip.html", price=190, member=150, tile="tile-libido.webp", imgs=["drip-libido-1.webp", "drip-libido-2.webp"],
+    dict(slug="libido", name="Libido", file="libido-drip.html", price=190, member=150, tile="tile-libido.webp", imgs=["lounge-couple.webp", "iv-hand-detail.webp"],
          kicker="Sexual Wellness Reimagined", tag="Heightened energy, mood and endurance — for men and women.",
          card="Support vitality and energy with a formula that helps you feel more connected, confident and in tune with your body.",
-         ingredients=["1 L IV fluids", "Electrolytes", "L-Arginine", "B12"], addons=["B-Complex", "Zinc"],
-         body="A natural alternative to pharmaceuticals. L-Arginine promotes vasodilation and blood flow while B12 lifts energy and mood — a formula designed for both men and women. Pair with a B-Complex booster or a Lipo injection.",
+         ingredients=["1 L IV fluids", "Electrolytes", "L-Arginine", "B12"], addons=["Magnesium", "B-Complex", "Zinc"],
+         body="A natural alternative to pharmaceuticals. L-Arginine promotes vasodilation and blood flow while B12 lifts energy and mood — a formula designed for both men and women. Add Magnesium to help with hormone regulation and stress reduction.",
          for_=["Boost energy", "Heighten mood", "Improve performance and pleasure", "Increase endurance", "Shorten recovery"],
          more_h="Ignite your passion", more=["B12 — energy and mood", "L-Arginine — circulation and blood flow", "Electrolytes — stamina and balance"]),
-    dict(slug="beauty", name="Beauty", file="beauty-drip.html", price=190, member=150, tile="tile-beauty.webp", imgs=["drip-beauty-1.webp", "drip-beauty-2.webp"],
+    dict(slug="beauty", name="Beauty", file="beauty-drip.html", price=190, member=150, tile="tile-beauty.webp", imgs=["lounge-selfie.jpg", "wall-friends.webp"],
          kicker="Ageless Radiance", tag="Glow from the inside out. Refresh, renew, radiate.",
          card="Glow from within with nutrients that support skin hydration, inner balance and a radiant, refreshed feeling.",
-         ingredients=["1 L IV fluids", "Electrolytes", "High-dose Vitamin C", "High-dose Glutathione"], addons=["Zinc", "Biotin", "Proline"],
-         body="Skin, hair and nails are built from the inside. High-dose vitamin C drives collagen while glutathione brightens and protects — the combination behind our most-booked drip for events and weddings. Add biotin and proline for hair and nails.",
+         ingredients=["1 L IV fluids", "Electrolytes", "Vitamin C", "High-dose Glutathione"], addons=["Zinc", "Biotin", "Proline"],
+         body="Skin, hair and nails are built from the inside. Vitamin C drives collagen while glutathione brightens and protects — the combination behind our most-booked drip for events and weddings. Add biotin and proline for hair and nails.",
          for_=["Dehydration", "Dull or dry skin", "Fine lines and wrinkles", "Low energy"],
          more_h="Radiant renewal", more=["Vitamin C — collagen synthesis and a brighter complexion", "Glutathione — the antioxidant behind the glow", "Electrolytes — hydration where skin needs it"]),
-    dict(slug="migraine", name="Migraine", file="migraine-drip.html", price=190, member=150, tile="tile-migraine.webp", imgs=["drip-migraine-1.webp", "drip-migraine-2.webp"],
+    dict(slug="migraine", name="Migraine", file="migraine-drip.html", price=190, member=150, tile="tile-migraine.webp", imgs=["lounge-tv.webp", "nurse-iv-lounge.jpg"],
          kicker="Targeted Relief", tag="Relax with the ingredients needed to curb a nauseating migraine.",
          card="A soothing blend that supports relaxation and comfort when a migraine has you off balance.",
-         ingredients=["1 L IV fluids", "Electrolytes", "Magnesium", "Reglan", "Toradol"], addons=["Benadryl (free — bring a driver)", "B-Complex"],
-         body="Magnesium calms inflammation and headache, Reglan settles the nausea of an acute migraine, and Toradol delivers fast NSAID pain relief. Benadryl can be added at no cost — you'll need a driver — and Zofran can substitute for Reglan. Plan on 30 minutes to an hour in the chair.",
+         ingredients=["1 L IV fluids", "Electrolytes", "Magnesium", "Reglan", "Toradol"], addons=["Benadryl (free)", "B-Complex"],
+         body="Magnesium calms inflammation and headache, Reglan settles the nausea of an acute migraine, and Toradol delivers fast NSAID pain relief — before Toradol, make sure you haven't taken any NSAIDs (such as ibuprofen or naproxen) in the 4–6 hours prior and aren't allergic. Benadryl can be added at no cost: either bring a driver, or wait 45 minutes after your IV and drive yourself home. Zofran can substitute for Reglan.",
          for_=["Migraine and headache", "Anxiety", "Dehydration", "Muscle tightness", "Nausea and vomiting"],
          more_h="Calm &amp; comfort", more=["Magnesium — inflammation, headaches, PMS and anxiety", "Reglan — nausea in acute migraine", "Toradol — fast-acting pain relief"]),
-    dict(slug="high-c", name="High C", file="high-c-drip.html", price=230, member=200, tile="tile-high-c.webp", imgs=["drip-highc-1.webp", "drip-highc-2.webp"],
-         kicker="High C Recharge", tag="A high dose of vitamin C to help boost the immune system.",
-         card="Vitamin C and nutrients that support immunity, hydration and a refreshed, ready-to-go feeling.",
+    dict(slug="high-c", name="High C", file="high-c-drip.html", price=230, member=200, tile="tile-high-c.webp", imgs=["iv-bags.webp", "iv-start-lounge.webp"],
+         kicker="High C Recharge", tag="Our max dose of vitamin C to help boost the immune system.",
+         card="Our max dose of Vitamin C to support immunity, hydration and a refreshed, ready-to-go feeling.",
          ingredients=["1 L IV fluids", "Electrolytes", "10 g Vitamin C"], addons=["Zinc", "Glutathione"],
          body="Ten grams of vitamin C, straight to the bloodstream — a dose no tablet can match. It fuels white blood cells, drives collagen for healing and delivers powerful antioxidant support. Pair with zinc or glutathione when you feel something coming on.",
          for_=["Enhanced immune response", "Increased energy", "Accelerated healing", "Antioxidant support", "Overall wellness"],
          more_h="IV vs. oral vitamin C", more=["Boosts iron absorption", "Enhances brain function", "Improves collagen synthesis", "Increases antioxidant levels", "Supports cartilage, bones and teeth"]),
-    dict(slug="nad", name="NAD+", file="nad.html", price=None, member=None, tile="tile-nad.webp", imgs=["drip-nad-1.webp", "drip-nad-2.webp"],
+    dict(slug="nad", name="NAD+", file="nad.html", price=None, member=None, tile="tile-nad.webp", imgs=["iv-bags-2.webp", "nurse-lounge-walk.webp"],
          kicker="Cellular Renewal", tag="Mental focus, inner vitality, healthy aging and whole-body cellular renewal.",
          card="Support focus, energy and clarity with NAD+, a coenzyme that helps recharge the body and sharpen the mind.",
          ingredients=["1 L IV fluids", "Electrolytes", "NAD+"], addons=[],
          body="Nicotinamide adenine dinucleotide is the coenzyme every cell uses to make energy. Levels fall with age and stress; an NAD+ infusion restores them directly. Clients report improved energy, sharper focus and a foundation for healthy aging. Infusions run longer than a standard drip — plan for up to two hours.",
          for_=["Energy levels", "Mental clarity and focus", "Healthy aging", "Foundational, whole-body wellness"],
          more_h="Your boost for balance", more=["Enhances focus, vitality and balance", "Direct-to-bloodstream absorption", "Supports healthy aging at the cellular level"]),
-    dict(slug="immuno", name="Immuno", file="immuno-drip.html", price=310, member=250, tile="tile-immuno.webp", imgs=["drip-immuno-1.webp", "drip-immuno-2.webp"],
-         kicker="Shield Your Health", tag="Our strongest immune formula — vitamin C, zinc and glutathione in one bag.",
-         card="Vitamin C, Zinc and Glutathione to boost immunity and promote strength, balance and resilience.",
-         ingredients=["1 L IV fluids", "Electrolytes", "High-dose Vitamin C", "High-dose Glutathione", "Zinc"], addons=["NAD+ shot"],
-         body="Feel better faster. High-dose vitamin C fuels the immune response, glutathione protects cells, and zinc shortens colds and speeds healing. It's the drip our nurses reach for during back-to-school season, travel weeks and flu season.",
+    dict(slug="immuno", name="Immuno", file="immuno-drip.html", price=310, member=250, tile="tile-immuno.webp", imgs=["step-2.jpg", "lounge-two-friends.webp"],
+         kicker="Shield Your Health", tag="Our strongest immune formula — our max dose of vitamin C, plus zinc and glutathione, in one bag.",
+         card="Our max dose of Vitamin C, plus Zinc and Glutathione, to boost immunity and promote strength, balance and resilience.",
+         ingredients=["1 L IV fluids", "Electrolytes", "Max-dose Vitamin C", "High-dose Glutathione", "Zinc"], addons=["NAD+ shot"],
+         body="Feel better faster. Our max dose of vitamin C fuels the immune response, glutathione protects cells, and zinc shortens colds and speeds healing. It's the drip our nurses reach for during back-to-school season, travel weeks and flu season.",
          for_=["Fatigue", "Frequent sickness", "Inflammation", "Stress", "A weakened immune system"],
          more_h="Feel better faster", more=["Vitamin C — immune response and healing", "Glutathione — cellular protection", "Zinc — shorter colds, faster wound healing"]),
 ]
@@ -284,9 +284,9 @@ BOOSTERS = [
     ("Reglan", "$25", "Reflux, nausea, vomiting and bloating."),
     ("B12", "$25", "Energy, metabolism, mental clarity and red blood cells."),
     ("Benadryl", "$25", "Antihistamine for allergies, hay fever and cold symptoms."),
-    ("Proline", "$25", "Amino acid for collagen, joints and gut health."),
+    ("Proline", "$40", "Amino acid for collagen, joints and gut health."),
     ("ALA (Alpha Lipoic Acid)", "from $25", "Antioxidant for detox and energy."),
-    ("Taurine", "from $40", "Athletic performance, fat burn and inflammation."),
+    ("Taurine", "$40", "Athletic performance, fat burn and inflammation."),
     ("Glutathione", "$40", "Brightens skin, supports liver detox and immunity."),
     ("Arginine", "$40", "Circulation, oxygen flow, heart health and recovery."),
     ("Carnitine", "$40", "Fat metabolism, energy and performance."),
@@ -326,16 +326,14 @@ MEMBER_NAD = [("NAD+ Premium", "$350", "/mo", "500 mg of NAD+ every month."),
 
 # services used in nav / cards
 SERVICES = [
-    ("NAD+ Therapy", "nad.html", "Cellular energy, focus and healthy aging", "drip-nad-2.webp"),
+    ("NAD+ Therapy", "nad.html", "Cellular energy, focus and healthy aging", "nurse-lounge-walk.webp"),
     ("Boosters", "boosters.html", "Add vitamins and medications to any drip", "boosters.webp"),
     ("Vitamin Shots", "shots.html", "In and out in 15 minutes, from $25", "shots.webp"),
     ("Mobile IV", "mobile-iv.html", "Concierge drips at home, hotel, office or event", "mobile-van-team.webp"),
     ("Weight Loss", "weight-loss.html", "Clinically proven weight-loss injections", "glp-1.webp"),
     ("EMFACE", "emface.html", "Needle-free facial lifting and toning", "emface.webp"),
-    ("Emsculpt", "emsculpt.html", "Build muscle with HIFEM contractions", "emsculpt-abs.webp"),
     ("Emsculpt NEO", "emsculpt-neo.html", "Burn fat and build muscle in 30 minutes", "emsculpt-neo-session.jpg"),
     ("EMTONE", "emtone.html", "Cellulite reduction and skin tightening", "emtone-device.webp"),
-    ("Normatec", "normatec.html", "Pneumatic compression recovery, $25", "normatec.webp"),
     ("Infrared Sauna", "infrared-sauna.html", "Detox sweat at a lower temperature", "infrared-sauna.webp"),
 ]
 SERVICE_BY = {s[1].replace(".html", ""): s for s in SERVICES}
@@ -538,7 +536,6 @@ def footer_html():
           <a href="shots.html">Vitamin Shots</a>
           <a href="body-contouring.html">Body &amp; Face</a>
           <a href="weight-loss.html">Weight Loss</a>
-          <a href="normatec.html">Normatec</a>
           <a href="infrared-sauna.html">Infrared Sauna</a>
         </div>
       </div>
@@ -759,13 +756,13 @@ def membership_block(num="04", cls="section--ice"):
     for n, p, per, d, feat in MEMBERSHIPS:
         tag = '<span class="price-card__tag">Most popular</span>' if feat else ""
         cards += (f'<div class="price-card{" price-card--feat" if feat else ""}">{tag}<h3>{n}</h3><div class="price-card__amt">{p}<span>{per}</span></div><p>{d}</p>'
-                  f'<ul><li>Member pricing on every drip</li><li>Birthday drip on us</li><li>Priority booking &amp; promos</li><li>Pause or cancel anytime</li></ul>'
+                  f'<ul><li>Member pricing on every drip</li><li>Birthday drip on us</li><li>Priority booking &amp; promos</li><li>Month-to-month basis</li></ul>'
                   f'{_btn(("Join " + n, "book.html", feat))}</div>')
     return f"""
 <section class="section {cls}"><div class="wrap">
   {cards_head(num, "Memberships", 'More value <span class="brush">every month</span>', ("Compare all plans", "memberships.html"), "Each month your membership loads a service credit worth more than what you pay — and it works on any service: drips, shots, boosters, NAD+ and BTL treatments.")}
   <div class="price-grid" data-stagger>{cards}</div>
-  <p class="form-note reveal" style="text-align:center;margin:22px auto 0">Family, student and NAD+ memberships too — see <a href="memberships.html" style="color:var(--teal-deep);text-decoration:underline">all memberships</a>. Pause or cancel anytime with the front desk.</p>
+  <p class="form-note reveal" style="text-align:center;margin:22px auto 0">Family, student and NAD+ memberships too — see <a href="memberships.html" style="color:var(--teal-deep);text-decoration:underline">all memberships</a>. All memberships run on a month-to-month basis.</p>
 </div></section>
 """
 
@@ -781,7 +778,7 @@ def location_picker(num="06", cls=""):
 
 
 def form_section(sec_id, num, eyebrow, title_html, text, btn="Send Request", cls="section--ice", interests=None, extra_fields="", note=None):
-    interests = interests or ["IV Drip Therapy", "NAD+", "Boosters or Shots", "Mobile / Concierge IV", "Body Contouring (Emsculpt, EMFACE, EMTONE)", "Weight Loss", "Memberships", "Something else"]
+    interests = interests or ["IV Drip Therapy", "NAD+", "Boosters or Shots", "Mobile / Concierge IV", "Body Contouring (Emsculpt NEO, EMFACE, EMTONE)", "Weight Loss", "Memberships", "Something else"]
     fields = [("text", "name", "Full name"), ("email", "email", "Email address"), ("tel", "phone", "Phone")]
     f_html = "".join(f'<div class="field{" field--full" if n == "name" else ""}"><input type="{t}" name="{n}" id="{sec_id}-{n}" placeholder=" " required><label for="{sec_id}-{n}">{l}</label></div>' for t, n, l in fields)
     locs = "".join(f"<option>{l['label']}</option>" for l in LOCATIONS) + "<option>Mobile / Concierge</option>"
@@ -844,7 +841,7 @@ member_strip = f"""
 
 HOW_FAQ = [
     ("What is IV vitamin therapy?", "IV vitamin therapy delivers fluids and essential nutrients directly into the bloodstream for maximum absorption. Up to 85% of a vitamin pill can be lost to digestion; an IV delivers close to 100%. It helps combat dehydration, boost energy, support immunity and enhance overall wellness."),
-    ("What is the Drip Lounge experience like?", "Relaxing. You'll settle into a reclining lounge chair while a registered nurse places your IV and builds your drip. Complimentary beverages, protein bars and cozy blankets are part of the visit. Most drips take 30–45 minutes; NAD+ runs longer."),
+    ("What is the Drip Lounge experience like?", "Relaxing. You'll settle into a reclining lounge chair while a registered nurse places your IV and builds your drip. Complimentary beverages, protein bars and cozy blankets are part of the visit. Timing varies by drip and by guest; NAD+ runs longer."),
     ("Are the treatments safe?", "Every drip is administered by experienced registered nurses following a Good Faith Exam with a licensed provider. Our spa consultants walk you through the menu and help you choose. We're LegitScript certified."),
     ("What can it help with?", "Dehydration, fatigue, immune support, hangovers, migraine relief, athletic recovery, skin and beauty goals, and more. If you're not sure which drip fits, our nurses will build one for you."),
     ("How fast does it work?", "Fluids and nutrients reach the bloodstream immediately. Many clients feel the difference before they leave the chair; the effects of a Myers or Beauty drip can last for weeks."),
@@ -857,7 +854,7 @@ home_body = hero(
     "Your destination for IV therapy, vitamin infusions and wellness spa services. Twelve signature drips, NAD+, boosters and shots — built by registered nurses, in a lounge that feels like a spa. Feel better in about an hour.",
     img=f"{IMG}/nurse-iv-lounge.jpg", alt="A ThrIVe nurse placing an IV in the drip lounge",
     actions=[("Book Your Drip", "book.html", True), ("See the Drip Menu", "iv-therapy.html", False)],
-    meta=["Registered nurses", "30–45 minute drips", "10 lounges + mobile", "No card to book"],
+    meta=["Registered nurses", "Customizable drips", "10 lounges + mobile", "No card to book"],
     badge="Drips from $150 · members from $120",
 ) + member_strip + marquee(["Hydrate", "Myers", "Detox", "Party", "Fit", "Slim", "Libido", "Beauty", "Migraine", "High C", "NAD+", "Immuno"]) + f"""
 <section class="section">
@@ -874,20 +871,20 @@ home_body = hero(
 <section class="section section--ice section--tight"><div class="wrap">
   {cards_head("02", "12 signature drips", 'Pick your <span class="brush">drip</span>', ("Full menu, boosters &amp; shots", "iv-therapy.html"), "Every drip starts with a liter of fluids and electrolytes. Add boosters, stack a shot, or let our nurses build a custom formula so you look, feel and perform better.")}
   {drip_grid()}
-  <p class="form-note reveal" style="text-align:center;margin:22px auto 0">Walk-in prices shown. Members pay $120–$250. Drips take 30–45 minutes; boosters and shots take minutes.</p>
+  <p class="form-note reveal" style="text-align:center;margin:22px auto 0">Walk-in prices shown. Members pay $120–$250. Drip times vary by formula and by guest; boosters and shots take just minutes.</p>
 </div></section>
-""" + stats_band([(12, "", "Signature drips"), (10, "+", "Lounges across Texas"), (100, "%", "Absorption, straight to the bloodstream"), (45, " min", "Or less in the chair")]) + f"""
+""" + stats_band([(12, "", "Signature drips"), (10, "+", "Lounges across Texas"), (100, "%", "Absorption, straight to the bloodstream"), (4500, "+", "Google reviews")]) + f"""
 <section class="section"><div class="wrap">
   {cards_head("03", "How it works", 'Three steps to <span class="brush">better</span>', ("Read about the Good Faith Exam", "gfe-process.html"))}
   <div class="steps" data-stagger>
     <div class="step"><div class="step__media"><img src="{IMG}/step-1.webp" alt="Spa consultant reviewing options on a tablet with a client" loading="lazy"></div><div class="step__body"><span class="step__num">01</span><h3>Consultation</h3><p>Book online in under a minute — no card, no account. A licensed provider completes a quick Good Faith Exam and our consultants help you pick from the 12 signature drips.</p></div></div>
     <div class="step"><div class="step__media"><img src="{IMG}/step-2.jpg" alt="A nurse holding a prepared IV bag" loading="lazy"></div><div class="step__body"><span class="step__num">02</span><h3>Customization</h3><p>We tailor your drip with boosters for whatever the week threw at you — fatigue, headaches, muscle recovery, skin, immunity — or build a fully custom formula.</p></div></div>
-    <div class="step"><div class="step__media"><img src="{IMG}/step-3.jpg" alt="A guest relaxing in a lounge chair during her drip" loading="lazy"></div><div class="step__body"><span class="step__num">03</span><h3>Administration</h3><p>Recline, pick a drink and a blanket, and let a registered nurse take it from there. 100% absorption, 30–45 minutes, and you walk out feeling like yourself again.</p></div></div>
+    <div class="step"><div class="step__media"><img src="{IMG}/step-3.jpg" alt="A guest relaxing in a lounge chair during her drip" loading="lazy"></div><div class="step__body"><span class="step__num">03</span><h3>Administration</h3><p>Recline, pick a drink and a blanket, and let a registered nurse take it from there. 100% absorption, and you walk out feeling like yourself again.</p></div></div>
   </div>
 </div></section>
 """ + split(
     "Most loved", "04", 'The treatments Texas <span class="brush">keeps booking</span>',
-    ["<strong>NAD+</strong> for focus, energy and healthy aging. <strong>Weight-loss injections</strong> with telehealth consults. <strong>Emsculpt NEO, EMFACE and EMTONE</strong> to sculpt, lift and smooth with zero downtime. And <strong>mobile IV</strong> that brings the whole menu to your home, hotel, office or event.",
+    ["<strong>NAD+</strong> for focus, energy and healthy aging. <strong>Weight-loss injections</strong> with telehealth consults. <strong>Emsculpt NEO, EMFACE and EMTONE</strong> to sculpt, lift and smooth with zero downtime. An <strong>infrared sauna</strong> for recovery days at our Clear Lake and Katy lounges. And <strong>mobile IV</strong> that brings our menu to your home, hotel, office or event.",
      "Everything is delivered by licensed medical professionals in a setting that feels like a spa — because consistency is the secret, and consistency should be a pleasure."],
     f"{IMG}/emsculpt-neo-session.jpg", "An Emsculpt NEO session at ThrIVe", rev=True, tag="Body · Face · Wellness",
     cta=[("NAD+ Therapy", "nad.html", False), ("Body &amp; Face", "body-contouring.html", False), ("Weight Loss", "weight-loss.html", False)], cls="section--ice"
@@ -935,10 +932,10 @@ def drip_price_table():
 
 iv_body = hero(
     "IV Drip Therapy", ["Twelve drips.", 'One <span class="brush">liter</span> of', "better."],
-    "ThrIVe Drip Spa offers 12 signature IV drips and a full menu of boosters and shots to keep you healthy and hydrated. With most people facing vitamin deficiencies and dehydration, our nurses are here to help you feel your best — in 30 to 45 minutes.",
+    "ThrIVe Drip Spa offers 12 signature IV drips and a full menu of boosters and shots to keep you healthy and hydrated. With most people facing vitamin deficiencies and dehydration, our nurses are here to help you feel your best.",
     img=f"{IMG}/iv-bags-rack.webp", alt="IV bags hanging in the ThrIVe prep room", crumb="IV Drips", page=True,
     actions=[("Book a Drip", "book.html", True), ("Boosters &amp; Shots", "boosters.html", False)],
-    meta=["From $150 · members from $120", "30–45 minutes", "1 L fluids minimum"], badge="Drip, relax, restore",
+    meta=["From $150 · members from $120", "Registered nurses", "1 L fluids minimum"], badge="Drip, relax, restore",
 ) + f"""
 <section class="section section--tight"><div class="wrap">
   {cards_head("01", "The menu", 'Pick your <span class="brush">drip</span>', None, "All of our drips can be customized. Sessions can be combined, or our certified nurses can help you create a personalized formula.")}
@@ -947,7 +944,7 @@ iv_body = hero(
 <section class="section section--ice"><div class="wrap">
   {cards_head("02", "Pricing", 'Simple, <span class="brush">honest</span> pricing', ("Become a member", "memberships.html"), "Every drip is a full liter of IV fluids with electrolytes. Members save $30–$60 on every drip and get member pricing on boosters too.")}
   {drip_price_table()}
-  <p class="form-note reveal" style="margin-top:20px">Drips take 30–45 minutes on average (NAD+ up to two hours). Boosters and injections take just minutes. A Good Faith Exam with a licensed provider is required before your first drip.</p>
+  <p class="form-note reveal" style="margin-top:20px">Drip times vary by formula and by guest (NAD+ can take up to two hours). Boosters and injections take just minutes. A Good Faith Exam with a licensed provider is required before your first drip.</p>
 </div></section>
 """ + split(
     "Hydration starts here", "03", 'Did you know? 1 in 3 Americans are <span class="brush">chronically dehydrated</span>',
@@ -968,7 +965,7 @@ iv_body = hero(
     ("How does absorption benefit hydration?", "Up to 85% of a vitamin pill can be lost in digestion — only about 15% reaches your bloodstream. An IV delivers fluids and nutrients directly, so you feel the difference quickly."),
     ("What does complete rehydration mean?", "Even 2% dehydration affects skin, organs and cognition. Every ThrIVe drip includes at least one liter of IV fluids with electrolytes, and you can add an extra half liter for maximum hydration."),
     ("Can I get a customized drip?", "Yes. Our signature drips were created by pharmacists and doctors and can be fully customized with boosters — or our nurses can build a formula around your needs."),
-    ("How long does it take?", "Drips average 30–45 minutes (varies by client). NAD+ infusions run up to two hours. Boosters and shots take just minutes."),
+    ("How long does it take?", "Drip times vary by formula and by client. NAD+ infusions run up to two hours. Boosters and shots take just minutes."),
   ])}
 </div></section>
 """ + location_picker("07") + cta_band('Your first drip is <span class="brush">25% off.</span>', "Book in under a minute — no card required, licensed medical staff, ten lounges plus mobile.")
@@ -990,8 +987,8 @@ def drip_page(d):
         d["kicker"], lines, d["tag"],
         img=f"{IMG}/{d['imgs'][0]}", alt=f"{name} at ThrIVe Drip Spa", crumb=f'<a href="iv-therapy.html">IV Drips</a> &nbsp;/&nbsp; {name}', page=True,
         actions=[("Book This Drip", "book.html", True), ("All 12 Drips", "iv-therapy.html", False)],
-        meta=[f'${d["price"]} walk-in · ${d["member"]} member' if d["price"] else "Consultant pricing", "30–45 minutes" if d["slug"] != "nad" else "Up to 2 hours", "1 L IV fluids"],
-        badge=", ".join(d["ingredients"][2:4]) or "Fluids + electrolytes",
+        meta=[f'${d["price"]} walk-in · ${d["member"]} member' if d["price"] else "Consultant pricing", "Registered nurses" if d["slug"] != "nad" else "Up to 2 hours", "1 L IV fluids"],
+        badge=d.get("badge") or ", ".join(d["ingredients"][2:4]) or "Fluids + electrolytes",
     ) + f"""
 <section class="section section--tight"><div class="wrap"><div class="intro-grid">
   <div>
@@ -1026,14 +1023,14 @@ nad = DRIP_BY["nad"]
 nad_body = hero(
     "NAD+ Therapy", ['<span class="brush">NAD+</span> for energy,', "focus &amp; healthy", "aging."],
     "Nicotinamide adenine dinucleotide is the coenzyme every cell uses to make energy. Levels fall with age and stress — an NAD+ infusion restores them directly. Drips, shots, memberships and multi-day loading doses at every ThrIVe lounge.",
-    img=f"{IMG}/drip-nad-2.webp", alt="NAD+ IV therapy client", crumb="NAD+", page=True,
+    img=f"{IMG}/{nad['imgs'][1]}", alt="A ThrIVe nurse in the NAD+ lounge", crumb="NAD+", page=True,
     actions=[("Book NAD+", "book.html", True), ("NAD+ Memberships", "memberships.html#nad", False)],
-    meta=["Shots from $50", "Memberships from $350/mo", "2-, 3- and 5-day loading doses"], badge="Cellular renewal",
+    meta=["Shots from $50", "Drip 4-packs from $1,250", "2-, 3- and 5-day loading doses"], badge="Cellular renewal",
 ) + split(
     "What is NAD+", "01", 'Your boost for balance and <span class="brush">vitality</span>',
     ["NAD+ IV therapy delivers the coenzyme straight to the bloodstream, where it powers mitochondrial energy production, DNA repair and cellular signaling. Clients report improved energy, sharper mental clarity and focus, and a foundation for healthy aging.",
      "Infusions run longer than a standard drip — plan on up to two hours in the lounge. Prefer something quicker? NAD+ shots take minutes, and an NAD+ booster can be added to any drip."],
-    f"{IMG}/drip-nad-1.webp", "NAD+ therapy at ThrIVe", tag="Whole-body renewal",
+    f"{IMG}/{nad['imgs'][0]}", "NAD+ IV bags at ThrIVe", tag="Whole-body renewal",
     extra='<ul class="checklist" style="margin-top:18px"><li>Improved energy levels</li><li>Enhanced mental clarity and focus</li><li>Support for healthy aging</li><li>Foundational, whole-body wellness</li></ul>'
 ) + f"""
 <section class="section section--ice"><div class="wrap">
@@ -1046,8 +1043,8 @@ nad_body = hero(
   </div>
 </div></section>
 <section class="section"><div class="wrap">
-  {cards_head("03", "Loading doses", 'Multi-day <span class="brush">protocols</span>', None, "A concentrated reset over consecutive days, for clients who want to front-load their NAD+.")}
-  {price_table([("2-Day Loading Dose", "$1,750 member · $2,375 non-member", "2,500 mg over two days"), ("3-Day Loading Dose", "$2,450 member · $3,325 non-member", "3,500 mg over three days"), ("5-Day Loading Dose", "$4,200 member · $5,700 non-member", "6,000 mg over five days"), ("Shot Package · Select", "$300", "400 mg of NAD+ shots"), ("Shot Package · Premium", "$375", "500 mg of NAD+ shots")], head=("Protocol", "Price"))}
+  {cards_head("03", "Packages &amp; loading doses", 'NAD+ <span class="brush">packages</span>', None, "Drip and shot packs for staying consistent — or a concentrated multi-day reset for clients who want to front-load their NAD+.")}
+  {price_table([("NAD+ Drip 4-Pack · 250 mg", "$1,250", "Four 250 mg NAD+ drips"), ("NAD+ Drip 4-Pack · 500 mg", "$1,750", "Four 500 mg NAD+ drips"), ("2-Day Loading Dose", "$1,750 member · $2,375 non-member", "2,500 mg over two days"), ("3-Day Loading Dose", "$2,450 member · $3,325 non-member", "3,500 mg over three days"), ("5-Day Loading Dose", "$4,200 member · $5,700 non-member", "6,000 mg over five days"), ("Shot Package · Select", "$300", "Four 100 mg NAD+ shots (400 mg)"), ("Shot Package · Premium", "$375", "Five 100 mg NAD+ shots (500 mg)")], head=("Package", "Price"))}
 </div></section>
 <section class="section section--ice"><div class="wrap">
   {cards_head("04", "Good to know", 'NAD+ <span class="brush">questions</span>', ("All FAQs", "faq.html"))}
@@ -1072,7 +1069,7 @@ boosters_body = hero(
 <section class="section section--tight"><div class="wrap">
   {cards_head("01", "Booster menu", 'Thrive with targeted <span class="brush">boosters</span>', ("See the drips", "iv-therapy.html"), "Delivering high-quality vitamins and medications straight into your drip.")}
   {price_table(BOOSTERS, head=("Booster", "Price"))}
-  <p class="form-note reveal" style="margin-top:18px">Boosters are added to an IV drip. Want it on its own? See <a href="shots.html" style="color:var(--teal-deep);text-decoration:underline">vitamin shots</a>. Benadryl requires a driver.</p>
+  <p class="form-note reveal" style="margin-top:18px">Boosters are added to an IV drip. Want it on its own? See <a href="shots.html" style="color:var(--teal-deep);text-decoration:underline">vitamin shots</a>. With Benadryl, bring a driver or wait 45 minutes after your IV before driving.</p>
 </div></section>
 """ + split(
     "Popular pairings", "02", 'Drips and boosters that <span class="brush">belong together</span>',
@@ -1082,7 +1079,7 @@ boosters_body = hero(
 ) + membership_block("03", cls="") + f"""
 <section class="section section--ice"><div class="wrap">
   {cards_head("04", "Buy in bulk", 'Shot &amp; booster <span class="brush">packages</span>', ("All packages", "packages.html"))}
-  {price_table([("Shots/Boosters — Premium", "Buy 4, get 1 free", "Any $25–$40 shot or booster"), ("Shots/Boosters — Premium+", "Buy 8, get 3 free", "Any $25–$40 shot or booster"), ("B12 Package", "Buy 8, get 2 free", "Weekly energy, sorted"), ("Tri-Immuno Package", "5 for $300", "Immune support through the season")], head=("Package", "Deal"))}
+  {price_table([("Shots/Boosters — Premium", "Buy 4, get 1 free", "Any $25–$40 shot or booster"), ("Shots/Boosters — Premium+", "Buy 8, get 3 free", "Any $25–$40 shot or booster"), ("B12 Package", "Buy 8, get 2 free", "Weekly energy, sorted"), ("Tri-Immuno Package", "5 for $300", "Immune support through the season"), ("NAD+ Shot Package — Select", "$300", "Four 100 mg NAD+ shots (400 mg)"), ("NAD+ Shot Package — Premium", "$375", "Five 100 mg NAD+ shots (500 mg)")], head=("Package", "Deal"))}
 </div></section>
 """ + cta_band('Add a little <span class="brush">extra.</span>', "Boosters from $25, added to any drip. Book online or ask your nurse at check-in.")
 
@@ -1133,38 +1130,29 @@ mobile_body = hero(
 # ============================================================ BODY & FACE (BTL suite hub + pages)
 BTL = [
     dict(slug="emface", name="EMFACE", kicker="Radiance Restore", h=["Lift and tone,", '<span class="brush">needle free.</span>'],
-         sub="EMFACE combines synchronized radiofrequency and HIFES energy to lift, tone and smooth the forehead and cheeks in a 20-minute session. No needles, no downtime.",
-         img="emface.webp", img2="emface-2.jpg", tag="20 minutes · zero downtime",
+         sub="EMFACE combines synchronized radiofrequency and HIFES energy to lift, tone and smooth the forehead, submentum, eyes and cheeks in a 20-minute session. No needles, no downtime.",
+         img="emface.webp", img2="emface-2.jpg", tag="20 minutes · zero downtime", series="Series of 4",
          para=["As we age, facial muscle tone decreases, the face sags and expression wrinkles set in. EMFACE treats the cause, not just the surface: radiofrequency heats the dermis to build collagen and elastin while HIFES energy contracts the facial muscles thousands of times per session.",
-               "Applicators sit on the forehead and cheeks; it feels like a warm-stone massage with gentle contractions. You can go straight back to your day."],
-         faq=[("What areas can be treated?", "The forehead and cheeks — for a lifted brow, smoother forehead lines and fuller, more defined cheeks."),
+               "Applicators are placed on the treatment areas; it feels like a warm-stone massage with gentle contractions. You can go straight back to your day."],
+         faq=[("What areas can be treated?", "The forehead, submentum (under the chin), eyes and cheeks — for a lifted brow, smoother lines, a more defined jawline and fuller cheeks."),
               ("How is the procedure performed and how does it feel?", "After a facial cleanse you lie down for about 20 minutes while the applicators work. Expect warmth and muscle contractions similar to a hot-stone massage. Resume your routine immediately."),
               ("How does EMFACE compare to a surgical facelift?", "No incisions, no anesthesia, no recovery. Results are natural and subtler than surgery — you look rested, not different."),
               ("How long until I see results?", "Many clients notice visible improvement after one treatment; optimal results come after the full series of four sessions, and collagen keeps building for weeks afterward.")],
          locs=["memorial", "memorial-green", "west-university", "highland-park", "fort-worth"]),
-    dict(slug="emsculpt", name="Emsculpt", kicker="Core Power", h=["Tone and build", 'muscle — <span class="brush">no sweat.</span>'],
-         sub="Emsculpt uses HIFEM energy to trigger thousands of supramaximal contractions in a 30-minute session — the equivalent of a workout your body can't do on its own. Non-invasive, no anesthesia, no downtime.",
-         img="emsculpt-abs.webp", img2="emsculpt-classic.webp", tag="High client satisfaction",
-         para=["High-intensity focused electromagnetic energy induces powerful muscle contractions that aren't achievable through voluntary exercise. The muscle adapts by remodeling its inner structure — building fibers and definition.",
-               "Abs, glutes, arms, legs. Lie back, let the applicator work, and walk out. Most clients complete a series of four sessions."],
-         faq=[("How does Emsculpt work?", "HIFEM energy causes supramaximal contractions — thousands per session — that force muscle to adapt and grow. No incisions, no anesthesia, zero recovery time."),
-              ("What does it feel like?", "Like an intense workout without the effort. Most clients read or relax through the 30-minute session."),
-              ("How many sessions do I need?", "A series of four sessions is typical, with results building over the following weeks."),
-              ("Is there downtime?", "None. You can train, work or head to dinner right after.")],
-         locs=["memorial", "memorial-green", "west-university", "vintage-park", "the-woodlands", "clear-lake", "highland-park", "fort-worth"]),
     dict(slug="emsculpt-neo", name="Emsculpt NEO", kicker="Body Refinement", h=["Burn fat.", "Build muscle.", '<span class="brush">At once.</span>'],
-         sub="Emsculpt NEO pairs radiofrequency heating with HIFEM contractions in a single 30-minute session — reducing fat and building muscle simultaneously across the core, arms, legs and glutes.",
-         img="emsculpt-neo-session.jpg", img2="emsculpt-neo-arm.webp", tag="30 minutes · 4 sessions",
-         para=["RF energy warms the tissue to break down fat cells while HIFEM energy contracts the muscle beneath — two results from one applicator. It's the most-requested body treatment across our lounges.",
-               "Four 30-minute sessions, typically once a week. It feels like an intense workout with a warming sensation, and there's no downtime."],
+         sub="Emsculpt NEO pairs radiofrequency heating with HIFEM contractions in a single 30-minute session — reducing fat and building muscle simultaneously across the abs, glutes, biceps, triceps, thighs, calves and flanks (love handles).",
+         img="emsculpt-neo-session.jpg", img2="emsculpt-neo-arm.webp", tag="30 minutes · 6 sessions", series="Series of 6",
+         para=["RF energy warms the tissue to break down fat cells while HIFEM energy triggers thousands of supramaximal contractions in the muscle beneath — the equivalent of a workout your body can't do on its own. Two results from one applicator, and it's the most-requested body treatment across our lounges.",
+               "Treatment areas: abs, glutes, biceps, triceps, thighs, calves and flanks (love handles). Most clients complete six 30-minute sessions, one every 5–7 days. It feels like an intense workout with a warming sensation — no needles, no anesthesia, no downtime."],
          faq=[("What is Emsculpt NEO and how does it work?", "It combines HIFEM and radiofrequency to build muscle and burn fat simultaneously — the RF heats and reduces fat while the HIFEM contractions strengthen the muscle."),
-              ("How many sessions?", "Four 30-minute sessions, typically once per week."),
-              ("Is it painful?", "It feels like an intense workout with a warming sensation. No downtime."),
+              ("What areas can be treated?", "Abs, glutes, biceps, triceps, thighs, calves and flanks (love handles)."),
+              ("How many sessions?", "Six 30-minute sessions, one every 5–7 days, with results building over the following weeks."),
+              ("Is it painful?", "It feels like an intense workout with a warming sensation. No downtime — you can train, work or head to dinner right after."),
               ("Who is the ideal candidate?", "Anyone looking to tone and reduce fat — NEO works across a wide range of body types.")],
          locs=["memorial", "memorial-green", "west-university", "vintage-park", "the-woodlands", "clear-lake", "highland-park", "fort-worth"]),
     dict(slug="emtone", name="EMTONE", kicker="Radiant Skin", h=["Smooth cellulite,", 'tighten <span class="brush">skin.</span>'],
          sub="EMTONE is the first and only device that delivers thermal and mechanical energy at once — treating every major cause of cellulite while tightening and firming skin. About 20 minutes, no downtime.",
-         img="emtone-device.webp", img2="emtone-abs.webp", tag="90% client satisfaction",
+         img="emtone-device.webp", img2="emtone-abs.webp", tag="90% client satisfaction", series="Series of 4",
          para=["Radiofrequency heats the tissue to boost collagen and circulation while targeted pressure energy improves elasticity and breaks up the fibrous bands that cause dimpling.",
                "Results are visible after a single session and keep improving for months. Most clients complete four treatments, once or twice a week."],
          faq=[("Who is a good candidate?", "Anyone bothered by cellulite or loose, crepey skin on the thighs, buttocks, abdomen or arms."),
@@ -1182,7 +1170,7 @@ def btl_page(b):
     return hero(
         b["kicker"], b["h"], b["sub"], img=f"{IMG}/{b['img']}", alt=f"{b['name']} treatment at ThrIVe", crumb=f'<a href="body-contouring.html">Body &amp; Face</a> &nbsp;/&nbsp; {b["name"]}', page=True,
         actions=[("Book a Consultation", "book.html", True), ("Call " + PHONE, TEL, False)],
-        meta=["Non-invasive", "No downtime", "Series of 4"], badge=b["tag"],
+        meta=["Non-invasive", "No downtime", b["series"]], badge=b["tag"],
     ) + split("How it works", "01", f'What is <span class="brush">{b["name"]}</span>?', b["para"], f"{IMG}/{b['img2']}", f"{b['name']} at ThrIVe", tag="BTL technology", cls="section--ice",
               cta=[("Book a Consultation", "book.html", True)],
               extra=f'<p class="body-copy" style="margin-top:18px"><strong>Available at:</strong> {where}.</p>') + f"""
@@ -1200,26 +1188,24 @@ def btl_page(b):
 
 body_hub = hero(
     "Body &amp; Face", ["Sculpt, lift,", "smooth.", '<span class="brush">No downtime.</span>'],
-    "The complete BTL suite: Emsculpt and Emsculpt NEO for muscle and fat, EMFACE for needle-free facial lifting, EMTONE for cellulite — plus Normatec recovery and infrared sauna. Science-based treatments in a spa setting.",
+    "The complete BTL suite: Emsculpt NEO for muscle and fat, EMFACE for needle-free facial lifting, EMTONE for cellulite — plus infrared sauna. Science-based treatments in a spa setting.",
     img=f"{IMG}/emsculpt-neo-table.webp", alt="An Emsculpt NEO treatment in progress", crumb="Body &amp; Face", page=True,
     actions=[("Book a Consultation", "book.html", True), ("Find a Location", "locations.html", False)],
     meta=["Non-invasive", "20–30 minute sessions", "Membership credits apply"], badge="Define your shape",
 ) + f"""
 <section class="section section--tight"><div class="wrap">
   {cards_head("01", "Treatments", 'Choose your <span class="brush">result</span>')}
-  <div class="card-grid card-grid--4" data-stagger>
+  <div class="card-grid" data-stagger>
     {card("Emsculpt NEO", "emsculpt-neo.html", "emsculpt-neo-session.jpg", sub="Burn fat + build muscle", num="01")}
-    {card("Emsculpt", "emsculpt.html", "emsculpt-abs.webp", sub="Tone & build muscle", num="02")}
-    {card("EMFACE", "emface.html", "emface.webp", sub="Needle-free lift", num="03")}
-    {card("EMTONE", "emtone.html", "emtone-device.webp", sub="Cellulite & tightening", num="04")}
+    {card("EMFACE", "emface.html", "emface.webp", sub="Needle-free lift", num="02")}
+    {card("EMTONE", "emtone.html", "emtone-device.webp", sub="Cellulite & tightening", num="03")}
   </div>
 </div></section>
 <section class="section section--ice"><div class="wrap">
   {cards_head("02", "Recovery &amp; more", 'Restore and <span class="brush">recover</span>')}
   <div class="card-grid" data-stagger>
-    {card("Normatec Compression", "normatec.html", "normatec.webp", sub="$25 · members $20", num="01")}
-    {card("Infrared Sauna", "infrared-sauna.html", "infrared-sauna.webp", sub="Vintage Park & Clear Lake", num="02")}
-    {card("Styku 3D Body Scan", "memorial-green.html", "body-scan.webp", sub="Memorial Green", num="03")}
+    {card("Infrared Sauna", "infrared-sauna.html", "infrared-sauna.webp", sub="Katy & Clear Lake", num="01")}
+    {card("Styku 3D Body Scan", "memorial-green.html", "body-scan.webp", sub="Memorial Green", num="02")}
   </div>
 </div></section>
 """ + split(
@@ -1229,24 +1215,12 @@ body_hub = hero(
     f"{IMG}/contouring-chair.webp", "A client during a body-contouring session", rev=True, tag="Consult is free", cta=("Book a consultation", "book.html", True)
 ) + cta_band('Define your <span class="brush">shape.</span>', "Emsculpt NEO, EMFACE and EMTONE across Houston, Dallas and Fort Worth. Book a complimentary consultation.")
 
-normatec_body = hero(
-    "Pulse Power", ["Recover faster", 'with <span class="brush">Normatec.</span>'],
-    "Dynamic pneumatic compression that supports circulation and encourages recovery — legs, hips or arms, in a lounge chair, for $25 a session ($20 for members).",
-    img=f"{IMG}/normatec.webp", alt="Normatec compression boots", crumb="Normatec", page=True,
-    actions=[("Book Normatec", "book.html", True), ("Pair with a Fit Drip", "fit-drip.html", False)],
-    meta=["$25 · members $20", "Legs, hips, arms", "Stack with any drip"], badge="Support circulation",
-) + split("What is pneumatic compression", "01", 'Support circulation. <span class="brush">Encourage recovery.</span>',
-          ["Normatec sleeves inflate in sequence to move fluid through the limbs, easing muscle tension and soreness after training, travel or a long day on your feet.",
-           "Potential benefits: better range of motion and flexibility, reduced muscle tension, faster recovery after activity and natural fluid movement. Run it during your drip — no extra time."],
-          f"{IMG}/normatec-2.webp", "Normatec boots on a client", tag="Athletes' favorite", cls="section--ice", cta=("Book now", "book.html", True)) \
-    + cta_band('Feel the <span class="brush">difference.</span>', "Add Normatec to any visit for $25 — free time, since it runs while you drip.")
-
 sauna_body = hero(
     "Glow Session", ["Infrared sauna,", '<span class="brush">under an hour.</span>'],
-    "Infrared light warms the body from the inside, so you sweat deeply at a lower, more comfortable temperature. Clients report clearer skin, fewer aches and better sleep. Available at Vintage Park and Clear Lake.",
+    "Infrared light warms the body from the inside, so you sweat deeply at a lower, more comfortable temperature. Clients report clearer skin, fewer aches and better sleep. Available at Katy and Clear Lake.",
     img=f"{IMG}/infrared-sauna.webp", alt="Two guests in the infrared sauna", crumb="Infrared Sauna", page=True,
-    actions=[("Book a Session", "book.html", True), ("Vintage Park", "vintage-park.html", False), ("Clear Lake", "clear-lake.html", False)],
-    meta=["Vintage Park · Clear Lake", "Lower temp, deeper sweat", "1–3 sessions a week"], badge="Relaxation does more",
+    actions=[("Book a Session", "book.html", True), ("Katy", "katy.html", False), ("Clear Lake", "clear-lake.html", False)],
+    meta=["Katy · Clear Lake", "Lower temp, deeper sweat", "1–3 sessions a week"], badge="Relaxation does more",
 ) + f"""
 <section class="section section--ice"><div class="wrap">
   {cards_head("01", "Unlocking wellness", 'Infrared, <span class="brush">explained</span>', ("All FAQs", "faq.html"))}
@@ -1258,7 +1232,7 @@ sauna_body = hero(
     ("How often should I go?", "Once or twice a week is a good rhythm; two to three sessions a week for deeper recovery or skin goals."),
   ])}
 </div></section>
-""" + cta_band('Sweat it out, <span class="brush">gently.</span>', "Book an infrared session at Vintage Park or Clear Lake — and hydrate after with a drip.")
+""" + cta_band('Sweat it out, <span class="brush">gently.</span>', "Book an infrared session at Katy or Clear Lake — and hydrate after with a drip.")
 
 weight_body = hero(
     "Weight Loss Therapy", ["Weight loss,", "clinically", '<span class="brush">proven.</span>'],
@@ -1268,12 +1242,13 @@ weight_body = hero(
     meta=["Telehealth consults", "Weekly injections", "Results in the first month"], badge="Now offering",
 ) + split("What are weight-loss injections", "01", 'Weight loss that <span class="brush">lasts</span>',
           ["Prescription weight-loss injections work with your body's own appetite and blood-sugar signals so you feel satisfied sooner and eat less without white-knuckling it. Paired with movement, sleep and hydration, they're a smarter path than the crash diet.",
-           "Treatment starts with a consultation — in person or by telehealth — with a licensed provider who confirms you're a good candidate and sets your dose. Most clients receive weekly injections and continue for several months."],
+           "Treatment starts with a consultation — in person or by telehealth — with a licensed provider who confirms you're a good candidate and sets your dose. Most clients receive weekly injections and continue for several months.",
+           "We offer concierge wellness throughout your program — our team keeps in touch at every step of the journey to make sure your needs are met and you're satisfied with your progress."],
           f"{IMG}/weight-loss-jeans.webp", "Weight-loss progress", tag="Safe & effective", cls="section--ice",
           extra='<ul class="checklist" style="margin-top:18px"><li>Non-surgical, no downtime</li><li>Improvements within weeks</li><li>Mild, manageable side effects</li><li>Dose adjusted to you</li></ul>',
           cta=[("Book a consultation", "book.html", True)]) + split(
     "Keep momentum", "02", 'Support the program with a <span class="brush">Slim Drip</span>',
-    ["Weight loss can drain energy and nutrients. The Slim Drip (carnitine, amino acids, B12) and Lipo B / Lipo C shots support metabolism and keep you feeling strong. Members can apply credits to injections, drips and shots alike.",
+    ["Weight loss can drain energy and nutrients. The Slim Drip (carnitine, B12) and Lipo B / Lipo C shots support metabolism and keep you feeling strong. Members can apply credits to injections, drips and shots alike.",
      "Read our guide to supporting weight loss while using GLP-1 medications on the blog."],
     f"{IMG}/scale.webp", "Stepping on a scale", rev=True, cta=[("Slim Drip", "slim-drip.html"), ("Blog: GLP-1 support", "blog.html")]
 ) + f"""
@@ -1297,7 +1272,7 @@ def _tier_cards(tiers, feat=None):
 
 memberships_body = hero(
     "Wellness Perks", ["Find your", '<span class="brush">membership.</span>'],
-    "Our memberships are shaped by how people actually live. Each month your membership loads a service credit worth more than what you pay — and it works on any service you choose: drips, shots, boosters, NAD+ and BTL treatments. Pause or cancel anytime.",
+    "Our memberships are shaped by how people actually live. Each month your membership loads a service credit worth more than what you pay — and it works on any service you choose: drips, shots, boosters, NAD+ and BTL treatments — on a month-to-month basis.",
     img=f"{IMG}/lounge-chairs.webp", alt="The ThrIVe drip lounge with reclining chairs", crumb="Memberships", page=True,
     actions=[("Join Today", "book.html", True), ("Member Login", LOGIN, False)],
     meta=["Month-to-month", "Credits roll over", "Birthday drip on us"], badge="More value every month",
@@ -1313,7 +1288,7 @@ memberships_body = hero(
 <section class="section section--ice"><div class="wrap">
   {cards_head("04", "Exclusive member perks", 'Why members <span class="brush">stay</span>')}
   {pillars([("Birthday Drip", "A complimentary drip in your birthday month. Our treat."), ("Priority Booking", "Members get first access to appointments and exclusive promotions."), ("Exclusive Pricing", "Member-only pricing on every drip ($150 vs $190 for a Myers), boosters, packages and more."), ("More Value Every Month", "Credits worth more than your fee, usable on NAD+, BTL services, drips, shots and boosters. Unused services roll over.")])}
-  <p class="form-note reveal" style="margin-top:22px">Membership credits can be used towards NAD+, BTL services, IV drips, shots and boosters. Month-to-month; pause or cancel anytime with the front desk.</p>
+  <p class="form-note reveal" style="margin-top:22px">Membership credits can be used towards NAD+, BTL services, IV drips, shots and boosters. Memberships run on a month-to-month basis.</p>
 </div></section>
 """ + cta_band('Consistency is <span class="brush">key.</span>', "Join at any lounge or online in about two minutes. Your first drip is waiting.", primary=("Join Today", "book.html"), secondary=("Member Login", LOGIN))
 
@@ -1330,7 +1305,7 @@ packages_body = hero(
 </div></section>
 <section class="section section--ice"><div class="wrap">
   {cards_head("02", "NAD+", 'NAD+ <span class="brush">packages</span>', ("About NAD+", "nad.html"))}
-  {price_table([("NAD+ Shot Package — Select", "$300", "400 mg"), ("NAD+ Shot Package — Premium", "$375", "500 mg"), ("2-Day Loading Dose", "$1,750 member · $2,375", "2,500 mg"), ("3-Day Loading Dose", "$2,450 member · $3,325", "3,500 mg"), ("5-Day Loading Dose", "$4,200 member · $5,700", "6,000 mg")], head=("Package", "Price"))}
+  {price_table([("NAD+ Shot Package — Select", "$300", "Four 100 mg shots (400 mg)"), ("NAD+ Shot Package — Premium", "$375", "Five 100 mg shots (500 mg)"), ("NAD+ Drip 4-Pack · 250 mg", "$1,250", "Four 250 mg drips"), ("NAD+ Drip 4-Pack · 500 mg", "$1,750", "Four 500 mg drips"), ("2-Day Loading Dose", "$1,750 member · $2,375", "2,500 mg"), ("3-Day Loading Dose", "$2,450 member · $3,325", "3,500 mg"), ("5-Day Loading Dose", "$4,200 member · $5,700", "6,000 mg")], head=("Package", "Price"))}
 </div></section>
 <section class="section"><div class="wrap">
   {cards_head("03", "Members only", 'Premium drip <span class="brush">bundles</span>', ("Become a member", "memberships.html"))}
@@ -1360,7 +1335,7 @@ def promos_section():
         cards = ""
     fixed = f"""
     <div class="price-card price-card--feat"><span class="price-card__tag">New clients</span><h3>25% off your first IV</h3><div class="price-card__amt">25%<span>off</span></div><p>Physician-formulated drips, delivered by licensed nurses. No membership, no card to book — you pay in the chair.</p>{_btn(("Book Your First Drip", "book.html", True))}</div>
-    <div class="price-card"><h3>Free Benadryl with the Migraine Drip</h3><div class="price-card__amt">$0<span>add-on</span></div><p>Added at no cost to help you rest through a migraine. Bring a driver.</p>{_btn(("Migraine Drip", "migraine-drip.html", False))}</div>
+    <div class="price-card"><h3>Free Benadryl with the Migraine Drip</h3><div class="price-card__amt">$0<span>add-on</span></div><p>Added at no cost to help you rest through a migraine. Bring a driver, or wait 45 minutes after your IV before driving yourself home.</p>{_btn(("Migraine Drip", "migraine-drip.html", False))}</div>
     <div class="price-card"><h3>Good Faith Exam credit</h3><div class="price-card__amt">Credit<span>back</span></div><p>Your Good Faith Exam fee is returned to your account as credit toward services.</p>{_btn(("How the GFE works", "gfe-process.html", False))}</div>
     """
     return f"""
@@ -1463,7 +1438,7 @@ book_body = hero(
 </div></section>
 <section class="section section--ice"><div class="wrap">
   {cards_head("02", "The menu", 'What to <span class="brush">book</span>')}
-  {price_table([("Hydrate Drip", "$150", "Pure fluids and electrolytes to reset and rehydrate"), ("Myers · Detox · Beauty · Slim · Party · Fit · Libido · Migraine", "$190", "The classics — about 45 minutes in the chair"), ("High C Drip", "$230", "10 g of vitamin C"), ("Immuno Drip", "$310", "Our strongest immune formula"), ("NAD+ Drip", "Consultant pricing", "Up to two hours; shots from $50"), ("B12, pain-relief & anti-nausea shots", "$25", "In and out in 15 minutes"), ("Body & face consultations", "Complimentary", "Emsculpt NEO, EMFACE, EMTONE"), ("Weight-loss consultation", "In person or telehealth", "Weekly injections")], head=("Service", "Walk-in price"))}
+  {price_table([("Hydrate Drip", "$150", "Pure fluids and electrolytes to reset and rehydrate"), ("Myers · Detox · Beauty · Slim · Party · Fit · Libido · Migraine", "$190", "The classics"), ("High C Drip", "$230", "Our max dose of vitamin C"), ("Immuno Drip", "$310", "Our strongest immune formula"), ("NAD+ Drip", "Consultant pricing", "Up to two hours; shots from $50"), ("B12, pain-relief & anti-nausea shots", "$25", "In and out in 15 minutes"), ("Body & face consultations", "Complimentary", "Emsculpt NEO, EMFACE, EMTONE"), ("Weight-loss consultation", "In person or telehealth", "Weekly injections")], head=("Service", "Walk-in price"))}
   <p class="form-note reveal" style="margin-top:18px">Members pay $120–$250 per drip. A quick Good Faith Exam with a licensed provider is completed before your first treatment; the fee is credited back to your account.</p>
 </div></section>
 """ + cta_band('Ready when <span class="brush">you</span> are.', "Prefer to talk? Call " + PHONE + " and a spa consultant will book you in.", primary=("Book Online", BOOK), secondary=("Call " + PHONE, TEL))
@@ -1538,7 +1513,7 @@ FAQ_IV = [
     ("Is it just a trend?", "Celebrities and athletes made it visible, but the medical community has used IV therapy for decades to safely treat and manage a range of conditions and help people improve overall health."),
     ("Does the process hurt?", "Every client is different, but our goal is one 'stick'. Our registered nurses use lidocaine to numb the site for each treatment (if you have no allergy)."),
     ("How often can I get an IV?", "The benefits are felt with a single treatment. On average our clients visit one to two times per week, depending on their goals."),
-    ("How long does it take?", "Drips average 30–45 minutes; a first visit runs 45–60 minutes with the Good Faith Exam. NAD+ infusions take up to two hours. Shots take minutes."),
+    ("How long does it take?", "Drip times vary by formula and by client; plan a little extra time on your first visit for the Good Faith Exam. NAD+ infusions take up to two hours. Shots take minutes."),
     ("How long does IV therapy stay in my system?", "Fluids and electrolytes 2–3 days; vitamins 2–3 weeks (water-soluble C and B used within a day); minerals 1–2 weeks; antioxidants like glutathione 1–3 days. Effects on energy, skin and immunity often last longer."),
 ]
 FAQ_VISIT = [
@@ -1550,14 +1525,14 @@ FAQ_VISIT = [
 ]
 FAQ_MEMBER = [
     ("How do memberships work?", "Month-to-month. Each month your membership loads a service credit worth more than your fee — Select $95 → $140 credit, Premium $165 → $260, Luxe $285 → $490 — usable on drips, shots, boosters, NAD+ and BTL services. Unused services roll over, and you get a complimentary birthday drip."),
-    ("Can I pause or cancel?", "Yes — pause or cancel anytime with the front desk at your lounge."),
-    ("What is member pricing?", "Members save on every drip (Myers $150 vs $190, Immuno $250 vs $310), on the Immuno booster ($130 vs $160), on Normatec ($20 vs $25), and get access to members-only drip bundles."),
+    ("Can I cancel my membership?", "Memberships run on a month-to-month basis. To cancel, contact the front desk at your lounge — cancellations require two weeks' notice."),
+    ("What is member pricing?", "Members save on every drip (Myers $150 vs $190, Immuno $250 vs $310), on the Immuno booster ($130 vs $160), and get access to members-only drip bundles."),
 ]
 FAQ_BODY = [
-    ("What areas does EMFACE treat?", "The forehead and cheeks. Twenty-minute sessions, no needles, no downtime; best results after a series of four."),
-    ("How many Emsculpt NEO sessions do I need?", "Four 30-minute sessions, typically once per week. It feels like an intense workout with a warming sensation."),
+    ("What areas does EMFACE treat?", "The forehead, submentum (under the chin), eyes and cheeks. Twenty-minute sessions, no needles, no downtime; best results after a series of four."),
+    ("How many Emsculpt NEO sessions do I need?", "Six 30-minute sessions, one every 5–7 days. It feels like an intense workout with a warming sensation."),
     ("How does EMTONE work?", "Simultaneous radiofrequency and targeted pressure energy to treat the causes of cellulite and tighten skin. About 20 minutes; most clients do four treatments."),
-    ("Is the infrared sauna different from a regular sauna?", "Yes — it warms the body directly at a lower air temperature, so you sweat deeply and comfortably. Offered at Vintage Park and Clear Lake."),
+    ("Is the infrared sauna different from a regular sauna?", "Yes — it warms the body directly at a lower air temperature, so you sweat deeply and comfortably. Offered at Katy and Clear Lake."),
 ]
 faq_body = hero(
     "Quick Answers", ["Frequently asked", '<span class="brush">questions.</span>'],
@@ -1685,7 +1660,7 @@ privacy_body = legal_page("Privacy Policy", "How we handle data", [
 
 terms_body = legal_page("Terms &amp; Conditions", "Important policy details", [
     ("Use and consent", "<p>thrivedripspa.com is operated by I Thrive Drip Holdings, LLC. By using the site or booking services you agree to these terms. Services are available to adults 18 and older. Treatments are provided only after a Good Faith Exam with a licensed medical provider.</p>"),
-    ("Appointments, cancellations and refunds", "<p>Book online, by phone or in person. Please give us 24 hours' notice to cancel or reschedule so we can offer the chair to someone else. The Good Faith Exam fee ($35, or $45 with bloodwork) is non-refundable but is credited to your account. Memberships are month-to-month and can be paused or cancelled with the front desk; unused services roll over. Packages and eGift cards are non-refundable. Promotions cannot be combined and may vary by location.</p>"),
+    ("Appointments, cancellations and refunds", "<p>Book online, by phone or in person. Please give us 24 hours' notice to cancel or reschedule so we can offer the chair to someone else. The Good Faith Exam fee ($35, or $45 with bloodwork) is non-refundable but is credited to your account. Memberships run on a month-to-month basis; cancellations require two weeks' notice with the front desk. Unused services roll over. Packages and eGift cards are non-refundable. Promotions cannot be combined and may vary by location.</p>"),
     ("SMS program", "<p>Our mobile message program sends marketing and appointment messages to opted-in numbers. Reply STOP, END, CANCEL, UNSUBSCRIBE or QUIT to opt out; HELP for help. Message and data rates may apply. Participants must be 18–75. Support: bella@thrivedripspa.com.</p>"),
     ("Medical disclaimer", "<p>Our services support wellness and are not intended to diagnose, treat, cure or prevent any disease, nor to replace care from your physician. Individual results vary. Tell your provider about all medications, conditions and allergies before treatment.</p>"),
     ("Intellectual property and your conduct", "<p>Site content, the ThrIVe name and marks are ours; you may not copy or reuse them without permission. Content you submit (reviews, photos) may be used by us to promote our services. Harassment of staff or guests, in person or online, is not tolerated and may result in refusal of service.</p>"),
@@ -1736,23 +1711,22 @@ def blog_post_body(p):
 
 # ============================================================ BUILD
 os.makedirs(OUT, exist_ok=True)
-page("index.html", "IV Therapy, NAD+ & Wellness Spa | ThrIVe Drip Spa — Houston, Dallas & Fort Worth", "ThrIVe Drip Spa: 12 signature IV drips, NAD+, boosters, shots, mobile IV and body contouring in Houston, Dallas and Fort Worth. Feel better in about an hour.", "index.html", home_body)
-page("iv-therapy.html", "IV Drip Menu & Pricing | ThrIVe Drip Spa", "Twelve signature IV drips from $150 (members from $120): Hydrate, Myers, Detox, Party, Fit, Slim, Libido, Beauty, Migraine, High C, NAD+ and Immuno. 30–45 minutes, registered nurses.", "iv-therapy.html", iv_body, og="iv-bags-rack.webp")
+page("index.html", "IV Therapy, NAD+ & Wellness Spa | ThrIVe Drip Spa — Houston, Dallas & Fort Worth", "ThrIVe Drip Spa: 12 signature IV drips, NAD+, boosters, shots, mobile IV, body contouring and infrared sauna in Houston, Dallas and Fort Worth. Feel better in about an hour.", "index.html", home_body)
+page("iv-therapy.html", "IV Drip Menu & Pricing | ThrIVe Drip Spa", "Twelve signature IV drips from $150 (members from $120): Hydrate, Myers, Detox, Party, Fit, Slim, Libido, Beauty, Migraine, High C, NAD+ and Immuno. Registered nurses.", "iv-therapy.html", iv_body, og="iv-bags-rack.webp")
 for d in DRIPS:
     if d["slug"] == "nad":
         continue
     page(d["file"], f'{d["name"]} Drip — ${d["price"]} · ${d["member"]} member | ThrIVe Drip Spa', f'{d["tag"]} {", ".join(d["ingredients"])}. Good for {", ".join(x.lower() for x in d["for_"][:3])}. Book at ten Texas lounges or mobile.', d["file"], drip_page(d), og=d["imgs"][0])
-page("nad.html", "NAD+ IV Therapy, Shots & Memberships | ThrIVe Drip Spa", "NAD+ drips, shots ($50–$100), boosters, memberships (500–1,500 mg/mo) and multi-day loading doses for energy, focus and healthy aging. Houston, Dallas, Fort Worth.", "nad.html", nad_body, og="drip-nad-2.webp")
+page("nad.html", "NAD+ IV Therapy, Shots & Memberships | ThrIVe Drip Spa", "NAD+ drips, 4-packs, shots ($50–$100), boosters, memberships (500–1,500 mg/mo) and multi-day loading doses for energy, focus and healthy aging. Houston, Dallas, Fort Worth.", "nad.html", nad_body, og=nad["imgs"][1])
 page("boosters.html", "IV Boosters — Vitamin C, Glutathione, NAD+, B12 & more | ThrIVe Drip Spa", "Add targeted vitamins and medications to any drip from $25. 21 boosters including Glutathione, Zinc, Magnesium, Toradol, Biotin, Total Wellness and NAD+.", "boosters.html", boosters_body, og="boosters.webp")
 page("shots.html", "Vitamin Shots — B12, Biotin, Lipo, NAD+, Vitamin D | ThrIVe Drip Spa", "Fast-acting intramuscular vitamin injections from $25: B12, Biotin, Lipo B, Lipo C, Vitamin D3, Toradol, Zofran, CoQ10, Tri-Immuno and NAD+. In and out in 15 minutes.", "shots.html", shots_body, og="shots.webp")
 page("mobile-iv.html", "Mobile IV Therapy Houston — Concierge Drips to Your Door | ThrIVe Drip Spa", "ThrIVe's concierge nurses bring the full IV and shot menu to your home, hotel, office or event in Houston. Individuals and groups.", "mobile-iv.html", mobile_body, og="mobile-van-team.webp")
-page("body-contouring.html", "Body & Face — Emsculpt NEO, EMFACE, EMTONE, Normatec, Infrared Sauna | ThrIVe Drip Spa", "Non-invasive body contouring and facial lifting with the BTL suite, plus Normatec recovery and infrared sauna, at ThrIVe lounges across Texas.", "body-contouring.html", body_hub, og="emsculpt-neo-table.webp")
+page("body-contouring.html", "Body & Face — Emsculpt NEO, EMFACE, EMTONE, Infrared Sauna | ThrIVe Drip Spa", "Non-invasive body contouring and facial lifting with the BTL suite, plus infrared sauna, at ThrIVe lounges across Texas.", "body-contouring.html", body_hub, og="emsculpt-neo-table.webp")
 for b in BTL:
     page(f'{b["slug"]}.html', f'{b["name"]} in Houston & Dallas | ThrIVe Drip Spa', b["sub"], f'{b["slug"]}.html', btl_page(b), og=b["img"])
-page("normatec.html", "Normatec Compression Recovery — $25 | ThrIVe Drip Spa", "Dynamic pneumatic compression for circulation and recovery, $25 per session ($20 members), at ThrIVe lounges.", "normatec.html", normatec_body, og="normatec.webp")
-page("infrared-sauna.html", "Infrared Sauna Therapy — Vintage Park & Clear Lake | ThrIVe Drip Spa", "Infrared sauna sessions for recovery, skin and sleep at ThrIVe Vintage Park and Clear Lake.", "infrared-sauna.html", sauna_body, og="infrared-sauna.webp")
+page("infrared-sauna.html", "Infrared Sauna Therapy — Katy & Clear Lake | ThrIVe Drip Spa", "Infrared sauna sessions for recovery, skin and sleep at ThrIVe Katy and Clear Lake.", "infrared-sauna.html", sauna_body, og="infrared-sauna.webp")
 page("weight-loss.html", "Weight Loss Injections & Telehealth Consults | ThrIVe Drip Spa", "Medically supervised weight-loss injections with telehealth consults at ThrIVe Drip Spa. Non-surgical, no downtime, weekly injections.", "weight-loss.html", weight_body, og="glp-1.webp")
-page("memberships.html", "Memberships from $95/mo | ThrIVe Drip Spa", "Select $95, Premium $165, Luxe $285 — monthly credits worth more than you pay, usable on any service. Family, student and NAD+ memberships. Pause or cancel anytime.", "memberships.html", memberships_body, og="lounge-chairs.webp")
+page("memberships.html", "Memberships from $95/mo | ThrIVe Drip Spa", "Select $95, Premium $165, Luxe $285 — monthly credits worth more than you pay, usable on any service. Family, student and NAD+ memberships, month to month.", "memberships.html", memberships_body, og="lounge-chairs.webp")
 page("packages.html", "IV Therapy, Shot & NAD+ Packages | ThrIVe Drip Spa", "Buy 4 get 1 free on shots and boosters, NAD+ shot packages and loading doses, and members-only premium drip bundles.", "packages.html", packages_body, og="iv-bags.webp")
 page("promotions.html", "Monthly Promotions | ThrIVe Drip Spa", "This month's offers at ThrIVe Drip Spa — 25% off your first IV, free Benadryl with the Migraine Drip, and more.", "promotions.html", promotions_body, og="guests-drinks.webp")
 page("locations.html", "Locations — Houston, Katy, The Woodlands, Clear Lake, Dallas & Fort Worth | ThrIVe Drip Spa", "Ten ThrIVe Drip Spa lounges across Greater Houston, Dallas and Fort Worth, plus mobile IV. Addresses, hours and booking.", "locations.html", locations_body, og="lounge-interior.webp")
@@ -1772,6 +1746,14 @@ page("terms.html", "Terms & Conditions | ThrIVe Drip Spa", "Terms of use, appoin
 page("blog.html", "Blog — IV Therapy, NAD+ & Wellness Insights | ThrIVe Drip Spa", "Expert articles on IV therapy, hydration, NAD+, immunity, body contouring and weight loss from ThrIVe Drip Spa.", "blog.html", blog_index_body(), og="lounge-tv.webp")
 for p in POSTS:
     page_sub(f'blog/{p["_slug"]}.html', f'{p.get("title","")} | ThrIVe Drip Spa', p.get("excerpt", ""), blog_post_body(p), og=cms_img(p.get("image"), "lounge-chairs.webp").replace(IMG + "/", ""))
+
+# retired pages → redirect old links (not listed in the sitemap)
+for old, new in [("emsculpt.html", "emsculpt-neo.html"), ("normatec.html", "body-contouring.html")]:
+    with open(os.path.join(OUT, old), "w") as f:
+        f.write(f'<!DOCTYPE html>\n<html lang="en"><head><meta charset="UTF-8"><title>ThrIVe Drip Spa</title>'
+                f'<meta name="robots" content="noindex"><link rel="canonical" href="{new}">'
+                f'<meta http-equiv="refresh" content="0; url={new}"></head>'
+                f'<body><p><a href="{new}">Continue to ThrIVe Drip Spa →</a></p></body></html>\n')
 
 # sitemap.xml + robots
 SITE_URL = "https://robertjackson-engage.github.io/thrive-drip-spa-redesign/"

@@ -8,10 +8,10 @@
    "text": "NAD+ IV Therapy, Shots & Memberships | ThrIVe Drip Spa"
   },
   {
-   "id": "b2be94a7c5",
+   "id": "4a3c90cb4d",
    "where": "Search-engine description",
-   "original": "NAD+ drips, shots ($50–$100), boosters, memberships (500–1,500 mg/mo) and multi-day loading doses for energy, focus and healthy aging. Houston, Dallas, Fort Worth.",
-   "text": "NAD+ drips, shots ($50–$100), boosters, memberships (500–1,500 mg/mo) and multi-day loading doses for energy, focus and healthy aging. Houston, Dallas, Fort Worth."
+   "original": "NAD+ drips, 4-packs, shots ($50–$100), boosters, memberships (500–1,500 mg/mo) and multi-day loading doses for energy, focus and healthy aging. Houston, Dallas, Fort Worth.",
+   "text": "NAD+ drips, 4-packs, shots ($50–$100), boosters, memberships (500–1,500 mg/mo) and multi-day loading doses for energy, focus and healthy aging. Houston, Dallas, Fort Worth."
   },
   {
    "id": "32f084ce4d",
@@ -80,10 +80,10 @@
    "text": "Shots from $50"
   },
   {
-   "id": "ed37bb8416",
+   "id": "2b14563aeb",
    "where": "span",
-   "original": "Memberships from $350/mo",
-   "text": "Memberships from $350/mo"
+   "original": "Drip 4-packs from $1,250",
+   "text": "Drip 4-packs from $1,250"
   },
   {
    "id": "d9fd3b633b",
@@ -314,140 +314,176 @@
    "text": "Join"
   },
   {
-   "id": "a77b54ecc3",
+   "id": "0b22f4fa3f",
    "where": "text · NAD+ Membership",
-   "original": "Loading doses",
-   "text": "Loading doses"
+   "original": "Packages & loading doses",
+   "text": "Packages & loading doses"
   },
   {
-   "id": "de3417c769",
+   "id": "53372953ae",
    "where": "h2 · NAD+ Membership",
-   "original": "Multi-day",
-   "text": "Multi-day"
+   "original": "NAD+",
+   "text": "NAD+"
   },
   {
-   "id": "6fd3ef3281",
-   "where": "span · Multi-day",
-   "original": "protocols",
-   "text": "protocols"
+   "id": "5135a8f68a",
+   "where": "span · NAD+",
+   "original": "packages",
+   "text": "packages"
   },
   {
-   "id": "9c21a14bd6",
-   "where": "p · Multi-day",
-   "original": "A concentrated reset over consecutive days, for clients who want to front-load their NAD+.",
-   "text": "A concentrated reset over consecutive days, for clients who want to front-load their NAD+."
+   "id": "29722078f8",
+   "where": "p · NAD+",
+   "original": "Drip and shot packs for staying consistent — or a concentrated multi-day reset for clients who want to front-load their NAD+.",
+   "text": "Drip and shot packs for staying consistent — or a concentrated multi-day reset for clients who want to front-load their NAD+."
   },
   {
-   "id": "777e55c543",
-   "where": "th · Multi-day",
-   "original": "Protocol",
-   "text": "Protocol"
+   "id": "11938017cc",
+   "where": "th · NAD+",
+   "original": "Package",
+   "text": "Package"
   },
   {
    "id": "85de9fce87",
-   "where": "th · Multi-day",
+   "where": "th · NAD+",
    "original": "Price",
    "text": "Price"
   },
   {
+   "id": "3a61bd1af2",
+   "where": "td · NAD+",
+   "original": "NAD+ Drip 4-Pack · 250 mg",
+   "text": "NAD+ Drip 4-Pack · 250 mg"
+  },
+  {
+   "id": "9af2edeedb",
+   "where": "small · NAD+",
+   "original": "Four 250 mg NAD+ drips",
+   "text": "Four 250 mg NAD+ drips"
+  },
+  {
+   "id": "c72f26685a",
+   "where": "td · NAD+",
+   "original": "$1,250",
+   "text": "$1,250"
+  },
+  {
+   "id": "6d63d44fc8",
+   "where": "td · NAD+",
+   "original": "NAD+ Drip 4-Pack · 500 mg",
+   "text": "NAD+ Drip 4-Pack · 500 mg"
+  },
+  {
+   "id": "c9ee816c53",
+   "where": "small · NAD+",
+   "original": "Four 500 mg NAD+ drips",
+   "text": "Four 500 mg NAD+ drips"
+  },
+  {
+   "id": "0c47743df6",
+   "where": "td · NAD+",
+   "original": "$1,750",
+   "text": "$1,750"
+  },
+  {
    "id": "a38f824790",
-   "where": "td · Multi-day",
+   "where": "td · NAD+",
    "original": "2-Day Loading Dose",
    "text": "2-Day Loading Dose"
   },
   {
    "id": "cafa3ab4ae",
-   "where": "small · Multi-day",
+   "where": "small · NAD+",
    "original": "2,500 mg over two days",
    "text": "2,500 mg over two days"
   },
   {
    "id": "8d38b3d460",
-   "where": "td · Multi-day",
+   "where": "td · NAD+",
    "original": "$1,750 member · $2,375 non-member",
    "text": "$1,750 member · $2,375 non-member"
   },
   {
    "id": "e53237c444",
-   "where": "td · Multi-day",
+   "where": "td · NAD+",
    "original": "3-Day Loading Dose",
    "text": "3-Day Loading Dose"
   },
   {
    "id": "a339430a0e",
-   "where": "small · Multi-day",
+   "where": "small · NAD+",
    "original": "3,500 mg over three days",
    "text": "3,500 mg over three days"
   },
   {
    "id": "8f06fcfda9",
-   "where": "td · Multi-day",
+   "where": "td · NAD+",
    "original": "$2,450 member · $3,325 non-member",
    "text": "$2,450 member · $3,325 non-member"
   },
   {
    "id": "739dac7061",
-   "where": "td · Multi-day",
+   "where": "td · NAD+",
    "original": "5-Day Loading Dose",
    "text": "5-Day Loading Dose"
   },
   {
    "id": "788e252113",
-   "where": "small · Multi-day",
+   "where": "small · NAD+",
    "original": "6,000 mg over five days",
    "text": "6,000 mg over five days"
   },
   {
    "id": "c11ab2e3fa",
-   "where": "td · Multi-day",
+   "where": "td · NAD+",
    "original": "$4,200 member · $5,700 non-member",
    "text": "$4,200 member · $5,700 non-member"
   },
   {
    "id": "78dd3606e0",
-   "where": "td · Multi-day",
+   "where": "td · NAD+",
    "original": "Shot Package · Select",
    "text": "Shot Package · Select"
   },
   {
-   "id": "785294d908",
-   "where": "small · Multi-day",
-   "original": "400 mg of NAD+ shots",
-   "text": "400 mg of NAD+ shots"
+   "id": "b05f84db2f",
+   "where": "small · NAD+",
+   "original": "Four 100 mg NAD+ shots (400 mg)",
+   "text": "Four 100 mg NAD+ shots (400 mg)"
   },
   {
    "id": "e53e32f369",
-   "where": "td · Multi-day",
+   "where": "td · NAD+",
    "original": "$300",
    "text": "$300"
   },
   {
    "id": "6335f4e109",
-   "where": "td · Multi-day",
+   "where": "td · NAD+",
    "original": "Shot Package · Premium",
    "text": "Shot Package · Premium"
   },
   {
-   "id": "8161d809e6",
-   "where": "small · Multi-day",
-   "original": "500 mg of NAD+ shots",
-   "text": "500 mg of NAD+ shots"
+   "id": "743fc22318",
+   "where": "small · NAD+",
+   "original": "Five 100 mg NAD+ shots (500 mg)",
+   "text": "Five 100 mg NAD+ shots (500 mg)"
   },
   {
    "id": "8297229e6a",
-   "where": "td · Multi-day",
+   "where": "td · NAD+",
    "original": "$375",
    "text": "$375"
   },
   {
    "id": "2c5d2deffc",
-   "where": "text · Multi-day",
+   "where": "text · NAD+",
    "original": "Good to know",
    "text": "Good to know"
   },
   {
-   "id": "53372953ae",
-   "where": "h2 · Multi-day",
+   "id": "d941183c69",
+   "where": "h2 · NAD+",
    "original": "NAD+",
    "text": "NAD+"
   },

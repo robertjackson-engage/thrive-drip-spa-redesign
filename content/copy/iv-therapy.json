@@ -8,10 +8,10 @@
    "text": "IV Drip Menu & Pricing | ThrIVe Drip Spa"
   },
   {
-   "id": "16370859e6",
+   "id": "2ae0e4c035",
    "where": "Search-engine description",
-   "original": "Twelve signature IV drips from $150 (members from $120): Hydrate, Myers, Detox, Party, Fit, Slim, Libido, Beauty, Migraine, High C, NAD+ and Immuno. 30–45 minutes, registered nurses.",
-   "text": "Twelve signature IV drips from $150 (members from $120): Hydrate, Myers, Detox, Party, Fit, Slim, Libido, Beauty, Migraine, High C, NAD+ and Immuno. 30–45 minutes, registered nurses."
+   "original": "Twelve signature IV drips from $150 (members from $120): Hydrate, Myers, Detox, Party, Fit, Slim, Libido, Beauty, Migraine, High C, NAD+ and Immuno. Registered nurses.",
+   "text": "Twelve signature IV drips from $150 (members from $120): Hydrate, Myers, Detox, Party, Fit, Slim, Libido, Beauty, Migraine, High C, NAD+ and Immuno. Registered nurses."
   },
   {
    "id": "04d612b405",
@@ -62,10 +62,10 @@
    "text": "better."
   },
   {
-   "id": "ff9953cc6e",
+   "id": "3071b5e3df",
    "where": "p",
-   "original": "ThrIVe Drip Spa offers 12 signature IV drips and a full menu of boosters and shots to keep you healthy and hydrated. With most people facing vitamin deficiencies and dehydration, our nurses are here to help you feel your best — in 30 to 45 minutes.",
-   "text": "ThrIVe Drip Spa offers 12 signature IV drips and a full menu of boosters and shots to keep you healthy and hydrated. With most people facing vitamin deficiencies and dehydration, our nurses are here to help you feel your best — in 30 to 45 minutes."
+   "original": "ThrIVe Drip Spa offers 12 signature IV drips and a full menu of boosters and shots to keep you healthy and hydrated. With most people facing vitamin deficiencies and dehydration, our nurses are here to help you feel your best.",
+   "text": "ThrIVe Drip Spa offers 12 signature IV drips and a full menu of boosters and shots to keep you healthy and hydrated. With most people facing vitamin deficiencies and dehydration, our nurses are here to help you feel your best."
   },
   {
    "id": "66598e2de0",
@@ -86,10 +86,10 @@
    "text": "From $150 · members from $120"
   },
   {
-   "id": "e9cab1a47d",
+   "id": "2cd2a11448",
    "where": "span",
-   "original": "30–45 minutes",
-   "text": "30–45 minutes"
+   "original": "Registered nurses",
+   "text": "Registered nurses"
   },
   {
    "id": "ef3d75c984",
@@ -356,10 +356,10 @@
    "text": "High C"
   },
   {
-   "id": "598ccb50c3",
+   "id": "abc32b5e45",
    "where": "p · High C",
-   "original": "Vitamin C and nutrients that support immunity, hydration and a refreshed, ready-to-go feeling.",
-   "text": "Vitamin C and nutrients that support immunity, hydration and a refreshed, ready-to-go feeling."
+   "original": "Our max dose of Vitamin C to support immunity, hydration and a refreshed, ready-to-go feeling.",
+   "text": "Our max dose of Vitamin C to support immunity, hydration and a refreshed, ready-to-go feeling."
   },
   {
    "id": "9330340e7d",
@@ -404,10 +404,10 @@
    "text": "Immuno"
   },
   {
-   "id": "ca8db7fdf0",
+   "id": "14acc09a87",
    "where": "p · Immuno",
-   "original": "Vitamin C, Zinc and Glutathione to boost immunity and promote strength, balance and resilience.",
-   "text": "Vitamin C, Zinc and Glutathione to boost immunity and promote strength, balance and resilience."
+   "original": "Our max dose of Vitamin C, plus Zinc and Glutathione, to boost immunity and promote strength, balance and resilience.",
+   "text": "Our max dose of Vitamin C, plus Zinc and Glutathione, to boost immunity and promote strength, balance and resilience."
   },
   {
    "id": "cc6e69587b",
@@ -524,10 +524,10 @@
    "text": "Detox"
   },
   {
-   "id": "3ed32ee570",
+   "id": "61a534c1e7",
    "where": "small · Simple,",
-   "original": "1 L IV fluids, Electrolytes, High-dose Glutathione",
-   "text": "1 L IV fluids, Electrolytes, High-dose Glutathione"
+   "original": "1 L IV fluids, Electrolytes, Glutathione",
+   "text": "1 L IV fluids, Electrolytes, Glutathione"
   },
   {
    "id": "2b57cfc62f",
@@ -572,10 +572,10 @@
    "text": "Fit"
   },
   {
-   "id": "89226fca35",
+   "id": "0f8a527424",
    "where": "small · Simple,",
-   "original": "1 L IV fluids, Electrolytes, L-Carnitine, L-Arginine, BCAAs",
-   "text": "1 L IV fluids, Electrolytes, L-Carnitine, L-Arginine, BCAAs"
+   "original": "1 L IV fluids, Electrolytes, Total Wellness blend, Glutamine, Ornithine, Arginine, Lysine, Citrulline, Carnitine",
+   "text": "1 L IV fluids, Electrolytes, Total Wellness blend, Glutamine, Ornithine, Arginine, Lysine, Citrulline, Carnitine"
   },
   {
    "id": "cd071c9dcc",
@@ -644,10 +644,10 @@
    "text": "Beauty"
   },
   {
-   "id": "059c107cf6",
+   "id": "5519edbaad",
    "where": "small · Simple,",
-   "original": "1 L IV fluids, Electrolytes, High-dose Vitamin C, High-dose Glutathione",
-   "text": "1 L IV fluids, Electrolytes, High-dose Vitamin C, High-dose Glutathione"
+   "original": "1 L IV fluids, Electrolytes, Vitamin C, High-dose Glutathione",
+   "text": "1 L IV fluids, Electrolytes, Vitamin C, High-dose Glutathione"
   },
   {
    "id": "ad96a0f11e",
@@ -734,10 +734,10 @@
    "text": "Immuno"
   },
   {
-   "id": "8baf9f50ec",
+   "id": "3607e00d31",
    "where": "small · Simple,",
-   "original": "1 L IV fluids, Electrolytes, High-dose Vitamin C, High-dose Glutathione, Zinc",
-   "text": "1 L IV fluids, Electrolytes, High-dose Vitamin C, High-dose Glutathione, Zinc"
+   "original": "1 L IV fluids, Electrolytes, Max-dose Vitamin C, High-dose Glutathione, Zinc",
+   "text": "1 L IV fluids, Electrolytes, Max-dose Vitamin C, High-dose Glutathione, Zinc"
   },
   {
    "id": "be11e0721c",
@@ -752,10 +752,10 @@
    "text": "$250"
   },
   {
-   "id": "f24dee1349",
+   "id": "d15ca9a31a",
    "where": "p · Simple,",
-   "original": "Drips take 30–45 minutes on average (NAD+ up to two hours). Boosters and injections take just minutes. A Good Faith Exam with a licensed provider is required before your first drip.",
-   "text": "Drips take 30–45 minutes on average (NAD+ up to two hours). Boosters and injections take just minutes. A Good Faith Exam with a licensed provider is required before your first drip."
+   "original": "Drip times vary by formula and by guest (NAD+ can take up to two hours). Boosters and injections take just minutes. A Good Faith Exam with a licensed provider is required before your first drip.",
+   "text": "Drip times vary by formula and by guest (NAD+ can take up to two hours). Boosters and injections take just minutes. A Good Faith Exam with a licensed provider is required before your first drip."
   },
   {
    "id": "3ae5e49cc1",
@@ -1094,10 +1094,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "331ac03d8e",
+   "id": "62a291df0a",
    "where": "li · Select",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "e745b1f308",
@@ -1154,10 +1154,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "a96178f287",
+   "id": "3e6032c9a4",
    "where": "li · Premium",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "214df3b163",
@@ -1208,10 +1208,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "075413e0a7",
+   "id": "5b740b3877",
    "where": "li · Luxe",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "3bc5cb5070",
@@ -1232,10 +1232,10 @@
    "text": "all memberships"
   },
   {
-   "id": "bf9ae9ad49",
+   "id": "40dd36e113",
    "where": "text · Luxe",
-   "original": ". Pause or cancel anytime with the front desk.",
-   "text": ". Pause or cancel anytime with the front desk."
+   "original": ". All memberships run on a month-to-month basis.",
+   "text": ". All memberships run on a month-to-month basis."
   },
   {
    "id": "83792907f4",
@@ -1316,10 +1316,10 @@
    "text": "How long does it take?"
   },
   {
-   "id": "5e98a7739e",
+   "id": "da06caccda",
    "where": "p · How long does it take?",
-   "original": "Drips average 30–45 minutes (varies by client). NAD+ infusions run up to two hours. Boosters and shots take just minutes.",
-   "text": "Drips average 30–45 minutes (varies by client). NAD+ infusions run up to two hours. Boosters and shots take just minutes."
+   "original": "Drip times vary by formula and by client. NAD+ infusions run up to two hours. Boosters and shots take just minutes.",
+   "text": "Drip times vary by formula and by client. NAD+ infusions run up to two hours. Boosters and shots take just minutes."
   },
   {
    "id": "36aba006db",

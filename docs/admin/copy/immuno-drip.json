@@ -8,10 +8,10 @@
    "text": "Immuno Drip — $310 · $250 member | ThrIVe Drip Spa"
   },
   {
-   "id": "41b2eba204",
+   "id": "cdee267e45",
    "where": "Search-engine description",
-   "original": "Our strongest immune formula — vitamin C, zinc and glutathione in one bag. 1 L IV fluids, Electrolytes, High-dose Vitamin C, High-dose Glutathione, Zinc. Good for fatigue, frequent sickness, inflammation. Book at ten Texas lounges or mobile.",
-   "text": "Our strongest immune formula — vitamin C, zinc and glutathione in one bag. 1 L IV fluids, Electrolytes, High-dose Vitamin C, High-dose Glutathione, Zinc. Good for fatigue, frequent sickness, inflammation. Book at ten Texas lounges or mobile."
+   "original": "Our strongest immune formula — our max dose of vitamin C, plus zinc and glutathione, in one bag. 1 L IV fluids, Electrolytes, Max-dose Vitamin C, High-dose Glutathione, Zinc. Good for fatigue, frequent sickness, inflammation. Book at ten Texas lounges or mobile.",
+   "text": "Our strongest immune formula — our max dose of vitamin C, plus zinc and glutathione, in one bag. 1 L IV fluids, Electrolytes, Max-dose Vitamin C, High-dose Glutathione, Zinc. Good for fatigue, frequent sickness, inflammation. Book at ten Texas lounges or mobile."
   },
   {
    "id": "e22f971f03",
@@ -62,10 +62,10 @@
    "text": "Drip."
   },
   {
-   "id": "7ecf0cd2ff",
+   "id": "072c3a02f3",
    "where": "p",
-   "original": "Our strongest immune formula — vitamin C, zinc and glutathione in one bag.",
-   "text": "Our strongest immune formula — vitamin C, zinc and glutathione in one bag."
+   "original": "Our strongest immune formula — our max dose of vitamin C, plus zinc and glutathione, in one bag.",
+   "text": "Our strongest immune formula — our max dose of vitamin C, plus zinc and glutathione, in one bag."
   },
   {
    "id": "31ae3f456f",
@@ -86,10 +86,10 @@
    "text": "$310 walk-in · $250 member"
   },
   {
-   "id": "10ef7db5eb",
+   "id": "acf02ceb60",
    "where": "span",
-   "original": "30–45 minutes",
-   "text": "30–45 minutes"
+   "original": "Registered nurses",
+   "text": "Registered nurses"
   },
   {
    "id": "43ab06bc1a",
@@ -98,10 +98,10 @@
    "text": "1 L IV fluids"
   },
   {
-   "id": "ac84e48aaa",
+   "id": "26052f4063",
    "where": "text",
-   "original": "High-dose Vitamin C, High-dose Glutathione",
-   "text": "High-dose Vitamin C, High-dose Glutathione"
+   "original": "Max-dose Vitamin C, High-dose Glutathione",
+   "text": "Max-dose Vitamin C, High-dose Glutathione"
   },
   {
    "id": "fbe4644621",
@@ -116,10 +116,10 @@
    "text": "Feel better faster"
   },
   {
-   "id": "4a697aac85",
+   "id": "c814c4afed",
    "where": "p · Feel better faster",
-   "original": "Feel better faster. High-dose vitamin C fuels the immune response, glutathione protects cells, and zinc shortens colds and speeds healing. It's the drip our nurses reach for during back-to-school season, travel weeks and flu season.",
-   "text": "Feel better faster. High-dose vitamin C fuels the immune response, glutathione protects cells, and zinc shortens colds and speeds healing. It's the drip our nurses reach for during back-to-school season, travel weeks and flu season."
+   "original": "Feel better faster. Our max dose of vitamin C fuels the immune response, glutathione protects cells, and zinc shortens colds and speeds healing. It's the drip our nurses reach for during back-to-school season, travel weeks and flu season.",
+   "text": "Feel better faster. Our max dose of vitamin C fuels the immune response, glutathione protects cells, and zinc shortens colds and speeds healing. It's the drip our nurses reach for during back-to-school season, travel weeks and flu season."
   },
   {
    "id": "90b1ec6c4c",
@@ -140,10 +140,10 @@
    "text": "Electrolytes"
   },
   {
-   "id": "7b100ad630",
+   "id": "b2d4e272ec",
    "where": "span · Feel better faster",
-   "original": "High-dose Vitamin C",
-   "text": "High-dose Vitamin C"
+   "original": "Max-dose Vitamin C",
+   "text": "Max-dose Vitamin C"
   },
   {
    "id": "99ff6db6cf",
@@ -488,10 +488,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "12c4021f41",
+   "id": "9da373174c",
    "where": "li · Select",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "86ad41efe6",
@@ -548,10 +548,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "0155abd45d",
+   "id": "45d6634aa9",
    "where": "li · Premium",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "8084b6743e",
@@ -602,10 +602,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "6d8dbabba7",
+   "id": "7c523f9bf3",
    "where": "li · Luxe",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "0ce9aa65d3",
@@ -626,10 +626,10 @@
    "text": "all memberships"
   },
   {
-   "id": "c210ec41ad",
+   "id": "3016f26d4e",
    "where": "text · Luxe",
-   "original": ". Pause or cancel anytime with the front desk.",
-   "text": ". Pause or cancel anytime with the front desk."
+   "original": ". All memberships run on a month-to-month basis.",
+   "text": ". All memberships run on a month-to-month basis."
   },
   {
    "id": "19f27a2de8",

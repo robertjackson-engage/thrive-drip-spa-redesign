@@ -8,10 +8,10 @@
    "text": "Beauty Drip — $190 · $150 member | ThrIVe Drip Spa"
   },
   {
-   "id": "7a8b3e924f",
+   "id": "004d3897ce",
    "where": "Search-engine description",
-   "original": "Glow from the inside out. Refresh, renew, radiate. 1 L IV fluids, Electrolytes, High-dose Vitamin C, High-dose Glutathione. Good for dehydration, dull or dry skin, fine lines and wrinkles. Book at ten Texas lounges or mobile.",
-   "text": "Glow from the inside out. Refresh, renew, radiate. 1 L IV fluids, Electrolytes, High-dose Vitamin C, High-dose Glutathione. Good for dehydration, dull or dry skin, fine lines and wrinkles. Book at ten Texas lounges or mobile."
+   "original": "Glow from the inside out. Refresh, renew, radiate. 1 L IV fluids, Electrolytes, Vitamin C, High-dose Glutathione. Good for dehydration, dull or dry skin, fine lines and wrinkles. Book at ten Texas lounges or mobile.",
+   "text": "Glow from the inside out. Refresh, renew, radiate. 1 L IV fluids, Electrolytes, Vitamin C, High-dose Glutathione. Good for dehydration, dull or dry skin, fine lines and wrinkles. Book at ten Texas lounges or mobile."
   },
   {
    "id": "05a7d481f3",
@@ -86,10 +86,10 @@
    "text": "$190 walk-in · $150 member"
   },
   {
-   "id": "e3afd1c6ab",
+   "id": "c896a59f6e",
    "where": "span",
-   "original": "30–45 minutes",
-   "text": "30–45 minutes"
+   "original": "Registered nurses",
+   "text": "Registered nurses"
   },
   {
    "id": "1b4e1f3735",
@@ -98,10 +98,10 @@
    "text": "1 L IV fluids"
   },
   {
-   "id": "f0064797ce",
+   "id": "eace13977d",
    "where": "text",
-   "original": "High-dose Vitamin C, High-dose Glutathione",
-   "text": "High-dose Vitamin C, High-dose Glutathione"
+   "original": "Vitamin C, High-dose Glutathione",
+   "text": "Vitamin C, High-dose Glutathione"
   },
   {
    "id": "0f680cca68",
@@ -116,10 +116,10 @@
    "text": "Radiant renewal"
   },
   {
-   "id": "93b17af203",
+   "id": "d7af05e0ab",
    "where": "p · Radiant renewal",
-   "original": "Skin, hair and nails are built from the inside. High-dose vitamin C drives collagen while glutathione brightens and protects — the combination behind our most-booked drip for events and weddings. Add biotin and proline for hair and nails.",
-   "text": "Skin, hair and nails are built from the inside. High-dose vitamin C drives collagen while glutathione brightens and protects — the combination behind our most-booked drip for events and weddings. Add biotin and proline for hair and nails."
+   "original": "Skin, hair and nails are built from the inside. Vitamin C drives collagen while glutathione brightens and protects — the combination behind our most-booked drip for events and weddings. Add biotin and proline for hair and nails.",
+   "text": "Skin, hair and nails are built from the inside. Vitamin C drives collagen while glutathione brightens and protects — the combination behind our most-booked drip for events and weddings. Add biotin and proline for hair and nails."
   },
   {
    "id": "cc50acbbd9",
@@ -140,10 +140,10 @@
    "text": "Electrolytes"
   },
   {
-   "id": "a5659aaeef",
+   "id": "685c8ebfb8",
    "where": "span · Radiant renewal",
-   "original": "High-dose Vitamin C",
-   "text": "High-dose Vitamin C"
+   "original": "Vitamin C",
+   "text": "Vitamin C"
   },
   {
    "id": "43570d567d",
@@ -488,10 +488,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "1db3858cc2",
+   "id": "b789c78d54",
    "where": "li · Select",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "bc6bb8d3d2",
@@ -548,10 +548,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "36b73b62df",
+   "id": "edca24fba6",
    "where": "li · Premium",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "4ef542d102",
@@ -602,10 +602,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "1ca3cee294",
+   "id": "c0c6ca9bf8",
    "where": "li · Luxe",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "22142a71c5",
@@ -626,10 +626,10 @@
    "text": "all memberships"
   },
   {
-   "id": "732f9603bb",
+   "id": "87589e780c",
    "where": "text · Luxe",
-   "original": ". Pause or cancel anytime with the front desk.",
-   "text": ". Pause or cancel anytime with the front desk."
+   "original": ". All memberships run on a month-to-month basis.",
+   "text": ". All memberships run on a month-to-month basis."
   },
   {
    "id": "2bdd1e663e",

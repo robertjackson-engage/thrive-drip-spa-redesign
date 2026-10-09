@@ -30,7 +30,7 @@ The spa setting adds a calm, comfortable experience to all of it.
 ## The key benefits
 
 1. **Quickly absorbed vitamins** — most people feel results as the treatment begins.
-2. **A short process** — about 30 to 45 minutes in the chair.
+2. **A short process** — time in the chair varies by drip, and boosters or shots take just minutes.
 3. **A calming experience** — reclining chairs, blankets, a drink.
 4. **Improved hydration** — every drip starts with a liter of fluids.
 5. **A drip for almost everything** — twelve signature formulas.

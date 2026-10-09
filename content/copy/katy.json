@@ -56,10 +56,10 @@
    "text": "drip lounge."
   },
   {
-   "id": "fad679a7bc",
+   "id": "9aebfe5d43",
    "where": "p",
-   "original": "Relax, restore, rejuvenate. Katy is a pure drip lounge: 12 signature IV drips, boosters and vitamin shots, delivered by registered nurses in a bright, calm space just off FM 1463.",
-   "text": "Relax, restore, rejuvenate. Katy is a pure drip lounge: 12 signature IV drips, boosters and vitamin shots, delivered by registered nurses in a bright, calm space just off FM 1463."
+   "original": "Relax, restore, rejuvenate. Katy pairs 12 signature IV drips, boosters and vitamin shots, delivered by registered nurses, with an infrared sauna for recovery days — all in a bright, calm space just off FM 1463.",
+   "text": "Relax, restore, rejuvenate. Katy pairs 12 signature IV drips, boosters and vitamin shots, delivered by registered nurses, with an infrared sauna for recovery days — all in a bright, calm space just off FM 1463."
   },
   {
    "id": "3208881984",
@@ -434,10 +434,10 @@
    "text": "High C"
   },
   {
-   "id": "b1937bd8d8",
+   "id": "37975977a6",
    "where": "p · High C",
-   "original": "Vitamin C and nutrients that support immunity, hydration and a refreshed, ready-to-go feeling.",
-   "text": "Vitamin C and nutrients that support immunity, hydration and a refreshed, ready-to-go feeling."
+   "original": "Our max dose of Vitamin C to support immunity, hydration and a refreshed, ready-to-go feeling.",
+   "text": "Our max dose of Vitamin C to support immunity, hydration and a refreshed, ready-to-go feeling."
   },
   {
    "id": "c4a54248af",
@@ -482,10 +482,10 @@
    "text": "Immuno"
   },
   {
-   "id": "f09692b56d",
+   "id": "87f6d60408",
    "where": "p · Immuno",
-   "original": "Vitamin C, Zinc and Glutathione to boost immunity and promote strength, balance and resilience.",
-   "text": "Vitamin C, Zinc and Glutathione to boost immunity and promote strength, balance and resilience."
+   "original": "Our max dose of Vitamin C, plus Zinc and Glutathione, to boost immunity and promote strength, balance and resilience.",
+   "text": "Our max dose of Vitamin C, plus Zinc and Glutathione, to boost immunity and promote strength, balance and resilience."
   },
   {
    "id": "09613f6dcb",
@@ -494,80 +494,50 @@
    "text": "View drip →"
   },
   {
-   "id": "acab9ee996",
+   "id": "cb83d6f65b",
    "where": "text · Immuno",
-   "original": "Trusted results",
-   "text": "Trusted results"
+   "original": "Science-based treatments",
+   "text": "Science-based treatments"
   },
   {
-   "id": "b2b0382230",
+   "id": "869e806ae7",
    "where": "h2 · Immuno",
-   "original": "Relax, restore,",
-   "text": "Relax, restore,"
+   "original": "Beyond the drip at",
+   "text": "Beyond the drip at"
   },
   {
-   "id": "2a10a1aa2d",
-   "where": "span · Relax, restore,",
-   "original": "rejuvenate",
-   "text": "rejuvenate"
+   "id": "69700830c1",
+   "where": "span · Beyond the drip at",
+   "original": "Katy",
+   "text": "Katy"
   },
   {
-   "id": "01633fb36a",
-   "where": "p · Relax, restore,",
-   "original": "Katy is a dedicated drip lounge: 12 signature IV drips, boosters and vitamin shots, delivered by registered nurses.",
-   "text": "Katy is a dedicated drip lounge: 12 signature IV drips, boosters and vitamin shots, delivered by registered nurses."
+   "id": "34bcfa5d68",
+   "where": "a · Beyond the drip at",
+   "original": "Body & Face →",
+   "text": "Body & Face →"
   },
   {
-   "id": "1e8156e3c2",
-   "where": "a · Relax, restore,",
-   "original": "Body & Face at other lounges →",
-   "text": "Body & Face at other lounges →"
+   "id": "ad3da4ce6f",
+   "where": "h3 · Beyond the drip at",
+   "original": "Infrared Sauna",
+   "text": "Infrared Sauna"
   },
   {
-   "id": "62455e30e1",
-   "where": "h3 · Relax, restore,",
-   "original": "IV Drip Menu",
-   "text": "IV Drip Menu"
-  },
-  {
-   "id": "8ff4610c82",
-   "where": "span · IV Drip Menu",
-   "original": "12 signature drips →",
-   "text": "12 signature drips →"
-  },
-  {
-   "id": "6072cd21f3",
-   "where": "h3 · IV Drip Menu",
-   "original": "Boosters",
-   "text": "Boosters"
-  },
-  {
-   "id": "5e8fa5c908",
-   "where": "span · Boosters",
-   "original": "From $25 →",
-   "text": "From $25 →"
-  },
-  {
-   "id": "4d6458ebda",
-   "where": "h3 · Boosters",
-   "original": "Vitamin Shots",
-   "text": "Vitamin Shots"
-  },
-  {
-   "id": "e5d24590ee",
-   "where": "span · Vitamin Shots",
-   "original": "From $25 →",
-   "text": "From $25 →"
+   "id": "4faa0cb01e",
+   "where": "span · Infrared Sauna",
+   "original": "Detox sweat at a lower temperature →",
+   "text": "Detox sweat at a lower temperature →"
   },
   {
    "id": "ba28ec1804",
-   "where": "text · Vitamin Shots",
+   "where": "text · Infrared Sauna",
    "original": "Memberships",
    "text": "Memberships"
   },
   {
    "id": "dbfcaa5de8",
-   "where": "h2 · Vitamin Shots",
+   "where": "h2 · Infrared Sauna",
    "original": "More value",
    "text": "More value"
   },
@@ -632,10 +602,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "d57c26bbd6",
+   "id": "fc1fd4c7ef",
    "where": "li · Select",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "b984b18aeb",
@@ -692,10 +662,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "9c40203f59",
+   "id": "a44c94f7e4",
    "where": "li · Premium",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "e078ae470e",
@@ -746,10 +716,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "8add2f8044",
+   "id": "7004cf1e2a",
    "where": "li · Luxe",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "5d5d00faab",
@@ -770,10 +740,10 @@
    "text": "all memberships"
   },
   {
-   "id": "49a5a9c1c4",
+   "id": "9ec0446d9a",
    "where": "text · Luxe",
-   "original": ". Pause or cancel anytime with the front desk.",
-   "text": ". Pause or cancel anytime with the front desk."
+   "original": ". All memberships run on a month-to-month basis.",
+   "text": ". All memberships run on a month-to-month basis."
   },
   {
    "id": "e520f4c758",
@@ -788,7 +758,7 @@
    "text": "Visit our"
   },
   {
-   "id": "69700830c1",
+   "id": "6e56c47ff3",
    "where": "span · Visit our",
    "original": "Katy",
    "text": "Katy"
@@ -812,16 +782,16 @@
    "text": "Say hello to"
   },
   {
-   "id": "6e56c47ff3",
+   "id": "72d49296c5",
    "where": "span · Say hello to",
    "original": "Katy",
    "text": "Katy"
   },
   {
-   "id": "a68841f65f",
+   "id": "e473933591",
    "where": "p · Say hello to",
-   "original": "Questions about drips, memberships or boosters? Send a note and the Katy team will get back to you.",
-   "text": "Questions about drips, memberships or boosters? Send a note and the Katy team will get back to you."
+   "original": "Questions about drips, memberships or Infrared Sauna? Send a note and the Katy team will get back to you.",
+   "text": "Questions about drips, memberships or Infrared Sauna? Send a note and the Katy team will get back to you."
   },
   {
    "id": "6b60d8aaa6",
@@ -878,7 +848,7 @@
    "text": "Vintage Park"
   },
   {
-   "id": "72d49296c5",
+   "id": "7e00c19d15",
    "where": "option · Say hello to",
    "original": "Katy",
    "text": "Katy"
@@ -950,10 +920,10 @@
    "text": "Mobile / Concierge IV"
   },
   {
-   "id": "477f152570",
+   "id": "7ba2d1609c",
    "where": "option · Say hello to",
-   "original": "Body Contouring (Emsculpt, EMFACE, EMTONE)",
-   "text": "Body Contouring (Emsculpt, EMFACE, EMTONE)"
+   "original": "Body Contouring (Emsculpt NEO, EMFACE, EMTONE)",
+   "text": "Body Contouring (Emsculpt NEO, EMFACE, EMTONE)"
   },
   {
    "id": "596213b97e",
@@ -1004,7 +974,7 @@
    "text": "Book at"
   },
   {
-   "id": "7e00c19d15",
+   "id": "6293442d52",
    "where": "span · Book at",
    "original": "Katy",
    "text": "Katy"

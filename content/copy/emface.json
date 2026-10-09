@@ -8,10 +8,10 @@
    "text": "EMFACE in Houston & Dallas | ThrIVe Drip Spa"
   },
   {
-   "id": "1c03f9e8a8",
+   "id": "e349a8885c",
    "where": "Search-engine description",
-   "original": "EMFACE combines synchronized radiofrequency and HIFES energy to lift, tone and smooth the forehead and cheeks in a 20-minute session. No needles, no downtime.",
-   "text": "EMFACE combines synchronized radiofrequency and HIFES energy to lift, tone and smooth the forehead and cheeks in a 20-minute session. No needles, no downtime."
+   "original": "EMFACE combines synchronized radiofrequency and HIFES energy to lift, tone and smooth the forehead, submentum, eyes and cheeks in a 20-minute session. No needles, no downtime.",
+   "text": "EMFACE combines synchronized radiofrequency and HIFES energy to lift, tone and smooth the forehead, submentum, eyes and cheeks in a 20-minute session. No needles, no downtime."
   },
   {
    "id": "5429854469",
@@ -56,10 +56,10 @@
    "text": "needle free."
   },
   {
-   "id": "a722910ca6",
+   "id": "8edc403dc3",
    "where": "p",
-   "original": "EMFACE combines synchronized radiofrequency and HIFES energy to lift, tone and smooth the forehead and cheeks in a 20-minute session. No needles, no downtime.",
-   "text": "EMFACE combines synchronized radiofrequency and HIFES energy to lift, tone and smooth the forehead and cheeks in a 20-minute session. No needles, no downtime."
+   "original": "EMFACE combines synchronized radiofrequency and HIFES energy to lift, tone and smooth the forehead, submentum, eyes and cheeks in a 20-minute session. No needles, no downtime.",
+   "text": "EMFACE combines synchronized radiofrequency and HIFES energy to lift, tone and smooth the forehead, submentum, eyes and cheeks in a 20-minute session. No needles, no downtime."
   },
   {
    "id": "72f3f13fbb",
@@ -128,10 +128,10 @@
    "text": "As we age, facial muscle tone decreases, the face sags and expression wrinkles set in. EMFACE treats the cause, not just the surface: radiofrequency heats the dermis to build collagen and elastin while HIFES energy contracts the facial muscles thousands of times per session."
   },
   {
-   "id": "c14e30eba3",
+   "id": "ab4cda1a71",
    "where": "p · What is",
-   "original": "Applicators sit on the forehead and cheeks; it feels like a warm-stone massage with gentle contractions. You can go straight back to your day.",
-   "text": "Applicators sit on the forehead and cheeks; it feels like a warm-stone massage with gentle contractions. You can go straight back to your day."
+   "original": "Applicators are placed on the treatment areas; it feels like a warm-stone massage with gentle contractions. You can go straight back to your day.",
+   "text": "Applicators are placed on the treatment areas; it feels like a warm-stone massage with gentle contractions. You can go straight back to your day."
   },
   {
    "id": "ca7465e3ea",
@@ -206,10 +206,10 @@
    "text": "What areas can be treated?"
   },
   {
-   "id": "86dfba4aff",
+   "id": "62b89b535a",
    "where": "p · What areas can be treated?",
-   "original": "The forehead and cheeks — for a lifted brow, smoother forehead lines and fuller, more defined cheeks.",
-   "text": "The forehead and cheeks — for a lifted brow, smoother forehead lines and fuller, more defined cheeks."
+   "original": "The forehead, submentum (under the chin), eyes and cheeks — for a lifted brow, smoother lines, a more defined jawline and fuller cheeks.",
+   "text": "The forehead, submentum (under the chin), eyes and cheeks — for a lifted brow, smoother lines, a more defined jawline and fuller cheeks."
   },
   {
    "id": "f2f952e5fc",
@@ -278,25 +278,13 @@
    "text": "Body & Face overview →"
   },
   {
-   "id": "7bc643cf23",
-   "where": "h3 · More ways to",
-   "original": "Emsculpt",
-   "text": "Emsculpt"
-  },
-  {
-   "id": "58a902f721",
-   "where": "span · Emsculpt",
-   "original": "Learn more →",
-   "text": "Learn more →"
-  },
-  {
    "id": "dd24b33a75",
-   "where": "h3 · Emsculpt",
+   "where": "h3 · More ways to",
    "original": "Emsculpt NEO",
    "text": "Emsculpt NEO"
   },
   {
-   "id": "77056de5bb",
+   "id": "58a902f721",
    "where": "span · Emsculpt NEO",
    "original": "Learn more →",
    "text": "Learn more →"
@@ -308,7 +296,7 @@
    "text": "EMTONE"
   },
   {
-   "id": "8b0af7ebf5",
+   "id": "77056de5bb",
    "where": "span · EMTONE",
    "original": "Learn more →",
    "text": "Learn more →"

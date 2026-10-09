@@ -2,16 +2,16 @@
  "page": "body-contouring",
  "items": [
   {
-   "id": "65e76ce1cc",
+   "id": "a938e8d943",
    "where": "Browser tab title",
-   "original": "Body & Face — Emsculpt NEO, EMFACE, EMTONE, Normatec, Infrared Sauna | ThrIVe Drip Spa",
-   "text": "Body & Face — Emsculpt NEO, EMFACE, EMTONE, Normatec, Infrared Sauna | ThrIVe Drip Spa"
+   "original": "Body & Face — Emsculpt NEO, EMFACE, EMTONE, Infrared Sauna | ThrIVe Drip Spa",
+   "text": "Body & Face — Emsculpt NEO, EMFACE, EMTONE, Infrared Sauna | ThrIVe Drip Spa"
   },
   {
-   "id": "5b3635c558",
+   "id": "92607ad865",
    "where": "Search-engine description",
-   "original": "Non-invasive body contouring and facial lifting with the BTL suite, plus Normatec recovery and infrared sauna, at ThrIVe lounges across Texas.",
-   "text": "Non-invasive body contouring and facial lifting with the BTL suite, plus Normatec recovery and infrared sauna, at ThrIVe lounges across Texas."
+   "original": "Non-invasive body contouring and facial lifting with the BTL suite, plus infrared sauna, at ThrIVe lounges across Texas.",
+   "text": "Non-invasive body contouring and facial lifting with the BTL suite, plus infrared sauna, at ThrIVe lounges across Texas."
   },
   {
    "id": "194f5be1c5",
@@ -50,10 +50,10 @@
    "text": "No downtime."
   },
   {
-   "id": "5507f848ad",
+   "id": "ba9a5b4c36",
    "where": "p",
-   "original": "The complete BTL suite: Emsculpt and Emsculpt NEO for muscle and fat, EMFACE for needle-free facial lifting, EMTONE for cellulite — plus Normatec recovery and infrared sauna. Science-based treatments in a spa setting.",
-   "text": "The complete BTL suite: Emsculpt and Emsculpt NEO for muscle and fat, EMFACE for needle-free facial lifting, EMTONE for cellulite — plus Normatec recovery and infrared sauna. Science-based treatments in a spa setting."
+   "original": "The complete BTL suite: Emsculpt NEO for muscle and fat, EMFACE for needle-free facial lifting, EMTONE for cellulite — plus infrared sauna. Science-based treatments in a spa setting.",
+   "text": "The complete BTL suite: Emsculpt NEO for muscle and fat, EMFACE for needle-free facial lifting, EMTONE for cellulite — plus infrared sauna. Science-based treatments in a spa setting."
   },
   {
    "id": "9535689b51",
@@ -122,20 +122,8 @@
    "text": "Burn fat + build muscle →"
   },
   {
-   "id": "c29ee96c38",
-   "where": "h3 · Emsculpt NEO",
-   "original": "Emsculpt",
-   "text": "Emsculpt"
-  },
-  {
-   "id": "3c6202dc77",
-   "where": "span · Emsculpt",
-   "original": "Tone & build muscle →",
-   "text": "Tone & build muscle →"
-  },
-  {
    "id": "20db3c2c0f",
-   "where": "h3 · Emsculpt",
+   "where": "h3 · Emsculpt NEO",
    "original": "EMFACE",
    "text": "EMFACE"
   },
@@ -176,28 +164,16 @@
    "text": "recover"
   },
   {
-   "id": "08b9dd8a9c",
-   "where": "h3 · Restore and",
-   "original": "Normatec Compression",
-   "text": "Normatec Compression"
-  },
-  {
-   "id": "466495ebf9",
-   "where": "span · Normatec Compression",
-   "original": "$25 · members $20 →",
-   "text": "$25 · members $20 →"
-  },
-  {
    "id": "7f2f41b037",
-   "where": "h3 · Normatec Compression",
+   "where": "h3 · Restore and",
    "original": "Infrared Sauna",
    "text": "Infrared Sauna"
   },
   {
-   "id": "fc1b1d4d1d",
+   "id": "9f3dd5a64c",
    "where": "span · Infrared Sauna",
-   "original": "Vintage Park & Clear Lake →",
-   "text": "Vintage Park & Clear Lake →"
+   "original": "Katy & Clear Lake →",
+   "text": "Katy & Clear Lake →"
   },
   {
    "id": "f81f9efcd8",

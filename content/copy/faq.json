@@ -176,10 +176,10 @@
    "text": "How long does it take?"
   },
   {
-   "id": "d937d0a7ab",
+   "id": "24281e13be",
    "where": "p · How long does it take?",
-   "original": "Drips average 30–45 minutes; a first visit runs 45–60 minutes with the Good Faith Exam. NAD+ infusions take up to two hours. Shots take minutes.",
-   "text": "Drips average 30–45 minutes; a first visit runs 45–60 minutes with the Good Faith Exam. NAD+ infusions take up to two hours. Shots take minutes."
+   "original": "Drip times vary by formula and by client; plan a little extra time on your first visit for the Good Faith Exam. NAD+ infusions take up to two hours. Shots take minutes.",
+   "text": "Drip times vary by formula and by client; plan a little extra time on your first visit for the Good Faith Exam. NAD+ infusions take up to two hours. Shots take minutes."
   },
   {
    "id": "f3a04da80e",
@@ -314,28 +314,28 @@
    "text": "Month-to-month. Each month your membership loads a service credit worth more than your fee — Select $95 → $140 credit, Premium $165 → $260, Luxe $285 → $490 — usable on drips, shots, boosters, NAD+ and BTL services. Unused services roll over, and you get a complimentary birthday drip."
   },
   {
-   "id": "3336b7a4e5",
+   "id": "338a7a5754",
    "where": "h3 · How do memberships work?",
-   "original": "Can I pause or cancel?",
-   "text": "Can I pause or cancel?"
+   "original": "Can I cancel my membership?",
+   "text": "Can I cancel my membership?"
   },
   {
-   "id": "190a222aa6",
-   "where": "p · Can I pause or cancel?",
-   "original": "Yes — pause or cancel anytime with the front desk at your lounge.",
-   "text": "Yes — pause or cancel anytime with the front desk at your lounge."
+   "id": "2235708c7f",
+   "where": "p · Can I cancel my membership?",
+   "original": "Memberships run on a month-to-month basis. To cancel, contact the front desk at your lounge — cancellations require two weeks' notice.",
+   "text": "Memberships run on a month-to-month basis. To cancel, contact the front desk at your lounge — cancellations require two weeks' notice."
   },
   {
    "id": "7e5b3b75d9",
-   "where": "h3 · Can I pause or cancel?",
+   "where": "h3 · Can I cancel my membership?",
    "original": "What is member pricing?",
    "text": "What is member pricing?"
   },
   {
-   "id": "33ee5514a8",
+   "id": "1f4c62a418",
    "where": "p · What is member pricing?",
-   "original": "Members save on every drip (Myers $150 vs $190, Immuno $250 vs $310), on the Immuno booster ($130 vs $160), on Normatec ($20 vs $25), and get access to members-only drip bundles.",
-   "text": "Members save on every drip (Myers $150 vs $190, Immuno $250 vs $310), on the Immuno booster ($130 vs $160), on Normatec ($20 vs $25), and get access to members-only drip bundles."
+   "original": "Members save on every drip (Myers $150 vs $190, Immuno $250 vs $310), on the Immuno booster ($130 vs $160), and get access to members-only drip bundles.",
+   "text": "Members save on every drip (Myers $150 vs $190, Immuno $250 vs $310), on the Immuno booster ($130 vs $160), and get access to members-only drip bundles."
   },
   {
    "id": "1909eb22b1",
@@ -368,10 +368,10 @@
    "text": "What areas does EMFACE treat?"
   },
   {
-   "id": "d98e8f961a",
+   "id": "cff954beeb",
    "where": "p · What areas does EMFACE treat?",
-   "original": "The forehead and cheeks. Twenty-minute sessions, no needles, no downtime; best results after a series of four.",
-   "text": "The forehead and cheeks. Twenty-minute sessions, no needles, no downtime; best results after a series of four."
+   "original": "The forehead, submentum (under the chin), eyes and cheeks. Twenty-minute sessions, no needles, no downtime; best results after a series of four.",
+   "text": "The forehead, submentum (under the chin), eyes and cheeks. Twenty-minute sessions, no needles, no downtime; best results after a series of four."
   },
   {
    "id": "ea5c78b018",
@@ -380,10 +380,10 @@
    "text": "How many Emsculpt NEO sessions do I need?"
   },
   {
-   "id": "ae0bf1e744",
+   "id": "a5782c46a2",
    "where": "p · How many Emsculpt NEO sessions do I need?",
-   "original": "Four 30-minute sessions, typically once per week. It feels like an intense workout with a warming sensation.",
-   "text": "Four 30-minute sessions, typically once per week. It feels like an intense workout with a warming sensation."
+   "original": "Six 30-minute sessions, one every 5–7 days. It feels like an intense workout with a warming sensation.",
+   "text": "Six 30-minute sessions, one every 5–7 days. It feels like an intense workout with a warming sensation."
   },
   {
    "id": "ae25cb73e4",
@@ -404,10 +404,10 @@
    "text": "Is the infrared sauna different from a regular sauna?"
   },
   {
-   "id": "f93a3febab",
+   "id": "4978054ed5",
    "where": "p · Is the infrared sauna different from a regular sauna?",
-   "original": "Yes — it warms the body directly at a lower air temperature, so you sweat deeply and comfortably. Offered at Vintage Park and Clear Lake.",
-   "text": "Yes — it warms the body directly at a lower air temperature, so you sweat deeply and comfortably. Offered at Vintage Park and Clear Lake."
+   "original": "Yes — it warms the body directly at a lower air temperature, so you sweat deeply and comfortably. Offered at Katy and Clear Lake.",
+   "text": "Yes — it warms the body directly at a lower air temperature, so you sweat deeply and comfortably. Offered at Katy and Clear Lake."
   },
   {
    "id": "cad4ffa2a3",

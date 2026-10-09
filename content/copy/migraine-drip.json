@@ -86,10 +86,10 @@
    "text": "$190 walk-in · $150 member"
   },
   {
-   "id": "040d7abd75",
+   "id": "6fd6ef46d8",
    "where": "span",
-   "original": "30–45 minutes",
-   "text": "30–45 minutes"
+   "original": "Registered nurses",
+   "text": "Registered nurses"
   },
   {
    "id": "89f9193457",
@@ -116,10 +116,10 @@
    "text": "Calm & comfort"
   },
   {
-   "id": "ea5d5d95b6",
+   "id": "9159f42f27",
    "where": "p · Calm & comfort",
-   "original": "Magnesium calms inflammation and headache, Reglan settles the nausea of an acute migraine, and Toradol delivers fast NSAID pain relief. Benadryl can be added at no cost — you'll need a driver — and Zofran can substitute for Reglan. Plan on 30 minutes to an hour in the chair.",
-   "text": "Magnesium calms inflammation and headache, Reglan settles the nausea of an acute migraine, and Toradol delivers fast NSAID pain relief. Benadryl can be added at no cost — you'll need a driver — and Zofran can substitute for Reglan. Plan on 30 minutes to an hour in the chair."
+   "original": "Magnesium calms inflammation and headache, Reglan settles the nausea of an acute migraine, and Toradol delivers fast NSAID pain relief — before Toradol, make sure you haven't taken any NSAIDs (such as ibuprofen or naproxen) in the 4–6 hours prior and aren't allergic. Benadryl can be added at no cost: either bring a driver, or wait 45 minutes after your IV and drive yourself home. Zofran can substitute for Reglan.",
+   "text": "Magnesium calms inflammation and headache, Reglan settles the nausea of an acute migraine, and Toradol delivers fast NSAID pain relief — before Toradol, make sure you haven't taken any NSAIDs (such as ibuprofen or naproxen) in the 4–6 hours prior and aren't allergic. Benadryl can be added at no cost: either bring a driver, or wait 45 minutes after your IV and drive yourself home. Zofran can substitute for Reglan."
   },
   {
    "id": "e6c374934a",
@@ -164,10 +164,10 @@
    "text": "Boost your results"
   },
   {
-   "id": "37bd288e15",
+   "id": "78880cafc3",
    "where": "span · Calm & comfort",
-   "original": "Benadryl (free — bring a driver)",
-   "text": "Benadryl (free — bring a driver)"
+   "original": "Benadryl (free)",
+   "text": "Benadryl (free)"
   },
   {
    "id": "f39218a2ea",
@@ -494,10 +494,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "5d7d00d4a2",
+   "id": "e1a29cfb60",
    "where": "li · Select",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "ea83efa049",
@@ -554,10 +554,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "0fdc1d9e22",
+   "id": "66f226b3b9",
    "where": "li · Premium",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "f28cfe1be2",
@@ -608,10 +608,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "341a638f8c",
+   "id": "ebe0a996e8",
    "where": "li · Luxe",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "73cf87e75e",
@@ -632,10 +632,10 @@
    "text": "all memberships"
   },
   {
-   "id": "f4d08e697d",
+   "id": "ae6d103cfb",
    "where": "text · Luxe",
-   "original": ". Pause or cancel anytime with the front desk.",
-   "text": ". Pause or cancel anytime with the front desk."
+   "original": ". All memberships run on a month-to-month basis.",
+   "text": ". All memberships run on a month-to-month basis."
   },
   {
    "id": "6c665921e1",

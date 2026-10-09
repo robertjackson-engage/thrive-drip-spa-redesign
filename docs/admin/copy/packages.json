@@ -242,10 +242,10 @@
    "text": "NAD+ Shot Package — Select"
   },
   {
-   "id": "c41e9edfa3",
+   "id": "b54a537af2",
    "where": "small · NAD+",
-   "original": "400 mg",
-   "text": "400 mg"
+   "original": "Four 100 mg shots (400 mg)",
+   "text": "Four 100 mg shots (400 mg)"
   },
   {
    "id": "0c632ec8ba",
@@ -260,16 +260,52 @@
    "text": "NAD+ Shot Package — Premium"
   },
   {
-   "id": "7e5c31f30c",
+   "id": "cbc9026dc6",
    "where": "small · NAD+",
-   "original": "500 mg",
-   "text": "500 mg"
+   "original": "Five 100 mg shots (500 mg)",
+   "text": "Five 100 mg shots (500 mg)"
   },
   {
    "id": "da16fc3bf7",
    "where": "td · NAD+",
    "original": "$375",
    "text": "$375"
+  },
+  {
+   "id": "56df0479f5",
+   "where": "td · NAD+",
+   "original": "NAD+ Drip 4-Pack · 250 mg",
+   "text": "NAD+ Drip 4-Pack · 250 mg"
+  },
+  {
+   "id": "bc5f39d572",
+   "where": "small · NAD+",
+   "original": "Four 250 mg drips",
+   "text": "Four 250 mg drips"
+  },
+  {
+   "id": "c51a6e2cfc",
+   "where": "td · NAD+",
+   "original": "$1,250",
+   "text": "$1,250"
+  },
+  {
+   "id": "6cde80e978",
+   "where": "td · NAD+",
+   "original": "NAD+ Drip 4-Pack · 500 mg",
+   "text": "NAD+ Drip 4-Pack · 500 mg"
+  },
+  {
+   "id": "9f92ff3e82",
+   "where": "small · NAD+",
+   "original": "Four 500 mg drips",
+   "text": "Four 500 mg drips"
+  },
+  {
+   "id": "d80da64ae0",
+   "where": "td · NAD+",
+   "original": "$1,750",
+   "text": "$1,750"
   },
   {
    "id": "6001469ec1",

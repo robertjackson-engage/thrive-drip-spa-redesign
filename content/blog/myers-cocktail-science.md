@@ -35,4 +35,4 @@ IV delivery bypasses digestion, where oral nutrients can be lost or absorbed inc
 
 ## What a session looks like
 
-A quick health review, then a 30–45 minute infusion in a spa setting with complimentary beverages, protein bars and blankets. [Book the Myers Drip](../myers-drip.html) — $190, or $150 for members.
+A quick health review, then a relaxing infusion in a spa setting with complimentary beverages, protein bars and blankets. [Book the Myers Drip](../myers-drip.html) — $190, or $150 for members.
