@@ -86,10 +86,10 @@
    "text": "$190 walk-in · $150 member"
   },
   {
-   "id": "caad80111e",
+   "id": "8570f62241",
    "where": "span",
-   "original": "30–45 minutes",
-   "text": "30–45 minutes"
+   "original": "Registered nurses",
+   "text": "Registered nurses"
   },
   {
    "id": "32333f8057",
@@ -116,10 +116,10 @@
    "text": "Ignite your passion"
   },
   {
-   "id": "b01fa17abd",
+   "id": "977ec9baa8",
    "where": "p · Ignite your passion",
-   "original": "A natural alternative to pharmaceuticals. L-Arginine promotes vasodilation and blood flow while B12 lifts energy and mood — a formula designed for both men and women. Pair with a B-Complex booster or a Lipo injection.",
-   "text": "A natural alternative to pharmaceuticals. L-Arginine promotes vasodilation and blood flow while B12 lifts energy and mood — a formula designed for both men and women. Pair with a B-Complex booster or a Lipo injection."
+   "original": "A natural alternative to pharmaceuticals. L-Arginine promotes vasodilation and blood flow while B12 lifts energy and mood — a formula designed for both men and women. Add Magnesium to help with hormone regulation and stress reduction.",
+   "text": "A natural alternative to pharmaceuticals. L-Arginine promotes vasodilation and blood flow while B12 lifts energy and mood — a formula designed for both men and women. Add Magnesium to help with hormone regulation and stress reduction."
   },
   {
    "id": "ff37ddf088",
@@ -156,6 +156,12 @@
    "where": "p · Ignite your passion",
    "original": "Boost your results",
    "text": "Boost your results"
+  },
+  {
+   "id": "7bd8e5d522",
+   "where": "span · Ignite your passion",
+   "original": "Magnesium",
+   "text": "Magnesium"
   },
   {
    "id": "c21e8934a8",
@@ -488,10 +494,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "7ca57d8f72",
+   "id": "a55a75b17e",
    "where": "li · Select",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "5c7f3652ab",
@@ -548,10 +554,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "cf1a43278a",
+   "id": "9c49e36ead",
    "where": "li · Premium",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "fdec74649a",
@@ -602,10 +608,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "74c6b528bb",
+   "id": "724be21f0b",
    "where": "li · Luxe",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "edfd2d1ee5",
@@ -626,10 +632,10 @@
    "text": "all memberships"
   },
   {
-   "id": "917d7d1306",
+   "id": "338a1042d8",
    "where": "text · Luxe",
-   "original": ". Pause or cancel anytime with the front desk.",
-   "text": ". Pause or cancel anytime with the front desk."
+   "original": ". All memberships run on a month-to-month basis.",
+   "text": ". All memberships run on a month-to-month basis."
   },
   {
    "id": "35ac58cc19",

@@ -86,10 +86,10 @@
    "text": "$190 walk-in · $150 member"
   },
   {
-   "id": "62a2da1a85",
+   "id": "e62b56254b",
    "where": "span",
-   "original": "30–45 minutes",
-   "text": "30–45 minutes"
+   "original": "Registered nurses",
+   "text": "Registered nurses"
   },
   {
    "id": "84506fa0fa",
@@ -116,10 +116,10 @@
    "text": "Bounce-back infusion"
   },
   {
-   "id": "8cc8d32fd8",
+   "id": "6d6755711a",
    "where": "p · Bounce-back infusion",
-   "original": "Hangovers are dehydration plus the byproducts of ethanol — and the ability to bounce back only diminishes with age. The Party Drip pairs a full liter of fluids with anti-inflammatory and anti-nausea medication so you can get on with your day. ABC13's Natasha Barrett tried this one on air.",
-   "text": "Hangovers are dehydration plus the byproducts of ethanol — and the ability to bounce back only diminishes with age. The Party Drip pairs a full liter of fluids with anti-inflammatory and anti-nausea medication so you can get on with your day. ABC13's Natasha Barrett tried this one on air."
+   "original": "Hangovers are dehydration plus the byproducts of ethanol — and the ability to bounce back only diminishes with age. The Party Drip pairs a full liter of fluids with anti-inflammatory and anti-nausea medication so you can get on with your day. Before Toradol, make sure you haven't taken any NSAIDs (such as ibuprofen or naproxen) in the 4–6 hours prior and aren't allergic. Feeling extremely nauseous? Ask your nurse about a double dose of Zofran.",
+   "text": "Hangovers are dehydration plus the byproducts of ethanol — and the ability to bounce back only diminishes with age. The Party Drip pairs a full liter of fluids with anti-inflammatory and anti-nausea medication so you can get on with your day. Before Toradol, make sure you haven't taken any NSAIDs (such as ibuprofen or naproxen) in the 4–6 hours prior and aren't allergic. Feeling extremely nauseous? Ask your nurse about a double dose of Zofran."
   },
   {
    "id": "55552f7203",
@@ -218,10 +218,10 @@
    "text": "Toradol for headache and body aches"
   },
   {
-   "id": "633708f2f9",
+   "id": "0d371beb86",
    "where": "li · Party Drip",
-   "original": "Zofran to settle the stomach",
-   "text": "Zofran to settle the stomach"
+   "original": "Zofran to settle the stomach — a double dose is available for extreme nausea",
+   "text": "Zofran to settle the stomach — a double dose is available for extreme nausea"
   },
   {
    "id": "66c576eb5f",
@@ -500,10 +500,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "eb9248d907",
+   "id": "427b02299c",
    "where": "li · Select",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "eaccee1f3f",
@@ -560,10 +560,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "396def4549",
+   "id": "a3f74503af",
    "where": "li · Premium",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "b75d96f8f4",
@@ -614,10 +614,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "0b91b62369",
+   "id": "7367987999",
    "where": "li · Luxe",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "2794441999",
@@ -638,10 +638,10 @@
    "text": "all memberships"
   },
   {
-   "id": "86fb83b13c",
+   "id": "51afa8e873",
    "where": "text · Luxe",
-   "original": ". Pause or cancel anytime with the front desk.",
-   "text": ". Pause or cancel anytime with the front desk."
+   "original": ". All memberships run on a month-to-month basis.",
+   "text": ". All memberships run on a month-to-month basis."
   },
   {
    "id": "0517577c5c",

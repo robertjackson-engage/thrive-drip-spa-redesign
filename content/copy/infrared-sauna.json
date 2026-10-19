@@ -2,16 +2,16 @@
  "page": "infrared-sauna",
  "items": [
   {
-   "id": "30ebfd4139",
+   "id": "873b51e115",
    "where": "Browser tab title",
-   "original": "Infrared Sauna Therapy — Vintage Park & Clear Lake | ThrIVe Drip Spa",
-   "text": "Infrared Sauna Therapy — Vintage Park & Clear Lake | ThrIVe Drip Spa"
+   "original": "Infrared Sauna Therapy — Katy & Clear Lake | ThrIVe Drip Spa",
+   "text": "Infrared Sauna Therapy — Katy & Clear Lake | ThrIVe Drip Spa"
   },
   {
-   "id": "3c909079b1",
+   "id": "5c74cbcbc4",
    "where": "Search-engine description",
-   "original": "Infrared sauna sessions for recovery, skin and sleep at ThrIVe Vintage Park and Clear Lake.",
-   "text": "Infrared sauna sessions for recovery, skin and sleep at ThrIVe Vintage Park and Clear Lake."
+   "original": "Infrared sauna sessions for recovery, skin and sleep at ThrIVe Katy and Clear Lake.",
+   "text": "Infrared sauna sessions for recovery, skin and sleep at ThrIVe Katy and Clear Lake."
   },
   {
    "id": "20d41a3e88",
@@ -44,10 +44,10 @@
    "text": "under an hour."
   },
   {
-   "id": "93a4d0a02e",
+   "id": "36fc8cbb01",
    "where": "p",
-   "original": "Infrared light warms the body from the inside, so you sweat deeply at a lower, more comfortable temperature. Clients report clearer skin, fewer aches and better sleep. Available at Vintage Park and Clear Lake.",
-   "text": "Infrared light warms the body from the inside, so you sweat deeply at a lower, more comfortable temperature. Clients report clearer skin, fewer aches and better sleep. Available at Vintage Park and Clear Lake."
+   "original": "Infrared light warms the body from the inside, so you sweat deeply at a lower, more comfortable temperature. Clients report clearer skin, fewer aches and better sleep. Available at Katy and Clear Lake.",
+   "text": "Infrared light warms the body from the inside, so you sweat deeply at a lower, more comfortable temperature. Clients report clearer skin, fewer aches and better sleep. Available at Katy and Clear Lake."
   },
   {
    "id": "11094ae5ff",
@@ -56,10 +56,10 @@
    "text": "Book a Session"
   },
   {
-   "id": "be2fddcc6b",
+   "id": "489ba56eb6",
    "where": "a",
-   "original": "Vintage Park",
-   "text": "Vintage Park"
+   "original": "Katy",
+   "text": "Katy"
   },
   {
    "id": "2019b5c048",
@@ -68,10 +68,10 @@
    "text": "Clear Lake"
   },
   {
-   "id": "442d634e96",
+   "id": "ded73be82d",
    "where": "span",
-   "original": "Vintage Park · Clear Lake",
-   "text": "Vintage Park · Clear Lake"
+   "original": "Katy · Clear Lake",
+   "text": "Katy · Clear Lake"
   },
   {
    "id": "5e707e02e4",
@@ -188,10 +188,10 @@
    "text": "gently."
   },
   {
-   "id": "b400116dd7",
+   "id": "1a2283dc3c",
    "where": "p · Sweat it out,",
-   "original": "Book an infrared session at Vintage Park or Clear Lake — and hydrate after with a drip.",
-   "text": "Book an infrared session at Vintage Park or Clear Lake — and hydrate after with a drip."
+   "original": "Book an infrared session at Katy or Clear Lake — and hydrate after with a drip.",
+   "text": "Book an infrared session at Katy or Clear Lake — and hydrate after with a drip."
   },
   {
    "id": "5907572e9e",

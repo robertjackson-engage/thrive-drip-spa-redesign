@@ -434,10 +434,10 @@
    "text": "High C"
   },
   {
-   "id": "4c0ecdb8ab",
+   "id": "efd17bfc33",
    "where": "p · High C",
-   "original": "Vitamin C and nutrients that support immunity, hydration and a refreshed, ready-to-go feeling.",
-   "text": "Vitamin C and nutrients that support immunity, hydration and a refreshed, ready-to-go feeling."
+   "original": "Our max dose of Vitamin C to support immunity, hydration and a refreshed, ready-to-go feeling.",
+   "text": "Our max dose of Vitamin C to support immunity, hydration and a refreshed, ready-to-go feeling."
   },
   {
    "id": "6fc29a2794",
@@ -482,10 +482,10 @@
    "text": "Immuno"
   },
   {
-   "id": "2caceb1495",
+   "id": "2f4a79da10",
    "where": "p · Immuno",
-   "original": "Vitamin C, Zinc and Glutathione to boost immunity and promote strength, balance and resilience.",
-   "text": "Vitamin C, Zinc and Glutathione to boost immunity and promote strength, balance and resilience."
+   "original": "Our max dose of Vitamin C, plus Zinc and Glutathione, to boost immunity and promote strength, balance and resilience.",
+   "text": "Our max dose of Vitamin C, plus Zinc and Glutathione, to boost immunity and promote strength, balance and resilience."
   },
   {
    "id": "1f82720b46",
@@ -632,10 +632,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "90d71514dc",
+   "id": "7d2abc64a1",
    "where": "li · Select",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "7a33d28c2d",
@@ -692,10 +692,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "be713b2f48",
+   "id": "3c13c5c308",
    "where": "li · Premium",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "bcd597cf37",
@@ -746,10 +746,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "d0d036101d",
+   "id": "fc0999c460",
    "where": "li · Luxe",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "b4a9c41b60",
@@ -770,10 +770,10 @@
    "text": "all memberships"
   },
   {
-   "id": "acab80234f",
+   "id": "b4edb400aa",
    "where": "text · Luxe",
-   "original": ". Pause or cancel anytime with the front desk.",
-   "text": ". Pause or cancel anytime with the front desk."
+   "original": ". All memberships run on a month-to-month basis.",
+   "text": ". All memberships run on a month-to-month basis."
   },
   {
    "id": "7f5a0bc20f",
@@ -950,10 +950,10 @@
    "text": "Mobile / Concierge IV"
   },
   {
-   "id": "39fedf9bb2",
+   "id": "20c1c17efd",
    "where": "option · Say hello to",
-   "original": "Body Contouring (Emsculpt, EMFACE, EMTONE)",
-   "text": "Body Contouring (Emsculpt, EMFACE, EMTONE)"
+   "original": "Body Contouring (Emsculpt NEO, EMFACE, EMTONE)",
+   "text": "Body Contouring (Emsculpt NEO, EMFACE, EMTONE)"
   },
   {
    "id": "316482e4dd",

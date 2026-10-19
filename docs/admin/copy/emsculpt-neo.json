@@ -8,10 +8,10 @@
    "text": "Emsculpt NEO in Houston & Dallas | ThrIVe Drip Spa"
   },
   {
-   "id": "a766874001",
+   "id": "5874c89492",
    "where": "Search-engine description",
-   "original": "Emsculpt NEO pairs radiofrequency heating with HIFEM contractions in a single 30-minute session — reducing fat and building muscle simultaneously across the core, arms, legs and glutes.",
-   "text": "Emsculpt NEO pairs radiofrequency heating with HIFEM contractions in a single 30-minute session — reducing fat and building muscle simultaneously across the core, arms, legs and glutes."
+   "original": "Emsculpt NEO pairs radiofrequency heating with HIFEM contractions in a single 30-minute session — reducing fat and building muscle simultaneously across the abs, glutes, biceps, triceps, thighs, calves and flanks (love handles).",
+   "text": "Emsculpt NEO pairs radiofrequency heating with HIFEM contractions in a single 30-minute session — reducing fat and building muscle simultaneously across the abs, glutes, biceps, triceps, thighs, calves and flanks (love handles)."
   },
   {
    "id": "64e1577682",
@@ -62,10 +62,10 @@
    "text": "At once."
   },
   {
-   "id": "9e8e632ed8",
+   "id": "04fb8c563c",
    "where": "p",
-   "original": "Emsculpt NEO pairs radiofrequency heating with HIFEM contractions in a single 30-minute session — reducing fat and building muscle simultaneously across the core, arms, legs and glutes.",
-   "text": "Emsculpt NEO pairs radiofrequency heating with HIFEM contractions in a single 30-minute session — reducing fat and building muscle simultaneously across the core, arms, legs and glutes."
+   "original": "Emsculpt NEO pairs radiofrequency heating with HIFEM contractions in a single 30-minute session — reducing fat and building muscle simultaneously across the abs, glutes, biceps, triceps, thighs, calves and flanks (love handles).",
+   "text": "Emsculpt NEO pairs radiofrequency heating with HIFEM contractions in a single 30-minute session — reducing fat and building muscle simultaneously across the abs, glutes, biceps, triceps, thighs, calves and flanks (love handles)."
   },
   {
    "id": "fa9e446051",
@@ -92,16 +92,16 @@
    "text": "No downtime"
   },
   {
-   "id": "2dbb0f5e31",
+   "id": "121a83105f",
    "where": "span",
-   "original": "Series of 4",
-   "text": "Series of 4"
+   "original": "Series of 6",
+   "text": "Series of 6"
   },
   {
-   "id": "dfa4663157",
+   "id": "afe098d357",
    "where": "text",
-   "original": "30 minutes · 4 sessions",
-   "text": "30 minutes · 4 sessions"
+   "original": "30 minutes · 6 sessions",
+   "text": "30 minutes · 6 sessions"
   },
   {
    "id": "e8db28d4cb",
@@ -128,16 +128,16 @@
    "text": "Emsculpt NEO"
   },
   {
-   "id": "3efea06fa6",
+   "id": "80fb91aead",
    "where": "p · What is",
-   "original": "RF energy warms the tissue to break down fat cells while HIFEM energy contracts the muscle beneath — two results from one applicator. It's the most-requested body treatment across our lounges.",
-   "text": "RF energy warms the tissue to break down fat cells while HIFEM energy contracts the muscle beneath — two results from one applicator. It's the most-requested body treatment across our lounges."
+   "original": "RF energy warms the tissue to break down fat cells while HIFEM energy triggers thousands of supramaximal contractions in the muscle beneath — the equivalent of a workout your body can't do on its own. Two results from one applicator, and it's the most-requested body treatment across our lounges.",
+   "text": "RF energy warms the tissue to break down fat cells while HIFEM energy triggers thousands of supramaximal contractions in the muscle beneath — the equivalent of a workout your body can't do on its own. Two results from one applicator, and it's the most-requested body treatment across our lounges."
   },
   {
-   "id": "15c051f5a4",
+   "id": "db83dea571",
    "where": "p · What is",
-   "original": "Four 30-minute sessions, typically once a week. It feels like an intense workout with a warming sensation, and there's no downtime.",
-   "text": "Four 30-minute sessions, typically once a week. It feels like an intense workout with a warming sensation, and there's no downtime."
+   "original": "Treatment areas: abs, glutes, biceps, triceps, thighs, calves and flanks (love handles). Most clients complete six 30-minute sessions, one every 5–7 days. It feels like an intense workout with a warming sensation — no needles, no anesthesia, no downtime.",
+   "text": "Treatment areas: abs, glutes, biceps, triceps, thighs, calves and flanks (love handles). Most clients complete six 30-minute sessions, one every 5–7 days. It feels like an intense workout with a warming sensation — no needles, no anesthesia, no downtime."
   },
   {
    "id": "793d9aa0a8",
@@ -236,16 +236,28 @@
    "text": "It combines HIFEM and radiofrequency to build muscle and burn fat simultaneously — the RF heats and reduces fat while the HIFEM contractions strengthen the muscle."
   },
   {
-   "id": "f205336185",
+   "id": "0edc3e2559",
    "where": "h3 · What is Emsculpt NEO and how does it work?",
+   "original": "What areas can be treated?",
+   "text": "What areas can be treated?"
+  },
+  {
+   "id": "bbc66f15a2",
+   "where": "p · What areas can be treated?",
+   "original": "Abs, glutes, biceps, triceps, thighs, calves and flanks (love handles).",
+   "text": "Abs, glutes, biceps, triceps, thighs, calves and flanks (love handles)."
+  },
+  {
+   "id": "f205336185",
+   "where": "h3 · What areas can be treated?",
    "original": "How many sessions?",
    "text": "How many sessions?"
   },
   {
-   "id": "9be417e038",
+   "id": "05e65beb50",
    "where": "p · How many sessions?",
-   "original": "Four 30-minute sessions, typically once per week.",
-   "text": "Four 30-minute sessions, typically once per week."
+   "original": "Six 30-minute sessions, one every 5–7 days, with results building over the following weeks.",
+   "text": "Six 30-minute sessions, one every 5–7 days, with results building over the following weeks."
   },
   {
    "id": "88b4cc9d2d",
@@ -254,10 +266,10 @@
    "text": "Is it painful?"
   },
   {
-   "id": "c674880950",
+   "id": "7af52e0ef4",
    "where": "p · Is it painful?",
-   "original": "It feels like an intense workout with a warming sensation. No downtime.",
-   "text": "It feels like an intense workout with a warming sensation. No downtime."
+   "original": "It feels like an intense workout with a warming sensation. No downtime — you can train, work or head to dinner right after.",
+   "text": "It feels like an intense workout with a warming sensation. No downtime — you can train, work or head to dinner right after."
   },
   {
    "id": "0aa258eae1",
@@ -314,25 +326,13 @@
    "text": "Learn more →"
   },
   {
-   "id": "9c1f27e6dd",
-   "where": "h3 · EMFACE",
-   "original": "Emsculpt",
-   "text": "Emsculpt"
-  },
-  {
-   "id": "8d79866abe",
-   "where": "span · Emsculpt",
-   "original": "Learn more →",
-   "text": "Learn more →"
-  },
-  {
    "id": "8d294a2ec8",
-   "where": "h3 · Emsculpt",
+   "where": "h3 · EMFACE",
    "original": "EMTONE",
    "text": "EMTONE"
   },
   {
-   "id": "cb1f7a33db",
+   "id": "8d79866abe",
    "where": "span · EMTONE",
    "original": "Learn more →",
    "text": "Learn more →"

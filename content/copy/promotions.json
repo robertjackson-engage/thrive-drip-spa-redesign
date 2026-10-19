@@ -170,10 +170,10 @@
    "text": "add-on"
   },
   {
-   "id": "de0f33efd9",
+   "id": "4e11e11f40",
    "where": "p · Free Benadryl with the Migraine Drip",
-   "original": "Added at no cost to help you rest through a migraine. Bring a driver.",
-   "text": "Added at no cost to help you rest through a migraine. Bring a driver."
+   "original": "Added at no cost to help you rest through a migraine. Bring a driver, or wait 45 minutes after your IV before driving yourself home.",
+   "text": "Added at no cost to help you rest through a migraine. Bring a driver, or wait 45 minutes after your IV before driving yourself home."
   },
   {
    "id": "4dad35cce1",
@@ -290,10 +290,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "23dd74002d",
+   "id": "0c18808424",
    "where": "li · Select",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "482847d2b7",
@@ -350,10 +350,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "fe4ff534fb",
+   "id": "c46a94be4e",
    "where": "li · Premium",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "b25cf8789b",
@@ -404,10 +404,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "5fcdd719ce",
+   "id": "252c647838",
    "where": "li · Luxe",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "a31795ec19",
@@ -428,10 +428,10 @@
    "text": "all memberships"
   },
   {
-   "id": "a2c211a3e3",
+   "id": "c0e0efac8a",
    "where": "text · Luxe",
-   "original": ". Pause or cancel anytime with the front desk.",
-   "text": ". Pause or cancel anytime with the front desk."
+   "original": ". All memberships run on a month-to-month basis.",
+   "text": ". All memberships run on a month-to-month basis."
   },
   {
    "id": "ae2aca4895",

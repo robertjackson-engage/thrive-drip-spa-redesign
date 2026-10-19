@@ -56,10 +56,10 @@
    "text": "drip lounge."
   },
   {
-   "id": "f1a98d946e",
+   "id": "40d720a5d3",
    "where": "p",
-   "original": "Shape and restore at Vintage Park: signature drips and boosters, Emsculpt and Emsculpt NEO body contouring, and an infrared sauna to sweat it out at a lower, more comfortable temperature.",
-   "text": "Shape and restore at Vintage Park: signature drips and boosters, Emsculpt and Emsculpt NEO body contouring, and an infrared sauna to sweat it out at a lower, more comfortable temperature."
+   "original": "Shape and restore at Vintage Park: signature drips and boosters, plus Emsculpt NEO body contouring to burn fat and build muscle in 30-minute sessions.",
+   "text": "Shape and restore at Vintage Park: signature drips and boosters, plus Emsculpt NEO body contouring to burn fat and build muscle in 30-minute sessions."
   },
   {
    "id": "059519dcb1",
@@ -434,10 +434,10 @@
    "text": "High C"
   },
   {
-   "id": "ad908ba6cf",
+   "id": "43724f0cf5",
    "where": "p · High C",
-   "original": "Vitamin C and nutrients that support immunity, hydration and a refreshed, ready-to-go feeling.",
-   "text": "Vitamin C and nutrients that support immunity, hydration and a refreshed, ready-to-go feeling."
+   "original": "Our max dose of Vitamin C to support immunity, hydration and a refreshed, ready-to-go feeling.",
+   "text": "Our max dose of Vitamin C to support immunity, hydration and a refreshed, ready-to-go feeling."
   },
   {
    "id": "655c1ab78e",
@@ -482,10 +482,10 @@
    "text": "Immuno"
   },
   {
-   "id": "b72cc812a1",
+   "id": "abdea1b503",
    "where": "p · Immuno",
-   "original": "Vitamin C, Zinc and Glutathione to boost immunity and promote strength, balance and resilience.",
-   "text": "Vitamin C, Zinc and Glutathione to boost immunity and promote strength, balance and resilience."
+   "original": "Our max dose of Vitamin C, plus Zinc and Glutathione, to boost immunity and promote strength, balance and resilience.",
+   "text": "Our max dose of Vitamin C, plus Zinc and Glutathione, to boost immunity and promote strength, balance and resilience."
   },
   {
    "id": "0fbfcbe64c",
@@ -518,20 +518,8 @@
    "text": "Body & Face →"
   },
   {
-   "id": "07b9db3e3e",
-   "where": "h3 · Beyond the drip at",
-   "original": "Emsculpt",
-   "text": "Emsculpt"
-  },
-  {
-   "id": "e0a7caa5a9",
-   "where": "span · Emsculpt",
-   "original": "Build muscle with HIFEM contractions →",
-   "text": "Build muscle with HIFEM contractions →"
-  },
-  {
    "id": "9c127ab7ca",
-   "where": "h3 · Emsculpt",
+   "where": "h3 · Beyond the drip at",
    "original": "Emsculpt NEO",
    "text": "Emsculpt NEO"
   },
@@ -542,20 +530,8 @@
    "text": "Burn fat and build muscle in 30 minutes →"
   },
   {
-   "id": "25afef18af",
-   "where": "h3 · Emsculpt NEO",
-   "original": "Infrared Sauna",
-   "text": "Infrared Sauna"
-  },
-  {
-   "id": "6b486e31ac",
-   "where": "span · Infrared Sauna",
-   "original": "Detox sweat at a lower temperature →",
-   "text": "Detox sweat at a lower temperature →"
-  },
-  {
    "id": "04121a09a9",
-   "where": "h3 · Infrared Sauna",
+   "where": "h3 · Emsculpt NEO",
    "original": "Boosters",
    "text": "Boosters"
   },
@@ -638,10 +614,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "d6856e8492",
+   "id": "6ee116ac18",
    "where": "li · Select",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "76c8c99f98",
@@ -698,10 +674,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "78d0321ac6",
+   "id": "412cee1fe7",
    "where": "li · Premium",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "e8ba4b1a64",
@@ -752,10 +728,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "21dff0ac2b",
+   "id": "8ad174e0e3",
    "where": "li · Luxe",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "e56994d991",
@@ -776,10 +752,10 @@
    "text": "all memberships"
   },
   {
-   "id": "78cc79c052",
+   "id": "41754fea2a",
    "where": "text · Luxe",
-   "original": ". Pause or cancel anytime with the front desk.",
-   "text": ". Pause or cancel anytime with the front desk."
+   "original": ". All memberships run on a month-to-month basis.",
+   "text": ". All memberships run on a month-to-month basis."
   },
   {
    "id": "bacc89d413",
@@ -824,10 +800,10 @@
    "text": "Vintage Park"
   },
   {
-   "id": "332baf3d44",
+   "id": "d37837d1db",
    "where": "p · Say hello to",
-   "original": "Questions about drips, memberships or Emsculpt, Emsculpt NEO? Send a note and the Vintage Park team will get back to you.",
-   "text": "Questions about drips, memberships or Emsculpt, Emsculpt NEO? Send a note and the Vintage Park team will get back to you."
+   "original": "Questions about drips, memberships or Emsculpt NEO, Boosters? Send a note and the Vintage Park team will get back to you.",
+   "text": "Questions about drips, memberships or Emsculpt NEO, Boosters? Send a note and the Vintage Park team will get back to you."
   },
   {
    "id": "8834728494",
@@ -956,10 +932,10 @@
    "text": "Mobile / Concierge IV"
   },
   {
-   "id": "04bede0ac9",
+   "id": "2a94e4ba21",
    "where": "option · Say hello to",
-   "original": "Body Contouring (Emsculpt, EMFACE, EMTONE)",
-   "text": "Body Contouring (Emsculpt, EMFACE, EMTONE)"
+   "original": "Body Contouring (Emsculpt NEO, EMFACE, EMTONE)",
+   "text": "Body Contouring (Emsculpt NEO, EMFACE, EMTONE)"
   },
   {
    "id": "61880a6d7f",

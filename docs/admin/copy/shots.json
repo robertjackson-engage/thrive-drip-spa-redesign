@@ -470,10 +470,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "2d24aa5256",
+   "id": "d376796268",
    "where": "li · Select",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "526bb5f8e1",
@@ -530,10 +530,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "8ac02fa738",
+   "id": "aea96086ae",
    "where": "li · Premium",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "418ddffd58",
@@ -584,10 +584,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "e2a868ef37",
+   "id": "179f2b90da",
    "where": "li · Luxe",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "66afb00d75",
@@ -608,10 +608,10 @@
    "text": "all memberships"
   },
   {
-   "id": "57923a7030",
+   "id": "bf4a6361de",
    "where": "text · Luxe",
-   "original": ". Pause or cancel anytime with the front desk.",
-   "text": ". Pause or cancel anytime with the front desk."
+   "original": ". All memberships run on a month-to-month basis.",
+   "text": ". All memberships run on a month-to-month basis."
   },
   {
    "id": "6946df3c58",

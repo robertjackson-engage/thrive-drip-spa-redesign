@@ -308,10 +308,10 @@
    "text": "Amino acid for collagen, joints and gut health."
   },
   {
-   "id": "efc0790575",
+   "id": "3571957711",
    "where": "td · Thrive with targeted",
-   "original": "$25",
-   "text": "$25"
+   "original": "$40",
+   "text": "$40"
   },
   {
    "id": "c4c2a3acb9",
@@ -344,10 +344,10 @@
    "text": "Athletic performance, fat burn and inflammation."
   },
   {
-   "id": "02f9e47cd2",
+   "id": "bb519a71ee",
    "where": "td · Thrive with targeted",
-   "original": "from $40",
-   "text": "from $40"
+   "original": "$40",
+   "text": "$40"
   },
   {
    "id": "963252ea7d",
@@ -362,7 +362,7 @@
    "text": "Brightens skin, supports liver detox and immunity."
   },
   {
-   "id": "3571957711",
+   "id": "ee1c2dca9f",
    "where": "td · Thrive with targeted",
    "original": "$40",
    "text": "$40"
@@ -380,7 +380,7 @@
    "text": "Circulation, oxygen flow, heart health and recovery."
   },
   {
-   "id": "bb519a71ee",
+   "id": "e94b622eb2",
    "where": "td · Thrive with targeted",
    "original": "$40",
    "text": "$40"
@@ -398,7 +398,7 @@
    "text": "Fat metabolism, energy and performance."
   },
   {
-   "id": "ee1c2dca9f",
+   "id": "3bf87397de",
    "where": "td · Thrive with targeted",
    "original": "$40",
    "text": "$40"
@@ -416,7 +416,7 @@
    "text": "Energy, metabolism, cognition and stress."
   },
   {
-   "id": "e94b622eb2",
+   "id": "5d17aa7fc2",
    "where": "td · Thrive with targeted",
    "original": "$40",
    "text": "$40"
@@ -434,7 +434,7 @@
    "text": "Hair, skin, nails and metabolism (10 mg)."
   },
   {
-   "id": "3bf87397de",
+   "id": "4f646ac05c",
    "where": "td · Thrive with targeted",
    "original": "$40",
    "text": "$40"
@@ -524,10 +524,10 @@
    "text": "vitamin shots"
   },
   {
-   "id": "b9f252726d",
+   "id": "9415575397",
    "where": "text · Thrive with targeted",
-   "original": ". Benadryl requires a driver.",
-   "text": ". Benadryl requires a driver."
+   "original": ". With Benadryl, bring a driver or wait 45 minutes after your IV before driving.",
+   "text": ". With Benadryl, bring a driver or wait 45 minutes after your IV before driving."
   },
   {
    "id": "e5a7d51ab5",
@@ -686,10 +686,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "84a0260277",
+   "id": "8fecf603d9",
    "where": "li · Select",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "45a3d0fba2",
@@ -746,10 +746,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "059359ac7f",
+   "id": "16aa70be1f",
    "where": "li · Premium",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "fa6f15870a",
@@ -800,10 +800,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "1a559e075d",
+   "id": "bcfb3fe202",
    "where": "li · Luxe",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "77dd3026e2",
@@ -824,10 +824,10 @@
    "text": "all memberships"
   },
   {
-   "id": "c279a60126",
+   "id": "186e7446b6",
    "where": "text · Luxe",
-   "original": ". Pause or cancel anytime with the front desk.",
-   "text": ". Pause or cancel anytime with the front desk."
+   "original": ". All memberships run on a month-to-month basis.",
+   "text": ". All memberships run on a month-to-month basis."
   },
   {
    "id": "6a7b7ce0e7",
@@ -936,6 +936,42 @@
    "where": "td · Shot & booster",
    "original": "5 for $300",
    "text": "5 for $300"
+  },
+  {
+   "id": "0baa076308",
+   "where": "td · Shot & booster",
+   "original": "NAD+ Shot Package — Select",
+   "text": "NAD+ Shot Package — Select"
+  },
+  {
+   "id": "414024219a",
+   "where": "small · Shot & booster",
+   "original": "Four 100 mg NAD+ shots (400 mg)",
+   "text": "Four 100 mg NAD+ shots (400 mg)"
+  },
+  {
+   "id": "ee4d46d475",
+   "where": "td · Shot & booster",
+   "original": "$300",
+   "text": "$300"
+  },
+  {
+   "id": "75c4040750",
+   "where": "td · Shot & booster",
+   "original": "NAD+ Shot Package — Premium",
+   "text": "NAD+ Shot Package — Premium"
+  },
+  {
+   "id": "389fe111e0",
+   "where": "small · Shot & booster",
+   "original": "Five 100 mg NAD+ shots (500 mg)",
+   "text": "Five 100 mg NAD+ shots (500 mg)"
+  },
+  {
+   "id": "8d28e38f0d",
+   "where": "td · Shot & booster",
+   "original": "$375",
+   "text": "$375"
   },
   {
    "id": "c4b8cb86d2",

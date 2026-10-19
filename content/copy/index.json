@@ -8,10 +8,10 @@
    "text": "IV Therapy, NAD+ & Wellness Spa | ThrIVe Drip Spa — Houston, Dallas & Fort Worth"
   },
   {
-   "id": "019bc6366b",
+   "id": "077c9380a0",
    "where": "Search-engine description",
-   "original": "ThrIVe Drip Spa: 12 signature IV drips, NAD+, boosters, shots, mobile IV and body contouring in Houston, Dallas and Fort Worth. Feel better in about an hour.",
-   "text": "ThrIVe Drip Spa: 12 signature IV drips, NAD+, boosters, shots, mobile IV and body contouring in Houston, Dallas and Fort Worth. Feel better in about an hour."
+   "original": "ThrIVe Drip Spa: 12 signature IV drips, NAD+, boosters, shots, mobile IV, body contouring and infrared sauna in Houston, Dallas and Fort Worth. Feel better in about an hour.",
+   "text": "ThrIVe Drip Spa: 12 signature IV drips, NAD+, boosters, shots, mobile IV, body contouring and infrared sauna in Houston, Dallas and Fort Worth. Feel better in about an hour."
   },
   {
    "id": "85fe396c4c",
@@ -62,10 +62,10 @@
    "text": "Registered nurses"
   },
   {
-   "id": "73b793d055",
+   "id": "5a12369d2e",
    "where": "span",
-   "original": "30–45 minute drips",
-   "text": "30–45 minute drips"
+   "original": "Customizable drips",
+   "text": "Customizable drips"
   },
   {
    "id": "0eafc754a4",
@@ -560,10 +560,10 @@
    "text": "High C"
   },
   {
-   "id": "d727c6e58f",
+   "id": "d159a44e73",
    "where": "p · High C",
-   "original": "Vitamin C and nutrients that support immunity, hydration and a refreshed, ready-to-go feeling.",
-   "text": "Vitamin C and nutrients that support immunity, hydration and a refreshed, ready-to-go feeling."
+   "original": "Our max dose of Vitamin C to support immunity, hydration and a refreshed, ready-to-go feeling.",
+   "text": "Our max dose of Vitamin C to support immunity, hydration and a refreshed, ready-to-go feeling."
   },
   {
    "id": "ca1862c4d1",
@@ -608,10 +608,10 @@
    "text": "Immuno"
   },
   {
-   "id": "5979f2c8aa",
+   "id": "9024f5b24a",
    "where": "p · Immuno",
-   "original": "Vitamin C, Zinc and Glutathione to boost immunity and promote strength, balance and resilience.",
-   "text": "Vitamin C, Zinc and Glutathione to boost immunity and promote strength, balance and resilience."
+   "original": "Our max dose of Vitamin C, plus Zinc and Glutathione, to boost immunity and promote strength, balance and resilience.",
+   "text": "Our max dose of Vitamin C, plus Zinc and Glutathione, to boost immunity and promote strength, balance and resilience."
   },
   {
    "id": "661b63339a",
@@ -620,10 +620,10 @@
    "text": "View drip →"
   },
   {
-   "id": "d11bc4c48c",
+   "id": "ac6834dedd",
    "where": "p · Immuno",
-   "original": "Walk-in prices shown. Members pay $120–$250. Drips take 30–45 minutes; boosters and shots take minutes.",
-   "text": "Walk-in prices shown. Members pay $120–$250. Drips take 30–45 minutes; boosters and shots take minutes."
+   "original": "Walk-in prices shown. Members pay $120–$250. Drip times vary by formula and by guest; boosters and shots take just minutes.",
+   "text": "Walk-in prices shown. Members pay $120–$250. Drip times vary by formula and by guest; boosters and shots take just minutes."
   },
   {
    "id": "05e956ad37",
@@ -644,16 +644,10 @@
    "text": "Absorption, straight to the bloodstream"
   },
   {
-   "id": "9e0e3ed8a0",
-   "where": "span · Immuno",
-   "original": "min",
-   "text": "min"
-  },
-  {
-   "id": "1f1377ae55",
+   "id": "1bf7a1d5ec",
    "where": "div · Immuno",
-   "original": "Or less in the chair",
-   "text": "Or less in the chair"
+   "original": "Google reviews",
+   "text": "Google reviews"
   },
   {
    "id": "31bdd7b473",
@@ -710,10 +704,10 @@
    "text": "Administration"
   },
   {
-   "id": "476a126c07",
+   "id": "9aed8f2148",
    "where": "p · Administration",
-   "original": "Recline, pick a drink and a blanket, and let a registered nurse take it from there. 100% absorption, 30–45 minutes, and you walk out feeling like yourself again.",
-   "text": "Recline, pick a drink and a blanket, and let a registered nurse take it from there. 100% absorption, 30–45 minutes, and you walk out feeling like yourself again."
+   "original": "Recline, pick a drink and a blanket, and let a registered nurse take it from there. 100% absorption, and you walk out feeling like yourself again.",
+   "text": "Recline, pick a drink and a blanket, and let a registered nurse take it from there. 100% absorption, and you walk out feeling like yourself again."
   },
   {
    "id": "7d827d3f7d",
@@ -770,10 +764,22 @@
    "text": "Emsculpt NEO, EMFACE and EMTONE"
   },
   {
-   "id": "fd44feda06",
+   "id": "1c625f76e1",
    "where": "text · The treatments Texas",
-   "original": "to sculpt, lift and smooth with zero downtime. And",
-   "text": "to sculpt, lift and smooth with zero downtime. And"
+   "original": "to sculpt, lift and smooth with zero downtime. An",
+   "text": "to sculpt, lift and smooth with zero downtime. An"
+  },
+  {
+   "id": "75517e7f0d",
+   "where": "strong · The treatments Texas",
+   "original": "infrared sauna",
+   "text": "infrared sauna"
+  },
+  {
+   "id": "b0de0828a7",
+   "where": "text · The treatments Texas",
+   "original": "for recovery days at our Clear Lake and Katy lounges. And",
+   "text": "for recovery days at our Clear Lake and Katy lounges. And"
   },
   {
    "id": "9a7fe4bf69",
@@ -782,10 +788,10 @@
    "text": "mobile IV"
   },
   {
-   "id": "4dc8349079",
+   "id": "dbecf178bf",
    "where": "text · The treatments Texas",
-   "original": "that brings the whole menu to your home, hotel, office or event.",
-   "text": "that brings the whole menu to your home, hotel, office or event."
+   "original": "that brings our menu to your home, hotel, office or event.",
+   "text": "that brings our menu to your home, hotel, office or event."
   },
   {
    "id": "647ec2c810",
@@ -884,10 +890,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "ae47006898",
+   "id": "e81a651380",
    "where": "li · Select",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "64ae82384c",
@@ -944,10 +950,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "0702a9330b",
+   "id": "4af0a19116",
    "where": "li · Premium",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "9213167c68",
@@ -998,10 +1004,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "71ea486100",
+   "id": "7ce600c365",
    "where": "li · Luxe",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "a79434f8b3",
@@ -1022,10 +1028,10 @@
    "text": "all memberships"
   },
   {
-   "id": "7412746836",
+   "id": "26724b6502",
    "where": "text · Luxe",
-   "original": ". Pause or cancel anytime with the front desk.",
-   "text": ". Pause or cancel anytime with the front desk."
+   "original": ". All memberships run on a month-to-month basis.",
+   "text": ". All memberships run on a month-to-month basis."
   },
   {
    "id": "b5e50ec0d4",
@@ -1328,10 +1334,10 @@
    "text": "What is the Drip Lounge experience like?"
   },
   {
-   "id": "86fce44ed7",
+   "id": "560ed4545a",
    "where": "p · What is the Drip Lounge experience like?",
-   "original": "Relaxing. You'll settle into a reclining lounge chair while a registered nurse places your IV and builds your drip. Complimentary beverages, protein bars and cozy blankets are part of the visit. Most drips take 30–45 minutes; NAD+ runs longer.",
-   "text": "Relaxing. You'll settle into a reclining lounge chair while a registered nurse places your IV and builds your drip. Complimentary beverages, protein bars and cozy blankets are part of the visit. Most drips take 30–45 minutes; NAD+ runs longer."
+   "original": "Relaxing. You'll settle into a reclining lounge chair while a registered nurse places your IV and builds your drip. Complimentary beverages, protein bars and cozy blankets are part of the visit. Timing varies by drip and by guest; NAD+ runs longer.",
+   "text": "Relaxing. You'll settle into a reclining lounge chair while a registered nurse places your IV and builds your drip. Complimentary beverages, protein bars and cozy blankets are part of the visit. Timing varies by drip and by guest; NAD+ runs longer."
   },
   {
    "id": "f6bd832854",

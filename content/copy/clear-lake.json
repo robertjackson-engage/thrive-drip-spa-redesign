@@ -56,10 +56,10 @@
    "text": "drip lounge."
   },
   {
-   "id": "9d86690837",
+   "id": "dd4f50ae21",
    "where": "p",
-   "original": "Real results by the water: signature drips, NAD+ for balance and vitality, Emsculpt and Emsculpt NEO body contouring, and an infrared sauna for recovery days.",
-   "text": "Real results by the water: signature drips, NAD+ for balance and vitality, Emsculpt and Emsculpt NEO body contouring, and an infrared sauna for recovery days."
+   "original": "Real results by the water: signature drips, NAD+ for balance and vitality, Emsculpt NEO body contouring, and an infrared sauna for recovery days.",
+   "text": "Real results by the water: signature drips, NAD+ for balance and vitality, Emsculpt NEO body contouring, and an infrared sauna for recovery days."
   },
   {
    "id": "3bf4e25695",
@@ -446,10 +446,10 @@
    "text": "High C"
   },
   {
-   "id": "ea6c0b7b20",
+   "id": "530ef59b16",
    "where": "p · High C",
-   "original": "Vitamin C and nutrients that support immunity, hydration and a refreshed, ready-to-go feeling.",
-   "text": "Vitamin C and nutrients that support immunity, hydration and a refreshed, ready-to-go feeling."
+   "original": "Our max dose of Vitamin C to support immunity, hydration and a refreshed, ready-to-go feeling.",
+   "text": "Our max dose of Vitamin C to support immunity, hydration and a refreshed, ready-to-go feeling."
   },
   {
    "id": "d42a3d068b",
@@ -494,10 +494,10 @@
    "text": "Immuno"
   },
   {
-   "id": "0314affe69",
+   "id": "bbd98c59b0",
    "where": "p · Immuno",
-   "original": "Vitamin C, Zinc and Glutathione to boost immunity and promote strength, balance and resilience.",
-   "text": "Vitamin C, Zinc and Glutathione to boost immunity and promote strength, balance and resilience."
+   "original": "Our max dose of Vitamin C, plus Zinc and Glutathione, to boost immunity and promote strength, balance and resilience.",
+   "text": "Our max dose of Vitamin C, plus Zinc and Glutathione, to boost immunity and promote strength, balance and resilience."
   },
   {
    "id": "ffed712ed8",
@@ -542,20 +542,8 @@
    "text": "Detox sweat at a lower temperature →"
   },
   {
-   "id": "13ee04a6e6",
-   "where": "h3 · Infrared Sauna",
-   "original": "Emsculpt",
-   "text": "Emsculpt"
-  },
-  {
-   "id": "b16c64b40b",
-   "where": "span · Emsculpt",
-   "original": "Build muscle with HIFEM contractions →",
-   "text": "Build muscle with HIFEM contractions →"
-  },
-  {
    "id": "3caaf31ef2",
-   "where": "h3 · Emsculpt",
+   "where": "h3 · Infrared Sauna",
    "original": "Emsculpt NEO",
    "text": "Emsculpt NEO"
   },
@@ -650,10 +638,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "9848b85420",
+   "id": "ae36d98263",
    "where": "li · Select",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "96c46ce204",
@@ -710,10 +698,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "53efc95725",
+   "id": "c8a365a0bc",
    "where": "li · Premium",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "45a425b589",
@@ -764,10 +752,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "b25828d637",
+   "id": "e96726d7d4",
    "where": "li · Luxe",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "9e31cf63e0",
@@ -788,10 +776,10 @@
    "text": "all memberships"
   },
   {
-   "id": "d8e6925785",
+   "id": "b5cd05afd9",
    "where": "text · Luxe",
-   "original": ". Pause or cancel anytime with the front desk.",
-   "text": ". Pause or cancel anytime with the front desk."
+   "original": ". All memberships run on a month-to-month basis.",
+   "text": ". All memberships run on a month-to-month basis."
   },
   {
    "id": "d264dfcd02",
@@ -836,10 +824,10 @@
    "text": "Clear Lake"
   },
   {
-   "id": "0a715d407c",
+   "id": "5836fd333b",
    "where": "p · Say hello to",
-   "original": "Questions about drips, memberships or Infrared Sauna, Emsculpt? Send a note and the Clear Lake team will get back to you.",
-   "text": "Questions about drips, memberships or Infrared Sauna, Emsculpt? Send a note and the Clear Lake team will get back to you."
+   "original": "Questions about drips, memberships or Infrared Sauna, Emsculpt NEO? Send a note and the Clear Lake team will get back to you.",
+   "text": "Questions about drips, memberships or Infrared Sauna, Emsculpt NEO? Send a note and the Clear Lake team will get back to you."
   },
   {
    "id": "6ec3cad82c",
@@ -968,10 +956,10 @@
    "text": "Mobile / Concierge IV"
   },
   {
-   "id": "44a9e2a970",
+   "id": "f98c0eddca",
    "where": "option · Say hello to",
-   "original": "Body Contouring (Emsculpt, EMFACE, EMTONE)",
-   "text": "Body Contouring (Emsculpt, EMFACE, EMTONE)"
+   "original": "Body Contouring (Emsculpt NEO, EMFACE, EMTONE)",
+   "text": "Body Contouring (Emsculpt NEO, EMFACE, EMTONE)"
   },
   {
    "id": "00c80464a0",

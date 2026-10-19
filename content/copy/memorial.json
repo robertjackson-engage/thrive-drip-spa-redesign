@@ -56,10 +56,10 @@
    "text": "drip lounge."
   },
   {
-   "id": "94543ec2cf",
+   "id": "79a4912464",
    "where": "p",
-   "original": "Your wellness journey starts here. At ThrIVe Drip Spa in Memorial we offer more than hydration — a science-backed approach to feeling and performing your best, with our full IV menu plus the complete BTL body and face suite: EMFACE, Emsculpt, Emsculpt NEO and EMTONE.",
-   "text": "Your wellness journey starts here. At ThrIVe Drip Spa in Memorial we offer more than hydration — a science-backed approach to feeling and performing your best, with our full IV menu plus the complete BTL body and face suite: EMFACE, Emsculpt, Emsculpt NEO and EMTONE."
+   "original": "Your wellness journey starts here. At ThrIVe Drip Spa in Memorial we offer more than hydration — a science-backed approach to feeling and performing your best, with our full IV menu plus the complete BTL body and face suite: EMFACE, Emsculpt NEO and EMTONE.",
+   "text": "Your wellness journey starts here. At ThrIVe Drip Spa in Memorial we offer more than hydration — a science-backed approach to feeling and performing your best, with our full IV menu plus the complete BTL body and face suite: EMFACE, Emsculpt NEO and EMTONE."
   },
   {
    "id": "65b2601b31",
@@ -434,10 +434,10 @@
    "text": "High C"
   },
   {
-   "id": "b5f28ba6a8",
+   "id": "6b322d9b4c",
    "where": "p · High C",
-   "original": "Vitamin C and nutrients that support immunity, hydration and a refreshed, ready-to-go feeling.",
-   "text": "Vitamin C and nutrients that support immunity, hydration and a refreshed, ready-to-go feeling."
+   "original": "Our max dose of Vitamin C to support immunity, hydration and a refreshed, ready-to-go feeling.",
+   "text": "Our max dose of Vitamin C to support immunity, hydration and a refreshed, ready-to-go feeling."
   },
   {
    "id": "9e480ad3be",
@@ -482,10 +482,10 @@
    "text": "Immuno"
   },
   {
-   "id": "8c47ca34e4",
+   "id": "1bd7d88667",
    "where": "p · Immuno",
-   "original": "Vitamin C, Zinc and Glutathione to boost immunity and promote strength, balance and resilience.",
-   "text": "Vitamin C, Zinc and Glutathione to boost immunity and promote strength, balance and resilience."
+   "original": "Our max dose of Vitamin C, plus Zinc and Glutathione, to boost immunity and promote strength, balance and resilience.",
+   "text": "Our max dose of Vitamin C, plus Zinc and Glutathione, to boost immunity and promote strength, balance and resilience."
   },
   {
    "id": "8a10f40da4",
@@ -530,20 +530,8 @@
    "text": "Needle-free facial lifting and toning →"
   },
   {
-   "id": "74ec04f9ba",
-   "where": "h3 · EMFACE",
-   "original": "Emsculpt",
-   "text": "Emsculpt"
-  },
-  {
-   "id": "a25a307d17",
-   "where": "span · Emsculpt",
-   "original": "Build muscle with HIFEM contractions →",
-   "text": "Build muscle with HIFEM contractions →"
-  },
-  {
    "id": "6bdcfc66c0",
-   "where": "h3 · Emsculpt",
+   "where": "h3 · EMFACE",
    "original": "Emsculpt NEO",
    "text": "Emsculpt NEO"
   },
@@ -638,10 +626,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "0f9e02d4f3",
+   "id": "2f11a0fce2",
    "where": "li · Select",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "f550b0b182",
@@ -698,10 +686,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "2251b898ef",
+   "id": "73b0cff653",
    "where": "li · Premium",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "930b3e6fe6",
@@ -752,10 +740,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "b33ac97620",
+   "id": "420e3652e4",
    "where": "li · Luxe",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "993a8bd0f0",
@@ -776,10 +764,10 @@
    "text": "all memberships"
   },
   {
-   "id": "d9bdf11df6",
+   "id": "388ebd9611",
    "where": "text · Luxe",
-   "original": ". Pause or cancel anytime with the front desk.",
-   "text": ". Pause or cancel anytime with the front desk."
+   "original": ". All memberships run on a month-to-month basis.",
+   "text": ". All memberships run on a month-to-month basis."
   },
   {
    "id": "8da4cded80",
@@ -824,10 +812,10 @@
    "text": "Memorial"
   },
   {
-   "id": "f5940a7c89",
+   "id": "5c06fc582a",
    "where": "p · Say hello to",
-   "original": "Questions about drips, memberships or EMFACE, Emsculpt? Send a note and the Memorial team will get back to you.",
-   "text": "Questions about drips, memberships or EMFACE, Emsculpt? Send a note and the Memorial team will get back to you."
+   "original": "Questions about drips, memberships or EMFACE, Emsculpt NEO? Send a note and the Memorial team will get back to you.",
+   "text": "Questions about drips, memberships or EMFACE, Emsculpt NEO? Send a note and the Memorial team will get back to you."
   },
   {
    "id": "9f54b5f5be",
@@ -956,10 +944,10 @@
    "text": "Mobile / Concierge IV"
   },
   {
-   "id": "53424eb94c",
+   "id": "90953c135f",
    "where": "option · Say hello to",
-   "original": "Body Contouring (Emsculpt, EMFACE, EMTONE)",
-   "text": "Body Contouring (Emsculpt, EMFACE, EMTONE)"
+   "original": "Body Contouring (Emsculpt NEO, EMFACE, EMTONE)",
+   "text": "Body Contouring (Emsculpt NEO, EMFACE, EMTONE)"
   },
   {
    "id": "8cb9ca1db6",

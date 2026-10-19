@@ -8,10 +8,10 @@
    "text": "Detox Drip — $190 · $150 member | ThrIVe Drip Spa"
   },
   {
-   "id": "5e59b1594f",
+   "id": "c49310da39",
    "where": "Search-engine description",
-   "original": "Help your body flush toxins more efficiently. 1 L IV fluids, Electrolytes, High-dose Glutathione. Good for brain fog, fatigue, inflammation. Book at ten Texas lounges or mobile.",
-   "text": "Help your body flush toxins more efficiently. 1 L IV fluids, Electrolytes, High-dose Glutathione. Good for brain fog, fatigue, inflammation. Book at ten Texas lounges or mobile."
+   "original": "Help your body flush toxins more efficiently. 1 L IV fluids, Electrolytes, Glutathione. Good for brain fog, fatigue, inflammation. Book at ten Texas lounges or mobile.",
+   "text": "Help your body flush toxins more efficiently. 1 L IV fluids, Electrolytes, Glutathione. Good for brain fog, fatigue, inflammation. Book at ten Texas lounges or mobile."
   },
   {
    "id": "6217e6ea4f",
@@ -86,10 +86,10 @@
    "text": "$190 walk-in · $150 member"
   },
   {
-   "id": "15f8cb5bd5",
+   "id": "72ec69571c",
    "where": "span",
-   "original": "30–45 minutes",
-   "text": "30–45 minutes"
+   "original": "Registered nurses",
+   "text": "Registered nurses"
   },
   {
    "id": "8264d3d981",
@@ -98,10 +98,10 @@
    "text": "1 L IV fluids"
   },
   {
-   "id": "4e3bafcfec",
+   "id": "004a549e07",
    "where": "text",
-   "original": "High-dose Glutathione",
-   "text": "High-dose Glutathione"
+   "original": "Glutathione",
+   "text": "Glutathione"
   },
   {
    "id": "d736c60597",
@@ -116,10 +116,10 @@
    "text": "Purify & protect"
   },
   {
-   "id": "4f425057ae",
+   "id": "79f6629bfe",
    "where": "p · Purify & protect",
-   "original": "Stress, diet, alcohol and illness all leave a residue. The Detox Drip leads with high-dose glutathione — the body's master antioxidant — to support the liver, neutralize free radicals and leave you feeling clear. Combine with the Myers Drip or a Vitamin C booster for a full reset.",
-   "text": "Stress, diet, alcohol and illness all leave a residue. The Detox Drip leads with high-dose glutathione — the body's master antioxidant — to support the liver, neutralize free radicals and leave you feeling clear. Combine with the Myers Drip or a Vitamin C booster for a full reset."
+   "original": "Stress, diet, alcohol and illness all leave a residue. The Detox Drip leads with glutathione — the body's master antioxidant — to support the liver, neutralize free radicals and leave you feeling clear. Combine with the Myers Drip or a Vitamin C booster for a full reset.",
+   "text": "Stress, diet, alcohol and illness all leave a residue. The Detox Drip leads with glutathione — the body's master antioxidant — to support the liver, neutralize free radicals and leave you feeling clear. Combine with the Myers Drip or a Vitamin C booster for a full reset."
   },
   {
    "id": "f4695f4847",
@@ -140,10 +140,10 @@
    "text": "Electrolytes"
   },
   {
-   "id": "f2ce6c913f",
+   "id": "aab97eac9f",
    "where": "span · Purify & protect",
-   "original": "High-dose Glutathione",
-   "text": "High-dose Glutathione"
+   "original": "Glutathione",
+   "text": "Glutathione"
   },
   {
    "id": "38447534c3",
@@ -200,10 +200,10 @@
    "text": "walk-in · includes 1 L IV fluids"
   },
   {
-   "id": "6e2a08f435",
+   "id": "898a3b2b09",
    "where": "li · Detox Drip",
-   "original": "High-dose glutathione — antioxidant support, free-radical defense, immune function",
-   "text": "High-dose glutathione — antioxidant support, free-radical defense, immune function"
+   "original": "Glutathione — antioxidant support, free-radical defense, immune function",
+   "text": "Glutathione — antioxidant support, free-radical defense, immune function"
   },
   {
    "id": "782ab9fcfe",
@@ -488,10 +488,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "6ed59a1869",
+   "id": "31c918ddf5",
    "where": "li · Select",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "7ac4803e84",
@@ -548,10 +548,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "c48c830339",
+   "id": "c15b87ec05",
    "where": "li · Premium",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "a1ff92921e",
@@ -602,10 +602,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "a415a2de7b",
+   "id": "ef8020afa5",
    "where": "li · Luxe",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "81a88f74f3",
@@ -626,10 +626,10 @@
    "text": "all memberships"
   },
   {
-   "id": "7063bc0100",
+   "id": "e8771147ca",
    "where": "text · Luxe",
-   "original": ". Pause or cancel anytime with the front desk.",
-   "text": ". Pause or cancel anytime with the front desk."
+   "original": ". All memberships run on a month-to-month basis.",
+   "text": ". All memberships run on a month-to-month basis."
   },
   {
    "id": "92fb5ca44e",

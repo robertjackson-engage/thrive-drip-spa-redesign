@@ -56,10 +56,10 @@
    "text": "drip lounge."
   },
   {
-   "id": "ac3971faf3",
+   "id": "ec46453337",
    "where": "p",
-   "original": "Strength revived. The Woodlands pairs the full drip and shot menu with Emsculpt and Emsculpt NEO — burn fat and build muscle in 30-minute sessions, then settle into the lounge for your drip.",
-   "text": "Strength revived. The Woodlands pairs the full drip and shot menu with Emsculpt and Emsculpt NEO — burn fat and build muscle in 30-minute sessions, then settle into the lounge for your drip."
+   "original": "Strength revived. The Woodlands pairs the full drip and shot menu with Emsculpt NEO — burn fat and build muscle in 30-minute sessions, then settle into the lounge for your drip.",
+   "text": "Strength revived. The Woodlands pairs the full drip and shot menu with Emsculpt NEO — burn fat and build muscle in 30-minute sessions, then settle into the lounge for your drip."
   },
   {
    "id": "50ce36b0f5",
@@ -422,10 +422,10 @@
    "text": "High C"
   },
   {
-   "id": "3341243b20",
+   "id": "b703c687c3",
    "where": "p · High C",
-   "original": "Vitamin C and nutrients that support immunity, hydration and a refreshed, ready-to-go feeling.",
-   "text": "Vitamin C and nutrients that support immunity, hydration and a refreshed, ready-to-go feeling."
+   "original": "Our max dose of Vitamin C to support immunity, hydration and a refreshed, ready-to-go feeling.",
+   "text": "Our max dose of Vitamin C to support immunity, hydration and a refreshed, ready-to-go feeling."
   },
   {
    "id": "60c8906097",
@@ -470,10 +470,10 @@
    "text": "Immuno"
   },
   {
-   "id": "54d654e2e0",
+   "id": "e959736701",
    "where": "p · Immuno",
-   "original": "Vitamin C, Zinc and Glutathione to boost immunity and promote strength, balance and resilience.",
-   "text": "Vitamin C, Zinc and Glutathione to boost immunity and promote strength, balance and resilience."
+   "original": "Our max dose of Vitamin C, plus Zinc and Glutathione, to boost immunity and promote strength, balance and resilience.",
+   "text": "Our max dose of Vitamin C, plus Zinc and Glutathione, to boost immunity and promote strength, balance and resilience."
   },
   {
    "id": "09fe44e992",
@@ -506,20 +506,8 @@
    "text": "Body & Face →"
   },
   {
-   "id": "abef7f6603",
-   "where": "h3 · Beyond the drip at",
-   "original": "Emsculpt",
-   "text": "Emsculpt"
-  },
-  {
-   "id": "c188c547e5",
-   "where": "span · Emsculpt",
-   "original": "Build muscle with HIFEM contractions →",
-   "text": "Build muscle with HIFEM contractions →"
-  },
-  {
    "id": "dc88888796",
-   "where": "h3 · Emsculpt",
+   "where": "h3 · Beyond the drip at",
    "original": "Emsculpt NEO",
    "text": "Emsculpt NEO"
   },
@@ -602,10 +590,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "f6a9f17610",
+   "id": "c1ff0f9432",
    "where": "li · Select",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "7816e4133a",
@@ -662,10 +650,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "6644b87159",
+   "id": "48ba6a6cc3",
    "where": "li · Premium",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "37f35763dc",
@@ -716,10 +704,10 @@
    "text": "Priority booking & promos"
   },
   {
-   "id": "618523fc4b",
+   "id": "6a7529d13c",
    "where": "li · Luxe",
-   "original": "Pause or cancel anytime",
-   "text": "Pause or cancel anytime"
+   "original": "Month-to-month basis",
+   "text": "Month-to-month basis"
   },
   {
    "id": "789c4dfa55",
@@ -740,10 +728,10 @@
    "text": "all memberships"
   },
   {
-   "id": "f199a20a63",
+   "id": "5cd7756184",
    "where": "text · Luxe",
-   "original": ". Pause or cancel anytime with the front desk.",
-   "text": ". Pause or cancel anytime with the front desk."
+   "original": ". All memberships run on a month-to-month basis.",
+   "text": ". All memberships run on a month-to-month basis."
   },
   {
    "id": "bbad25b11c",
@@ -788,10 +776,10 @@
    "text": "The Woodlands"
   },
   {
-   "id": "775a822916",
+   "id": "837c9ec617",
    "where": "p · Say hello to",
-   "original": "Questions about drips, memberships or Emsculpt, Emsculpt NEO? Send a note and the The Woodlands team will get back to you.",
-   "text": "Questions about drips, memberships or Emsculpt, Emsculpt NEO? Send a note and the The Woodlands team will get back to you."
+   "original": "Questions about drips, memberships or Emsculpt NEO? Send a note and the The Woodlands team will get back to you.",
+   "text": "Questions about drips, memberships or Emsculpt NEO? Send a note and the The Woodlands team will get back to you."
   },
   {
    "id": "4e7895ac43",
@@ -920,10 +908,10 @@
    "text": "Mobile / Concierge IV"
   },
   {
-   "id": "852a5afadd",
+   "id": "f8cddd8923",
    "where": "option · Say hello to",
-   "original": "Body Contouring (Emsculpt, EMFACE, EMTONE)",
-   "text": "Body Contouring (Emsculpt, EMFACE, EMTONE)"
+   "original": "Body Contouring (Emsculpt NEO, EMFACE, EMTONE)",
+   "text": "Body Contouring (Emsculpt NEO, EMFACE, EMTONE)"
   },
   {
    "id": "3f2c70568f",
