@@ -11,7 +11,10 @@ CONTENT = os.path.join(os.path.dirname(__file__), "content")
 REPO = "robertjackson-engage/thrive-drip-spa-redesign"
 
 BOOK = "https://book.thrivedripspa.com"
+BOOK_NEW = BOOK + "/?path=new"     # skips the booking flow's "first time or current client?" question
 MEEVO = "https://na1.meevo.com/customerportal/advanced/ob?tenantId=200296"
+# Lounges our booking flow (book.thrivedripspa.com) can book; the rest still go to the Meevo portal.
+BOOK_FLOW_LOCS = {"201102", "201104", "201319", "203321", "203322"}
 GIFT = "https://na1.meevo.com/EgiftApp/location/search?tenantId=200296"
 LOGIN = "https://na1.meevo.com/CustomerPortal/login?tenantId=200296"
 PHONE = "844-820-1713"
@@ -182,6 +185,10 @@ REGIONS = ["Houston Metro", "Greater Houston", "North Texas"]
 
 
 def meevo(l):
+    """Booking link for a lounge: our booking flow with the lounge preselected (?loc=<Meevo id>)
+    where it supports that lounge, otherwise the Meevo portal for that location."""
+    if l["meevo"] in BOOK_FLOW_LOCS:
+        return f"{BOOK}/?loc={l['meevo']}"
     return f"{MEEVO}&locationId={l['meevo']}"
 
 
@@ -1429,7 +1436,7 @@ book_body = hero(
     "Book online", ["Feel better in", 'about <span class="brush">an hour.</span>'],
     "Physician-formulated IV therapy, delivered by licensed nurses. No membership, no card to book — you pay when you're in the chair. New clients save 25% on their first IV.",
     img=f"{IMG}/lounge-selfie.jpg", alt="A guest relaxing with her drip in the lounge", crumb="Book Now", page=True,
-    actions=[("I'm New — Quick Booking", BOOK, True), ("I'm a Client — Sign In", LOGIN, False)],
+    actions=[("I'm New — Quick Booking", BOOK_NEW, True), ("I'm a Client — Sign In", LOGIN, False)],
     meta=["No card required", "Booked in under a minute", "Licensed medical staff"], badge="25% off your first IV",
 ) + f"""
 <section class="section section--tight"><div class="wrap">
