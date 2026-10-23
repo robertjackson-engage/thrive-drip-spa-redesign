@@ -9,6 +9,12 @@ IMG = "assets/img"
 V = str(int(time.time()))
 CONTENT = os.path.join(os.path.dirname(__file__), "content")
 REPO = "robertjackson-engage/thrive-drip-spa-redesign"
+# Public address of the site: canonical tags, social-share images, sitemap and robots.txt use it.
+SITE_URL = os.environ.get("SITE_URL", "https://thrivedripspa.com/").rstrip("/") + "/"
+# NOINDEX=1 marks a preview copy (the GitHub Pages preview) so Google never indexes it alongside the real site.
+NOINDEX = os.environ.get("NOINDEX") == "1"
+# Google Tag Manager container from the current thrivedripspa.com, so analytics and ad tracking carry over.
+GTM_ID = "GTM-NGLDNLW"
 
 BOOK = "https://book.thrivedripspa.com"
 BOOK_NEW = BOOK + "/?path=new"     # skips the booking flow's "first time or current client?" question
@@ -378,7 +384,9 @@ MENU = [
 ]
 
 
-def head(title, desc, canonical_img=None):
+def head(title, desc, canonical_img=None, path="", extra=""):
+    url = SITE_URL + ("" if path in ("", "index.html") else path)
+    robots = '<meta name="robots" content="noindex">\n' if NOINDEX else ""
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -386,10 +394,14 @@ def head(title, desc, canonical_img=None):
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{title}</title>
 <meta name="description" content="{desc}">
+{robots}<link rel="canonical" href="{url}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{url}">
 <meta property="og:title" content="{title}">
 <meta property="og:description" content="{desc}">
-<meta property="og:image" content="{IMG}/{canonical_img or 'nurse-iv-lounge.jpg'}">
-<meta name="theme-color" content="#053948">
+<meta property="og:image" content="{SITE_URL}{IMG}/{canonical_img or 'nurse-iv-lounge.jpg'}">
+<script>(function(w,d,s,l,i){{w[l]=w[l]||[];w[l].push({{'gtm.start':new Date().getTime(),event:'gtm.js'}});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);}})(window,document,'script','dataLayer','{GTM_ID}');</script>
+{extra}<meta name="theme-color" content="#053948">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
@@ -405,6 +417,7 @@ def head(title, desc, canonical_img=None):
 }}catch(e){{}}}})();</script>
 </head>
 <body>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={GTM_ID}" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="preloader" aria-hidden="true">
   <img class="preloader__logo" src="{IMG}/logo-color.webp" alt="">
   <div class="preloader__drop">{DROP_SVG}</div>
@@ -810,9 +823,10 @@ def form_section(sec_id, num, eyebrow, title_html, text, btn="Send Request", cls
 """
 
 
-def page(filename, title, desc, active, body, manifest=True, og=None):
+def page(filename, title, desc, active, body, manifest=True, og=None, schema=None):
     PAGES.append((filename, title))
-    html = copy_layer.compose(filename, head(title, desc, og), header_html(active), footer_html(), body, manifest=manifest)
+    extra = f'<script type="application/ld+json">{_json.dumps(schema, ensure_ascii=False)}</script>\n' if schema else ""
+    html = copy_layer.compose(filename, head(title, desc, og, filename, extra), header_html(active), footer_html(), body, manifest=manifest)
     with open(os.path.join(OUT, filename), "w") as f:
         f.write(html)
     print("built", filename)
@@ -820,7 +834,7 @@ def page(filename, title, desc, active, body, manifest=True, og=None):
 
 def page_sub(filename, title, desc, body, og=None):
     PAGES.append((filename, title))
-    html = copy_layer.compose(filename, head(title, desc, og), header_html("blog.html"), footer_html(), body, manifest=False)
+    html = copy_layer.compose(filename, head(title, desc, og, filename), header_html("blog.html"), footer_html(), body, manifest=False)
     html = _re.sub(r'(href|src)="/(?!/)', r'\1="../', html)
     html = _re.sub(r'(href|src)="assets/', r'\1="../assets/', html)
     html = _re.sub(r'(href)="([a-z0-9-]+\.html)(#[^"]*)?"', r'\1="../\2\3"', html)
@@ -1716,9 +1730,53 @@ def blog_post_body(p):
 """ + cta_band('Feel better in about <span class="brush">an hour.</span>', "Ten lounges across Houston, Dallas and Fort Worth — plus mobile.", primary=("Book Now", "../book.html"), secondary=("Locations", "../locations.html")).replace(f'src="{IMG}/', f'src="../{IMG}/')
 
 
+# ============================================================ STRUCTURED DATA (schema.org, for Google local results)
+_DAYS = {"Mon": "Mo", "Tue": "Tu", "Wed": "We", "Thu": "Th", "Fri": "Fr", "Sat": "Sa", "Sun": "Su"}
+
+
+def _hhmm(t):
+    m = _re.match(r"(\d{1,2})(?::(\d{2}))?(am|pm)", t)
+    h = int(m.group(1)) % 12 + (12 if m.group(3) == "pm" else 0)
+    return f"{h:02d}:{m.group(2) or '00'}"
+
+
+def _opening_hours(hours):
+    out = []
+    for days, times in hours:
+        tm = _re.match(r"(\d{1,2}(?::\d{2})?(?:am|pm))–(\d{1,2}(?::\d{2})?(?:am|pm))$", times)
+        if not tm:          # e.g. "Call for hours"
+            continue
+        d = "-".join(_DAYS[x] for x in days.split("–"))
+        out.append(f"{d} {_hhmm(tm.group(1))}-{_hhmm(tm.group(2))}")
+    return out
+
+
+ORG_SCHEMA = {
+    "@context": "https://schema.org", "@type": "Organization", "name": "ThrIVe Drip Spa", "url": SITE_URL,
+    "logo": f"{SITE_URL}{IMG}/logo-color.webp", "telephone": "+1-" + PHONE,
+    "sameAs": ["https://www.instagram.com/thrivedripspa/", "https://www.facebook.com/thrivedripspa"],
+}
+
+
+def loc_schema(l):
+    street, city, rest = (l["addr"].split(", ") + ["", ""])[:3]
+    if rest.count(" ") == 0:            # "Ste 210" sits between street and city
+        street, city, rest = l["addr"].rsplit(", ", 2)
+    region, postal = rest.split(" ", 1)
+    return {
+        "@context": "https://schema.org", "@type": "MedicalBusiness",
+        "name": f"ThrIVe Drip Spa {l['label']}", "url": f"{SITE_URL}{l['slug']}.html",
+        "image": f"{SITE_URL}{IMG}/{l['img']}", "telephone": l["phone"], "email": l["email"],
+        "address": {"@type": "PostalAddress", "streetAddress": street, "addressLocality": city,
+                    "addressRegion": region, "postalCode": postal, "addressCountry": "US"},
+        "openingHours": _opening_hours(l["hours"]), "hasMap": l["maps"], "priceRange": "$$",
+        "parentOrganization": {"@type": "Organization", "name": "ThrIVe Drip Spa", "url": SITE_URL},
+    }
+
+
 # ============================================================ BUILD
 os.makedirs(OUT, exist_ok=True)
-page("index.html", "IV Therapy, NAD+ & Wellness Spa | ThrIVe Drip Spa — Houston, Dallas & Fort Worth", "ThrIVe Drip Spa: 12 signature IV drips, NAD+, boosters, shots, mobile IV, body contouring and infrared sauna in Houston, Dallas and Fort Worth. Feel better in about an hour.", "index.html", home_body)
+page("index.html", "IV Therapy, NAD+ & Wellness Spa | ThrIVe Drip Spa — Houston, Dallas & Fort Worth", "ThrIVe Drip Spa: 12 signature IV drips, NAD+, boosters, shots, mobile IV, body contouring and infrared sauna in Houston, Dallas and Fort Worth. Feel better in about an hour.", "index.html", home_body, schema=ORG_SCHEMA)
 page("iv-therapy.html", "IV Drip Menu & Pricing | ThrIVe Drip Spa", "Twelve signature IV drips from $150 (members from $120): Hydrate, Myers, Detox, Party, Fit, Slim, Libido, Beauty, Migraine, High C, NAD+ and Immuno. Registered nurses.", "iv-therapy.html", iv_body, og="iv-bags-rack.webp")
 for d in DRIPS:
     if d["slug"] == "nad":
@@ -1738,7 +1796,7 @@ page("packages.html", "IV Therapy, Shot & NAD+ Packages | ThrIVe Drip Spa", "Buy
 page("promotions.html", "Monthly Promotions | ThrIVe Drip Spa", "This month's offers at ThrIVe Drip Spa — 25% off your first IV, free Benadryl with the Migraine Drip, and more.", "promotions.html", promotions_body, og="guests-drinks.webp")
 page("locations.html", "Locations — Houston, Katy, The Woodlands, Clear Lake, Dallas & Fort Worth | ThrIVe Drip Spa", "Ten ThrIVe Drip Spa lounges across Greater Houston, Dallas and Fort Worth, plus mobile IV. Addresses, hours and booking.", "locations.html", locations_body, og="lounge-interior.webp")
 for l in LOCATIONS:
-    page(f'{l["slug"]}.html', f'ThrIVe Drip Spa {l["label"]} — IV Therapy in {l["city"]}, TX', f'IV drips, NAD+, boosters and shots at ThrIVe Drip Spa {l["label"]}, {l["addr"]}. Call {l["phone"]}. {l["blurb"]}', f'{l["slug"]}.html', loc_page(l), og=l["img"])
+    page(f'{l["slug"]}.html', f'ThrIVe Drip Spa {l["label"]} — IV Therapy in {l["city"]}, TX', f'IV drips, NAD+, boosters and shots at ThrIVe Drip Spa {l["label"]}, {l["addr"]}. Call {l["phone"]}. {l["blurb"]}', f'{l["slug"]}.html', loc_page(l), og=l["img"], schema=loc_schema(l))
 page("book.html", "Book Online — Under a Minute, No Card Required | ThrIVe Drip Spa", "Book IV therapy at any ThrIVe lounge in under a minute. New clients save 25% on their first drip.", "book.html", book_body, og="lounge-selfie.jpg")
 page("about.html", "About ThrIVe Drip Spa — The First IV Drip Spa in Texas", "Founded in Houston and led by Dr. Eugene Lou, ThrIVe Drip Spa modernized IV therapy with a spa-grade lounge experience. Ten lounges across Texas.", "about.html", about_body, og="front-desk-welcome.webp")
 page("gfe-process.html", "Good Faith Exam Process | ThrIVe Drip Spa", "How the Texas-required Good Faith Exam works at ThrIVe: video or in-lounge, $35 ($45 with bloodwork), credited back to your account.", "gfe-process.html", gfe_body, og="consult-tablet.webp")
@@ -1754,6 +1812,13 @@ page("blog.html", "Blog — IV Therapy, NAD+ & Wellness Insights | ThrIVe Drip S
 for p in POSTS:
     page_sub(f'blog/{p["_slug"]}.html', f'{p.get("title","")} | ThrIVe Drip Spa', p.get("excerpt", ""), blog_post_body(p), og=cms_img(p.get("image"), "lounge-chairs.webp").replace(IMG + "/", ""))
 
+page("404.html", "Page Not Found | ThrIVe Drip Spa", "This page has moved. Find IV drips, NAD+, memberships and locations at ThrIVe Drip Spa.", "", hero(
+    "Page not found", ["This page has", '<span class="brush">moved.</span>'],
+    "We've redesigned our site, so some addresses have changed. Find what you're looking for below — or book your drip in under a minute.",
+    img=f"{IMG}/lounge-guest-relax.jpg", alt="A guest relaxing during her drip", page=True,
+    actions=[("Book a Drip", "book.html", True), ("See the Drip Menu", "iv-therapy.html", False)],
+) + location_picker("01", cls="section--ice"))
+
 # retired pages → redirect old links (not listed in the sitemap)
 for old, new in [("emsculpt.html", "emsculpt-neo.html"), ("normatec.html", "body-contouring.html")]:
     with open(os.path.join(OUT, old), "w") as f:
@@ -1762,13 +1827,95 @@ for old, new in [("emsculpt.html", "emsculpt-neo.html"), ("normatec.html", "body
                 f'<meta http-equiv="refresh" content="0; url={new}"></head>'
                 f'<body><p><a href="{new}">Continue to ThrIVe Drip Spa →</a></p></body></html>\n')
 
+# Old thrivedripspa.com (WordPress) addresses → new pages. Azure serves these as permanent (301)
+# redirects so search rankings, Google Business Profile links and old bookmarks carry over.
+OLD_URLS = {
+    # pages
+    "/about/": "/about.html", "/blog/": "/blog.html", "/book-now/": "/book.html", "/booster/": "/boosters.html",
+    "/biotin/": "/shots.html", "/careers/": "/careers.html", "/category/uncategorized/": "/blog.html",
+    "/certified-medical-drips/": "/iv-therapy.html", "/concierge-services/": "/mobile-iv.html", "/drips/": "/iv-therapy.html",
+    "/drips/beauty/": "/beauty-drip.html", "/drips/detoxing/": "/detox-drip.html", "/drips/fit/": "/fit-drip.html",
+    "/drips/hangover-recovery/": "/party-drip.html", "/drips/hydration/": "/hydrate-drip.html",
+    "/drips/immunity/": "/immuno-drip.html", "/drips/libido/": "/libido-drip.html", "/drips/migraine/": "/migraine-drip.html",
+    "/drips/myers/": "/myers-drip.html", "/drips/nad/": "/nad.html", "/drips/slim/": "/slim-drip.html",
+    "/drips/vitamin-c/": "/high-c-drip.html", "/high-c-drip/": "/high-c-drip.html", "/emface/": "/emface.html",
+    "/emsculpt/": "/emsculpt-neo.html", "/emtone/": "/emtone.html", "/events/": "/events.html", "/faqs/": "/faq.html",
+    "/franchise/": "/franchise.html", "/gfe-process/": "/gfe-process.html", "/infrared-sauna-therapy/": "/infrared-sauna.html",
+    "/locations/": "/locations.html", "/lp-drips/": "/iv-therapy.html", "/memberships/": "/memberships.html",
+    "/packages/": "/packages.html", "/privacy-policy/": "/privacy.html", "/promotions/": "/promotions.html",
+    "/shots/": "/shots.html", "/sitemap/": "/locations.html", "/terms-and-conditions/": "/terms.html",
+    "/thank-you/": "/thank-you.html", "/weight-loss/": "/weight-loss.html",
+    "/emsculpt.html": "/emsculpt-neo.html", "/normatec.html": "/body-contouring.html",
+    # blog posts → the matching new post, or the closest service page
+    "/7-wellness-boosters-that-support-energy-levels/": "/boosters.html",
+    "/9-benefits-of-hydration-iv-therapy/": "/blog/9-benefits-of-hydration-iv-therapy.html",
+    "/abc13-news-anchor-reports-on-houston-beauty-drip-spa/": "/blog/abc13-tries-thrive.html",
+    "/an-iv-med-spa-is-the-ultimate-destination-for-hydration-health-and-beauty/": "/blog/what-is-iv-therapy.html",
+    "/beat-the-summer-heat/": "/hydrate-drip.html",
+    "/beyond-the-finish-line-the-importance-of-hydration-performance-recovery-this-halloween-weekend/": "/fit-drip.html",
+    "/breaking-down-the-science-of-a-myers-cocktail-iv-and-why-it-works/": "/blog/myers-cocktail-science.html",
+    "/covid-19-primer-and-immunity-a-message-from-our-ceo/": "/immuno-drip.html",
+    "/dont-miss-a-beat-on-your-houston-trip-iv-therapy-for-jetlag-recovery/": "/hydrate-drip.html",
+    "/emface-at-thrive-drip-spa-a-revolutionary-approach-to-preventing-facial-aging-and-boosting-collagen/": "/emface.html",
+    "/emface-for-noninvasive-facial-contouring-welcome-to-the-future/": "/emface.html",
+    "/emsculpt-neo-for-body-contouring/": "/emsculpt-neo.html",
+    "/experience-the-benefits-of-ultimate-detox-with-iv-therapy/": "/detox-drip.html",
+    "/facial-contouring-without-surgery-top-non-invasive-solutions-for-jawline-and-skin-tightening-2/": "/emface.html",
+    "/finding-the-right-balance-with-vitamin-d/": "/shots.html",
+    "/glp-1-microdosing-a-smarter-approach-to-inflammation-metabolism-weight-support/": "/blog/glp-1-microdosing.html",
+    "/how-do-zinc-glutathione-and-vitamin-c-benefit-you/": "/immuno-drip.html",
+    "/how-does-an-iv-drip-support-your-holistic-weight-loss-program/": "/slim-drip.html",
+    "/how-does-iv-infusion-work-what-to-expect-from-a-drip-spa/": "/blog/first-iv-visit.html",
+    "/how-infrared-sauna-therapy-supports-muscle-recovery-and-pain-relief/": "/infrared-sauna.html",
+    "/how-iv-drips-fit-into-todays-modern-wellness-lifestyle/": "/blog/what-is-iv-therapy.html",
+    "/how-iv-therapy-services-support-holistic-health/": "/blog/what-is-iv-therapy.html",
+    "/how-long-does-iv-therapy-stay-in-your-system/": "/blog/how-long-does-iv-therapy-last.html",
+    "/how-thrive-services-help-kickstart-a-healthier-lifestyle/": "/iv-therapy.html",
+    "/how-to-prevent-back-to-school-illness-with-immune-iv-therapy/": "/immuno-drip.html",
+    "/how-to-support-weight-loss-while-using-glp-1-medications/": "/blog/glp-1-microdosing.html",
+    "/i-had-a-hangover-and-then-i-found-thrive-iv-therapy/": "/party-drip.html",
+    "/i-tried-nad-iv-therapy-does-it-actually-work/": "/blog/benefits-of-nad-drips.html",
+    "/introducing-thrive-migraine-drip/": "/migraine-drip.html",
+    "/is-a-wellness-infusion-right-for-you-heres-who-benefits-most/": "/blog/who-benefits-from-a-wellness-infusion.html",
+    "/iv-infusion-houston-beat-dehydration/": "/hydrate-drip.html",
+    "/mobile-iv-drip-dont-come-to-us-well-come-to-you/": "/mobile-iv.html",
+    "/myers-iv-therapy-recovery-made-simple/": "/myers-drip.html",
+    "/nad-therapy-for-mental-health-stress-addiction-support/": "/nad.html",
+    "/the-benefits-of-a-detox-drip/": "/detox-drip.html",
+    "/the-benefits-of-emtone-for-skin-firming-and-muscle-toning-treatment/": "/emtone.html",
+    "/the-pros-and-cons-of-botox-houston-thrive/": "/blog.html",
+    "/thrive-guide-to-looking-your-best-this-summer/": "/beauty-drip.html",
+    "/tips-for-making-wellness-iv-drip-therapy-part-of-your-healthy-lifestyle/": "/iv-therapy.html",
+    "/top-non-invasive-solutions-for-jawline-and-skin-tightening/": "/emface.html",
+    "/top-tips-for-staying-hydrated-in-houston/": "/hydrate-drip.html",
+    "/ultimate-self-care-checklist-for-west-houston/": "/west-university.html",
+    "/what-are-the-benefits-of-nad-drips/": "/blog/benefits-of-nad-drips.html",
+    "/what-is-emsculpt-neo-and-how-does-it-work/": "/emsculpt-neo.html",
+    "/what-is-iv-therapy-the-benefits-and-breakdown/": "/blog/what-is-iv-therapy.html",
+    "/what-is-nad-and-how-will-it-help-you-improve-your-neuro-function-and-general-wellness-with-nad-today/": "/nad.html",
+    "/what-to-expect-during-your-first-iv-drip-therapy-session/": "/blog/first-iv-visit.html",
+    "/whats-better-than-a-tall-glass-of-water-a-visit-to-a-hydration-spa-of-course/": "/hydrate-drip.html",
+    "/youve-lost-the-weight-now-lose-the-flab/": "/emsculpt-neo.html",
+}
+OLD_URLS.update({f'/{l["slug"]}/': f'/{l["slug"]}.html' for l in LOCATIONS})
+for _new in set(OLD_URLS.values()):
+    assert os.path.exists(os.path.join(OUT, _new.lstrip("/"))), f"redirect target missing: {_new}"
+# One route per address as Google indexed it (with the trailing slash); Azure caps this file at 20 KB.
+routes = [{"route": old, "redirect": new, "statusCode": 301} for old, new in OLD_URLS.items()]
+with open(os.path.join(OUT, "staticwebapp.config.json"), "w") as f:      # Azure Static Web Apps
+    _json.dump({"routes": routes,
+                "responseOverrides": {"404": {"rewrite": "/404.html", "statusCode": 404}},
+                "globalHeaders": {"X-Content-Type-Options": "nosniff", "Referrer-Policy": "strict-origin-when-cross-origin"}},
+               f, separators=(",", ":"))
+
 # sitemap.xml + robots
-SITE_URL = "https://robertjackson-engage.github.io/thrive-drip-spa-redesign/"
+NOT_IN_SITEMAP = {"404.html", "thank-you.html"}
 with open(os.path.join(OUT, "sitemap.xml"), "w") as f:
     f.write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
-            "".join(f"  <url><loc>{SITE_URL}{fn}</loc></url>\n" for fn, _ in PAGES) + "</urlset>\n")
+            "".join(f"  <url><loc>{SITE_URL}{'' if fn == 'index.html' else fn}</loc></url>\n"
+                    for fn, _ in PAGES if fn not in NOT_IN_SITEMAP) + "</urlset>\n")
 with open(os.path.join(OUT, "robots.txt"), "w") as f:
-    f.write(f"User-agent: *\nAllow: /\nSitemap: {SITE_URL}sitemap.xml\n")
+    f.write("User-agent: *\nAllow: /\n" + ("" if NOINDEX else f"Sitemap: {SITE_URL}sitemap.xml\n"))
 open(os.path.join(OUT, ".nojekyll"), "w").close()
 
 copy_layer.publish(OUT, [(fn, title) for fn, title in PAGES if not fn.startswith("blog/")], REPO, "main")

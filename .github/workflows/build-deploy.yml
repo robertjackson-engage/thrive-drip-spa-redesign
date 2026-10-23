@@ -1,4 +1,4 @@
-# Rebuilds the site from content/ and deploys to GitHub Pages on every change.
+# Rebuilds the site from content/ and deploys the GitHub Pages preview on every change.
 # When a staff member saves in the CMS (/admin), it commits here, this runs,
 # and the live site updates in about a minute.
 name: Build & Deploy
@@ -26,6 +26,10 @@ jobs:
           python-version: '3.12'
       - name: Build site from content
         run: python build.py
+        env:
+          # This GitHub Pages copy is a preview: keep it out of Google so it never competes with thrivedripspa.com.
+          SITE_URL: https://robertjackson-engage.github.io/thrive-drip-spa-redesign/
+          NOINDEX: "1"
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

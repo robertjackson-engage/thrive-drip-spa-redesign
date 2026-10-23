@@ -1,0 +1,203 @@
+{
+ "page": "404",
+ "items": [
+  {
+   "id": "4be900980c",
+   "where": "Browser tab title",
+   "original": "Page Not Found | ThrIVe Drip Spa",
+   "text": "Page Not Found | ThrIVe Drip Spa"
+  },
+  {
+   "id": "af0a839e25",
+   "where": "Search-engine description",
+   "original": "This page has moved. Find IV drips, NAD+, memberships and locations at ThrIVe Drip Spa.",
+   "text": "This page has moved. Find IV drips, NAD+, memberships and locations at ThrIVe Drip Spa."
+  },
+  {
+   "id": "3fa6375ea7",
+   "where": "p",
+   "original": "Page not found",
+   "text": "Page not found"
+  },
+  {
+   "id": "84ac0d0b14",
+   "where": "span",
+   "original": "This page has",
+   "text": "This page has"
+  },
+  {
+   "id": "6c13c0c1cd",
+   "where": "span",
+   "original": "moved.",
+   "text": "moved."
+  },
+  {
+   "id": "d1a0f9c8ad",
+   "where": "p",
+   "original": "We've redesigned our site, so some addresses have changed. Find what you're looking for below — or book your drip in under a minute.",
+   "text": "We've redesigned our site, so some addresses have changed. Find what you're looking for below — or book your drip in under a minute."
+  },
+  {
+   "id": "c63a3e5960",
+   "where": "a",
+   "original": "Book a Drip",
+   "text": "Book a Drip"
+  },
+  {
+   "id": "282ab0746e",
+   "where": "a",
+   "original": "See the Drip Menu",
+   "text": "See the Drip Menu"
+  },
+  {
+   "id": "54f7eceb58",
+   "where": "text",
+   "original": "Visit us",
+   "text": "Visit us"
+  },
+  {
+   "id": "616b4c8223",
+   "where": "h2",
+   "original": "Ten lounges.",
+   "text": "Ten lounges."
+  },
+  {
+   "id": "7d5f1962d4",
+   "where": "span · Ten lounges.",
+   "original": "One drip.",
+   "text": "One drip."
+  },
+  {
+   "id": "d914d0707a",
+   "where": "p · Ten lounges.",
+   "original": "Founded in Houston as the first IV therapy drip spa in Texas — now across Greater Houston, Dallas and Fort Worth, plus mobile service to your door.",
+   "text": "Founded in Houston as the first IV therapy drip spa in Texas — now across Greater Houston, Dallas and Fort Worth, plus mobile service to your door."
+  },
+  {
+   "id": "ff80330564",
+   "where": "a · Ten lounges.",
+   "original": "All locations + mobile →",
+   "text": "All locations + mobile →"
+  },
+  {
+   "id": "180d3690b8",
+   "where": "h3 · Ten lounges.",
+   "original": "Memorial",
+   "text": "Memorial"
+  },
+  {
+   "id": "07261bfc91",
+   "where": "span · Memorial",
+   "original": "Houston →",
+   "text": "Houston →"
+  },
+  {
+   "id": "3024b17cc4",
+   "where": "h3 · Memorial",
+   "original": "Memorial Green",
+   "text": "Memorial Green"
+  },
+  {
+   "id": "bb794275bf",
+   "where": "span · Memorial Green",
+   "original": "Houston →",
+   "text": "Houston →"
+  },
+  {
+   "id": "85a3789192",
+   "where": "h3 · Memorial Green",
+   "original": "The Heights",
+   "text": "The Heights"
+  },
+  {
+   "id": "4fa00ba9f4",
+   "where": "span · The Heights",
+   "original": "Houston →",
+   "text": "Houston →"
+  },
+  {
+   "id": "5a190dba26",
+   "where": "h3 · The Heights",
+   "original": "West University",
+   "text": "West University"
+  },
+  {
+   "id": "f9cff1dd5b",
+   "where": "span · West University",
+   "original": "Houston →",
+   "text": "Houston →"
+  },
+  {
+   "id": "52199479d7",
+   "where": "h3 · West University",
+   "original": "Vintage Park",
+   "text": "Vintage Park"
+  },
+  {
+   "id": "15f6893369",
+   "where": "span · Vintage Park",
+   "original": "Houston →",
+   "text": "Houston →"
+  },
+  {
+   "id": "a93f23f3c9",
+   "where": "h3 · Vintage Park",
+   "original": "Katy",
+   "text": "Katy"
+  },
+  {
+   "id": "3f35c2c72a",
+   "where": "span · Katy",
+   "original": "Katy →",
+   "text": "Katy →"
+  },
+  {
+   "id": "07c9d418ea",
+   "where": "h3 · Katy",
+   "original": "The Woodlands",
+   "text": "The Woodlands"
+  },
+  {
+   "id": "cb8b40fd25",
+   "where": "span · The Woodlands",
+   "original": "The Woodlands →",
+   "text": "The Woodlands →"
+  },
+  {
+   "id": "30d1febabd",
+   "where": "h3 · The Woodlands",
+   "original": "Clear Lake",
+   "text": "Clear Lake"
+  },
+  {
+   "id": "92dcc6a3af",
+   "where": "span · Clear Lake",
+   "original": "Houston →",
+   "text": "Houston →"
+  },
+  {
+   "id": "fafd80fa8b",
+   "where": "h3 · Clear Lake",
+   "original": "Highland Park",
+   "text": "Highland Park"
+  },
+  {
+   "id": "d8c8d43533",
+   "where": "span · Highland Park",
+   "original": "Dallas →",
+   "text": "Dallas →"
+  },
+  {
+   "id": "9455ec48b5",
+   "where": "h3 · Highland Park",
+   "original": "Fort Worth",
+   "text": "Fort Worth"
+  },
+  {
+   "id": "1bd83596f4",
+   "where": "span · Fort Worth",
+   "original": "Fort Worth →",
+   "text": "Fort Worth →"
+  }
+ ]
+}
