@@ -1,0 +1,40 @@
+# Builds the site and deploys it to Azure Static Web Apps (the production host for thrivedripspa.com).
+# Azure serves docs/staticwebapp.config.json: 301 redirects from the old WordPress addresses and the 404 page.
+# One-time setup: create the Static Web App in Azure, then add its deployment token as the repo secret
+# AZURE_STATIC_WEB_APPS_API_TOKEN. Until that secret exists this workflow skips the deploy step.
+name: Azure Static Web Apps
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: azure-swa
+  cancel-in-progress: true
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    env:
+      HAS_TOKEN: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN != '' }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build site from content
+        run: python build.py
+        env:
+          SITE_URL: ${{ vars.SITE_URL || 'https://thrivedripspa.com/' }}
+      - name: Deploy to Azure
+        if: env.HAS_TOKEN == 'true'
+        uses: Azure/static-web-apps-deploy@v1
+        with:
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
+          action: upload
+          app_location: docs
+          skip_app_build: true
+          skip_api_build: true
+      - name: Azure not connected yet
+        if: env.HAS_TOKEN != 'true'
+        run: echo "::notice::Add the AZURE_STATIC_WEB_APPS_API_TOKEN secret to deploy to Azure."
