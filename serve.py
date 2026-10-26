@@ -10,6 +10,7 @@ Provide the key either way:
   2. Or drop a .env:   echo 'ANTHROPIC_API_KEY=sk-ant-...' > .env  &&  python3 serve.py
 The .env file is gitignored, so the key never reaches the repo.
 """
+import gzip as _gzip
 import http.server
 import json
 import os
@@ -110,7 +111,62 @@ class Handler(http.server.SimpleHTTPRequestHandler):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, directory=SITE, **kwargs)
 
+    def end_headers(self):
+        # Cache policy: fingerprinted/static assets cache hard; HTML stays fresh so a
+        # deploy shows up immediately. Plus baseline security headers on everything.
+        p = self.path.split("?")[0]
+        if p.startswith("/assets/"):
+            self.send_header("Cache-Control", "public, max-age=31536000, immutable" if "?v=" in self.path
+                             else "public, max-age=604800")
+        elif p.endswith((".webp", ".jpg", ".png", ".gif", ".svg", ".ttf", ".woff2", ".ico")):
+            self.send_header("Cache-Control", "public, max-age=604800")
+        else:
+            self.send_header("Cache-Control", "no-cache")
+        self.send_header("X-Content-Type-Options", "nosniff")
+        self.send_header("Referrer-Policy", "strict-origin-when-cross-origin")
+        self.send_header("X-Frame-Options", "SAMEORIGIN")
+        super().end_headers()
+
+    def send_error(self, code, message=None, explain=None):
+        # A designed 404 instead of the stock python page.
+        if code == 404 and not self.path.startswith("/api/"):
+            try:
+                body = open(os.path.join(SITE, "404.html"), "rb").read()
+                self.send_response(404)
+                self.send_header("Content-Type", "text/html; charset=utf-8")
+                self.send_header("Content-Length", str(len(body)))
+                self.end_headers()
+                self.wfile.write(body)
+                return
+            except Exception:
+                pass
+        super().send_error(code, message, explain)
+
+    def _maybe_gzip(self, path):
+        """Serve text responses gzip-compressed when the client accepts it."""
+        ctype = self.guess_type(path)
+        if not any(t in ctype for t in ("text/", "javascript", "json", "svg", "xml")):
+            return False
+        if "gzip" not in (self.headers.get("Accept-Encoding") or ""):
+            return False
+        try:
+            raw = open(path, "rb").read()
+        except OSError:
+            return False
+        gz = _gzip.compress(raw, 6)
+        self.send_response(200)
+        self.send_header("Content-Type", ctype)
+        self.send_header("Content-Encoding", "gzip")
+        self.send_header("Content-Length", str(len(gz)))
+        self.send_header("Vary", "Accept-Encoding")
+        self.end_headers()
+        self.wfile.write(gz)
+        return True
+
     def do_GET(self):
+        if self.path == "/healthz":
+            self._json(200, {"ok": True})
+            return
         if self.path.startswith("/__copy/status"):
             self._json(200, BUILD_STATE)
             return
@@ -125,6 +181,12 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         slug = self.path.split("?")[0].rstrip("/").lstrip("/")
         if slug and "." not in slug and os.path.exists(os.path.join(SITE, slug + ".html")):
             self.path = "/" + slug + ".html"
+        clean = self.path.split("?")[0]
+        target = os.path.join(SITE, clean.lstrip("/") or "index.html")
+        if os.path.isdir(target):
+            target = os.path.join(target, "index.html")
+        if os.path.isfile(target) and self._maybe_gzip(target):
+            return
         super().do_GET()
 
     def do_POST(self):

@@ -26,6 +26,14 @@ DISCLAIMER = ("ThrIVe Drip Spa services are administered by licensed medical pro
 
 PAGES = []          # (filename, title) — for the visual editor's page index
 
+# Canonical URLs always claim the production domain, so previews (GitHub Pages, the
+# Azure host before DNS) never compete with it in search. SITE_URL is where THIS build
+# is served; until it equals CANON the build marks every page noindex — one env flip
+# (SITE_URL=https://thrivedripspa.com/) makes the cutover build indexable end to end.
+CANON = "https://thrivedripspa.com/"
+SITE_URL = os.environ.get("SITE_URL", "https://robertjackson-engage.github.io/thrive-drip-spa-redesign/")
+NOINDEX = SITE_URL.rstrip("/") != CANON.rstrip("/")
+
 
 # ============================================================ CMS engine
 def _parse_md(path):
@@ -378,7 +386,17 @@ MENU = [
 ]
 
 
-def head(title, desc, canonical_img=None):
+ORG_LD = _json.dumps({
+    "@context": "https://schema.org", "@type": "Organization",
+    "name": "ThrIVe Drip Spa", "url": CANON,
+    "logo": CANON + "assets/img/logo-color.webp",
+    "telephone": "+1-" + PHONE,
+    "sameAs": ["https://www.facebook.com/thrivedripspa", "https://www.instagram.com/thethrivedripspa/"],
+})
+
+
+def head(title, desc, canonical_img=None, path=""):
+    canonical = CANON + ("" if path == "index.html" else path)
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -386,9 +404,19 @@ def head(title, desc, canonical_img=None):
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>{title}</title>
 <meta name="description" content="{desc}">
+{'<meta name="robots" content="noindex, nofollow">' if NOINDEX else ''}
+<link rel="canonical" href="{canonical}">
 <meta property="og:title" content="{title}">
 <meta property="og:description" content="{desc}">
-<meta property="og:image" content="{IMG}/{canonical_img or 'nurse-iv-lounge.jpg'}">
+<meta property="og:type" content="website">
+<meta property="og:url" content="{canonical}">
+<meta property="og:site_name" content="ThrIVe Drip Spa">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{title}">
+<meta name="twitter:description" content="{desc}">
+<meta name="twitter:image" content="{CANON}{IMG}/{canonical_img or 'nurse-iv-lounge.jpg'}">
+<script type="application/ld+json">{ORG_LD}</script>
+<meta property="og:image" content="{CANON}{IMG}/{canonical_img or 'nurse-iv-lounge.jpg'}">
 <meta name="theme-color" content="#053948">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -837,7 +865,7 @@ def form_section(sec_id, num, eyebrow, title_html, text, btn="Send Request", cls
 
 def page(filename, title, desc, active, body, manifest=True, og=None):
     PAGES.append((filename, title))
-    html = copy_layer.compose(filename, head(title, desc, og), header_html(active), footer_html(), body, manifest=manifest)
+    html = copy_layer.compose(filename, head(title, desc, og, path=filename), header_html(active), footer_html(), body, manifest=manifest)
     with open(os.path.join(OUT, filename), "w") as f:
         f.write(html)
     print("built", filename)
@@ -845,7 +873,7 @@ def page(filename, title, desc, active, body, manifest=True, og=None):
 
 def page_sub(filename, title, desc, body, og=None):
     PAGES.append((filename, title))
-    html = copy_layer.compose(filename, head(title, desc, og), header_html("blog.html"), footer_html(), body, manifest=False)
+    html = copy_layer.compose(filename, head(title, desc, og, path=filename), header_html("blog.html"), footer_html(), body, manifest=False)
     html = _re.sub(r'(href|src)="/(?!/)', r'\1="../', html)
     html = _re.sub(r'(href|src)="assets/', r'\1="../assets/', html)
     html = _re.sub(r'(href)="([a-z0-9-]+\.html)(#[^"]*)?"', r'\1="../\2\3"', html)
@@ -1410,6 +1438,26 @@ locations_body = hero(
     + cta_band('See you in the <span class="brush">lounge.</span>', "Book at any of our ten locations in under a minute.")
 
 
+def loc_ld(l):
+    """LocalBusiness (MedicalSpa) structured data — address, phone, hours, Meevo booking."""
+    street, citypart = (l["addr"].rsplit(",", 2)[0], l["addr"])
+    zipm = _re.search(r"(\d{5})\s*$", l["addr"])
+    return '<script type="application/ld+json">' + _json.dumps({
+        "@context": "https://schema.org", "@type": "MedicalSpa",
+        "name": f"ThrIVe Drip Spa {l['label']}",
+        "url": f"{CANON}{l['slug']}.html",
+        "image": f"{CANON}{IMG}/{l['img']}",
+        "telephone": "+1" + l["tel"],
+        "email": l["email"],
+        "address": {"@type": "PostalAddress", "streetAddress": street,
+                    "addressLocality": l["city"], "addressRegion": "TX",
+                    "postalCode": zipm.group(1) if zipm else "", "addressCountry": "US"},
+        "hasMap": l["maps"],
+        "openingHours": [f"{d} {h}" for d, h in l["hours"]],
+        "parentOrganization": {"@type": "Organization", "name": "ThrIVe Drip Spa", "url": CANON},
+    }) + "</script>"
+
+
 def loc_page(l):
     hours = "".join(f"<div><dt>{d}</dt><dd>{h}</dd></div>" for d, h in l["hours"])
     svc = [SERVICE_BY[s] for s in l["services"] if s in SERVICE_BY]
@@ -1763,7 +1811,7 @@ page("packages.html", "IV Therapy, Shot & NAD+ Packages | ThrIVe Drip Spa", "Buy
 page("promotions.html", "Monthly Promotions | ThrIVe Drip Spa", "This month's offers at ThrIVe Drip Spa — 25% off your first IV, free Benadryl with the Migraine Drip, and more.", "promotions.html", promotions_body, og="guests-drinks.webp")
 page("locations.html", "Locations — Houston, Katy, The Woodlands, Clear Lake, Dallas & Fort Worth | ThrIVe Drip Spa", "Ten ThrIVe Drip Spa lounges across Greater Houston, Dallas and Fort Worth, plus mobile IV. Addresses, hours and booking.", "locations.html", locations_body, og="lounge-interior.webp")
 for l in LOCATIONS:
-    page(f'{l["slug"]}.html', f'ThrIVe Drip Spa {l["label"]} — IV Therapy in {l["city"]}, TX', f'IV drips, NAD+, boosters and shots at ThrIVe Drip Spa {l["label"]}, {l["addr"]}. Call {l["phone"]}. {l["blurb"]}', f'{l["slug"]}.html', loc_page(l), og=l["img"])
+    page(f'{l["slug"]}.html', f'ThrIVe Drip Spa {l["label"]} — IV Therapy in {l["city"]}, TX', f'IV drips, NAD+, boosters and shots at ThrIVe Drip Spa {l["label"]}, {l["addr"]}. Call {l["phone"]}. {l["blurb"]}', f'{l["slug"]}.html', loc_ld(l) + loc_page(l), og=l["img"])
 page("book.html", "Book Online — Under a Minute, No Card Required | ThrIVe Drip Spa", "Book IV therapy at any ThrIVe lounge in under a minute. New clients save 25% on their first drip.", "book.html", book_body, og="lounge-selfie.jpg")
 page("about.html", "About ThrIVe Drip Spa — The First IV Drip Spa in Texas", "Founded in Houston and led by Dr. Eugene Lou, ThrIVe Drip Spa modernized IV therapy with a spa-grade lounge experience. Ten lounges across Texas.", "about.html", about_body, og="front-desk-welcome.webp")
 page("gfe-process.html", "Good Faith Exam Process | ThrIVe Drip Spa", "How the Texas-required Good Faith Exam works at ThrIVe: video or in-lounge, $35 ($45 with bloodwork), credited back to your account.", "gfe-process.html", gfe_body, og="consult-tablet.webp")
@@ -1779,6 +1827,22 @@ page("blog.html", "Blog — IV Therapy, NAD+ & Wellness Insights | ThrIVe Drip S
 for p in POSTS:
     page_sub(f'blog/{p["_slug"]}.html', f'{p.get("title","")} | ThrIVe Drip Spa', p.get("excerpt", ""), blog_post_body(p), og=cms_img(p.get("image"), "lounge-chairs.webp").replace(IMG + "/", ""))
 
+
+# 404 — served by serve.py with a real 404 status; styled like the rest of the site.
+page("404.html", "Page Not Found | ThrIVe Drip Spa",
+     "That page has moved or never existed. Browse IV drips, locations and memberships at ThrIVe Drip Spa.",
+     "", """
+<section class="section"><div class="wrap" style="text-align:center;padding:96px 0">
+  <p class="kicker">404 — page not found</p>
+  <h1>That page took <span class="brush">a wrong turn.</span></h1>
+  <p style="max-width:52ch;margin:16px auto">The page you're looking for has moved or never existed.
+  The drips, however, are exactly where you left them.</p>
+  <p style="margin-top:24px"><a class="btn btn--primary" href="/">Back to the homepage</a>
+  <a class="btn" href="/iv-therapy.html">See the drip menu</a></p>
+</div></section>
+""", manifest=False)
+PAGES.pop()  # keep 404 out of the sitemap and the editor index
+
 # retired pages → redirect old links (not listed in the sitemap)
 for old, new in [("emsculpt.html", "emsculpt-neo.html"), ("normatec.html", "body-contouring.html")]:
     with open(os.path.join(OUT, old), "w") as f:
@@ -1788,9 +1852,7 @@ for old, new in [("emsculpt.html", "emsculpt-neo.html"), ("normatec.html", "body
                 f'<body><p><a href="{new}">Continue to ThrIVe Drip Spa →</a></p></body></html>\n')
 
 # sitemap.xml + robots
-# SITE_URL drives sitemap.xml + robots.txt. Set SITE_URL=https://thrivedripspa.com/ in the
-# production build at cutover; the default keeps the GitHub Pages preview coherent.
-SITE_URL = os.environ.get("SITE_URL", "https://robertjackson-engage.github.io/thrive-drip-spa-redesign/")
+# SITE_URL / CANON / NOINDEX are defined with the other constants at the top.
 with open(os.path.join(OUT, "sitemap.xml"), "w") as f:
     f.write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
             "".join(f"  <url><loc>{SITE_URL}{fn}</loc></url>\n" for fn, _ in PAGES) + "</urlset>\n")
