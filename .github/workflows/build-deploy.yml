@@ -52,3 +52,16 @@ jobs:
           app-name: thrive-site
           publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
           package: site.zip
+      - name: Restart app so the new server code loads
+        run: |
+          CREDS=$(python3 - <<'PY'
+          import os, re
+          p = os.environ['PROFILE']
+          m = re.search(r'publishMethod="ZipDeploy"[^>]*userName="([^"]+)"[^>]*userPWD="([^"]+)"', p) or \
+              re.search(r'userName="([^"]+)"[^>]*userPWD="([^"]+)"', p)
+          print(f"{m.group(1)}:{m.group(2)}")
+          PY
+          )
+          curl -sf -X POST -u "$CREDS" "https://thrive-site.scm.azurewebsites.net/api/app/restart" -d "" && echo restarted
+        env:
+          PROFILE: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
