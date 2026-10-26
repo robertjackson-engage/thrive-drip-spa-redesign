@@ -24,6 +24,45 @@ import urllib.request
 ROOT = os.path.dirname(os.path.abspath(__file__))
 SITE = os.path.join(ROOT, "docs")
 PORT = int(os.environ.get("PORT", "4183"))
+# Azure App Service (WEBSITE_SITE_NAME set) must bind all interfaces; local stays loopback.
+HOST = os.environ.get("HOST", "0.0.0.0" if os.environ.get("WEBSITE_SITE_NAME") else "127.0.0.1")
+
+# 301s for every old WordPress URL whose slug changed — SEO continuity at cutover.
+# Old pages map to their replacement; retired blog posts go to the closest service
+# page (search engines treat a relevant 301 as equity transfer; /blog.html is the floor).
+REDIRECTS = {
+    "/faqs": "/faq.html", "/booster": "/boosters.html",
+    "/terms-and-conditions": "/terms.html", "/privacy-policy": "/privacy.html",
+    "/infrared-sauna-therapy": "/infrared-sauna.html",
+    "/emsculpt-neo-for-body-contouring": "/emsculpt-neo.html",
+    "/book-now": "/book.html", "/certified-medical-drips": "/iv-therapy.html",
+    "/concierge-services": "/mobile-iv.html", "/lp-drips": "/iv-therapy.html",
+    "/home": "/", "/locations-2": "/locations.html",
+}
+# Retired blog posts: keyword → destination; anything else lands on the blog index.
+BLOG_KEYWORD_MAP = [
+    ("nad", "/nad.html"), ("emface", "/emface.html"), ("emsculpt", "/emsculpt-neo.html"),
+    ("emtone", "/emtone.html"), ("glp-1", "/weight-loss.html"), ("weight", "/weight-loss.html"),
+    ("mobile-iv", "/mobile-iv.html"), ("sauna", "/infrared-sauna.html"),
+    ("migraine", "/migraine-drip.html"), ("myers", "/myers-drip.html"),
+    ("hangover", "/iv-therapy.html"), ("booster", "/boosters.html"), ("biotin", "/shots.html"),
+    ("detox", "/detox-drip.html"), ("immune", "/immuno-drip.html"), ("hydrat", "/iv-therapy.html"),
+]
+
+
+def legacy_redirect(path):
+    p = path.split("?")[0].rstrip("/") or "/"
+    if p in REDIRECTS:
+        return REDIRECTS[p]
+    # A WP-era slug with no extension that we don't serve: old posts lived at the root.
+    slug = p.lstrip("/")
+    if slug and "." not in slug and not os.path.exists(os.path.join(SITE, slug + ".html")) \
+            and not os.path.isdir(os.path.join(SITE, slug)):
+        for kw, dest in BLOG_KEYWORD_MAP:
+            if kw in slug:
+                return dest
+        return "/blog.html"
+    return None
 
 
 def load_dotenv():
@@ -75,6 +114,17 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         if self.path.startswith("/__copy/status"):
             self._json(200, BUILD_STATE)
             return
+        dest = legacy_redirect(self.path)
+        if dest:
+            self.send_response(301)
+            self.send_header("Location", dest)
+            self.send_header("Content-Length", "0")
+            self.end_headers()
+            return
+        # Serve extensionless requests for pages we do have (clean URLs keep working).
+        slug = self.path.split("?")[0].rstrip("/").lstrip("/")
+        if slug and "." not in slug and os.path.exists(os.path.join(SITE, slug + ".html")):
+            self.path = "/" + slug + ".html"
         super().do_GET()
 
     def do_POST(self):
@@ -150,7 +200,7 @@ class Handler(http.server.SimpleHTTPRequestHandler):
 
 if __name__ == "__main__":
     socketserver.ThreadingTCPServer.allow_reuse_address = True
-    with socketserver.ThreadingTCPServer(("127.0.0.1", PORT), Handler) as srv:
+    with socketserver.ThreadingTCPServer((HOST, PORT), Handler) as srv:
         has_key = "yes" if os.environ.get("ANTHROPIC_API_KEY") else "NO — chat will be disabled"
         print(f"ThrIVe Drip Spa site on http://localhost:{PORT}  (API key present: {has_key})")
         srv.serve_forever()

@@ -397,6 +397,28 @@ def head(title, desc, canonical_img=None):
 <link rel="icon" type="image/png" href="{IMG}/drop-mark.png">
 <link rel="apple-touch-icon" href="{IMG}/drop-mark.png">
 <link rel="stylesheet" href="assets/css/main.css?v={V}">
+<!-- Google Tag Manager (GTM-WCDPC5KK — fires GA4 G-XN01L3VWSH; same container as the booking portals, so sessions stitch across domains) -->
+<script>(function(w,d,s,l,i){{w[l]=w[l]||[];w[l].push({{'gtm.start':new Date().getTime(),event:'gtm.js'}});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);}})(window,document,'script','dataLayer','GTM-WCDPC5KK');</script>
+<!-- End Google Tag Manager -->
+<script>(function(){{try{{
+  /* First-party attribution: capture click ids + UTMs on landing, then decorate every
+     booking-flow link on click so attribution survives the hop to book.thrivedripspa.com
+     (the booking app reads these from its own URL and stamps them on the CRM lead). */
+  var KEYS=['utm_source','utm_medium','utm_campaign','utm_content','utm_term','gclid','gbraid','wbraid','fbclid','fb_ad_id'];
+  var q=new URLSearchParams(location.search),t={{}},hit=false;
+  KEYS.forEach(function(k){{var v=q.get(k);if(v){{t[k]=v;hit=true;}}}});
+  var st=null;try{{st=JSON.parse(localStorage.getItem('tds_attr')||'null');}}catch(e){{}}
+  if(hit){{st={{at:Date.now(),p:t,first:(st&&st.first)||{{at:Date.now(),p:t}}}};}}
+  else if(st&&Date.now()-st.at>90*864e5){{st=null;}}
+  if(st)try{{localStorage.setItem('tds_attr',JSON.stringify(st));}}catch(e){{}}
+  document.addEventListener('click',function(ev){{
+    var a=ev.target&&ev.target.closest&&ev.target.closest('a[href^="https://book.thrivedripspa.com"]');
+    if(!a||!st)return;
+    try{{var u=new URL(a.href);KEYS.forEach(function(k){{
+      if(!u.searchParams.get(k)&&st.p[k])u.searchParams.set(k,st.p[k]);}});
+      a.href=u.toString();}}catch(e){{}}
+  }},true);
+}}catch(e){{}}}})();</script>
 <script>(function(){{try{{
   if(sessionStorage.getItem("tds-intro"))document.documentElement.classList.add("no-preloader");
   if(sessionStorage.getItem("tds-util"))document.documentElement.classList.add("no-util");
@@ -405,6 +427,9 @@ def head(title, desc, canonical_img=None):
 }}catch(e){{}}}})();</script>
 </head>
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WCDPC5KK" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <div class="preloader" aria-hidden="true">
   <img class="preloader__logo" src="{IMG}/logo-color.webp" alt="">
   <div class="preloader__drop">{DROP_SVG}</div>
@@ -1763,7 +1788,9 @@ for old, new in [("emsculpt.html", "emsculpt-neo.html"), ("normatec.html", "body
                 f'<body><p><a href="{new}">Continue to ThrIVe Drip Spa →</a></p></body></html>\n')
 
 # sitemap.xml + robots
-SITE_URL = "https://robertjackson-engage.github.io/thrive-drip-spa-redesign/"
+# SITE_URL drives sitemap.xml + robots.txt. Set SITE_URL=https://thrivedripspa.com/ in the
+# production build at cutover; the default keeps the GitHub Pages preview coherent.
+SITE_URL = os.environ.get("SITE_URL", "https://robertjackson-engage.github.io/thrive-drip-spa-redesign/")
 with open(os.path.join(OUT, "sitemap.xml"), "w") as f:
     f.write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
             "".join(f"  <url><loc>{SITE_URL}{fn}</loc></url>\n" for fn, _ in PAGES) + "</urlset>\n")

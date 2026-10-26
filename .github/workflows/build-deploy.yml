@@ -32,3 +32,23 @@ jobs:
           path: docs
       - id: deployment
         uses: actions/deploy-pages@v4
+
+  # Mirrors the same build to Azure App Service (thrive-site) — the box that will serve
+  # thrivedripspa.com at cutover. GitHub Pages above stays as the client review link.
+  deploy-azure:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Build site from content
+        run: python build.py
+      - name: Package site + server
+        run: zip -qr site.zip serve.py docs
+      - name: Deploy to Azure App Service
+        uses: azure/webapps-deploy@v3
+        with:
+          app-name: thrive-site
+          publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE }}
+          package: site.zip
