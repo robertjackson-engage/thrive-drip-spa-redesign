@@ -14,7 +14,7 @@ BOOK = "https://book.thrivedripspa.com"
 BOOK_NEW = BOOK + "/?path=new"     # skips the booking flow's "first time or current client?" question
 MEEVO = "https://na1.meevo.com/customerportal/advanced/ob?tenantId=200296"
 # Lounges our booking flow (book.thrivedripspa.com) can book; the rest still go to the Meevo portal.
-BOOK_FLOW_LOCS = {"201102", "201104", "201319", "203321", "203322"}
+BOOK_FLOW_LOCS = {"201102", "201104", "201319", "203321", "203322", "202035", "203017", "203330"}  # + franchises on the app: Memorial Green, Heights, Vintage Park
 GIFT = "https://na1.meevo.com/EgiftApp/location/search?tenantId=200296"
 LOGIN = "https://na1.meevo.com/CustomerPortal/login?tenantId=200296"
 PHONE = "844-820-1713"
