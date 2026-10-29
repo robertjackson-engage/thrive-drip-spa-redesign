@@ -39,6 +39,34 @@ REDIRECTS = {
     "/book-now": "/book.html", "/certified-medical-drips": "/iv-therapy.html",
     "/concierge-services": "/mobile-iv.html", "/lp-drips": "/iv-therapy.html",
     "/home": "/", "/locations-2": "/locations.html",
+    # Old drip product pages: each goes to its new drip page, not the blog index.
+    "/drips": "/iv-therapy.html", "/drips/fit": "/fit-drip.html", "/drips/slim": "/slim-drip.html",
+    "/drips/beauty": "/beauty-drip.html", "/drips/libido": "/libido-drip.html",
+    "/drips/vitamin-c": "/high-c-drip.html", "/drips/immunity": "/immuno-drip.html",
+    "/drips/hydration": "/hydrate-drip.html", "/drips/hangover-recovery": "/party-drip.html",
+    # Old posts that have a rewritten version on the new blog.
+    "/9-benefits-of-hydration-iv-therapy": "/blog/9-benefits-of-hydration-iv-therapy.html",
+    "/abc13-news-anchor-reports-on-houston-beauty-drip-spa": "/blog/abc13-tries-thrive.html",
+    "/breaking-down-the-science-of-a-myers-cocktail-iv-and-why-it-works": "/blog/myers-cocktail-science.html",
+    "/glp-1-microdosing-a-smarter-approach-to-inflammation-metabolism-weight-support": "/blog/glp-1-microdosing.html",
+    "/how-does-iv-infusion-work-what-to-expect-from-a-drip-spa": "/blog/first-iv-visit.html",
+    "/what-to-expect-during-your-first-iv-drip-therapy-session": "/blog/first-iv-visit.html",
+    "/how-long-does-iv-therapy-stay-in-your-system": "/blog/how-long-does-iv-therapy-last.html",
+    "/is-a-wellness-infusion-right-for-you-heres-who-benefits-most": "/blog/who-benefits-from-a-wellness-infusion.html",
+    "/what-are-the-benefits-of-nad-drips": "/blog/benefits-of-nad-drips.html",
+    "/i-tried-nad-iv-therapy-does-it-actually-work": "/blog/benefits-of-nad-drips.html",
+    "/what-is-iv-therapy-the-benefits-and-breakdown": "/blog/what-is-iv-therapy.html",
+    "/how-iv-therapy-services-support-holistic-health": "/blog/what-is-iv-therapy.html",
+    "/how-iv-drips-fit-into-todays-modern-wellness-lifestyle": "/blog/what-is-iv-therapy.html",
+    # Retired posts whose topic has a clear service page the keyword map misses.
+    "/how-do-zinc-glutathione-and-vitamin-c-benefit-you": "/immuno-drip.html",
+    "/covid-19-primer-and-immunity-a-message-from-our-ceo": "/immuno-drip.html",
+    "/top-non-invasive-solutions-for-jawline-and-skin-tightening": "/emface.html",
+    "/facial-contouring-without-surgery-top-non-invasive-solutions-for-jawline-and-skin-tightening-2": "/emface.html",
+    "/thrive-guide-to-looking-your-best-this-summer": "/beauty-drip.html",
+    "/i-had-a-hangover-and-then-i-found-thrive-iv-therapy": "/party-drip.html",
+    "/finding-the-right-balance-with-vitamin-d": "/shots.html",
+    "/ultimate-self-care-checklist-for-west-houston": "/west-university.html",
 }
 # Retired blog posts: keyword → destination; anything else lands on the blog index.
 BLOG_KEYWORD_MAP = [
