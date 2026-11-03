@@ -20,4 +20,6 @@ External Meevo/franchise portals retain their own consent and tracking behavior.
 
 Run `python3 build.py`, `node --check docs/assets/js/chat.js`, and `node --test tests/tracking.test.mjs`. Test actual desktop/mobile prechat, live reply, returning identity, and cookie/booking handoff on the Azure review host. Booking changes have their own automated tests and manual production deployment workflow.
 
-Main publishes the review copies at https://thrive-site.azurewebsites.net/ and https://robertjackson-engage.github.io/thrive-drip-spa-redesign/. The public-domain DNS cutover is separate. Review pages remain noindex.
+Main publishes to Azure App Service and the GitHub Pages review copy. Azure builds with `SITE_URL=https://thrivedripspa.com/` so the production domain has indexable pages and a production sitemap. The server sends `X-Robots-Tag: noindex, nofollow` on the Azure preview hostname; GitHub Pages retains its noindex build. `www.thrivedripspa.com` redirects to the canonical root domain, preserving paths and query parameters. The local copy editor is disabled on Azure hosting.
+
+DNS cutover requires the `asuid` and `asuid.www` TXT values from Azure's `customDomainVerificationId`, custom hostname bindings and HTTPS certificates for both domain variants, an apex A record pointing to Azure's verified inbound IP, and a `www` CNAME to `thrive-site.azurewebsites.net`. Preserve email, booking, other subdomains and verification records. Publishing this code does not itself change DNS.

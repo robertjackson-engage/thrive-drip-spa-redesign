@@ -43,6 +43,8 @@ jobs:
         with:
           python-version: '3.12'
       - name: Build site from content
+        env:
+          SITE_URL: https://thrivedripspa.com/
         run: python build.py
       - name: Package site + server
         run: zip -qr site.zip serve.py docs
