@@ -1,6 +1,7 @@
 /* Thrive's consent and attribution bridge. CRM lead writes stay with chat/booking. */
 (() => {
   'use strict';
+  const LOCAL_TRACKER = new URL('wellgentic-tracking.js?v=20261103-transport1', document.currentScript.src).href;
   const TRACKER = 'https://api.wellgentic.ai/api/crm-tracking/script/wg_trk_33fd34b9794482e2ab37a1fff32de468cf6a';
   const CAMPAIGN = ['utm_source','utm_medium','utm_campaign','utm_content','utm_term','utm_id','utm_source_platform'];
   const ADS = ['gclid','gbraid','wbraid','fbclid','fb_ad_id'];
@@ -82,7 +83,7 @@
     // These forms already have authoritative submission handlers. Never capture
     // an attempted submit a second time through the generic tracking endpoint.
     document.querySelectorAll('form').forEach(form => form.setAttribute('data-wg-ignore','true'));
-    const crm = document.createElement('script'); crm.async = true; crm.crossOrigin = 'anonymous'; crm.src = TRACKER; crm.dataset.thriveTracking = 'true'; document.head.append(crm);
+    const crm = document.createElement('script'); crm.async = true; crm.crossOrigin = 'anonymous'; crm.src = LOCAL_TRACKER; crm.dataset.source = TRACKER; crm.dataset.thriveTracking = 'true'; document.head.append(crm);
     window.dataLayer.push({'gtm.start':Date.now(), event:'gtm.js'});
     const gtm = document.createElement('script'); gtm.async = true; gtm.src = 'https://www.googletagmanager.com/gtm.js?id=GTM-WCDPC5KK'; document.head.append(gtm);
   };
