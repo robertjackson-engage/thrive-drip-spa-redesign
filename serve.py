@@ -1,15 +1,5 @@
 #!/usr/bin/env python3
-"""ThrIVe Drip Spa demo server: static site + server-side Anthropic proxy.
-
-The browser calls POST /api/chat; this server forwards it to the Anthropic API
-with the key from the ANTHROPIC_API_KEY environment variable, so the key never
-appears in any committed file or in client-side code.
-
-Provide the key either way:
-  1. Export it:        ANTHROPIC_API_KEY=sk-ant-...  python3 serve.py
-  2. Or drop a .env:   echo 'ANTHROPIC_API_KEY=sk-ant-...' > .env  &&  python3 serve.py
-The .env file is gitignored, so the key never reaches the repo.
-"""
+"""ThrIVe static preview server. Website chat is served by Wellgentic CRM."""
 import gzip as _gzip
 import http.server
 import json
@@ -236,43 +226,7 @@ class Handler(http.server.SimpleHTTPRequestHandler):
             schedule_build()
             self._json(200, {"ok": True, "saved": os.path.relpath(path, ROOT)})
             return
-        if self.path != "/api/chat":
-            self.send_error(404)
-            return
-        key = os.environ.get("ANTHROPIC_API_KEY", "").strip()
-        if not key:
-            self._json(503, {"error": {"message": "Server has no ANTHROPIC_API_KEY. Restart with: ANTHROPIC_API_KEY=sk-ant-... python3 serve.py"}})
-            return
-        length = int(self.headers.get("Content-Length", 0))
-        body = self.rfile.read(length)
-        req = urllib.request.Request(
-            "https://api.anthropic.com/v1/messages",
-            data=body,
-            headers={
-                "content-type": "application/json",
-                "x-api-key": key,
-                "anthropic-version": "2023-06-01",
-            },
-            method="POST",
-        )
-        try:
-            with urllib.request.urlopen(req, timeout=120) as resp:
-                self.send_response(resp.status)
-                self.send_header("Content-Type", resp.headers.get("Content-Type", "application/json"))
-                self.end_headers()
-                while True:
-                    chunk = resp.read(8192)
-                    if not chunk:
-                        break
-                    try:
-                        self.wfile.write(chunk)
-                        self.wfile.flush()
-                    except BrokenPipeError:
-                        break
-        except urllib.error.HTTPError as e:
-            self._raw(e.code, e.read())
-        except Exception as e:  # noqa: BLE001 — surface anything to the widget
-            self._json(502, {"error": {"message": str(e)}})
+        self.send_error(404)
 
     def _raw(self, status, data):
         self.send_response(status)
@@ -291,6 +245,5 @@ class Handler(http.server.SimpleHTTPRequestHandler):
 if __name__ == "__main__":
     socketserver.ThreadingTCPServer.allow_reuse_address = True
     with socketserver.ThreadingTCPServer((HOST, PORT), Handler) as srv:
-        has_key = "yes" if os.environ.get("ANTHROPIC_API_KEY") else "NO — chat will be disabled"
-        print(f"ThrIVe Drip Spa site on http://localhost:{PORT}  (API key present: {has_key})")
+        print(f"ThrIVe Drip Spa site on http://localhost:{PORT}")
         srv.serve_forever()

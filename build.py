@@ -9,6 +9,9 @@ IMG = "assets/img"
 V = str(int(time.time()))
 CONTENT = os.path.join(os.path.dirname(__file__), "content")
 REPO = "robertjackson-engage/thrive-drip-spa-redesign"
+CHAT = _json.load(open(os.path.join(CONTENT, "website-concierge.json"), encoding="utf-8"))
+CHAT_INSTALL = (f'data-agent-id="{int(CHAT["workflowId"])}" data-website-key="{CHAT["websiteKey"]}"'
+                if CHAT.get("workflowId") and _re.fullmatch(r"abs_[a-f0-9]+", CHAT.get("websiteKey", "")) else "")
 
 BOOK = "https://book.thrivedripspa.com"
 BOOK_NEW = BOOK + "/?path=new"     # skips the booking flow's "first time or current client?" question
@@ -425,28 +428,8 @@ def head(title, desc, canonical_img=None, path=""):
 <link rel="icon" type="image/png" href="{IMG}/drop-mark.png">
 <link rel="apple-touch-icon" href="{IMG}/drop-mark.png">
 <link rel="stylesheet" href="assets/css/main.css?v={V}">
-<!-- Google Tag Manager (GTM-WCDPC5KK — fires GA4 G-XN01L3VWSH; same container as the booking portals, so sessions stitch across domains) -->
-<script>(function(w,d,s,l,i){{w[l]=w[l]||[];w[l].push({{'gtm.start':new Date().getTime(),event:'gtm.js'}});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);}})(window,document,'script','dataLayer','GTM-WCDPC5KK');</script>
-<!-- End Google Tag Manager -->
-<script>(function(){{try{{
-  /* First-party attribution: capture click ids + UTMs on landing, then decorate every
-     booking-flow link on click so attribution survives the hop to book.thrivedripspa.com
-     (the booking app reads these from its own URL and stamps them on the CRM lead). */
-  var KEYS=['utm_source','utm_medium','utm_campaign','utm_content','utm_term','gclid','gbraid','wbraid','fbclid','fb_ad_id'];
-  var q=new URLSearchParams(location.search),t={{}},hit=false;
-  KEYS.forEach(function(k){{var v=q.get(k);if(v){{t[k]=v;hit=true;}}}});
-  var st=null;try{{st=JSON.parse(localStorage.getItem('tds_attr')||'null');}}catch(e){{}}
-  if(hit){{st={{at:Date.now(),p:t,first:(st&&st.first)||{{at:Date.now(),p:t}}}};}}
-  else if(st&&Date.now()-st.at>90*864e5){{st=null;}}
-  if(st)try{{localStorage.setItem('tds_attr',JSON.stringify(st));}}catch(e){{}}
-  document.addEventListener('click',function(ev){{
-    var a=ev.target&&ev.target.closest&&ev.target.closest('a[href^="https://book.thrivedripspa.com"]');
-    if(!a||!st)return;
-    try{{var u=new URL(a.href);KEYS.forEach(function(k){{
-      if(!u.searchParams.get(k)&&st.p[k])u.searchParams.set(k,st.p[k]);}});
-      a.href=u.toString();}}catch(e){{}}
-  }},true);
-}}catch(e){{}}}})();</script>
+<!-- Wellgentic tracking and existing GTM load after the visitor’s cookie choice. -->
+<script src="assets/js/tracking.js?v={V}"></script>
 <script>(function(){{try{{
   if(sessionStorage.getItem("tds-intro"))document.documentElement.classList.add("no-preloader");
   if(sessionStorage.getItem("tds-util"))document.documentElement.classList.add("no-util");
@@ -455,9 +438,7 @@ def head(title, desc, canonical_img=None, path=""):
 }}catch(e){{}}}})();</script>
 </head>
 <body>
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WCDPC5KK" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+
 <div class="preloader" aria-hidden="true">
   <img class="preloader__logo" src="{IMG}/logo-color.webp" alt="">
   <div class="preloader__drop">{DROP_SVG}</div>
@@ -621,7 +602,7 @@ def footer_html():
         <a href="{GIFT}" target="_blank" rel="noopener">Send an eGift card</a>
         <a href="{LOGIN}" target="_blank" rel="noopener">Member login</a>
         <a href="contact.html">Contact us</a>
-        <form class="news-form" data-demo>
+        <form data-wg-ignore="true" class="news-form" data-demo>
           <input type="email" placeholder="Join our newsletter" aria-label="Email address" required>
           <button type="submit">Join</button>
         </form>
@@ -636,6 +617,7 @@ def footer_html():
       <div class="legal">
         <a href="https://www.legitscript.com/websites/?checker_keywords=thrivedripspa.com" target="_blank" rel="noopener">LegitScript certified</a>
         <a href="privacy.html">Privacy</a>
+        <button type="button" data-cookie-preferences>Cookie preferences</button>
         <a href="terms.html">Terms</a>
         <a href="contact.html">Contact</a>
       </div>
@@ -643,8 +625,7 @@ def footer_html():
   </div>
 </footer>
 <script src="assets/js/main.js?v={V}"></script>
-<script src="assets/js/chat-config.js?v={V}"></script>
-<script src="assets/js/chat.js?v={V}" defer></script>
+<script src="assets/js/chat.js?v={V}" {CHAT_INSTALL} defer></script>
 </body>
 </html>
 """
@@ -851,7 +832,7 @@ def form_section(sec_id, num, eyebrow, title_html, text, btn="Send Request", cls
       <h2 class="h-display reveal">{title_html}</h2>
       <p class="lede reveal" style="margin-top:24px">{text}</p>
     </div>
-    <div class="intro-grid__right reveal"><form class="form-grid form-card" data-demo>{f_html}
+    <div class="intro-grid__right reveal"><form data-wg-ignore="true" class="form-grid form-card" data-demo>{f_html}
       <div class="field"><select name="location" id="{sec_id}-loc" aria-label="Preferred location"><option value="">&nbsp;</option>{locs}</select><label for="{sec_id}-loc">Preferred location</label></div>
       <div class="field"><select name="interest" id="{sec_id}-int" aria-label="What are you interested in?"><option value="">&nbsp;</option>{opts}</select><label for="{sec_id}-int">I'm interested in</label></div>
       {extra_fields}

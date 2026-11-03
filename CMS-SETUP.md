@@ -70,4 +70,4 @@ Open **/admin/edit.html** (there is also a button on the /admin login screen).
 python3 build.py && python3 serve.py      # → http://localhost:4183  (+ /admin/, /admin/edit.html)
 npx @sveltia/cms-proxy-server             # optional: lets /admin edit local files without GitHub
 ```
-The AI concierge needs `ANTHROPIC_API_KEY` in `.env` (gitignored); serve.py proxies it server-side.
+The concierge uses the published Wellgentic CRM website agent configured in `content/website-concierge.json`. No model API key is needed in this website.
