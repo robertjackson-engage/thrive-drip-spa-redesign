@@ -11,12 +11,15 @@ import time
 import socketserver
 import urllib.error
 import urllib.request
+from urllib.parse import urlsplit
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 SITE = os.path.join(ROOT, "docs")
 PORT = int(os.environ.get("PORT", "4183"))
 # Azure App Service (WEBSITE_SITE_NAME set) must bind all interfaces; local stays loopback.
 HOST = os.environ.get("HOST", "0.0.0.0" if os.environ.get("WEBSITE_SITE_NAME") else "127.0.0.1")
+IS_HOSTED = bool(os.environ.get("WEBSITE_SITE_NAME"))
+CANONICAL_HOST = "thrivedripspa.com"
 
 # 301s for every old WordPress URL whose slug changed — SEO continuity at cutover.
 # Old pages map to their replacement; retired blog posts go to the closest service
@@ -143,6 +146,10 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         self.send_header("X-Content-Type-Options", "nosniff")
         self.send_header("Referrer-Policy", "strict-origin-when-cross-origin")
         self.send_header("X-Frame-Options", "SAMEORIGIN")
+        # The Azure build is indexable on its production domain only. Keep the
+        # direct Azure preview out of search even after the production build ships.
+        if self.headers.get("Host", "").split(":", 1)[0].lower() != CANONICAL_HOST:
+            self.send_header("X-Robots-Tag", "noindex, nofollow")
         super().end_headers()
 
     def send_error(self, code, message=None, explain=None):
@@ -182,16 +189,26 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         return True
 
     def do_GET(self):
+        if self.headers.get("Host", "").split(":", 1)[0].lower() == "www." + CANONICAL_HOST:
+            self.send_response(301)
+            self.send_header("Location", "https://" + CANONICAL_HOST + self.path)
+            self.send_header("Content-Length", "0")
+            self.end_headers()
+            return
         if self.path == "/healthz":
             self._json(200, {"ok": True})
             return
         if self.path.startswith("/__copy/status"):
+            if IS_HOSTED:
+                self.send_error(404)
+                return
             self._json(200, BUILD_STATE)
             return
         dest = legacy_redirect(self.path)
         if dest:
             self.send_response(301)
-            self.send_header("Location", dest)
+            query = urlsplit(self.path).query
+            self.send_header("Location", dest + ("?" + query if query else ""))
             self.send_header("Content-Length", "0")
             self.end_headers()
             return
@@ -212,6 +229,11 @@ class Handler(http.server.SimpleHTTPRequestHandler):
         # Writes content/copy/<scope>.json and rebuilds the site in the background.
         m = re.fullmatch(r"/__copy/([a-z0-9_-]+)", self.path)
         if m:
+            # The copy editor is a local authoring tool. Public hosting must never
+            # accept unauthenticated content writes or trigger rebuilds.
+            if IS_HOSTED:
+                self.send_error(404)
+                return
             length = int(self.headers.get("Content-Length", 0))
             try:
                 data = json.loads(self.rfile.read(length).decode("utf-8"))
