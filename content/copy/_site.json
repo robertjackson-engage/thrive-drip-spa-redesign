@@ -1040,6 +1040,12 @@
    "text": "Privacy"
   },
   {
+   "id": "44f1722cab",
+   "where": "button",
+   "original": "Cookie preferences",
+   "text": "Cookie preferences"
+  },
+  {
    "id": "882a7e66e3",
    "where": "a",
    "original": "Terms",

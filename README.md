@@ -5,7 +5,7 @@ contouring and mobile IV across Houston, Dallas and Fort Worth.
 
 - `build.py` — the whole site as a Python static generator → `docs/` (GitHub Pages)
 - `docs/assets/css/main.css` — the "Clear Water" design system (Outfit · Figtree · Grotters brush accent)
-- `docs/assets/js/chat.js` — the ThrIVe Concierge (Claude), key proxied by `serve.py`
+- `docs/assets/js/chat.js` — the ThrIVe Concierge, using the published Wellgentic CRM website agent
 - `content/` + `docs/admin/` — Sveltia CMS: blog, promotions, events, Site Text, visual editor
 - `.github/workflows/build-deploy.yml` — rebuilds and deploys on every push
 
@@ -13,3 +13,7 @@ contouring and mobile IV across Houston, Dallas and Fort Worth.
 python3 build.py && python3 serve.py   # http://localhost:4183
 ```
 See `CMS-SETUP.md` for the one-time login setup and how staff edit the site.
+
+## Website chat and tracking
+
+See [THRIVE-CRM-SETUP.md](THRIVE-CRM-SETUP.md) for the installed agent, consent and booking attribution handoff.

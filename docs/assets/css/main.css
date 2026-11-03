@@ -912,3 +912,11 @@ body.chat-open .chat-panel { opacity: 1; transform: none; pointer-events: auto; 
   html { scroll-behavior: auto; }
   .hero__media, .hero__title .ln > span, .hero__sub, .hero__actions, .hero__meta { opacity: 1; transform: none; clip-path: none; }
 }
+
+/* Optional tracking choices share the Clear Water palette. */
+.cookie-notice{position:fixed;left:20px;bottom:20px;z-index:1500;width:min(460px,calc(100vw - 40px));padding:22px;background:#fff;border:1px solid var(--line);border-radius:20px;box-shadow:0 18px 60px #05394833;color:var(--ink)}
+.cookie-notice strong{font-family:var(--font-display);font-size:19px;color:var(--deep)}
+.cookie-notice p{font-size:13px;line-height:1.5;margin:8px 0 16px;color:var(--muted)}
+.cookie-actions{display:flex;gap:10px;flex-wrap:wrap}.cookie-actions button{padding:11px 15px;min-height:44px;border-radius:999px;border:1px solid var(--line-strong);font-size:12px;font-weight:600;color:var(--deep);background:#fff}.cookie-actions [data-choice="allow"]{background:var(--teal);border-color:var(--teal)}
+[data-cookie-preferences]{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer}
+@media(max-width:820px){.cookie-notice{bottom:80px;left:12px;width:calc(100vw - 24px);padding:18px}}
