@@ -82,7 +82,7 @@
     // These forms already have authoritative submission handlers. Never capture
     // an attempted submit a second time through the generic tracking endpoint.
     document.querySelectorAll('form').forEach(form => form.setAttribute('data-wg-ignore','true'));
-    const crm = document.createElement('script'); crm.async = true; crm.src = TRACKER; crm.dataset.thriveTracking = 'true'; document.head.append(crm);
+    const crm = document.createElement('script'); crm.async = true; crm.crossOrigin = 'anonymous'; crm.src = TRACKER; crm.dataset.thriveTracking = 'true'; document.head.append(crm);
     window.dataLayer.push({'gtm.start':Date.now(), event:'gtm.js'});
     const gtm = document.createElement('script'); gtm.async = true; gtm.src = 'https://www.googletagmanager.com/gtm.js?id=GTM-WCDPC5KK'; document.head.append(gtm);
   };
