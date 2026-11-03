@@ -18,7 +18,7 @@ test('declined cookies: no scripts or identity handoff; current campaign still r
 });
 test('accepted cookies load the supplied tracker once and preserve booking route + attribution',()=>{
  const h=boot({search:'?utm_source=google&utm_content=hero&gclid=new-click',saved:{tds_privacy_v1:JSON.stringify({allowed:true}),tds_attr:JSON.stringify({at:Date.now(),p:{fbclid:'old-click',utm_source:'meta'}})}});h.ready();h.ready();
- assert.equal(h.scripts.length,2);assert.match(h.scripts[0].src,/wg_trk_33fd34b9794482e2ab37a1fff32de468cf6a$/);assert.equal(h.forms[0]['data-wg-ignore'],'true');
+ assert.equal(h.scripts.length,2);assert.equal(h.scripts[0].crossOrigin,'anonymous');assert.match(h.scripts[0].src,/wg_trk_33fd34b9794482e2ab37a1fff32de468cf6a$/);assert.equal(h.forms[0]['data-wg-ignore'],'true');
  const u=new URL(h.window.THRIVE_CRM.decorateBookingUrl('https://book.thrivedripspa.com/?offer=NEW&loc=203322'));
  assert.equal(u.searchParams.get('offer'),'NEW');assert.equal(u.searchParams.get('wg_uuid'),'visitor-123');assert.equal(u.searchParams.get('gclid'),'new-click');assert.equal(u.searchParams.has('fbclid'),false);
  assert.equal(h.window.THRIVE_CRM.attribution().utmContent,'hero');assert.equal(h.window.THRIVE_CRM.attribution().fbc,undefined);
