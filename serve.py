@@ -224,6 +224,29 @@ class Handler(http.server.SimpleHTTPRequestHandler):
             return
         super().do_GET()
 
+    def do_HEAD(self):
+        # HEAD must mirror GET's routing (www canonical, legacy 301s, clean URLs) —
+        # SimpleHTTPRequestHandler's default bypasses do_GET, so crawlers and uptime
+        # monitors that probe with HEAD were seeing 404s for pages GET serves fine.
+        if self.headers.get("Host", "").split(":", 1)[0].lower() == "www." + CANONICAL_HOST:
+            self.send_response(301)
+            self.send_header("Location", "https://" + CANONICAL_HOST + self.path)
+            self.send_header("Content-Length", "0")
+            self.end_headers()
+            return
+        dest = legacy_redirect(self.path)
+        if dest:
+            self.send_response(301)
+            query = urlsplit(self.path).query
+            self.send_header("Location", dest + ("?" + query if query else ""))
+            self.send_header("Content-Length", "0")
+            self.end_headers()
+            return
+        slug = self.path.split("?")[0].rstrip("/").lstrip("/")
+        if slug and "." not in slug and os.path.exists(os.path.join(SITE, slug + ".html")):
+            self.path = "/" + slug + ".html"
+        super().do_HEAD()
+
     def do_POST(self):
         # Visual text editor (docs/admin/edit.html) saving a page catalogue while working locally.
         # Writes content/copy/<scope>.json and rebuilds the site in the background.
