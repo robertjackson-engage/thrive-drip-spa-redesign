@@ -87,6 +87,24 @@ def legacy_redirect(path):
     return None
 
 
+def trailing_slash_redirect(path):
+    """/fort-worth/ → /fort-worth.html.
+
+    Pages reference assets and each other with relative paths (assets/css/main.css,
+    book.html), so serving a page under a trailing-slash URL makes the browser look
+    for everything inside /fort-worth/ — the HTML loads but arrives with no CSS, JS,
+    images or working links. Every old WordPress URL, Google result and Business
+    Profile link uses the trailing-slash form, so send them to the canonical file.
+    """
+    p = path.split("?")[0]
+    if not p.endswith("/") or p == "/":
+        return None
+    slug = p.strip("/")
+    if slug and "." not in slug and os.path.exists(os.path.join(SITE, slug + ".html")):
+        return "/" + slug + ".html"
+    return None
+
+
 def load_dotenv():
     """Populate os.environ from a local .env (KEY=value lines) if present.
     Real environment variables always win over .env values."""
@@ -204,7 +222,7 @@ class Handler(http.server.SimpleHTTPRequestHandler):
                 return
             self._json(200, BUILD_STATE)
             return
-        dest = legacy_redirect(self.path)
+        dest = legacy_redirect(self.path) or trailing_slash_redirect(self.path)
         if dest:
             self.send_response(301)
             query = urlsplit(self.path).query
@@ -234,7 +252,7 @@ class Handler(http.server.SimpleHTTPRequestHandler):
             self.send_header("Content-Length", "0")
             self.end_headers()
             return
-        dest = legacy_redirect(self.path)
+        dest = legacy_redirect(self.path) or trailing_slash_redirect(self.path)
         if dest:
             self.send_response(301)
             query = urlsplit(self.path).query
