@@ -46,6 +46,8 @@ jobs:
         env:
           SITE_URL: https://thrivedripspa.com/
         run: python build.py
+      - name: Verify public-URL routing
+        run: python tests/routing.test.py
       - name: Package site + server
         run: zip -qr site.zip serve.py docs
       - name: Deploy to Azure App Service

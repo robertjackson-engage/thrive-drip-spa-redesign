@@ -399,7 +399,7 @@ ORG_LD = _json.dumps({
 
 
 def head(title, desc, canonical_img=None, path=""):
-    canonical = CANON + ("" if path == "index.html" else path)
+    canonical = CANON.rstrip("/") + public_url(path or "index.html")
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -844,9 +844,41 @@ def form_section(sec_id, num, eyebrow, title_html, text, btn="Send Request", cls
 """
 
 
+def public_url(fn):
+    """The public URL of a built page file.
+
+    Pages are served at the URL Google has indexed for years — /fort-worth/ — and the
+    .html file behind it is an implementation detail that never appears in a link,
+    a canonical tag or the sitemap.
+    """
+    if fn == "index.html":
+        return "/"
+    return "/" + fn[:-len(".html")] + "/"
+
+
+def to_public_urls(html):
+    """Rewrite relative links and asset paths so a page works at any URL depth.
+
+    A bare relative path like assets/css/main.css resolves inside whatever folder the
+    page appears to live in, so it 404s the moment the page is served at /fort-worth/.
+    Root-relative paths resolve identically everywhere. Page links move to their public
+    form at the same time, so the site links to exactly one URL per page and Google is
+    never offered two.
+    """
+    # page.html, ../page.html, blog/post.html → /page/, /blog/post/
+    html = _re.sub(
+        r'(href)="(?!https?:|//)(?:\.\./)*([a-z0-9][a-z0-9/-]*)\.html(#[^"]*)?"',
+        lambda m: f'{m.group(1)}="{public_url(m.group(2) + ".html")}{m.group(3) or ""}"',
+        html)
+    # assets/… and ../assets/… → /assets/…
+    html = _re.sub(r'(href|src)="(?:\.\./)*(assets/[^"]*)"', r'\1="/\2"', html)
+    return html
+
+
 def page(filename, title, desc, active, body, manifest=True, og=None):
     PAGES.append((filename, title))
     html = copy_layer.compose(filename, head(title, desc, og, path=filename), header_html(active), footer_html(), body, manifest=manifest)
+    html = to_public_urls(html)
     with open(os.path.join(OUT, filename), "w") as f:
         f.write(html)
     print("built", filename)
@@ -855,9 +887,7 @@ def page(filename, title, desc, active, body, manifest=True, og=None):
 def page_sub(filename, title, desc, body, og=None):
     PAGES.append((filename, title))
     html = copy_layer.compose(filename, head(title, desc, og, path=filename), header_html("blog.html"), footer_html(), body, manifest=False)
-    html = _re.sub(r'(href|src)="/(?!/)', r'\1="../', html)
-    html = _re.sub(r'(href|src)="assets/', r'\1="../assets/', html)
-    html = _re.sub(r'(href)="([a-z0-9-]+\.html)(#[^"]*)?"', r'\1="../\2\3"', html)
+    html = to_public_urls(html)
     os.makedirs(os.path.join(OUT, "blog"), exist_ok=True)
     with open(os.path.join(OUT, filename), "w") as f:
         f.write(html)
@@ -1426,7 +1456,7 @@ def loc_ld(l):
     return '<script type="application/ld+json">' + _json.dumps({
         "@context": "https://schema.org", "@type": "MedicalSpa",
         "name": f"ThrIVe Drip Spa {l['label']}",
-        "url": f"{CANON}{l['slug']}.html",
+        "url": CANON.rstrip("/") + public_url(l["slug"] + ".html"),
         "image": f"{CANON}{IMG}/{l['img']}",
         "telephone": "+1" + l["tel"],
         "email": l["email"],
@@ -1819,24 +1849,25 @@ page("404.html", "Page Not Found | ThrIVe Drip Spa",
   <p style="max-width:52ch;margin:16px auto">The page you're looking for has moved or never existed.
   The drips, however, are exactly where you left them.</p>
   <p style="margin-top:24px"><a class="btn btn--primary" href="/">Back to the homepage</a>
-  <a class="btn" href="/iv-therapy.html">See the drip menu</a></p>
+  <a class="btn" href="/iv-therapy/">See the drip menu</a></p>
 </div></section>
 """, manifest=False)
 PAGES.pop()  # keep 404 out of the sitemap and the editor index
 
-# retired pages → redirect old links (not listed in the sitemap)
-for old, new in [("emsculpt.html", "emsculpt-neo.html"), ("normatec.html", "body-contouring.html")]:
-    with open(os.path.join(OUT, old), "w") as f:
-        f.write(f'<!DOCTYPE html>\n<html lang="en"><head><meta charset="UTF-8"><title>ThrIVe Drip Spa</title>'
-                f'<meta name="robots" content="noindex"><link rel="canonical" href="{new}">'
-                f'<meta http-equiv="refresh" content="0; url={new}"></head>'
-                f'<body><p><a href="{new}">Continue to ThrIVe Drip Spa →</a></p></body></html>\n')
+# Retired pages (emsculpt, normatec) are 301s in serve.py REDIRECTS, not meta-refresh
+# stubs: a stub is a second indexable URL for the same content, which is the problem
+# these were meant to solve.
+for stale in ("emsculpt.html", "normatec.html"):
+    try:
+        os.remove(os.path.join(OUT, stale))
+    except FileNotFoundError:
+        pass
 
 # sitemap.xml + robots
 # SITE_URL / CANON / NOINDEX are defined with the other constants at the top.
 with open(os.path.join(OUT, "sitemap.xml"), "w") as f:
     f.write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
-            "".join(f"  <url><loc>{SITE_URL}{fn}</loc></url>\n" for fn, _ in PAGES) + "</urlset>\n")
+            "".join(f"  <url><loc>{SITE_URL.rstrip(chr(47))}{public_url(fn)}</loc></url>\n" for fn, _ in PAGES) + "</urlset>\n")
 with open(os.path.join(OUT, "robots.txt"), "w") as f:
     f.write(f"User-agent: *\nAllow: /\nSitemap: {SITE_URL}sitemap.xml\n")
 open(os.path.join(OUT, ".nojekyll"), "w").close()
