@@ -25,50 +25,51 @@ CANONICAL_HOST = "thrivedripspa.com"
 # Old pages map to their replacement; retired blog posts go to the closest service
 # page (search engines treat a relevant 301 as equity transfer; /blog.html is the floor).
 REDIRECTS = {
-    "/faqs": "/faq.html", "/booster": "/boosters.html",
-    "/terms-and-conditions": "/terms.html", "/privacy-policy": "/privacy.html",
-    "/infrared-sauna-therapy": "/infrared-sauna.html",
-    "/emsculpt-neo-for-body-contouring": "/emsculpt-neo.html",
-    "/book-now": "/book.html", "/certified-medical-drips": "/iv-therapy.html",
-    "/concierge-services": "/mobile-iv.html", "/lp-drips": "/iv-therapy.html",
-    "/home": "/", "/locations-2": "/locations.html",
+    "/faqs": "/faq/", "/booster": "/boosters/",
+    "/terms-and-conditions": "/terms/", "/privacy-policy": "/privacy/",
+    "/infrared-sauna-therapy": "/infrared-sauna/",
+    "/emsculpt-neo-for-body-contouring": "/emsculpt-neo/",
+    "/book-now": "/book/", "/certified-medical-drips": "/iv-therapy/",
+    "/concierge-services": "/mobile-iv/", "/lp-drips": "/iv-therapy/",
+    "/home": "/", "/locations-2": "/locations/",
     # Old drip product pages: each goes to its new drip page, not the blog index.
-    "/drips": "/iv-therapy.html", "/drips/fit": "/fit-drip.html", "/drips/slim": "/slim-drip.html",
-    "/drips/beauty": "/beauty-drip.html", "/drips/libido": "/libido-drip.html",
-    "/drips/vitamin-c": "/high-c-drip.html", "/drips/immunity": "/immuno-drip.html",
-    "/drips/hydration": "/hydrate-drip.html", "/drips/hangover-recovery": "/party-drip.html",
+    "/drips": "/iv-therapy/", "/drips/fit": "/fit-drip/", "/drips/slim": "/slim-drip/",
+    "/drips/beauty": "/beauty-drip/", "/drips/libido": "/libido-drip/",
+    "/drips/vitamin-c": "/high-c-drip/", "/drips/immunity": "/immuno-drip/",
+    "/drips/hydration": "/hydrate-drip/", "/drips/hangover-recovery": "/party-drip/",
     # Old posts that have a rewritten version on the new blog.
-    "/9-benefits-of-hydration-iv-therapy": "/blog/9-benefits-of-hydration-iv-therapy.html",
-    "/abc13-news-anchor-reports-on-houston-beauty-drip-spa": "/blog/abc13-tries-thrive.html",
-    "/breaking-down-the-science-of-a-myers-cocktail-iv-and-why-it-works": "/blog/myers-cocktail-science.html",
-    "/glp-1-microdosing-a-smarter-approach-to-inflammation-metabolism-weight-support": "/blog/glp-1-microdosing.html",
-    "/how-does-iv-infusion-work-what-to-expect-from-a-drip-spa": "/blog/first-iv-visit.html",
-    "/what-to-expect-during-your-first-iv-drip-therapy-session": "/blog/first-iv-visit.html",
-    "/how-long-does-iv-therapy-stay-in-your-system": "/blog/how-long-does-iv-therapy-last.html",
-    "/is-a-wellness-infusion-right-for-you-heres-who-benefits-most": "/blog/who-benefits-from-a-wellness-infusion.html",
-    "/what-are-the-benefits-of-nad-drips": "/blog/benefits-of-nad-drips.html",
-    "/i-tried-nad-iv-therapy-does-it-actually-work": "/blog/benefits-of-nad-drips.html",
-    "/what-is-iv-therapy-the-benefits-and-breakdown": "/blog/what-is-iv-therapy.html",
-    "/how-iv-therapy-services-support-holistic-health": "/blog/what-is-iv-therapy.html",
-    "/how-iv-drips-fit-into-todays-modern-wellness-lifestyle": "/blog/what-is-iv-therapy.html",
+    "/9-benefits-of-hydration-iv-therapy": "/blog/9-benefits-of-hydration-iv-therapy/",
+    "/abc13-news-anchor-reports-on-houston-beauty-drip-spa": "/blog/abc13-tries-thrive/",
+    "/breaking-down-the-science-of-a-myers-cocktail-iv-and-why-it-works": "/blog/myers-cocktail-science/",
+    "/glp-1-microdosing-a-smarter-approach-to-inflammation-metabolism-weight-support": "/blog/glp-1-microdosing/",
+    "/how-does-iv-infusion-work-what-to-expect-from-a-drip-spa": "/blog/first-iv-visit/",
+    "/what-to-expect-during-your-first-iv-drip-therapy-session": "/blog/first-iv-visit/",
+    "/how-long-does-iv-therapy-stay-in-your-system": "/blog/how-long-does-iv-therapy-last/",
+    "/is-a-wellness-infusion-right-for-you-heres-who-benefits-most": "/blog/who-benefits-from-a-wellness-infusion/",
+    "/what-are-the-benefits-of-nad-drips": "/blog/benefits-of-nad-drips/",
+    "/i-tried-nad-iv-therapy-does-it-actually-work": "/blog/benefits-of-nad-drips/",
+    "/what-is-iv-therapy-the-benefits-and-breakdown": "/blog/what-is-iv-therapy/",
+    "/how-iv-therapy-services-support-holistic-health": "/blog/what-is-iv-therapy/",
+    "/how-iv-drips-fit-into-todays-modern-wellness-lifestyle": "/blog/what-is-iv-therapy/",
     # Retired posts whose topic has a clear service page the keyword map misses.
-    "/how-do-zinc-glutathione-and-vitamin-c-benefit-you": "/immuno-drip.html",
-    "/covid-19-primer-and-immunity-a-message-from-our-ceo": "/immuno-drip.html",
-    "/top-non-invasive-solutions-for-jawline-and-skin-tightening": "/emface.html",
-    "/facial-contouring-without-surgery-top-non-invasive-solutions-for-jawline-and-skin-tightening-2": "/emface.html",
-    "/thrive-guide-to-looking-your-best-this-summer": "/beauty-drip.html",
-    "/i-had-a-hangover-and-then-i-found-thrive-iv-therapy": "/party-drip.html",
-    "/finding-the-right-balance-with-vitamin-d": "/shots.html",
-    "/ultimate-self-care-checklist-for-west-houston": "/west-university.html",
+    "/how-do-zinc-glutathione-and-vitamin-c-benefit-you": "/immuno-drip/",
+    "/covid-19-primer-and-immunity-a-message-from-our-ceo": "/immuno-drip/",
+    "/top-non-invasive-solutions-for-jawline-and-skin-tightening": "/emface/",
+    "/facial-contouring-without-surgery-top-non-invasive-solutions-for-jawline-and-skin-tightening-2": "/emface/",
+    "/thrive-guide-to-looking-your-best-this-summer": "/beauty-drip/",
+    "/i-had-a-hangover-and-then-i-found-thrive-iv-therapy": "/party-drip/",
+    "/finding-the-right-balance-with-vitamin-d": "/shots/",
+    "/ultimate-self-care-checklist-for-west-houston": "/west-university/",
+    "/emsculpt": "/emsculpt-neo/", "/normatec": "/body-contouring/",
 }
 # Retired blog posts: keyword → destination; anything else lands on the blog index.
 BLOG_KEYWORD_MAP = [
-    ("nad", "/nad.html"), ("emface", "/emface.html"), ("emsculpt", "/emsculpt-neo.html"),
-    ("emtone", "/emtone.html"), ("glp-1", "/weight-loss.html"), ("weight", "/weight-loss.html"),
-    ("mobile-iv", "/mobile-iv.html"), ("sauna", "/infrared-sauna.html"),
-    ("migraine", "/migraine-drip.html"), ("myers", "/myers-drip.html"),
-    ("hangover", "/iv-therapy.html"), ("booster", "/boosters.html"), ("biotin", "/shots.html"),
-    ("detox", "/detox-drip.html"), ("immune", "/immuno-drip.html"), ("hydrat", "/iv-therapy.html"),
+    ("nad", "/nad/"), ("emface", "/emface/"), ("emsculpt", "/emsculpt-neo/"),
+    ("emtone", "/emtone/"), ("glp-1", "/weight-loss/"), ("weight", "/weight-loss/"),
+    ("mobile-iv", "/mobile-iv/"), ("sauna", "/infrared-sauna/"),
+    ("migraine", "/migraine-drip/"), ("myers", "/myers-drip/"),
+    ("hangover", "/iv-therapy/"), ("booster", "/boosters/"), ("biotin", "/shots/"),
+    ("detox", "/detox-drip/"), ("immune", "/immuno-drip/"), ("hydrat", "/iv-therapy/"),
 ]
 
 
@@ -83,25 +84,41 @@ def legacy_redirect(path):
         for kw, dest in BLOG_KEYWORD_MAP:
             if kw in slug:
                 return dest
-        return "/blog.html"
+        return "/blog/"
     return None
 
 
-def trailing_slash_redirect(path):
-    """/fort-worth/ → /fort-worth.html.
+def page_file(slug):
+    """The built file that backs a public page URL, or None.
 
-    Pages reference assets and each other with relative paths (assets/css/main.css,
-    book.html), so serving a page under a trailing-slash URL makes the browser look
-    for everything inside /fort-worth/ — the HTML loads but arrives with no CSS, JS,
-    images or working links. Every old WordPress URL, Google result and Business
-    Profile link uses the trailing-slash form, so send them to the canonical file.
+    /blog/ is served by docs/blog.html while /blog/what-is-iv-therapy/ is served by
+    docs/blog/what-is-iv-therapy.html, so the flat file wins before the directory.
+    """
+    if not slug or slug.startswith(("assets/", "api/")) or ".." in slug:
+        return None
+    for candidate in (slug + ".html", os.path.join(slug, "index.html")):
+        full = os.path.join(SITE, candidate)
+        if os.path.isfile(full):
+            return full
+    return None
+
+
+def canonical_redirect(path):
+    """Send every other spelling of a page to its public URL: /fort-worth/.
+
+    Google has indexed the trailing-slash form of these pages for years, so that form
+    is the destination, not the thing being redirected away. /fort-worth.html and
+    /fort-worth both 301 to it, which leaves exactly one indexable URL per page.
     """
     p = path.split("?")[0]
-    if not p.endswith("/") or p == "/":
-        return None
-    slug = p.strip("/")
-    if slug and "." not in slug and os.path.exists(os.path.join(SITE, slug + ".html")):
-        return "/" + slug + ".html"
+    if p in ("/", "/index.html"):
+        return "/" if p == "/index.html" else None
+    if p.endswith(".html"):
+        slug = p[1:-len(".html")]
+        return "/" + slug + "/" if page_file(slug) else None
+    if not p.endswith("/"):
+        slug = p.lstrip("/")
+        return "/" + slug + "/" if page_file(slug) else None
     return None
 
 
@@ -222,7 +239,7 @@ class Handler(http.server.SimpleHTTPRequestHandler):
                 return
             self._json(200, BUILD_STATE)
             return
-        dest = legacy_redirect(self.path) or trailing_slash_redirect(self.path)
+        dest = legacy_redirect(self.path) or canonical_redirect(self.path)
         if dest:
             self.send_response(301)
             query = urlsplit(self.path).query
@@ -230,16 +247,15 @@ class Handler(http.server.SimpleHTTPRequestHandler):
             self.send_header("Content-Length", "0")
             self.end_headers()
             return
-        # Serve extensionless requests for pages we do have (clean URLs keep working).
-        slug = self.path.split("?")[0].rstrip("/").lstrip("/")
-        if slug and "." not in slug and os.path.exists(os.path.join(SITE, slug + ".html")):
-            self.path = "/" + slug + ".html"
+        # /fort-worth/ is the public URL; docs/fort-worth.html is what backs it.
         clean = self.path.split("?")[0]
-        target = os.path.join(SITE, clean.lstrip("/") or "index.html")
-        if os.path.isdir(target):
-            target = os.path.join(target, "index.html")
-        if os.path.isfile(target) and self._maybe_gzip(target):
-            return
+        target = page_file(clean.strip("/")) if clean != "/" else os.path.join(SITE, "index.html")
+        if target is None:
+            target = os.path.join(SITE, clean.lstrip("/"))
+        if os.path.isfile(target):
+            self.path = "/" + os.path.relpath(target, SITE)
+            if self._maybe_gzip(target):
+                return
         super().do_GET()
 
     def do_HEAD(self):
@@ -252,7 +268,7 @@ class Handler(http.server.SimpleHTTPRequestHandler):
             self.send_header("Content-Length", "0")
             self.end_headers()
             return
-        dest = legacy_redirect(self.path) or trailing_slash_redirect(self.path)
+        dest = legacy_redirect(self.path) or canonical_redirect(self.path)
         if dest:
             self.send_response(301)
             query = urlsplit(self.path).query
@@ -260,9 +276,10 @@ class Handler(http.server.SimpleHTTPRequestHandler):
             self.send_header("Content-Length", "0")
             self.end_headers()
             return
-        slug = self.path.split("?")[0].rstrip("/").lstrip("/")
-        if slug and "." not in slug and os.path.exists(os.path.join(SITE, slug + ".html")):
-            self.path = "/" + slug + ".html"
+        clean = self.path.split("?")[0]
+        target = page_file(clean.strip("/")) if clean != "/" else None
+        if target:
+            self.path = "/" + os.path.relpath(target, SITE)
         super().do_HEAD()
 
     def do_POST(self):
