@@ -56,14 +56,44 @@
    "text": "Information we collect"
   },
   {
-   "id": "bf005ec42e",
+   "id": "ff6e4dfb52",
    "where": "p · Information we collect",
-   "original": "Contact details you provide (name, email, phone) when you book, join the newsletter, submit a form or text us; billing information processed by our payment providers; health information collected during your Good Faith Exam and treatment, which is protected as described in our Notice of Privacy Practices; and anonymous technical data such as IP address, browser and pages visited, collected through cookies and analytics.",
-   "text": "Contact details you provide (name, email, phone) when you book, join the newsletter, submit a form or text us; billing information processed by our payment providers; health information collected during your Good Faith Exam and treatment, which is protected as described in our Notice of Privacy Practices; and anonymous technical data such as IP address, browser and pages visited, collected through cookies and analytics."
+   "original": "Contact details you provide (name, email, phone) when you book, join the newsletter, submit a form or text us; billing information processed by our payment providers; health information collected during your Good Faith Exam and treatment, which is protected as described in our Notice of Privacy Practices; and technical data such as IP address, browser and pages visited, collected through cookies and analytics.",
+   "text": "Contact details you provide (name, email, phone) when you book, join the newsletter, submit a form or text us; billing information processed by our payment providers; health information collected during your Good Faith Exam and treatment, which is protected as described in our Notice of Privacy Practices; and technical data such as IP address, browser and pages visited, collected through cookies and analytics."
+  },
+  {
+   "id": "3bb5523a28",
+   "where": "h2 · Information we collect",
+   "original": "Cookies and analytics",
+   "text": "Cookies and analytics"
+  },
+  {
+   "id": "5c78ec6298",
+   "where": "p · Cookies and analytics",
+   "original": "We use cookies and similar tools — Google Analytics and Google Tag Manager, and our customer platform, Wellgentic — to understand how people use this site and to measure our advertising. They are on by default. If you later book or contact us, we may link your earlier visits to your record so we know which marketing brought you to us.",
+   "text": "We use cookies and similar tools — Google Analytics and Google Tag Manager, and our customer platform, Wellgentic — to understand how people use this site and to measure our advertising. They are on by default. If you later book or contact us, we may link your earlier visits to your record so we know which marketing brought you to us."
+  },
+  {
+   "id": "91705ac86b",
+   "where": "p · Cookies and analytics",
+   "original": "You can turn this off at any time: choose Decline on the cookie notice, or open",
+   "text": "You can turn this off at any time: choose Decline on the cookie notice, or open"
+  },
+  {
+   "id": "74bb045533",
+   "where": "button · Cookies and analytics",
+   "original": "Cookie preferences",
+   "text": "Cookie preferences"
+  },
+  {
+   "id": "62eefa130d",
+   "where": "text · Cookies and analytics",
+   "original": "(also at the bottom of every page). If your browser sends a Global Privacy Control or Do Not Track signal, we treat that as a decline automatically. When you decline we do not load these tools, we delete their cookies from this site, and we do not pass advertising click identifiers to our booking site. You can still chat and book.",
+   "text": "(also at the bottom of every page). If your browser sends a Global Privacy Control or Do Not Track signal, we treat that as a decline automatically. When you decline we do not load these tools, we delete their cookies from this site, and we do not pass advertising click identifiers to our booking site. You can still chat and book."
   },
   {
    "id": "aa981cb09f",
-   "where": "h2 · Information we collect",
+   "where": "h2 · Cookies and analytics",
    "original": "How we use it",
    "text": "How we use it"
   },
@@ -104,10 +134,10 @@
    "text": "Your rights and choices"
   },
   {
-   "id": "87e0bb31d7",
+   "id": "1f5e03dfe2",
    "where": "p · Your rights and choices",
-   "original": "You may access, correct or delete your personal information, opt out of marketing, and manage cookies through your browser. Email info@thrivedripspa.com with any request. Our services are intended for adults; we do not knowingly collect information from children under 13.",
-   "text": "You may access, correct or delete your personal information, opt out of marketing, and manage cookies through your browser. Email info@thrivedripspa.com with any request. Our services are intended for adults; we do not knowingly collect information from children under 13."
+   "original": "You may access, correct or delete your personal information, opt out of marketing, decline analytics and advertising cookies using Cookie preferences at the bottom of any page, and manage cookies through your browser. Email info@thrivedripspa.com with any request. Our services are intended for adults; we do not knowingly collect information from children under 13.",
+   "text": "You may access, correct or delete your personal information, opt out of marketing, decline analytics and advertising cookies using Cookie preferences at the bottom of any page, and manage cookies through your browser. Email info@thrivedripspa.com with any request. Our services are intended for adults; we do not knowingly collect information from children under 13."
   },
   {
    "id": "027dec5065",

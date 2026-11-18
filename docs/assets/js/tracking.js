@@ -2,6 +2,7 @@
 (() => {
   'use strict';
   const LOCAL_TRACKER = new URL('wellgentic-tracking.js?v=20261103-transport1', document.currentScript.src).href;
+  const PRIVACY_PAGE = new URL('../../privacy.html', document.currentScript.src).href;
   const TRACKER = 'https://api.wellgentic.ai/api/crm-tracking/script/wg_trk_33fd34b9794482e2ab37a1fff32de468cf6a';
   const CAMPAIGN = ['utm_source','utm_medium','utm_campaign','utm_content','utm_term','utm_id','utm_source_platform'];
   const ADS = ['gclid','gbraid','wbraid','fbclid','fb_ad_id'];
@@ -13,7 +14,8 @@
   const privacySignal = navigator.doNotTrack === '1' || window.doNotTrack === '1' || navigator.globalPrivacyControl === true;
   let preference = read('tds_privacy_v1');
   if (privacySignal) preference = { allowed: false };
-  let allowed = preference?.allowed === true;
+  // Opt-out model: measurement is on unless the visitor declined or the browser sends GPC / Do Not Track.
+  let allowed = preference?.allowed !== false;
   let stored = read('tds_attr');
   if (!stored || Date.now() - stored.at > 90 * 864e5) stored = null;
   const landing = {};
@@ -70,9 +72,33 @@
     return url.href;
   };
   window.THRIVE_CRM = Object.freeze({ attribution, decorateBookingUrl: decorate });
+  // Site events for GTM. Never a phone number, email address or query string; nothing when declined.
+  // Every key is always set (undefined when unknown) so GTM cannot reuse a value from an earlier event.
+  const LOUNGES = { 201102:'memorial', 202035:'memorial-green', 203017:'the-heights', 201104:'west-university', 203330:'vintage-park', 203033:'katy', 201319:'the-woodlands', 203215:'clear-lake', 203321:'highland-park', 203322:'fort-worth' };
+  const pageLounge = () => { const slug = location.pathname.replace(/\/+$/,'').split('/').pop().replace(/\.html$/,''); return Object.values(LOUNGES).includes(slug) ? slug : undefined; };
+  const position = anchor => {
+    if (anchor.getRootNode && anchor.getRootNode() !== document) return 'chat';
+    for (const [selector, name] of [['header, .menu-overlay','header'],['footer','footer'],['.sticky-cta','sticky'],['.hero','hero'],['main','body']]) if (anchor.closest(selector)) return name;
+  };
+  const track = (event, params) => { if (allowed) window.dataLayer.push({ event, ...params }); };
+  const trackLink = anchor => {
+    const url = new URL(anchor.href, document.baseURI);
+    const cta_position = position(anchor);
+    if (url.protocol === 'tel:') return track('click_to_call', { lounge: pageLounge(), cta_position });
+    if (url.protocol === 'mailto:') return track('contact_link_click', { link_type: 'email', lounge: pageLounge(), cta_position });
+    const booking = url.origin === 'https://book.thrivedripspa.com' || (/(^|\.)meevo\.com$/.test(url.hostname) && /^\/customerportal\//i.test(url.pathname));
+    if (!booking) return;
+    const loc = url.searchParams.get('loc') || url.searchParams.get('locationId');
+    const text = (anchor.textContent || '').replace(/[→↗]/g,'').replace(/\s+/g,' ').trim().slice(0,80);
+    track('booking_click', { link_url: url.origin + url.pathname, link_text: /@|\d{3}\D?\d{4}/.test(text) ? undefined : text || undefined, lounge: LOUNGES[loc] || (/^\d{1,10}$/.test(loc || '') ? loc : pageLounge()), cta_position });
+  };
   const onLink = event => {
     const anchor = event.composedPath().find(node => node?.tagName === 'A' && node.href);
-    if (anchor) try { anchor.href = decorate(anchor.href); } catch {}
+    if (!anchor) return;
+    try { anchor.href = decorate(anchor.href); } catch {}
+    // auxclick also fires for the right button; only a middle click opens the link.
+    if (event.type === 'auxclick' && event.button !== 1) return;
+    try { trackLink(anchor); } catch {}
   };
   document.addEventListener('click',onLink,true);
   document.addEventListener('auxclick',onLink,true);
@@ -89,7 +115,9 @@
   };
   const clearTracking = () => {
     write('tds_attr',null);
-    for (const name of ['_wg_track','_fbc','_fbp','_ga','_ga_XN01L3VWSH']) {
+    // The GTM container's own site identity tag keeps wg_uuid and wg_<campaign key> copies; remove those too.
+    for (const key of ['wg_uuid', ...ALL.map(k => 'wg_'+k)]) write(key,null);
+    for (const name of ['_wg_track','wg_uuid','_fbc','_fbp','_ga','_ga_XN01L3VWSH']) {
       document.cookie = name+'=; Max-Age=0; path=/; SameSite=Lax';
       if (location.hostname === 'thrivedripspa.com' || location.hostname.endsWith('.thrivedripspa.com')) document.cookie=name+'=; Max-Age=0; path=/; domain=.thrivedripspa.com; SameSite=Lax';
     }
@@ -108,8 +136,10 @@
   const showPreferences = () => {
     if (document.getElementById('thrive-cookie-notice')) return;
     const panel = document.createElement('section'); panel.id='thrive-cookie-notice'; panel.className='cookie-notice'; panel.setAttribute('aria-label','Cookie preferences');
-    panel.innerHTML='<div><strong>Your privacy, your choice.</strong><p>We use optional cookies to understand visits and measure our advertising. You can chat and book without them.</p></div><div class="cookie-actions"><button type="button" data-choice="deny">Essential only</button><button type="button" data-choice="allow">Accept optional cookies</button></div>';
-    if (privacySignal) { panel.querySelector('p').textContent='Your browser’s privacy preference is active. Optional tracking is off. You can still chat and book.'; panel.querySelector('[data-choice="allow"]').remove(); }
+    panel.innerHTML='<p>We use cookies to understand visits and measure our advertising. You can decline and still chat and book. <a>Privacy policy</a></p><div class="cookie-actions"><button type="button" data-choice="deny">Decline</button><button type="button" data-choice="allow">OK</button></div>';
+    panel.querySelector('a').href=PRIVACY_PAGE;
+    if (preference && !privacySignal) panel.querySelector('p').append(allowed ? ' Currently on.' : ' Currently declined.');
+    if (privacySignal) { panel.querySelector('p').textContent='Your browser’s privacy preference is active, so analytics and advertising cookies are off. You can still chat and book.'; panel.querySelector('[data-choice="allow"]').remove(); panel.querySelector('[data-choice="deny"]').textContent='OK'; }
     panel.querySelector('[data-choice="deny"]').onclick=()=>choose(false);
     const accept=panel.querySelector('[data-choice="allow"]'); if(accept)accept.onclick=()=>choose(true);
     document.body.append(panel);
@@ -120,7 +150,11 @@
     document.querySelectorAll('[data-cookie-preferences]').forEach(button => button.addEventListener('click',showPreferences));
   };
   document.readyState==='loading' ? document.addEventListener('DOMContentLoaded',ready,{once:true}) : ready();
+  // A site form reports success by dispatching `thrive:form-success` with {formId, formName} once its
+  // submission is confirmed. The placeholder (data-demo) forms send nothing, so they do not report one.
+  document.addEventListener('thrive:form-success', event => track('form_submit', { form_id: limited(event.detail?.formId) || undefined, form_name: limited(event.detail?.formName) || undefined }));
   window.addEventListener('wellgentic-chat:lead-received', event => {
+    track('form_submit', { form_id: 'concierge-contact', form_name: 'Concierge chat contact form' });
     if (!allowed || event.detail?.visitorType !== 'new') return;
     // A confirmed CRM receipt, with no contact details or chat text in dataLayer.
     window.dataLayer.push({ event:'wellgentic_chat_lead', event_id:event.detail.requestId, form_source:'chatbot', agent_id:String(event.detail.workflowId) });

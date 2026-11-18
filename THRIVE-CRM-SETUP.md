@@ -8,11 +8,25 @@ Allowed origins are the Azure review host, GitHub Pages, and the two official Th
 
 ## Tracking
 
-`docs/assets/js/tracking.js` loads the supplied `wg_trk_33fd34b9794482e2ab37a1fff32de468cf6a` CRM tracking script and existing `GTM-WCDPC5KK` container after optional-cookie acceptance. The supplied public CRM client is preserved in `docs/assets/js/wellgentic-tracking.js` with one Thrive-scoped transport fix: credentialless `fetch` with keepalive instead of credentialed Beacon. The public API allows wildcard CORS, which rejects Beacon’s credentials mode. It retains the supplied tracking key, cookie, consent, attribution and form-ignore behavior. Loading this client locally also avoids the API script’s same-origin resource header. Do not load the original script a second time. This requires no shared API deployment. Essential-only visitors can still chat and book. Browser privacy signals override acceptance. Generic tracker form capture is disabled for forms with their own submission flow to avoid attempted/duplicate leads.
+`docs/assets/js/tracking.js` loads the supplied `wg_trk_33fd34b9794482e2ab37a1fff32de468cf6a` CRM tracking script and existing `GTM-WCDPC5KK` container by default (opt-out model, adopted 2026-11): tracking is off only when the visitor chose Decline on the cookie notice (stored in `tds_privacy_v1`) or the browser sends Global Privacy Control / Do Not Track. Google Consent Mode defaults follow the same rule. Declining clears the tracking cookies and reloads the page. The supplied public CRM client is preserved in `docs/assets/js/wellgentic-tracking.js` with one Thrive-scoped transport fix: credentialless `fetch` with keepalive instead of credentialed Beacon. The public API allows wildcard CORS, which rejects Beacon’s credentials mode. It retains the supplied tracking key, cookie, consent, attribution and form-ignore behavior. Loading this client locally also avoids the API script’s same-origin resource header. Do not load the original script a second time. This requires no shared API deployment. Visitors who decline can still chat and book. Browser privacy signals override acceptance. Generic tracker form capture is disabled for forms with their own submission flow to avoid attempted/duplicate leads.
 
 Booking links preserve their route, offer and location parameters, and carry campaign dimensions, the CRM visitor UUID, click identifiers when permitted, and `wg_consent`. The booking repository's `public/website-attribution.js` consumes the handoff before tags initialize. No marketing-platform changes or conversion jobs are needed for this bridge. Existing legacy booking visitors keep the booking app's previous behavior; the explicit website choice is honored when present.
 
 The CRM receives chatbot attribution with the confirmed lead. The booking app receives the same visitor ID and campaign, and sends its existing authoritative lead event. The browser emits `wellgentic_chat_lead` only after a confirmed new-visitor CRM receipt, with a receipt ID and no contact details. This does not create or publish new GTM conversion tags; existing tag configuration remains independently managed.
+
+### Site events (dataLayer)
+
+`tracking.js` pushes these events for GTM, only while tracking is allowed, and never with a phone number, email address or query string:
+
+| Event | When | Parameters |
+| --- | --- | --- |
+| `booking_click` | Click on a link to `book.thrivedripspa.com` or a `meevo.com` customer portal (including the member login) | `link_url` (origin + path), `link_text`, `lounge`, `cta_position` |
+| `click_to_call` | Click on a `tel:` link | `lounge` (location pages only), `cta_position` |
+| `contact_link_click` | Click on a `mailto:` link | `link_type` (`email`), `lounge`, `cta_position` |
+| `form_submit` | Confirmed form submission | `form_id`, `form_name` |
+| `wellgentic_chat_lead` | Confirmed new-visitor chat lead (unchanged) | `event_id`, `form_source`, `agent_id` |
+
+`lounge` is a location slug (`fort-worth`), taken from the link's `loc` / `locationId` or the location page being viewed. `cta_position` is `header`, `hero`, `body`, `footer`, `sticky` or `chat`. `form_submit` fires for the concierge contact form on its confirmed CRM receipt. The contact and newsletter forms are still placeholders (`data-demo` in `build.py`, handled in `main.js`): they do not send anything, so they do not fire `form_submit`. When a form gets a real submission, dispatch `new CustomEvent('thrive:form-success', {bubbles: true, detail: {formId, formName}})` from its success handler.
 
 External Meevo/franchise portals retain their own consent and tracking behavior. This change does not claim to control those external pages.
 
