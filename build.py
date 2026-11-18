@@ -1500,7 +1500,7 @@ book_body = hero(
 <section class="section section--ice"><div class="wrap">
   {cards_head("02", "The menu", 'What to <span class="brush">book</span>')}
   {price_table([("Hydrate Drip", "$150", "Pure fluids and electrolytes to reset and rehydrate"), ("Myers · Detox · Beauty · Slim · Party · Fit · Libido · Migraine", "$190", "The classics"), ("High C Drip", "$230", "Our max dose of vitamin C"), ("Immuno Drip", "$310", "Our strongest immune formula"), ("NAD+ Drip", "Consultant pricing", "Up to two hours; shots from $50"), ("B12, pain-relief & anti-nausea shots", "$25", "In and out in 15 minutes"), ("Body & face consultations", "Complimentary", "Emsculpt NEO, EMFACE, EMTONE"), ("Weight-loss consultation", "In person or telehealth", "Weekly injections")], head=("Service", "Walk-in price"))}
-  <p class="form-note reveal" style="margin-top:18px">Members pay $120–$250 per drip. A quick Good Faith Exam with a licensed provider is completed before your first treatment; the fee is credited back to your account.</p>
+  <p class="form-note reveal" style="margin-top:18px">Members pay $120–$250 per drip. A quick Good Faith Exam with a licensed provider is completed before your first treatment.</p>
 </div></section>
 """ + cta_band('Ready when <span class="brush">you</span> are.', "Prefer to talk? Call " + PHONE + " and a spa consultant will book you in.", primary=("Book Online", BOOK), secondary=("Call " + PHONE, TEL))
 
