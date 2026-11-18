@@ -65,7 +65,7 @@ SENT_AS = {"contact": {"firstName": "firstName", "lastName": "lastName", "email"
            "franchise": {"firstName": "firstName", "lastName": "lastName", "email": "email", "phone": "phone",
                          "interest": "background", "city": "city", "message": "message"},
            "newsletter": {"email": "email"}}
-ALWAYS = {"contact": {"formName"}, "franchise": set(), "newsletter": {"emailConsent"}}
+ALWAYS = {"contact": {"formName"}, "franchise": {"formName"}, "newsletter": {"emailConsent", "formName"}}
 for page, a, inner, _ in forms:
     kind = a["data-crm-form"]
     names = set(re.findall(r'<(?:input|select|textarea)\b[^>]*\bname="([^"]+)"', inner)) - {"company_website"}
@@ -114,6 +114,8 @@ check("contact forms whose lounge list differs from the CRM form", wrong_options
 check("contact forms with the wrong lounge preselected or the wrong fallback phone", wrong_selected[:3] or 0, 0)
 check("lounge pages with a contact form (corporate and franchise)", sorted(p[:-5] for p, a, _, _ in forms if a["data-crm-form"] == "contact" and p[:-5] in label_by_slug), sorted(label_by_slug))
 franchise = [inner for _, a, inner, _ in forms if a["data-crm-form"] == "franchise"][0]
+lounge_names = sorted(a.get("data-form-name") for p, a, _, _ in forms if a["data-crm-form"] == "contact" and p[:-5] in label_by_slug)
+check("each lounge's contact form names its lounge", lounge_names, sorted(f"Lounge contact form — {label_by_slug[s]}" for s in label_by_slug))
 check("franchise enquiry has no lounge field", 'name="location"' in franchise, False)
 
 print("consent: nothing is ticked or implied on the visitor's behalf")

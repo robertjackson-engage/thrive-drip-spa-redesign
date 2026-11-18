@@ -25,15 +25,20 @@
     return { landingPage: location.origin + location.pathname, consentState: { analytics: 'denied', ads: 'denied', personalization: 'denied' } };
   };
 
+  /* Which form, and the page it was sent from (path only: never a query string, which can carry a lead token).
+     One field because a CRM form holds at most 8 and the contact form already uses all of them;
+     landingPage in _meta is the first page of the visit, not this one. */
+  const label = (form, kind) => `${form.dataset.formName || kind} · ${location.pathname}`;
+
   /* What each form sends. Keys are the field keys of the CRM form (content/crm-forms.spec.json). */
   const answers = (form, kind) => {
-    if (kind === 'newsletter') return { email: value(form, 'email'), emailConsent: 'yes' };
+    if (kind === 'newsletter') return { email: value(form, 'email'), emailConsent: 'yes', formName: label(form, kind) };
     const data = { firstName: value(form, 'firstName'), lastName: value(form, 'lastName'), email: value(form, 'email'), phone: value(form, 'phone') };
-    if (kind === 'franchise') return { ...data, background: value(form, 'interest'), city: value(form, 'city'), message: value(form, 'message') };
+    if (kind === 'franchise') return { ...data, background: value(form, 'interest'), city: value(form, 'city'), message: value(form, 'message'), formName: label(form, kind) };
     // Extra inputs on a contact-style form (mobile IV: address, date and time) travel inside the message, labelled.
     const extra = [...form.querySelectorAll('[data-label]')].filter(el => el.value.trim()).map(el => `${el.dataset.label}: ${el.value.trim()}`);
     return { ...data, location: value(form, 'location'), interest: value(form, 'interest'),
-      message: [...extra, value(form, 'message')].filter(Boolean).join('\n'), formName: form.dataset.formName || '' };
+      message: [...extra, value(form, 'message')].filter(Boolean).join('\n'), formName: label(form, kind) };
   };
 
   const bind = form => {

@@ -25,14 +25,14 @@ function makeForm({kind='contact',slug='website-contact-form-abc123',id='contact
 }
 const PERSON={firstName:' Maria ',lastName:'Lopez',email:'maria@example.test',phone:'(713) 555-0100',location:'Katy',interest:'NAD+',message:'Do you take walk-ins?',company_website:''};
 // Loads forms.js against the given forms. `respond` decides what the stubbed CRM answers.
-function boot(forms,{respond=()=>({status:200,body:{success:true,eventId:EVENT_ID,clubNumber:'203033'}}),attribution=()=>ATTRIBUTION}={}){
+function boot(forms,{respond=()=>({status:200,body:{success:true,eventId:EVENT_ID,clubNumber:'203033'}}),attribution=()=>ATTRIBUTION,page={origin:'https://thrivedripspa.com',pathname:'/katy/'}}={}){
  const calls=[];const pending=[];
  const fetch=(url,options)=>{calls.push({url,options,body:JSON.parse(options.body)});
   return new Promise((resolve,reject)=>{const settle=()=>{const r=respond(calls.length,options);if(r instanceof Error)return reject(r);resolve({ok:r.status>=200&&r.status<300,status:r.status,json:async()=>{if(r.body===undefined)throw new Error('not json');return r.body;}});};
    pending.push(settle);});};
  class CustomEvent{constructor(type,init){this.type=type;this.bubbles=!!init?.bubbles;this.detail=init?.detail;}}
  const context={window:{THRIVE_CRM:attribution?{attribution}:undefined},document:{readyState:'complete',querySelectorAll:s=>s==='form[data-crm-form]'?forms:[]},
-  location:{origin:'https://thrivedripspa.com',pathname:'/katy/'},crypto:globalThis.crypto,fetch,CustomEvent,AbortController,setTimeout,clearTimeout,encodeURIComponent,JSON,Object,Uint8Array};
+  location:page,crypto:globalThis.crypto,fetch,CustomEvent,AbortController,setTimeout,clearTimeout,encodeURIComponent,JSON,Object,Uint8Array};
  vm.runInNewContext(code,context);
  const submit=form=>form.listeners.submit({preventDefault(){}});
  // Let the stubbed CRM answer every request made so far, then let forms.js finish handling it.
@@ -49,7 +49,7 @@ test('contact form: sends the answers and attribution, and only says "sent" afte
  const call=h.calls[0];
  assert.equal(call.url,'https://api.wellgentic.ai/f/website-contact-form-abc123/submit');assert.equal(call.options.method,'POST');assert.equal(call.options.credentials,'omit');assert.equal(call.options.headers['Content-Type'],'application/json');
  const {_meta,...answers}=call.body;
- assert.deepEqual(answers,{firstName:'Maria',lastName:'Lopez',email:'maria@example.test',phone:'(713) 555-0100',location:'Katy',interest:'NAD+',message:'Do you take walk-ins?',formName:'Lounge contact form'});
+ assert.deepEqual(answers,{firstName:'Maria',lastName:'Lopez',email:'maria@example.test',phone:'(713) 555-0100',location:'Katy',interest:'NAD+',message:'Do you take walk-ins?',formName:'Lounge contact form · /katy/'});
  assert.match(_meta.requestId,UUID4);const {requestId,...sent}=_meta;assert.deepEqual(sent,ATTRIBUTION);
  await h.answer();await done;
  assert.equal(form.status.classes.has('is-ok'),true);assert.match(form.status.textContent,/your message is with our team/);assert.equal(form.status.hidden,false);
@@ -123,20 +123,20 @@ test('newsletter: email plus the email opt-in the visitor asked for, and nothing
  const h=boot([form]);const done=h.submit(form);await h.answer();await done;
  const {_meta,...answers}=h.calls[0].body;
  assert.equal(h.calls[0].url,'https://api.wellgentic.ai/f/website-newsletter-signup-def456/submit');
- assert.deepEqual(answers,{email:'reader@example.test',emailConsent:'yes'});assert.match(_meta.requestId,UUID4);
+ assert.deepEqual(answers,{email:'reader@example.test',emailConsent:'yes',formName:'Newsletter signup · /katy/'});assert.match(_meta.requestId,UUID4);
  assert.match(form.status.textContent,/You’re on the list/);assert.deepEqual({...successes(form)[0].detail},{formId:'newsletter',formName:'Newsletter signup'});
 });
 test('franchise enquiry: its own fields, no lounge',async()=>{
  const form=makeForm({kind:'franchise',slug:'website-franchise-enquiry-0a1b2c',id:'franchise-form',name:'Franchise enquiry',phone:'844-820-1713',values:{firstName:'Sam',lastName:'Reed',email:'sam@example.test',phone:'2145550100',interest:'I\'m an investor',city:'Austin, TX',message:'',company_website:''}});
  const h=boot([form]);const done=h.submit(form);await h.answer();await done;
  const {_meta,...answers}=h.calls[0].body;
- assert.deepEqual(answers,{firstName:'Sam',lastName:'Reed',email:'sam@example.test',phone:'2145550100',background:'I\'m an investor',city:'Austin, TX'});
+ assert.deepEqual(answers,{firstName:'Sam',lastName:'Reed',email:'sam@example.test',phone:'2145550100',background:'I\'m an investor',city:'Austin, TX',formName:'Franchise enquiry · /katy/'});
  assert.match(form.status.textContent,/franchise team/);
 });
 test('mobile IV request: address and time travel inside the message, labelled',async()=>{
  const form=makeForm({id:'mobile-request',name:'Mobile IV request',phone:'844-820-1713',values:{...PERSON,location:'Mobile / Concierge',interest:'Group / party (2–6)',message:'Six of us'},extra:[['Address','The Woodlands'],['Date and time','Sat 2pm'],['Unused','  ']]});
  const h=boot([form]);const done=h.submit(form);await h.answer();await done;
- assert.equal(h.calls[0].body.message,'Address: The Woodlands\nDate and time: Sat 2pm\nSix of us');assert.equal(h.calls[0].body.location,'Mobile / Concierge');assert.equal(h.calls[0].body.formName,'Mobile IV request');
+ assert.equal(h.calls[0].body.message,'Address: The Woodlands\nDate and time: Sat 2pm\nSix of us');assert.equal(h.calls[0].body.location,'Mobile / Concierge');assert.equal(h.calls[0].body.formName,'Mobile IV request · /katy/');
 });
 test('no form ever sends a text-message or email opt-in on the visitor\'s behalf, except the newsletter\'s own email opt-in',async()=>{
  const forms=[makeForm({values:{...PERSON}}),makeForm({kind:'franchise',values:{...PERSON,city:'Austin'}}),makeForm({kind:'newsletter',values:{email:'reader@example.test'},statusInside:false})];
@@ -186,4 +186,15 @@ test('the lounge list in the CRM contact form matches the lounges in build.py, e
  const location=spec.contact.fields.find(f=>f.key===spec.contact.settings.website.locationField);
  assert.deepEqual(location.options,Object.keys(expected));assert.deepEqual(spec.contact.settings.website.locations,expected);
  assert.equal(new Set(Object.values(expected)).size,11,'two lounges share a location number');
+});
+test('every form names itself and the page it was sent from, never the query string',async()=>{
+ const page={origin:'https://thrivedripspa.com',pathname:'/memorial.html',search:'?lead=magic-abc123&utm_source=x',href:'https://thrivedripspa.com/memorial.html?lead=magic-abc123&utm_source=x'};
+ const forms=[makeForm({id:'contact-memorial',name:'Lounge contact form — Memorial',values:{...PERSON,location:'Katy'}}),
+  makeForm({kind:'franchise',id:'franchise-form',name:'Franchise enquiry',values:{...PERSON,city:'Austin'}}),
+  makeForm({kind:'newsletter',id:'newsletter',name:'Newsletter signup',values:{email:'reader@example.test'},statusInside:false})];
+ const h=boot(forms,{page});const done=forms.map(h.submit);await h.answer();await Promise.all(done);
+ assert.deepEqual(h.calls.map(c=>c.body.formName),['Lounge contact form — Memorial · /memorial.html','Franchise enquiry · /memorial.html','Newsletter signup · /memorial.html']);
+ // The visitor switched the lounge dropdown to Katy: the CRM still sees which lounge page it came from.
+ assert.equal(h.calls[0].body.location,'Katy');
+ for(const call of h.calls)assert.equal(/lead=|magic-|utm_/.test(JSON.stringify(call.body)),false);
 });

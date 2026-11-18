@@ -1,5 +1,5 @@
 {
-  "description": "The three CRM forms the website posts to, in the shape the CRM's create-form call takes. Create each in the Wellgentic CRM (Thrive workspace), review and publish it, then paste its slug into content/website-forms.json. Field keys must match exactly: assets/js/forms.js sends these keys. tests/forms.test.mjs checks this file against the built pages.",
+  "description": "The three CRM forms the website posts to, in the shape the CRM's create-form call takes. Create each in the Wellgentic CRM (Thrive workspace), review and publish it, then paste its slug into content/website-forms.json. Field keys must match exactly: assets/js/forms.js sends these keys. tests/forms.test.mjs checks this file against the built pages. Every form sends formName: the form on the site and the page it was sent from, e.g. \"Lounge contact form — Memorial · /memorial.html\" (one field, because a CRM form holds at most 8).",
   "contact": {
     "name": "Website contact form",
     "headline": "Contact ThrIVe Drip Spa",
@@ -64,7 +64,7 @@
       },
       {
         "key": "formName",
-        "label": "Website form",
+        "label": "Website form and page",
         "type": "text"
       }
     ],
@@ -146,6 +146,11 @@
         "key": "message",
         "label": "Message",
         "type": "textarea"
+      },
+      {
+        "key": "formName",
+        "label": "Website form and page",
+        "type": "text"
       }
     ],
     "settings": {
@@ -182,6 +187,11 @@
         "label": "By joining you agree to receive emails from ThrIVe Drip Spa. Unsubscribe any time.",
         "type": "checkbox",
         "required": true
+      },
+      {
+        "key": "formName",
+        "label": "Website form and page",
+        "type": "text"
       }
     ],
     "settings": {

@@ -1519,7 +1519,7 @@ def loc_page(l):
 </div></section>
 """ + form_section(f"contact-{l['slug']}", "06", "Contact " + l["label"], f'Say hello to <span class="brush">{l["label"]}</span>',
                    f"Questions about drips, memberships or {', '.join(s[0] for s in svc[:2]) if svc else 'boosters'}? Send a note and the {l['label']} team will get back to you.", cls="",
-                   form_name="Lounge contact form", lounge=l) \
+                   form_name=f"Lounge contact form — {l['label']}", lounge=l) \
         + cta_band(f'Book at <span class="brush">{l["label"]}</span> today.', f"{l['addr']} · {l['phone']}. Online booking takes under a minute.", primary=("Book Now", meevo(l)), secondary=("All Locations", "locations.html"))
 
 
