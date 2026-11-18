@@ -151,7 +151,7 @@
   };
   document.readyState==='loading' ? document.addEventListener('DOMContentLoaded',ready,{once:true}) : ready();
   // A site form reports success by dispatching `thrive:form-success` with {formId, formName} once its
-  // submission is confirmed. The placeholder (data-demo) forms send nothing, so they do not report one.
+  // submission is confirmed. forms.js does this for the contact, franchise and newsletter forms.
   document.addEventListener('thrive:form-success', event => track('form_submit', { form_id: limited(event.detail?.formId) || undefined, form_name: limited(event.detail?.formName) || undefined }));
   window.addEventListener('wellgentic-chat:lead-received', event => {
     track('form_submit', { form_id: 'concierge-contact', form_name: 'Concierge chat contact form' });

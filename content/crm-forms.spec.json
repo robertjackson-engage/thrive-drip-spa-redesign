@@ -1,0 +1,205 @@
+{
+  "description": "The three CRM forms the website posts to, in the shape the CRM's create-form call takes. Create each in the Wellgentic CRM (Thrive workspace), review and publish it, then paste its slug into content/website-forms.json. Field keys must match exactly: assets/js/forms.js sends these keys. tests/forms.test.mjs checks this file against the built pages.",
+  "contact": {
+    "name": "Website contact form",
+    "headline": "Contact ThrIVe Drip Spa",
+    "description": "Enquiries from the contact page, every lounge page and the mobile IV page of thrivedripspa.com.",
+    "fields": [
+      {
+        "key": "firstName",
+        "label": "First name",
+        "type": "text",
+        "required": true,
+        "mapTo": "firstName"
+      },
+      {
+        "key": "lastName",
+        "label": "Last name",
+        "type": "text",
+        "required": true,
+        "mapTo": "lastName"
+      },
+      {
+        "key": "email",
+        "label": "Email address",
+        "type": "email",
+        "required": true,
+        "mapTo": "email"
+      },
+      {
+        "key": "phone",
+        "label": "Phone",
+        "type": "phone",
+        "required": true,
+        "mapTo": "phone"
+      },
+      {
+        "key": "location",
+        "label": "Preferred location",
+        "type": "select",
+        "required": true,
+        "options": [
+          "Memorial",
+          "Memorial Green",
+          "The Heights",
+          "West University",
+          "Vintage Park",
+          "Katy",
+          "The Woodlands",
+          "Clear Lake",
+          "Highland Park",
+          "Fort Worth",
+          "Mobile / Concierge"
+        ]
+      },
+      {
+        "key": "interest",
+        "label": "I'm interested in",
+        "type": "text"
+      },
+      {
+        "key": "message",
+        "label": "Message",
+        "type": "textarea"
+      },
+      {
+        "key": "formName",
+        "label": "Website form",
+        "type": "text"
+      }
+    ],
+    "settings": {
+      "source": "Website contact form",
+      "submitLabel": "Send Request",
+      "successMessage": "Thank you — your message is with our team. We'll be in touch within one business day.",
+      "website": {
+        "version": 1,
+        "purpose": "lead",
+        "locationField": "location",
+        "locations": {
+          "Memorial": "201102",
+          "Memorial Green": "202035",
+          "The Heights": "203017",
+          "West University": "201104",
+          "Vintage Park": "203330",
+          "Katy": "203033",
+          "The Woodlands": "201319",
+          "Clear Lake": "203215",
+          "Highland Park": "203321",
+          "Fort Worth": "203322",
+          "Mobile / Concierge": "201101"
+        },
+        "automationMode": "manual",
+        "allowedOrigins": [
+          "https://thrivedripspa.com",
+          "https://www.thrivedripspa.com",
+          "https://thrive-site.azurewebsites.net"
+        ],
+        "privacyUrl": "https://thrivedripspa.com/privacy/"
+      }
+    }
+  },
+  "franchise": {
+    "name": "Website franchise enquiry",
+    "headline": "Request franchise information",
+    "description": "Franchise enquiries from thrivedripspa.com/franchise. These are prospective franchisees, not spa clients.",
+    "fields": [
+      {
+        "key": "firstName",
+        "label": "First name",
+        "type": "text",
+        "required": true,
+        "mapTo": "firstName"
+      },
+      {
+        "key": "lastName",
+        "label": "Last name",
+        "type": "text",
+        "required": true,
+        "mapTo": "lastName"
+      },
+      {
+        "key": "email",
+        "label": "Email address",
+        "type": "email",
+        "required": true,
+        "mapTo": "email"
+      },
+      {
+        "key": "phone",
+        "label": "Phone",
+        "type": "phone",
+        "required": true,
+        "mapTo": "phone"
+      },
+      {
+        "key": "background",
+        "label": "I am",
+        "type": "text"
+      },
+      {
+        "key": "city",
+        "label": "Which city or state are you interested in?",
+        "type": "text"
+      },
+      {
+        "key": "message",
+        "label": "Message",
+        "type": "textarea"
+      }
+    ],
+    "settings": {
+      "source": "Website franchise enquiry",
+      "submitLabel": "Request Information",
+      "successMessage": "Thank you — your request is with our franchise team. We'll follow up with the next steps.",
+      "website": {
+        "version": 1,
+        "purpose": "service_request",
+        "automationMode": "manual",
+        "allowedOrigins": [
+          "https://thrivedripspa.com",
+          "https://www.thrivedripspa.com",
+          "https://thrive-site.azurewebsites.net"
+        ],
+        "privacyUrl": "https://thrivedripspa.com/privacy/"
+      }
+    }
+  },
+  "newsletter": {
+    "name": "Website newsletter signup",
+    "headline": "Join our newsletter",
+    "description": "Footer newsletter signup on every page of thrivedripspa.com. Email only.",
+    "fields": [
+      {
+        "key": "email",
+        "label": "Email address",
+        "type": "email",
+        "required": true,
+        "mapTo": "email"
+      },
+      {
+        "key": "emailConsent",
+        "label": "By joining you agree to receive emails from ThrIVe Drip Spa. Unsubscribe any time.",
+        "type": "checkbox",
+        "required": true
+      }
+    ],
+    "settings": {
+      "source": "Website newsletter signup",
+      "submitLabel": "Join",
+      "successMessage": "You're on the list. Thank you for joining.",
+      "website": {
+        "version": 1,
+        "purpose": "newsletter",
+        "emailConsentField": "emailConsent",
+        "automationMode": "manual",
+        "allowedOrigins": [
+          "https://thrivedripspa.com",
+          "https://www.thrivedripspa.com",
+          "https://thrive-site.azurewebsites.net"
+        ],
+        "privacyUrl": "https://thrivedripspa.com/privacy/"
+      }
+    }
+  }
+}

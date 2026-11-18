@@ -830,10 +830,16 @@
    "text": "Questions about drips, memberships or Infrared Sauna, Emsculpt NEO? Send a note and the Clear Lake team will get back to you."
   },
   {
-   "id": "6ec3cad82c",
+   "id": "815b1a54cb",
    "where": "label · Say hello to",
-   "original": "Full name",
-   "text": "Full name"
+   "original": "First name",
+   "text": "First name"
+  },
+  {
+   "id": "f3a78cdfc3",
+   "where": "label · Say hello to",
+   "original": "Last name",
+   "text": "Last name"
   },
   {
    "id": "a7b6f6e6c8",
@@ -990,6 +996,12 @@
    "where": "label · Say hello to",
    "original": "Message (optional)",
    "text": "Message (optional)"
+  },
+  {
+   "id": "c03c7f22ec",
+   "where": "label · Say hello to",
+   "original": "Company website",
+   "text": "Company website"
   },
   {
    "id": "2539d86838",

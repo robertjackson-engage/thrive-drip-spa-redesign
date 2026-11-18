@@ -182,10 +182,16 @@
    "text": "Tell us where you'd like to open and a bit about your background. Our franchise team will follow up with the next steps."
   },
   {
-   "id": "b8e27bca7f",
+   "id": "33ccf8d23c",
    "where": "label · Request franchise",
-   "original": "Full name",
-   "text": "Full name"
+   "original": "First name",
+   "text": "First name"
+  },
+  {
+   "id": "4a4afc66e8",
+   "where": "label · Request franchise",
+   "original": "Last name",
+   "text": "Last name"
   },
   {
    "id": "2aca378709",
@@ -201,84 +207,6 @@
   },
   {
    "id": "95b6511998",
-   "where": "option · Request franchise",
-   "original": "",
-   "text": ""
-  },
-  {
-   "id": "013bb35d51",
-   "where": "option · Request franchise",
-   "original": "Memorial",
-   "text": "Memorial"
-  },
-  {
-   "id": "8697aea8f2",
-   "where": "option · Request franchise",
-   "original": "Memorial Green",
-   "text": "Memorial Green"
-  },
-  {
-   "id": "490a0414d7",
-   "where": "option · Request franchise",
-   "original": "The Heights",
-   "text": "The Heights"
-  },
-  {
-   "id": "cc774ea0e3",
-   "where": "option · Request franchise",
-   "original": "West University",
-   "text": "West University"
-  },
-  {
-   "id": "20214b4a52",
-   "where": "option · Request franchise",
-   "original": "Vintage Park",
-   "text": "Vintage Park"
-  },
-  {
-   "id": "1afa9836e4",
-   "where": "option · Request franchise",
-   "original": "Katy",
-   "text": "Katy"
-  },
-  {
-   "id": "527f6caf71",
-   "where": "option · Request franchise",
-   "original": "The Woodlands",
-   "text": "The Woodlands"
-  },
-  {
-   "id": "75221fac9c",
-   "where": "option · Request franchise",
-   "original": "Clear Lake",
-   "text": "Clear Lake"
-  },
-  {
-   "id": "433e687df3",
-   "where": "option · Request franchise",
-   "original": "Highland Park",
-   "text": "Highland Park"
-  },
-  {
-   "id": "42a8410289",
-   "where": "option · Request franchise",
-   "original": "Fort Worth",
-   "text": "Fort Worth"
-  },
-  {
-   "id": "4776c5b2f7",
-   "where": "option · Request franchise",
-   "original": "Mobile / Concierge",
-   "text": "Mobile / Concierge"
-  },
-  {
-   "id": "a1ebdbce49",
-   "where": "label · Request franchise",
-   "original": "Preferred location",
-   "text": "Preferred location"
-  },
-  {
-   "id": "61f8a52715",
    "where": "option · Request franchise",
    "original": "",
    "text": ""
@@ -308,10 +236,10 @@
    "text": "I currently own a franchise"
   },
   {
-   "id": "52cbbe899c",
+   "id": "d6cb8dd704",
    "where": "label · Request franchise",
-   "original": "I'm interested in",
-   "text": "I'm interested in"
+   "original": "I am",
+   "text": "I am"
   },
   {
    "id": "b25d3d253d",
@@ -324,6 +252,12 @@
    "where": "label · Request franchise",
    "original": "Message (optional)",
    "text": "Message (optional)"
+  },
+  {
+   "id": "60c3677feb",
+   "where": "label · Request franchise",
+   "original": "Company website",
+   "text": "Company website"
   },
   {
    "id": "d5b42d4c4a",

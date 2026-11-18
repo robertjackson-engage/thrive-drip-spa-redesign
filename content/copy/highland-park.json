@@ -818,10 +818,16 @@
    "text": "Questions about drips, memberships or EMFACE, Emsculpt NEO? Send a note and the Highland Park team will get back to you."
   },
   {
-   "id": "c010ef01de",
+   "id": "45528b7386",
    "where": "label · Say hello to",
-   "original": "Full name",
-   "text": "Full name"
+   "original": "First name",
+   "text": "First name"
+  },
+  {
+   "id": "35c04288a9",
+   "where": "label · Say hello to",
+   "original": "Last name",
+   "text": "Last name"
   },
   {
    "id": "a2a003159c",
@@ -978,6 +984,12 @@
    "where": "label · Say hello to",
    "original": "Message (optional)",
    "text": "Message (optional)"
+  },
+  {
+   "id": "4f0dcc215a",
+   "where": "label · Say hello to",
+   "original": "Company website",
+   "text": "Company website"
   },
   {
    "id": "da524a21a4",

@@ -824,10 +824,16 @@
    "text": "Questions about drips, memberships or boosters? Send a note and the The Heights team will get back to you."
   },
   {
-   "id": "724de5b0bc",
+   "id": "27927ec542",
    "where": "label · Say hello to",
-   "original": "Full name",
-   "text": "Full name"
+   "original": "First name",
+   "text": "First name"
+  },
+  {
+   "id": "b385827321",
+   "where": "label · Say hello to",
+   "original": "Last name",
+   "text": "Last name"
   },
   {
    "id": "6520714cac",
@@ -984,6 +990,12 @@
    "where": "label · Say hello to",
    "original": "Message (optional)",
    "text": "Message (optional)"
+  },
+  {
+   "id": "ded2f987cb",
+   "where": "label · Say hello to",
+   "original": "Company website",
+   "text": "Company website"
   },
   {
    "id": "78f877bee4",
