@@ -2,16 +2,16 @@
  "page": "fort-worth",
  "items": [
   {
-   "id": "cd505e9a42",
+   "id": "2f0b43d9a9",
    "where": "Browser tab title",
-   "original": "ThrIVe Drip Spa Fort Worth — IV Therapy in Fort Worth, TX",
-   "text": "ThrIVe Drip Spa Fort Worth — IV Therapy in Fort Worth, TX"
+   "original": "IV Therapy in Fort Worth, TX | ThrIVe Drip Spa",
+   "text": "IV Therapy in Fort Worth, TX | ThrIVe Drip Spa"
   },
   {
-   "id": "9f33f46989",
+   "id": "5b5622016b",
    "where": "Search-engine description",
-   "original": "IV drips, NAD+, boosters and shots at ThrIVe Drip Spa Fort Worth, 2708 S Hulen St, Fort Worth, TX 76109. Call (682) 747-3747. Located in the dynamic city of Fort Worth, our spa provides cutting-edge IV therapy to professionals, athletes and visitors looking to optimize their wellness journey.",
-   "text": "IV drips, NAD+, boosters and shots at ThrIVe Drip Spa Fort Worth, 2708 S Hulen St, Fort Worth, TX 76109. Call (682) 747-3747. Located in the dynamic city of Fort Worth, our spa provides cutting-edge IV therapy to professionals, athletes and visitors looking to optimize their wellness journey."
+   "original": "IV therapy in Fort Worth, TX: 12 signature IV drips, NAD+, boosters and shots, EMFACE and Emsculpt NEO at 2708 S Hulen St. Open daily. (682) 747-3747.",
+   "text": "IV therapy in Fort Worth, TX: 12 signature IV drips, NAD+, boosters and shots, EMFACE and Emsculpt NEO at 2708 S Hulen St. Open daily. (682) 747-3747."
   },
   {
    "id": "2bbcd009e2",
@@ -44,16 +44,22 @@
    "text": "ThrIVe Drip Spa · North Texas"
   },
   {
+   "id": "77d0267097",
+   "where": "span",
+   "original": "IV Therapy in",
+   "text": "IV Therapy in"
+  },
+  {
    "id": "a7a287cf3e",
    "where": "span",
    "original": "Fort Worth",
    "text": "Fort Worth"
   },
   {
-   "id": "0205671b5e",
-   "where": "span",
-   "original": "drip lounge.",
-   "text": "drip lounge."
+   "id": "dfe9fc58fb",
+   "where": "text",
+   "original": ", Texas",
+   "text": ", Texas"
   },
   {
    "id": "fa73eef519",
@@ -176,14 +182,98 @@
    "text": "313+ Google reviews"
   },
   {
+   "id": "c86159a71b",
+   "where": "p",
+   "original": "About the Fort Worth lounge",
+   "text": "About the Fort Worth lounge"
+  },
+  {
+   "id": "9d3b84f1d9",
+   "where": "h2",
+   "original": "IV therapy in Fort Worth to",
+   "text": "IV therapy in Fort Worth to"
+  },
+  {
+   "id": "af97a2b2f5",
+   "where": "span · IV therapy in Fort Worth to",
+   "original": "hydrate, energize and restore",
+   "text": "hydrate, energize and restore"
+  },
+  {
+   "id": "a00345d46b",
+   "where": "p · IV therapy in Fort Worth to",
+   "original": "Recharge and rehydrate at ThrIVe Drip Spa Fort Worth, 2708 S Hulen St, Fort Worth, TX 76109. Our Hulen Street lounge offers twelve expertly formulated IV drips and a full menu of vitamin boosters for Fort Worth professionals, athletes and visitors.",
+   "text": "Recharge and rehydrate at ThrIVe Drip Spa Fort Worth, 2708 S Hulen St, Fort Worth, TX 76109. Our Hulen Street lounge offers twelve expertly formulated IV drips and a full menu of vitamin boosters for Fort Worth professionals, athletes and visitors."
+  },
+  {
+   "id": "610a04e867",
+   "where": "p · IV therapy in Fort Worth to",
+   "original": "IV therapy in Fort Worth infuses fluids, essential vitamins and nutrients directly into your bloodstream. Whether you are recovering from a workout, running low on energy or simply want to feel your best, our team customizes every IV treatment to your needs, in a relaxing, spa-like environment. A registered nurse places your IV, and new guests complete a Good Faith Exam with a licensed provider first.",
+   "text": "IV therapy in Fort Worth infuses fluids, essential vitamins and nutrients directly into your bloodstream. Whether you are recovering from a workout, running low on energy or simply want to feel your best, our team customizes every IV treatment to your needs, in a relaxing, spa-like environment. A registered nurse places your IV, and new guests complete a Good Faith Exam with a licensed provider first."
+  },
+  {
+   "id": "0d0d55fcd7",
+   "where": "p · IV therapy in Fort Worth to",
+   "original": "Our Fort Worth location also offers EMFACE for needle-free facial rejuvenation and Emsculpt NEO to build muscle and burn fat with non-invasive technology. Vitamin shots are available when you are short on time, and all of our drips can be combined or adjusted into a personalized formula.",
+   "text": "Our Fort Worth location also offers EMFACE for needle-free facial rejuvenation and Emsculpt NEO to build muscle and burn fat with non-invasive technology. Vitamin shots are available when you are short on time, and all of our drips can be combined or adjusted into a personalized formula."
+  },
+  {
+   "id": "0435477185",
+   "where": "h3 · IV therapy in Fort Worth to",
+   "original": "What you will find at ThrIVe Fort Worth",
+   "text": "What you will find at ThrIVe Fort Worth"
+  },
+  {
+   "id": "8b00a346c9",
+   "where": "li · What you will find at ThrIVe Fort Worth",
+   "original": "Twelve signature IV drips, from Hydrate to NAD+",
+   "text": "Twelve signature IV drips, from Hydrate to NAD+"
+  },
+  {
+   "id": "ef0d9a5c4d",
+   "where": "li · What you will find at ThrIVe Fort Worth",
+   "original": "Vitamin boosters and shots",
+   "text": "Vitamin boosters and shots"
+  },
+  {
+   "id": "e941e6c0bd",
+   "where": "li · What you will find at ThrIVe Fort Worth",
+   "original": "EMFACE and Emsculpt NEO",
+   "text": "EMFACE and Emsculpt NEO"
+  },
+  {
+   "id": "fb532f52aa",
+   "where": "li · What you will find at ThrIVe Fort Worth",
+   "original": "Registered nurses and personalized IV therapy",
+   "text": "Registered nurses and personalized IV therapy"
+  },
+  {
+   "id": "e3779686da",
+   "where": "li · What you will find at ThrIVe Fort Worth",
+   "original": "Online booking, memberships and Affirm financing",
+   "text": "Online booking, memberships and Affirm financing"
+  },
+  {
+   "id": "8839fe1fa7",
+   "where": "p · What you will find at ThrIVe Fort Worth",
+   "original": "The Fort Worth lounge is open Monday to Friday, 9am to 7pm, and Saturday and Sunday, 10am to 6pm. Book IV therapy in Fort Worth online or call (682) 747-3747.",
+   "text": "The Fort Worth lounge is open Monday to Friday, 9am to 7pm, and Saturday and Sunday, 10am to 6pm. Book IV therapy in Fort Worth online or call (682) 747-3747."
+  },
+  {
+   "id": "0ca09c73ae",
+   "where": "a · What you will find at ThrIVe Fort Worth",
+   "original": "Book IV therapy in Fort Worth →",
+   "text": "Book IV therapy in Fort Worth →"
+  },
+  {
    "id": "df6b863831",
-   "where": "text",
+   "where": "text · What you will find at ThrIVe Fort Worth",
    "original": "Hydrate, Energize & Restore",
    "text": "Hydrate, Energize & Restore"
   },
   {
    "id": "0154572ec6",
-   "where": "h2",
+   "where": "h2 · What you will find at ThrIVe Fort Worth",
    "original": "Twelve signature",
    "text": "Twelve signature"
   },

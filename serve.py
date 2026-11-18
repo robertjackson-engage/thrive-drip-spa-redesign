@@ -23,7 +23,8 @@ CANONICAL_HOST = "thrivedripspa.com"
 
 # 301s for every old WordPress URL whose slug changed — SEO continuity at cutover.
 # Old pages map to their replacement; retired blog posts go to the closest service
-# page (search engines treat a relevant 301 as equity transfer; /blog.html is the floor).
+# page (search engines treat a relevant 301 as equity transfer). A URL that is not
+# listed here and is not a page returns 404.
 REDIRECTS = {
     "/faqs": "/faq/", "/booster": "/boosters/",
     "/terms-and-conditions": "/terms/", "/privacy-policy": "/privacy/",
@@ -61,31 +62,69 @@ REDIRECTS = {
     "/finding-the-right-balance-with-vitamin-d": "/shots/",
     "/ultimate-self-care-checklist-for-west-houston": "/west-university/",
     "/emsculpt": "/emsculpt-neo/", "/normatec": "/body-contouring/",
+    # Every other old WordPress URL that existed (pre-launch crawl plus URLs with Search
+    # Console impressions since May 2026), each sent to its closest page. These used to be
+    # caught by a catch-all that redirected ANY unknown address; now only listed URLs move.
+    "/7-wellness-boosters-that-support-energy-levels": "/boosters/",
+    "/an-iv-med-spa-is-the-ultimate-destination-for-hydration-health-and-beauty": "/iv-therapy/",
+    "/beyond-the-finish-line-the-importance-of-hydration-performance-recovery-this-halloween-weekend": "/iv-therapy/",
+    "/biotin": "/shots/",
+    "/blogs/news/how-long-does-iv-therapy-last-in-your-system": "/blog/how-long-does-iv-therapy-last/",
+    "/drips/detoxing": "/detox-drip/",
+    "/drips/migraine": "/migraine-drip/",
+    "/drips/myers": "/myers-drip/",
+    "/drips/nad": "/nad/",
+    "/emface-at-thrive-drip-spa-a-revolutionary-approach-to-preventing-facial-aging-and-boosting-collagen": "/emface/",
+    "/emface-for-noninvasive-facial-contouring-welcome-to-the-future": "/emface/",
+    "/experience-the-benefits-of-ultimate-detox-with-iv-therapy": "/detox-drip/",
+    "/fort-orth": "/fort-worth/",
+    "/glp-1-weight-loss-therapy": "/weight-loss/",
+    "/how-does-an-iv-drip-support-your-holistic-weight-loss-program": "/weight-loss/",
+    "/how-infrared-sauna-therapy-supports-muscle-recovery-and-pain-relief": "/infrared-sauna/",
+    "/how-long-do-iv-therapy-stay-in-your-system": "/blog/how-long-does-iv-therapy-last/",
+    "/how-long-does-iv-therapy-stay-in-system": "/blog/how-long-does-iv-therapy-last/",
+    "/how-to-prevent-back-to-school-illness-with-immune-iv-therapy": "/immuno-drip/",
+    "/how-to-support-weight-loss-while-using-glp-1-medications": "/weight-loss/",
+    "/hydrate-drip-houston-texas": "/hydrate-drip/",
+    "/introducing-thrive-migraine-drip": "/migraine-drip/",
+    "/iv-drip-therapy-in-fort-worth-texas": "/fort-worth/",
+    "/iv-infusion-houston-beat-dehydration": "/iv-therapy/",
+    "/iv-therapy-in-houston-heights": "/the-heights/",
+    "/migraine-drip-houston-texas": "/migraine-drip/",
+    "/mobile-iv-drip-dont-come-to-us-well-come-to-you": "/mobile-iv/",
+    "/myers-iv-therapy-recovery-made-simple": "/myers-drip/",
+    "/nad-drip-houston-texas": "/nad/",
+    "/nad-therapy-for-mental-health-stress-addiction-support": "/nad/",
+    "/the-benefits-of-a-detox-drip": "/detox-drip/",
+    "/the-benefits-of-emtone-for-skin-firming-and-muscle-toning-treatment": "/emtone/",
+    "/top-tips-for-staying-hydrated-in-houston": "/iv-therapy/",
+    "/what-is-emsculpt-neo-and-how-does-it-work": "/emsculpt-neo/",
+    "/what-is-nad-and-how-will-it-help-you-improve-your-neuro-function-and-general-wellness-with-nad-today": "/nad/",
+    "/whats-better-than-a-tall-glass-of-water-a-visit-to-a-hydration-spa-of-course": "/iv-therapy/",
+    "/youve-lost-the-weight-now-lose-the-flab": "/weight-loss/",
+    # Old posts and pages with no close equivalent: the blog index.
+    "/beat-the-summer-heat": "/blog/",
+    "/category/uncategorized": "/blog/",
+    "/cryotherapy": "/blog/",
+    "/dont-miss-a-beat-on-your-houston-trip-iv-therapy-for-jetlag-recovery": "/blog/",
+    "/health-benefits/strained-muscles": "/blog/",
+    "/how-thrive-services-help-kickstart-a-healthier-lifestyle": "/blog/",
+    "/iv-drip-therapy-in-santa-clara-and-st-george-utah": "/blog/",
+    "/sitemap": "/blog/",
+    "/the-pros-and-cons-of-botox-houston-thrive": "/blog/",
+    "/tips-for-making-wellness-iv-drip-therapy-part-of-your-healthy-lifestyle": "/blog/",
 }
-# Retired blog posts: keyword → destination; anything else lands on the blog index.
-BLOG_KEYWORD_MAP = [
-    ("nad", "/nad/"), ("emface", "/emface/"), ("emsculpt", "/emsculpt-neo/"),
-    ("emtone", "/emtone/"), ("glp-1", "/weight-loss/"), ("weight", "/weight-loss/"),
-    ("mobile-iv", "/mobile-iv/"), ("sauna", "/infrared-sauna/"),
-    ("migraine", "/migraine-drip/"), ("myers", "/myers-drip/"),
-    ("hangover", "/iv-therapy/"), ("booster", "/boosters/"), ("biotin", "/shots/"),
-    ("detox", "/detox-drip/"), ("immune", "/immuno-drip/"), ("hydrat", "/iv-therapy/"),
-]
 
 
 def legacy_redirect(path):
+    """The 301 target for an old WordPress URL, or None.
+
+    Only the URLs listed in REDIRECTS move. An address that was never a page gets a real
+    404 from the normal file handling below, not a redirect to the blog: redirecting every
+    unknown URL made typos and junk links look like live pages to search engines.
+    """
     p = path.split("?")[0].rstrip("/") or "/"
-    if p in REDIRECTS:
-        return REDIRECTS[p]
-    # A WP-era slug with no extension that we don't serve: old posts lived at the root.
-    slug = p.lstrip("/")
-    if slug and "." not in slug and not os.path.exists(os.path.join(SITE, slug + ".html")) \
-            and not os.path.isdir(os.path.join(SITE, slug)):
-        for kw, dest in BLOG_KEYWORD_MAP:
-            if kw in slug:
-                return dest
-        return "/blog/"
-    return None
+    return REDIRECTS.get(p)
 
 
 def page_file(slug):
@@ -196,11 +235,17 @@ class Handler(http.server.SimpleHTTPRequestHandler):
                 self.send_header("Content-Type", "text/html; charset=utf-8")
                 self.send_header("Content-Length", str(len(body)))
                 self.end_headers()
-                self.wfile.write(body)
+                if self.command != "HEAD":
+                    self.wfile.write(body)
                 return
             except Exception:
                 pass
         super().send_error(code, message, explain)
+
+    def list_directory(self, path):
+        # A folder without an index page is not a page: 404, never a file listing.
+        self.send_error(404)
+        return None
 
     def _maybe_gzip(self, path):
         """Serve text responses gzip-compressed when the client accepts it."""

@@ -2,16 +2,16 @@
  "page": "highland-park",
  "items": [
   {
-   "id": "52c41d26ff",
+   "id": "5dcdbe1b87",
    "where": "Browser tab title",
-   "original": "ThrIVe Drip Spa Highland Park — IV Therapy in Dallas, TX",
-   "text": "ThrIVe Drip Spa Highland Park — IV Therapy in Dallas, TX"
+   "original": "IV Therapy in Highland Park, Dallas | ThrIVe Drip Spa",
+   "text": "IV Therapy in Highland Park, Dallas | ThrIVe Drip Spa"
   },
   {
-   "id": "f9d4a84bb2",
+   "id": "06ed3c83ae",
    "where": "Search-engine description",
-   "original": "IV drips, NAD+, boosters and shots at ThrIVe Drip Spa Highland Park, 5301 W Lovers Ln, Suite 103, Dallas, TX 75209. Call (214) 214-3747. Serving the prestigious Highland Park area, our spa delivers elite IV therapy to those who demand the best in one of Dallas' most luxurious neighborhoods.",
-   "text": "IV drips, NAD+, boosters and shots at ThrIVe Drip Spa Highland Park, 5301 W Lovers Ln, Suite 103, Dallas, TX 75209. Call (214) 214-3747. Serving the prestigious Highland Park area, our spa delivers elite IV therapy to those who demand the best in one of Dallas' most luxurious neighborhoods."
+   "original": "IV therapy in Highland Park, Dallas: 12 signature IV drips, NAD+, EMFACE, Emsculpt NEO and EMTONE at 5301 W Lovers Ln. Open daily. (214) 214-3747.",
+   "text": "IV therapy in Highland Park, Dallas: 12 signature IV drips, NAD+, EMFACE, Emsculpt NEO and EMTONE at 5301 W Lovers Ln. Open daily. (214) 214-3747."
   },
   {
    "id": "1d498c97ff",
@@ -44,16 +44,22 @@
    "text": "ThrIVe Drip Spa · North Texas"
   },
   {
+   "id": "698f1a63be",
+   "where": "span",
+   "original": "IV Therapy in",
+   "text": "IV Therapy in"
+  },
+  {
    "id": "35241d8ccb",
    "where": "span",
    "original": "Highland Park",
    "text": "Highland Park"
   },
   {
-   "id": "e910cf0e3d",
+   "id": "104f672dc8",
    "where": "span",
-   "original": "drip lounge.",
-   "text": "drip lounge."
+   "original": "Dallas",
+   "text": "Dallas"
   },
   {
    "id": "5de57d2e8b",
@@ -176,14 +182,92 @@
    "text": "218+ Google reviews"
   },
   {
+   "id": "7b0a521aa0",
+   "where": "p",
+   "original": "About the Highland Park lounge",
+   "text": "About the Highland Park lounge"
+  },
+  {
+   "id": "6ac70a1704",
+   "where": "h2",
+   "original": "IV therapy in Highland Park,",
+   "text": "IV therapy in Highland Park,"
+  },
+  {
+   "id": "1567141fbb",
+   "where": "span · IV therapy in Highland Park,",
+   "original": "where luxury meets science",
+   "text": "where luxury meets science"
+  },
+  {
+   "id": "a037bf0de4",
+   "where": "p · IV therapy in Highland Park,",
+   "original": "ThrIVe Drip Spa Highland Park is at 5301 W Lovers Ln, Suite 103, Dallas, TX 75209, serving Highland Park and the wider Dallas area. It is a wellness spa offering twelve signature IV drips, vitamin infusions and custom boosters in a relaxing, spa-like setting.",
+   "text": "ThrIVe Drip Spa Highland Park is at 5301 W Lovers Ln, Suite 103, Dallas, TX 75209, serving Highland Park and the wider Dallas area. It is a wellness spa offering twelve signature IV drips, vitamin infusions and custom boosters in a relaxing, spa-like setting."
+  },
+  {
+   "id": "d32a36fabc",
+   "where": "p · IV therapy in Highland Park,",
+   "original": "IV therapy at Highland Park delivers hydration, vitamins and essential nutrients directly into your bloodstream. Whether you are looking for an energy lift, support after a workout or a skin-focused drip, our medical team designs each infusion around your individual wellness goals. We go beyond traditional hydration, with premium vitamin blends and personalized care from registered nurses. Your first visit includes a Good Faith Exam with a licensed provider.",
+   "text": "IV therapy at Highland Park delivers hydration, vitamins and essential nutrients directly into your bloodstream. Whether you are looking for an energy lift, support after a workout or a skin-focused drip, our medical team designs each infusion around your individual wellness goals. We go beyond traditional hydration, with premium vitamin blends and personalized care from registered nurses. Your first visit includes a Good Faith Exam with a licensed provider."
+  },
+  {
+   "id": "4c8000899c",
+   "where": "p · IV therapy in Highland Park,",
+   "original": "Highland Park also goes beyond IV therapy. Our science-based wellness and aesthetic treatments include EMFACE for non-invasive facial lifting and toning, Emsculpt NEO for muscle building and fat reduction, and EMTONE for skin smoothing and the look of cellulite. Whether you are here for hydration, recovery or a complete body contouring plan, the Highland Park team tailors every service to your goals.",
+   "text": "Highland Park also goes beyond IV therapy. Our science-based wellness and aesthetic treatments include EMFACE for non-invasive facial lifting and toning, Emsculpt NEO for muscle building and fat reduction, and EMTONE for skin smoothing and the look of cellulite. Whether you are here for hydration, recovery or a complete body contouring plan, the Highland Park team tailors every service to your goals."
+  },
+  {
+   "id": "1a84445b0b",
+   "where": "h3 · IV therapy in Highland Park,",
+   "original": "IV therapy and more on Lovers Lane",
+   "text": "IV therapy and more on Lovers Lane"
+  },
+  {
+   "id": "ae3fe92b72",
+   "where": "li · IV therapy and more on Lovers Lane",
+   "original": "Twelve signature IV drips and custom boosters",
+   "text": "Twelve signature IV drips and custom boosters"
+  },
+  {
+   "id": "1299f18950",
+   "where": "li · IV therapy and more on Lovers Lane",
+   "original": "NAD+ and vitamin shots",
+   "text": "NAD+ and vitamin shots"
+  },
+  {
+   "id": "98282c49e3",
+   "where": "li · IV therapy and more on Lovers Lane",
+   "original": "EMFACE, Emsculpt NEO and EMTONE",
+   "text": "EMFACE, Emsculpt NEO and EMTONE"
+  },
+  {
+   "id": "dc6b335476",
+   "where": "li · IV therapy and more on Lovers Lane",
+   "original": "Personalized care from registered nurses",
+   "text": "Personalized care from registered nurses"
+  },
+  {
+   "id": "22f736cfd8",
+   "where": "p · IV therapy and more on Lovers Lane",
+   "original": "We are open Monday to Friday, 9am to 7pm, and Saturday and Sunday, 10am to 6pm. Book IV therapy in Highland Park online or call (214) 214-3747. Memberships and Affirm financing are available.",
+   "text": "We are open Monday to Friday, 9am to 7pm, and Saturday and Sunday, 10am to 6pm. Book IV therapy in Highland Park online or call (214) 214-3747. Memberships and Affirm financing are available."
+  },
+  {
+   "id": "a191c99fa3",
+   "where": "a · IV therapy and more on Lovers Lane",
+   "original": "Book IV therapy in Highland Park →",
+   "text": "Book IV therapy in Highland Park →"
+  },
+  {
    "id": "a88b5fff0d",
-   "where": "text",
+   "where": "text · IV therapy and more on Lovers Lane",
    "original": "Luxury Wellness, Dallas",
    "text": "Luxury Wellness, Dallas"
   },
   {
    "id": "e2fd429d36",
-   "where": "h2",
+   "where": "h2 · IV therapy and more on Lovers Lane",
    "original": "Twelve signature",
    "text": "Twelve signature"
   },

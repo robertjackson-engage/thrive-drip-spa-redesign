@@ -118,6 +118,31 @@
    "title": "IV Drip Menu & Pricing | ThrIVe Drip Spa"
   },
   {
+   "scope": "fort-worth",
+   "file": "fort-worth.html",
+   "title": "IV Therapy in Fort Worth, TX | ThrIVe Drip Spa"
+  },
+  {
+   "scope": "highland-park",
+   "file": "highland-park.html",
+   "title": "IV Therapy in Highland Park, Dallas | ThrIVe Drip Spa"
+  },
+  {
+   "scope": "memorial",
+   "file": "memorial.html",
+   "title": "IV Therapy in Memorial, Houston | ThrIVe Drip Spa"
+  },
+  {
+   "scope": "the-woodlands",
+   "file": "the-woodlands.html",
+   "title": "IV Therapy in The Woodlands, TX | ThrIVe Drip Spa"
+  },
+  {
+   "scope": "west-university",
+   "file": "west-university.html",
+   "title": "IV Therapy in West University, Houston | ThrIVe Drip Spa"
+  },
+  {
    "scope": "packages",
    "file": "packages.html",
    "title": "IV Therapy, Shot & NAD+ Packages | ThrIVe Drip Spa"
@@ -193,16 +218,6 @@
    "title": "ThrIVe Drip Spa Clear Lake — IV Therapy in Houston, TX"
   },
   {
-   "scope": "fort-worth",
-   "file": "fort-worth.html",
-   "title": "ThrIVe Drip Spa Fort Worth — IV Therapy in Fort Worth, TX"
-  },
-  {
-   "scope": "highland-park",
-   "file": "highland-park.html",
-   "title": "ThrIVe Drip Spa Highland Park — IV Therapy in Dallas, TX"
-  },
-  {
    "scope": "katy",
    "file": "katy.html",
    "title": "ThrIVe Drip Spa Katy — IV Therapy in Katy, TX"
@@ -213,29 +228,14 @@
    "title": "ThrIVe Drip Spa Memorial Green — IV Therapy in Houston, TX"
   },
   {
-   "scope": "memorial",
-   "file": "memorial.html",
-   "title": "ThrIVe Drip Spa Memorial — IV Therapy in Houston, TX"
-  },
-  {
    "scope": "the-heights",
    "file": "the-heights.html",
    "title": "ThrIVe Drip Spa The Heights — IV Therapy in Houston, TX"
   },
   {
-   "scope": "the-woodlands",
-   "file": "the-woodlands.html",
-   "title": "ThrIVe Drip Spa The Woodlands — IV Therapy in The Woodlands, TX"
-  },
-  {
    "scope": "vintage-park",
    "file": "vintage-park.html",
    "title": "ThrIVe Drip Spa Vintage Park — IV Therapy in Houston, TX"
-  },
-  {
-   "scope": "west-university",
-   "file": "west-university.html",
-   "title": "ThrIVe Drip Spa West University — IV Therapy in Houston, TX"
   },
   {
    "scope": "shots",
