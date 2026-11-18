@@ -182,10 +182,16 @@
    "text": "Wellness, delivered to you. Share the details and a spa consultant will confirm availability and pricing."
   },
   {
-   "id": "be4f1bb029",
+   "id": "7488d863ac",
    "where": "label · Book ThrIVe's",
-   "original": "Full name",
-   "text": "Full name"
+   "original": "First name",
+   "text": "First name"
+  },
+  {
+   "id": "f4b6cce350",
+   "where": "label · Book ThrIVe's",
+   "original": "Last name",
+   "text": "Last name"
   },
   {
    "id": "10d6ae8d22",
@@ -336,6 +342,12 @@
    "where": "label · Book ThrIVe's",
    "original": "Message (optional)",
    "text": "Message (optional)"
+  },
+  {
+   "id": "b06b3871e4",
+   "where": "label · Book ThrIVe's",
+   "original": "Company website",
+   "text": "Company website"
   },
   {
    "id": "1b4da59577",

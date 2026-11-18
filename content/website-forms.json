@@ -1,0 +1,12 @@
+{
+  "description": "Hosted-form slugs for the website's own forms. Create and publish the three forms described in content/crm-forms.spec.json in the Wellgentic CRM (Thrive workspace), then paste each form's slug here. While a slug is empty, that form tells the visitor to call instead of pretending it was sent.",
+  "contact": {
+    "slug": "website-contact-form-cd89081ca7"
+  },
+  "franchise": {
+    "slug": "website-franchise-enquiry-3feece378e"
+  },
+  "newsletter": {
+    "slug": "website-newsletter-signup-9be7fc8575"
+  }
+}

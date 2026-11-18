@@ -12,6 +12,11 @@ REPO = "robertjackson-engage/thrive-drip-spa-redesign"
 CHAT = _json.load(open(os.path.join(CONTENT, "website-concierge.json"), encoding="utf-8"))
 CHAT_INSTALL = (f'data-agent-id="{int(CHAT["workflowId"])}" data-website-key="{CHAT["websiteKey"]}"'
                 if CHAT.get("workflowId") and _re.fullmatch(r"abs_[a-f0-9]+", CHAT.get("websiteKey", "")) else "")
+# Website forms post to published Wellgentic CRM forms (https://api.wellgentic.ai/f/<slug>/submit).
+# A form whose slug is missing is built "not connected": it tells the visitor to call, never "sent".
+_FORMS = _json.load(open(os.path.join(CONTENT, "website-forms.json"), encoding="utf-8"))
+FORM_SLUGS = {k: (v.get("slug", "") if _re.fullmatch(r"[a-z0-9][a-z0-9-]{2,79}", v.get("slug", "")) else "")
+              for k, v in _FORMS.items() if isinstance(v, dict)}
 
 BOOK = "https://book.thrivedripspa.com"
 BOOK_NEW = BOOK + "/?path=new"     # skips the booking flow's "first time or current client?" question
@@ -602,10 +607,13 @@ def footer_html():
         <a href="{GIFT}" target="_blank" rel="noopener">Send an eGift card</a>
         <a href="{LOGIN}" target="_blank" rel="noopener">Member login</a>
         <a href="contact.html">Contact us</a>
-        <form data-wg-ignore="true" class="news-form" data-demo>
-          <input type="email" placeholder="Join our newsletter" aria-label="Email address" required>
+        <form {form_attrs("newsletter", "newsletter", "Newsletter signup")} class="news-form">
+          <input type="email" name="email" placeholder="Join our newsletter" aria-label="Email address" autocomplete="email" maxlength="255" required>
+          {HONEYPOT}
           <button type="submit">Join</button>
         </form>
+        <p class="form-status" role="status" aria-live="polite" hidden></p>
+        <p class="news-form__note">{NEWSLETTER_CONSENT}</p>
       </div>
     </div>
   </div>
@@ -625,6 +633,7 @@ def footer_html():
   </div>
 </footer>
 <script src="assets/js/main.js?v={V}"></script>
+<script src="assets/js/forms.js?v={V}" defer></script>
 <script src="assets/js/chat.js?v={V}" {CHAT_INSTALL} defer></script>
 </body>
 </html>
@@ -818,12 +827,37 @@ def location_picker(num="06", cls=""):
 """
 
 
-def form_section(sec_id, num, eyebrow, title_html, text, btn="Send Request", cls="section--ice", interests=None, extra_fields="", note=None):
+MOBILE_OPTION = "Mobile / Concierge"
+MOBILE_CLUB = "201101"       # "Thrive Mobile, LLC" in the CRM
+HONEYPOT = ('<div class="hp" aria-hidden="true"><label>Company website <input type="text" name="company_website" '
+            'tabindex="-1" autocomplete="off"></label></div>')
+# Shown under the newsletter field and saved in the CRM as the wording the visitor agreed to.
+NEWSLETTER_CONSENT = "By joining you agree to receive emails from ThrIVe Drip Spa. Unsubscribe any time."
+
+
+def form_attrs(kind, form_id, form_name, phone=PHONE):
+    """Attributes forms.js reads. data-wg-ignore keeps the CRM tracker from capturing the form a second time."""
+    slug = FORM_SLUGS.get(kind, "")
+    return (f'data-wg-ignore="true" data-crm-form="{kind}" data-form-id="{form_id}" data-form-name="{form_name}" '
+            f'data-phone="{phone}"' + (f' data-form-slug="{slug}"' if slug else ""))
+
+
+def form_section(sec_id, num, eyebrow, title_html, text, btn="Send Request", cls="section--ice", interests=None, extra_fields="", note=None,
+                 kind="contact", form_name="Contact form", lounge=None, preselect=None):
+    """A contact-style form. `lounge` is the lounge this page belongs to (its phone is the fallback
+    shown on failure and it is preselected); `kind` picks the CRM form it posts to."""
     interests = interests or ["IV Drip Therapy", "NAD+", "Boosters or Shots", "Mobile / Concierge IV", "Body Contouring (Emsculpt NEO, EMFACE, EMTONE)", "Weight Loss", "Memberships", "Something else"]
-    fields = [("text", "name", "Full name"), ("email", "email", "Email address"), ("tel", "phone", "Phone")]
-    f_html = "".join(f'<div class="field{" field--full" if n == "name" else ""}"><input type="{t}" name="{n}" id="{sec_id}-{n}" placeholder=" " required><label for="{sec_id}-{n}">{l}</label></div>' for t, n, l in fields)
-    locs = "".join(f"<option>{l['label']}</option>" for l in LOCATIONS) + "<option>Mobile / Concierge</option>"
-    opts = "".join(f"<option>{o}</option>" for o in interests)
+    fields = [("text", "firstName", "First name", "given-name", 100), ("text", "lastName", "Last name", "family-name", 100),
+              ("email", "email", "Email address", "email", 255), ("tel", "phone", "Phone", "tel", 40)]
+    f_html = "".join(f'<div class="field"><input type="{t}" name="{n}" id="{sec_id}-{n}" placeholder=" " autocomplete="{ac}" maxlength="{mx}" required><label for="{sec_id}-{n}">{l}</label></div>' for t, n, l, ac, mx in fields)
+    chosen = preselect or (lounge["label"] if lounge else "")
+    # value= is what gets sent: it stays fixed even if staff reword the visible label in Site Text,
+    # and the CRM form maps exactly these values to its locations.
+    locs = "".join(f'<option value="{o}"{" selected" if o == chosen else ""}>{o}</option>' for o in [l["label"] for l in LOCATIONS] + [MOBILE_OPTION])
+    opts = "".join(f'<option value="{o}">{o}</option>' for o in interests)
+    # A franchise enquiry is about a new market, not one of our lounges.
+    loc_field = "" if kind == "franchise" else f'<div class="field"><select name="location" id="{sec_id}-loc" aria-label="Preferred location" required><option value="">&nbsp;</option>{locs}</select><label for="{sec_id}-loc">Preferred location</label></div>'
+    int_label = "I am" if kind == "franchise" else "I'm interested in"
     return f"""
 <section class="section {cls}" id="{sec_id}">
   <div class="wrap"><div class="intro-grid">
@@ -832,12 +866,14 @@ def form_section(sec_id, num, eyebrow, title_html, text, btn="Send Request", cls
       <h2 class="h-display reveal">{title_html}</h2>
       <p class="lede reveal" style="margin-top:24px">{text}</p>
     </div>
-    <div class="intro-grid__right reveal"><form data-wg-ignore="true" class="form-grid form-card" data-demo>{f_html}
-      <div class="field"><select name="location" id="{sec_id}-loc" aria-label="Preferred location"><option value="">&nbsp;</option>{locs}</select><label for="{sec_id}-loc">Preferred location</label></div>
-      <div class="field"><select name="interest" id="{sec_id}-int" aria-label="What are you interested in?"><option value="">&nbsp;</option>{opts}</select><label for="{sec_id}-int">I'm interested in</label></div>
+    <div class="intro-grid__right reveal"><form {form_attrs(kind, sec_id, form_name, lounge["phone"] if lounge else PHONE)} class="form-grid form-card">{f_html}
+      {loc_field}
+      <div class="field{" field--full" if kind == "franchise" else ""}"><select name="interest" id="{sec_id}-int" aria-label="{int_label}"><option value="">&nbsp;</option>{opts}</select><label for="{sec_id}-int">{int_label}</label></div>
       {extra_fields}
-      <div class="field field--full"><textarea name="message" id="{sec_id}-msg" rows="3" placeholder=" "></textarea><label for="{sec_id}-msg">Message (optional)</label></div>
+      <div class="field field--full"><textarea name="message" id="{sec_id}-msg" rows="3" placeholder=" " maxlength="1500"></textarea><label for="{sec_id}-msg">Message (optional)</label></div>
+      {HONEYPOT}
       <button class="btn btn--solid field--full" type="submit">{btn} <span class="arr">→</span></button>
+      <p class="form-status field--full" role="status" aria-live="polite" hidden></p>
     </form><p class="form-note">{note or "We'll reply by text or email within one business day. By submitting you agree to receive messages from ThrIVe Drip Spa; reply STOP to opt out."}</p></div>
   </div></div>
 </section>
@@ -1163,7 +1199,8 @@ mobile_body = hero(
 ) + form_section("mobile-request", "02", "Request mobile IV", 'Book ThrIVe\'s <span class="brush">mobile</span> drips',
                  "Wellness, delivered to you. Share the details and a spa consultant will confirm availability and pricing.", btn="Request Mobile Service", cls="",
                  interests=["Individual drip", "Group / party (2–6)", "Large group / event (7+)", "Corporate wellness day", "Shots only"],
-                 extra_fields='<div class="field"><input type="text" name="address" id="mobile-request-addr" placeholder=" "><label for="mobile-request-addr">Address (city is fine)</label></div><div class="field"><input type="text" name="when" id="mobile-request-when" placeholder=" "><label for="mobile-request-when">Date &amp; time</label></div>',
+                 form_name="Mobile IV request", preselect=MOBILE_OPTION,
+                 extra_fields='<div class="field"><input type="text" name="address" id="mobile-request-addr" placeholder=" " maxlength="200" data-label="Address"><label for="mobile-request-addr">Address (city is fine)</label></div><div class="field"><input type="text" name="when" id="mobile-request-when" placeholder=" " maxlength="120" data-label="Date and time"><label for="mobile-request-when">Date &amp; time</label></div>',
                  note="Mobile service is currently available in the Houston area. Pricing depends on group size and travel; we'll confirm before booking.") \
     + cta_band('Your lounge, <span class="brush">wherever</span> you are.', "Prefer to visit? Ten ThrIVe lounges across Houston, Dallas and Fort Worth.", primary=("Request Mobile IV", "#mobile-request"))
 
@@ -1481,7 +1518,8 @@ def loc_page(l):
   <div class="map-embed reveal"><iframe src="https://www.google.com/maps?q={maps_q}&output=embed" loading="lazy" title="Map to ThrIVe Drip Spa {l['label']}" allowfullscreen referrerpolicy="no-referrer-when-downgrade"></iframe></div>
 </div></section>
 """ + form_section(f"contact-{l['slug']}", "06", "Contact " + l["label"], f'Say hello to <span class="brush">{l["label"]}</span>',
-                   f"Questions about drips, memberships or {', '.join(s[0] for s in svc[:2]) if svc else 'boosters'}? Send a note and the {l['label']} team will get back to you.", cls="") \
+                   f"Questions about drips, memberships or {', '.join(s[0] for s in svc[:2]) if svc else 'boosters'}? Send a note and the {l['label']} team will get back to you.", cls="",
+                   form_name=f"Lounge contact form — {l['label']}", lounge=l) \
         + cta_band(f'Book at <span class="brush">{l["label"]}</span> today.', f"{l['addr']} · {l['phone']}. Online booking takes under a minute.", primary=("Book Now", meevo(l)), secondary=("All Locations", "locations.html"))
 
 
@@ -1643,7 +1681,8 @@ franchise_body = hero(
 ) + form_section("franchise-form", "02", "Join the wellness revolution", 'Request franchise <span class="brush">information</span>',
                  "Tell us where you'd like to open and a bit about your background. Our franchise team will follow up with the next steps.", btn="Request Information", cls="",
                  interests=["I'm a healthcare professional", "I'm an entrepreneur / operator", "I'm an investor", "I currently own a franchise"],
-                 extra_fields='<div class="field field--full"><input type="text" name="city" id="franchise-form-city" placeholder=" "><label for="franchise-form-city">Which city or state are you interested in?</label></div>',
+                 kind="franchise", form_name="Franchise enquiry",
+                 extra_fields='<div class="field field--full"><input type="text" name="city" id="franchise-form-city" placeholder=" " maxlength="200"><label for="franchise-form-city">Which city or state are you interested in?</label></div>',
                  note="Franchisor: I Thrive Drip Holdings, LLC. This is not an offer to sell a franchise; offers are made only by a Franchise Disclosure Document in states where permitted.") \
     + cta_band('Reshape self-care in <span class="brush">your market.</span>', "Ten lounges across Texas and growing. Let's talk.", primary=("Request Information", "#franchise-form"), secondary=("Call " + PHONE, TEL))
 

@@ -182,19 +182,8 @@
     s.addEventListener("change", mark); mark();
   });
 
-  /* ---------- demo submit ---------- */
-  document.querySelectorAll("form[data-demo]").forEach(function (f) {
-    f.addEventListener("submit", function (e) {
-      e.preventDefault();
-      var btn = f.querySelector("button[type=submit]");
-      if (btn) {
-        var txt = btn.innerHTML;
-        btn.innerHTML = "Got it — we'll be in touch shortly";
-        btn.disabled = true;
-        setTimeout(function () { btn.innerHTML = txt; btn.disabled = false; f.reset(); }, 4200);
-      }
-    });
-  });
+  /* Form submission lives in forms.js: it sends each form to the CRM and only says
+     "sent" after the CRM confirms it. */
 
   /* ---------- lazy video poster → iframe ---------- */
   document.querySelectorAll(".video-feature__poster[data-yt]").forEach(function (p) {

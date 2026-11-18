@@ -1004,10 +1004,22 @@
    "text": "Contact us"
   },
   {
+   "id": "90552e0bdb",
+   "where": "label",
+   "original": "Company website",
+   "text": "Company website"
+  },
+  {
    "id": "c8bf28ab5e",
    "where": "button",
    "original": "Join",
    "text": "Join"
+  },
+  {
+   "id": "6797754a69",
+   "where": "p",
+   "original": "By joining you agree to receive emails from ThrIVe Drip Spa. Unsubscribe any time.",
+   "text": "By joining you agree to receive emails from ThrIVe Drip Spa. Unsubscribe any time."
   },
   {
    "id": "8f6190f651",

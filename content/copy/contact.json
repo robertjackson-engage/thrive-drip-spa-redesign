@@ -110,10 +110,16 @@
    "text": "Tell us what you're interested in and your preferred lounge. For bookings, the fastest route is online — under a minute, no card needed."
   },
   {
-   "id": "43b5502f5b",
+   "id": "6fe1869d89",
    "where": "label · How can we",
-   "original": "Full name",
-   "text": "Full name"
+   "original": "First name",
+   "text": "First name"
+  },
+  {
+   "id": "22dc88deec",
+   "where": "label · How can we",
+   "original": "Last name",
+   "text": "Last name"
   },
   {
    "id": "7f19c3b461",
@@ -270,6 +276,12 @@
    "where": "label · How can we",
    "original": "Message (optional)",
    "text": "Message (optional)"
+  },
+  {
+   "id": "228dfe451e",
+   "where": "label · How can we",
+   "original": "Company website",
+   "text": "Company website"
   },
   {
    "id": "fd136091e0",

@@ -794,10 +794,16 @@
    "text": "Questions about drips, memberships or Infrared Sauna? Send a note and the Katy team will get back to you."
   },
   {
-   "id": "6b60d8aaa6",
+   "id": "dba4604e01",
    "where": "label · Say hello to",
-   "original": "Full name",
-   "text": "Full name"
+   "original": "First name",
+   "text": "First name"
+  },
+  {
+   "id": "537fffbc5f",
+   "where": "label · Say hello to",
+   "original": "Last name",
+   "text": "Last name"
   },
   {
    "id": "56908a253f",
@@ -954,6 +960,12 @@
    "where": "label · Say hello to",
    "original": "Message (optional)",
    "text": "Message (optional)"
+  },
+  {
+   "id": "4cf04c8994",
+   "where": "label · Say hello to",
+   "original": "Company website",
+   "text": "Company website"
   },
   {
    "id": "0e6accc300",
