@@ -126,7 +126,23 @@ LOCATIONS = [
          maps="https://maps.app.goo.gl/V4M2erARLSVNh77t7", reviews=753, img="front-desk-phone.webp",
          services=["emface", "emsculpt-neo", "emtone"], kicker="Health Innovated",
          blurb="Located in the heart of Memorial, our spa offers a tranquil escape where wellness meets luxury — perfect for rejuvenation after a day in Houston's premier shopping and dining district.",
-         intro="Your wellness journey starts here. At ThrIVe Drip Spa in Memorial we offer more than hydration — a science-backed approach to feeling and performing your best, with our full IV menu plus the complete BTL body and face suite: EMFACE, Emsculpt NEO and EMTONE."),
+         intro="Your wellness journey starts here. At ThrIVe Drip Spa in Memorial we offer more than hydration — a science-backed approach to feeling and performing your best, with our full IV menu plus the complete BTL body and face suite: EMFACE, Emsculpt NEO and EMTONE.",
+         h1=["IV Therapy in", '<span class="brush">Memorial</span>, Houston'],
+         title="IV Therapy in Memorial, Houston | ThrIVe Drip Spa",
+         desc="IV therapy in Memorial, Houston: 12 signature IV drips, NAD+, boosters, EMFACE, Emsculpt NEO and EMTONE at 1014 Wirt Rd. Open daily. (713) 955-3747.",
+         about=dict(
+             title='IV therapy in Memorial, with the full <span class="brush">body and face suite</span>',
+             paras=[
+                 "ThrIVe Drip Spa Memorial is at 1014 Wirt Rd, Suite 210, Houston, TX 77055 — in the heart of Memorial, and a calm stop after a day in one of Houston's best-known shopping and dining districts. It is where your wellness journey can start: more than hydration, a science-backed approach to feeling and performing your best.",
+                 "IV therapy at our Memorial lounge is built around what you need that day, whether that is hydration, energy or recovery support. A registered nurse places your IV, and your drip delivers fluids, vitamins and nutrients directly into the bloodstream while you settle into a reclining chair. Choose one of our twelve signature IV drips, add a booster, or ask our medical professionals to customize the formula for you.",
+                 "Beyond IV therapy, Memorial offers the latest non-invasive body and face treatments: EMFACE for skin lifting, Emsculpt NEO for building muscle and burning fat, and EMTONE for smoothing the look of cellulite. Memorial is one of the ThrIVe lounges where all three are available under one roof, so you can plan a drip and a treatment in the same visit.",
+             ],
+             list_title="Your first IV therapy visit in Memorial",
+             items=["Book online in under a minute, or call (713) 955-3747",
+                    "Complete a Good Faith Exam with a licensed provider",
+                    "Choose your drip with a spa consultant, or have one built for you",
+                    "Relax in the lounge while a registered nurse looks after your IV"],
+             close="We are open Monday to Friday, 9am to 7pm, and Saturday and Sunday, 10am to 6pm. Memberships and Affirm financing are available at the Memorial lounge.")),
     dict(slug="memorial-green", label="Memorial Green", city="Houston", region="Houston Metro",
          addr="12505 Memorial Drive, Ste 120, Houston, TX 77024", phone="(346) 444-3747", tel="3464443747",
          email="info@thrivedripspa.com", hours=[("Mon–Fri", "9:30am–7pm"), ("Sat–Sun", "9:30am–6:30pm")], ig="thrivedripspa_mg", meevo="202035",
@@ -147,7 +163,24 @@ LOCATIONS = [
          maps="https://maps.app.goo.gl/NhNB9wnE21tMpC1h9", reviews=684, img="neon-best-life.webp",
          services=["emface", "emsculpt-neo", "nad", "boosters"], kicker="Wellness Without Limits",
          blurb="Serving the vibrant West U community, our spa is a wellness retreat for busy professionals, students and families seeking premium hydration and recovery.",
-         intro="Customized IV therapy, experienced wellness professionals, and a relaxing modern lounge under the neon — West University is where Houston comes to sculpt, lift and recover, with EMFACE, Emsculpt NEO and the full NAD+ menu on site."),
+         intro="Customized IV therapy, experienced wellness professionals, and a relaxing modern lounge under the neon — West University is where Houston comes to sculpt, lift and recover, with EMFACE, Emsculpt NEO and the full NAD+ menu on site.",
+         h1=["IV Therapy in", '<span class="brush">West University</span>,', "Houston"],
+         title="IV Therapy in West University, Houston | ThrIVe Drip Spa",
+         desc="IV therapy in West University, Houston: 12 signature IV drips, NAD+, boosters, EMFACE and Emsculpt NEO at 3277 Southwest Fwy. Open daily. (713) 955-3797.",
+         about=dict(
+             title='IV therapy in West University, <span class="brush">built around you</span>',
+             paras=[
+                 "ThrIVe Drip Spa West University is at 3277 Southwest Freeway, Houston, TX 77027, serving the West U community: busy professionals, students and families who want premium hydration and recovery without giving up half a day. Here we go beyond basic wellness to help you feel, look and perform at your best.",
+                 "Our IV therapy delivers hydration, essential vitamins and nutrients directly into your bloodstream. Whether you are after energy, recovery or general wellness support, our team customizes each treatment to fit you. Pick from twelve signature IV drips, from Hydrate and Myers to Immuno and NAD+, and add boosters or a vitamin shot if you like. Every guest completes a Good Faith Exam with a licensed provider before their first drip.",
+                 "West University is more than a drip lounge. In addition to IV therapy you will find NAD+ therapy, vitamin booster shots, EMFACE for needle-free facial lifting and toning, and Emsculpt NEO for building muscle and reducing fat, all designed to support recovery, performance and overall health.",
+             ],
+             list_title="Why Houston chooses ThrIVe in West University",
+             items=["Customized IV therapy treatments",
+                    "Experienced wellness professionals and registered nurses",
+                    "Hydration and recovery solutions in one place",
+                    "A relaxing, modern spa environment",
+                    "A convenient West University location on the Southwest Freeway"],
+             close="The West University lounge is open Monday to Friday, 9am to 7pm, and Saturday and Sunday, 10am to 6pm. Book online, call (713) 955-3797, or ask about memberships and Affirm financing when you visit.")),
     dict(slug="vintage-park", label="Vintage Park", city="Houston", region="Houston Metro",
          addr="10300 Louetta Rd, Ste 114, Houston, TX 77070", phone="(346) 712-3747", tel="3467123747",
          email="admin_vphtx@thrivedripspa.com", hours=HRS_STD, ig="thrivedripspa_vintagepark", meevo="203330",
@@ -168,7 +201,24 @@ LOCATIONS = [
          maps="https://maps.app.goo.gl/eY9qpj22prVBVRZZA", reviews=689, img="loc-woodlands.jpg",
          services=["emsculpt-neo"], kicker="Refresh &amp; Revive",
          blurb="Tucked away in the serene environment of The Woodlands, our spa offers an exclusive wellness experience for locals who prioritize health, beauty and relaxation.",
-         intro="Strength revived. The Woodlands pairs the full drip and shot menu with Emsculpt NEO — burn fat and build muscle in 30-minute sessions, then settle into the lounge for your drip."),
+         intro="Strength revived. The Woodlands pairs the full drip and shot menu with Emsculpt NEO — burn fat and build muscle in 30-minute sessions, then settle into the lounge for your drip.",
+         h1=["IV Therapy in", '<span class="brush">The Woodlands</span>, TX'],
+         title="IV Therapy in The Woodlands, TX | ThrIVe Drip Spa",
+         desc="IV therapy in The Woodlands, TX: 12 signature IV drips, NAD+, boosters, shots and Emsculpt NEO at 9595 Six Pines Dr. Open daily 10–6. (281) 343-3747.",
+         about=dict(
+             title='IV therapy in The Woodlands, <span class="brush">seven days a week</span>',
+             paras=[
+                 "ThrIVe Drip Spa The Woodlands is at 9595 Six Pines Dr, Suite 1460, The Woodlands, TX 77380. Tucked into the calm of The Woodlands, the lounge is a quiet place for locals who put health, beauty and relaxation first, and it is open every day of the week, Monday through Sunday, 10am to 6pm.",
+                 "Our IV therapy in The Woodlands is designed to support hydration, replenish essential nutrients and help you feel more energized and balanced. Whether you are staying active, managing a busy schedule or simply prioritizing your well-being, each drip is tailored by our experienced team to your personal goals. We offer twelve signature IV drips and a variety of boosters, and every drip can be customized or combined: our certified nurses and medical professionals can help you create a personalized formula.",
+                 "Alongside IV therapy, The Woodlands offers Emsculpt NEO, a non-invasive treatment that builds muscle and burns fat in 30-minute sessions, plus vitamin shots when you only have a few minutes. New guests complete a Good Faith Exam with a licensed provider before their first treatment.",
+             ],
+             list_title="At the Woodlands lounge",
+             items=["Twelve signature IV drips, each customizable",
+                    "Boosters and vitamin shots",
+                    "Emsculpt NEO body contouring",
+                    "Registered nurses at every visit",
+                    "Open Monday through Sunday, 10am to 6pm"],
+             close="Book IV therapy in The Woodlands online or call (281) 343-3747. Memberships and Affirm financing are available.")),
     dict(slug="clear-lake", label="Clear Lake", city="Houston", region="Greater Houston",
          addr="3535 Clearlake City Blvd, Ste 700, Houston, TX 77059", phone="(281) 783-4108", tel="2817834108",
          email="admin_clearlaketx@thrivedripspa.com", hours=[("Mon–Fri", "9am–7pm"), ("Sun", "10am–6pm"), ("Sat", "Call for hours")], ig="thrivedripspa_clearlake", meevo="203215",
@@ -182,14 +232,47 @@ LOCATIONS = [
          maps="https://maps.app.goo.gl/BCoZRjKenycPjTGF7", reviews=218, img="front-desk-welcome.webp",
          services=["emface", "emsculpt-neo", "emtone"], kicker="Luxury Wellness, Dallas",
          blurb="Serving the prestigious Highland Park area, our spa delivers elite IV therapy to those who demand the best in one of Dallas' most luxurious neighborhoods.",
-         intro="Premium IV therapy, vitamin infusions and wellness spa services on Lovers Lane — with the complete BTL suite (EMFACE, Emsculpt NEO, EMTONE) to elevate your glow, shape and refresh."),
+         intro="Premium IV therapy, vitamin infusions and wellness spa services on Lovers Lane — with the complete BTL suite (EMFACE, Emsculpt NEO, EMTONE) to elevate your glow, shape and refresh.",
+         h1=["IV Therapy in", '<span class="brush">Highland Park</span>,', "Dallas"],
+         title="IV Therapy in Highland Park, Dallas | ThrIVe Drip Spa",
+         desc="IV therapy in Highland Park, Dallas: 12 signature IV drips, NAD+, EMFACE, Emsculpt NEO and EMTONE at 5301 W Lovers Ln. Open daily. (214) 214-3747.",
+         about=dict(
+             title='IV therapy in Highland Park, <span class="brush">where luxury meets science</span>',
+             paras=[
+                 "ThrIVe Drip Spa Highland Park is at 5301 W Lovers Ln, Suite 103, Dallas, TX 75209, serving Highland Park and the wider Dallas area. It is a wellness spa offering twelve signature IV drips, vitamin infusions and custom boosters in a relaxing, spa-like setting.",
+                 "IV therapy at Highland Park delivers hydration, vitamins and essential nutrients directly into your bloodstream. Whether you are looking for an energy lift, support after a workout or a skin-focused drip, our medical team designs each infusion around your individual wellness goals. We go beyond traditional hydration, with premium vitamin blends and personalized care from registered nurses. Your first visit includes a Good Faith Exam with a licensed provider.",
+                 "Highland Park also goes beyond IV therapy. Our science-based wellness and aesthetic treatments include EMFACE for non-invasive facial lifting and toning, Emsculpt NEO for muscle building and fat reduction, and EMTONE for skin smoothing and the look of cellulite. Whether you are here for hydration, recovery or a complete body contouring plan, the Highland Park team tailors every service to your goals.",
+             ],
+             list_title="IV therapy and more on Lovers Lane",
+             items=["Twelve signature IV drips and custom boosters",
+                    "NAD+ and vitamin shots",
+                    "EMFACE, Emsculpt NEO and EMTONE",
+                    "Personalized care from registered nurses"],
+             close="We are open Monday to Friday, 9am to 7pm, and Saturday and Sunday, 10am to 6pm. Book IV therapy in Highland Park online or call (214) 214-3747. Memberships and Affirm financing are available.")),
     dict(slug="fort-worth", label="Fort Worth", city="Fort Worth", region="North Texas",
          addr="2708 S Hulen St, Fort Worth, TX 76109", phone="(682) 747-3747", tel="6827473747",
          email="admin_ftw@thrivedripspa.com", hours=HRS_STD, ig="thrivedripspa_ftworth", meevo="203322",
          maps="https://maps.app.goo.gl/iXfUq6jsh2SGkBCR8", reviews=313, img="wall-guests.webp",
          services=["emface", "emsculpt-neo"], kicker="Hydrate, Energize &amp; Restore",
          blurb="Located in the dynamic city of Fort Worth, our spa provides cutting-edge IV therapy to professionals, athletes and visitors looking to optimize their wellness journey.",
-         intro="Rehydrate and recharge on Hulen Street with personalized IV drip therapy, vitamin boosters and shots — plus EMFACE and Emsculpt NEO to contour and renew."),
+         intro="Rehydrate and recharge on Hulen Street with personalized IV drip therapy, vitamin boosters and shots — plus EMFACE and Emsculpt NEO to contour and renew.",
+         h1=["IV Therapy in", '<span class="brush">Fort Worth</span>, Texas'],
+         title="IV Therapy in Fort Worth, TX | ThrIVe Drip Spa",
+         desc="IV therapy in Fort Worth, TX: 12 signature IV drips, NAD+, boosters and shots, EMFACE and Emsculpt NEO at 2708 S Hulen St. Open daily. (682) 747-3747.",
+         about=dict(
+             title='IV therapy in Fort Worth to <span class="brush">hydrate, energize and restore</span>',
+             paras=[
+                 "Recharge and rehydrate at ThrIVe Drip Spa Fort Worth, 2708 S Hulen St, Fort Worth, TX 76109. Our Hulen Street lounge offers twelve expertly formulated IV drips and a full menu of vitamin boosters for Fort Worth professionals, athletes and visitors.",
+                 "IV therapy in Fort Worth infuses fluids, essential vitamins and nutrients directly into your bloodstream. Whether you are recovering from a workout, running low on energy or simply want to feel your best, our team customizes every IV treatment to your needs, in a relaxing, spa-like environment. A registered nurse places your IV, and new guests complete a Good Faith Exam with a licensed provider first.",
+                 "Our Fort Worth location also offers EMFACE for needle-free facial rejuvenation and Emsculpt NEO to build muscle and burn fat with non-invasive technology. Vitamin shots are available when you are short on time, and all of our drips can be combined or adjusted into a personalized formula.",
+             ],
+             list_title="What you will find at ThrIVe Fort Worth",
+             items=["Twelve signature IV drips, from Hydrate to NAD+",
+                    "Vitamin boosters and shots",
+                    "EMFACE and Emsculpt NEO",
+                    "Registered nurses and personalized IV therapy",
+                    "Online booking, memberships and Affirm financing"],
+             close="The Fort Worth lounge is open Monday to Friday, 9am to 7pm, and Saturday and Sunday, 10am to 6pm. Book IV therapy in Fort Worth online or call (682) 747-3747.")),
 ]
 LOC_BY = {l["slug"]: l for l in LOCATIONS}
 REGIONS = ["Houston Metro", "Greater Houston", "North Texas"]
@@ -398,7 +481,7 @@ ORG_LD = _json.dumps({
 })
 
 
-def head(title, desc, canonical_img=None, path=""):
+def head(title, desc, canonical_img=None, path="", preload=""):
     canonical = CANON.rstrip("/") + public_url(path or "index.html")
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -421,29 +504,24 @@ def head(title, desc, canonical_img=None, path=""):
 <script type="application/ld+json">{ORG_LD}</script>
 <meta property="og:image" content="{CANON}{IMG}/{canonical_img or 'nurse-iv-lounge.jpg'}">
 <meta name="theme-color" content="#053948">
+{preload}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
-<link rel="preload" href="assets/fonts/Grotters.ttf" as="font" type="font/ttf" crossorigin>
+<link rel="preload" href="assets/fonts/Grotters.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="icon" type="image/png" href="{IMG}/drop-mark.png">
 <link rel="apple-touch-icon" href="{IMG}/drop-mark.png">
 <link rel="stylesheet" href="assets/css/main.css?v={V}">
 <!-- Wellgentic tracking and existing GTM load after the visitor’s cookie choice. -->
 <script src="assets/js/tracking.js?v={V}"></script>
 <script>(function(){{try{{
-  if(sessionStorage.getItem("tds-intro"))document.documentElement.classList.add("no-preloader");
   if(sessionStorage.getItem("tds-util"))document.documentElement.classList.add("no-util");
   var v=localStorage.getItem("tds-view");
   document.documentElement.setAttribute("data-view", v==="member"?"member":"guest");
 }}catch(e){{}}}})();</script>
 </head>
 <body>
-
-<div class="preloader" aria-hidden="true">
-  <img class="preloader__logo" src="{IMG}/logo-color.webp" alt="">
-  <div class="preloader__drop">{DROP_SVG}</div>
-  <div class="preloader__bar"><i></i></div>
-</div>
+<script>requestAnimationFrame(function(){{requestAnimationFrame(function(){{document.body.classList.add("is-loaded")}})}});</script>
 """
 
 
@@ -640,10 +718,37 @@ def _btn(a):
     return f'<a class="{cls}" href="{href}"{tgt}>{label} <span class="arr">→</span></a>'
 
 
-def hero(kicker, lines, sub="", img=None, video=None, poster=None, crumb=None, actions=None, meta=None, page=False, badge=None, alt=""):
-    lns = "".join(f'<span class="ln"><span style="transition-delay:{0.1+i*0.08:.2f}s">{ln}</span></span>' for i, ln in enumerate(lines))
+def _hero_img(img, alt, sizes):
+    """The hero <img>: the largest thing above the fold on most pages.
+
+    Uses the resized WebP copies made by tools/hero_images.py when they exist, so a phone
+    downloads a file sized for its screen instead of the full-size original."""
+    stem = os.path.splitext(img)[0]
+    found = _glob.glob(os.path.join(OUT, _glob.escape(stem) + "-*.webp"))
+    variants = sorted((int(m.group(1)), f"{stem}-{m.group(1)}.webp") for m in
+                      (_re.fullmatch(_re.escape(os.path.basename(stem)) + r"-(\d+)\.webp", os.path.basename(f)) for f in found) if m)
+    if not variants:
+        return f'<img src="{img}" alt="{alt}" fetchpriority="high">'
+    srcset = ", ".join(f"{path} {w}w" for w, path in variants)
+    return f'<img src="{variants[-1][1]}" srcset="{srcset}" sizes="{sizes}" alt="{alt}" fetchpriority="high">'
+
+
+def _lcp_preload(body):
+    """A preload tag for the page's hero image, so the browser starts fetching it with the CSS."""
+    m = _re.search(r'<img\b[^>]*fetchpriority="high"[^>]*>', body)
+    if not m:
+        return ""
+    attr = lambda name: (_re.search(rf'\s{name}="([^"]*)"', m.group(0)) or ["", ""])[1]
+    responsive = f' imagesrcset="{attr("srcset")}" imagesizes="{attr("sizes")}"' if attr("srcset") else ""
+    return f'<link rel="preload" as="image" href="{attr("src")}"{responsive} fetchpriority="high">'
+
+
+def hero(kicker, lines, sub="", img=None, video=None, poster=None, crumb=None, actions=None, meta=None, page=False, badge=None, alt="", tagline=None):
+    # The space between lines keeps the heading readable as plain text ("IV Therapy in Houston", not "inHouston").
+    lns = " ".join(f'<span class="ln"><span style="transition-delay:{0.1+i*0.08:.2f}s">{ln}</span></span>' for i, ln in enumerate(lines))
     media = (f'<video src="{video}" poster="{poster or ""}" autoplay muted loop playsinline></video>' if video
-             else (f'<img src="{img}" alt="{alt}" fetchpriority="high">' if img else ""))
+             else (_hero_img(img, alt, "(max-width: 820px) 100vw, 70vw") if img else ""))
+    tagline_html = f'<p class="hero__tagline">{tagline}</p>' if tagline else ""
     acts = ('<div class="hero__actions">' + "".join(_btn(a) for a in actions) + "</div>") if actions else ""
     crumb_html = f'<div class="hero__crumb"><a href="index.html">Home</a> &nbsp;/&nbsp; {crumb}</div>' if crumb else ""
     meta_html = ('<div class="hero__meta">' + "".join(f"<span>{m}</span>" for m in meta) + "</div>") if meta else ""
@@ -657,7 +762,7 @@ def hero(kicker, lines, sub="", img=None, video=None, poster=None, crumb=None, a
       {crumb_html}
       <p class="hero__kicker">{kicker}</p>
       <h1 class="hero__title">{lns}</h1>
-      {sub_html}{acts}{meta_html}
+      {tagline_html}{sub_html}{acts}{meta_html}
     </div>
     <div class="hero__media">{media}{badge_html}</div>
   </div>
@@ -666,14 +771,14 @@ def hero(kicker, lines, sub="", img=None, video=None, poster=None, crumb=None, a
 
 
 def hero_photo(kicker, lines, sub="", img=None, crumb=None, actions=None, meta=None, alt=""):
-    lns = "".join(f'<span class="ln"><span style="transition-delay:{0.1+i*0.08:.2f}s">{ln}</span></span>' for i, ln in enumerate(lines))
+    lns = " ".join(f'<span class="ln"><span style="transition-delay:{0.1+i*0.08:.2f}s">{ln}</span></span>' for i, ln in enumerate(lines))
     acts = ('<div class="hero__actions">' + "".join(_btn(a) for a in actions) + "</div>") if actions else ""
     crumb_html = f'<div class="hero__crumb"><a href="index.html">Home</a> &nbsp;/&nbsp; {crumb}</div>' if crumb else ""
     meta_html = ('<div class="hero__meta">' + "".join(f"<span>{m}</span>" for m in meta) + "</div>") if meta else ""
     sub_html = f'<p class="hero__sub">{sub}</p>' if sub else ""
     return f"""
 <section class="hero hero--photo">
-  <div class="hero__bg"><img src="{img}" alt="{alt}" fetchpriority="high"></div>
+  <div class="hero__bg">{_hero_img(img, alt, "100vw")}</div>
   <div class="hero__inner">
     {crumb_html}
     <p class="hero__kicker">{kicker}</p>
@@ -872,12 +977,32 @@ def to_public_urls(html):
         html)
     # assets/… and ../assets/… → /assets/…
     html = _re.sub(r'(href|src)="(?:\.\./)*(assets/[^"]*)"', r'\1="/\2"', html)
+    # the same for every candidate inside srcset / imagesrcset
+    html = _re.sub(r'((?:image)?srcset)="([^"]*)"',
+                   lambda m: f'{m.group(1)}="' + _re.sub(r'(^|,\s*)(?:\.\./)*(assets/)', r'\1/\2', m.group(2)) + '"', html)
     return html
+
+
+def trim_desc(desc, limit=155):
+    """Keep a meta description within what Google shows (about 155 characters).
+
+    Whole sentences are kept while they fit; a single over-long sentence is cut at a word."""
+    desc = " ".join(desc.split())
+    if len(desc) <= limit:
+        return desc
+    kept = ""
+    for sentence in _re.split(r"(?<=[.!?])(?<!\bDr\.)(?<!\bSt\.)(?<!\bSte\.)\s+(?=[A-Z0-9])", desc):
+        if len(kept) + len(sentence) + (1 if kept else 0) > limit:
+            break
+        kept = (kept + " " + sentence).strip()
+    if len(kept) >= 70:
+        return kept
+    return desc[:limit - 1].rsplit(" ", 1)[0].rstrip(" ,;:—-·") + "…"
 
 
 def page(filename, title, desc, active, body, manifest=True, og=None):
     PAGES.append((filename, title))
-    html = copy_layer.compose(filename, head(title, desc, og, path=filename), header_html(active), footer_html(), body, manifest=manifest)
+    html = copy_layer.compose(filename, head(title, trim_desc(desc), og, path=filename, preload=_lcp_preload(body)), header_html(active), footer_html(), body, manifest=manifest)
     html = to_public_urls(html)
     with open(os.path.join(OUT, filename), "w") as f:
         f.write(html)
@@ -886,7 +1011,7 @@ def page(filename, title, desc, active, body, manifest=True, og=None):
 
 def page_sub(filename, title, desc, body, og=None):
     PAGES.append((filename, title))
-    html = copy_layer.compose(filename, head(title, desc, og, path=filename), header_html("blog.html"), footer_html(), body, manifest=False)
+    html = copy_layer.compose(filename, head(title, trim_desc(desc), og, path=filename, preload=_lcp_preload(body)), header_html("blog.html"), footer_html(), body, manifest=False)
     html = to_public_urls(html)
     os.makedirs(os.path.join(OUT, "blog"), exist_ok=True)
     with open(os.path.join(OUT, filename), "w") as f:
@@ -920,9 +1045,10 @@ HOW_FAQ = [
 
 # ============================================================ HOME
 home_body = hero(
-    "Houston · Dallas · Fort Worth · Mobile",
-    ["Hydrate.", "Energize.", '<span class="brush">Thrive.</span>'],
-    "Your destination for IV therapy, vitamin infusions and wellness spa services. Twelve signature drips, NAD+, boosters and shots — built by registered nurses, in a lounge that feels like a spa. Feel better in about an hour.",
+    "The first IV drip spa in Texas",
+    ["IV Therapy in", "Houston, Dallas", '&amp; <span class="brush">Fort Worth</span>'],
+    tagline='Hydrate. Energize. <span class="brush">Thrive.</span>',
+    sub="Your destination for IV therapy, vitamin infusions and wellness spa services. Twelve signature drips, NAD+, boosters and shots — built by registered nurses, in a lounge that feels like a spa. Feel better in about an hour.",
     img=f"{IMG}/nurse-iv-lounge.jpg", alt="A ThrIVe nurse placing an IV in the drip lounge",
     actions=[("Book Your Drip", "book.html", True), ("See the Drip Menu", "iv-therapy.html", False)],
     meta=["Registered nurses", "Customizable drips", "10 lounges + mobile", "No card to book"],
@@ -1487,8 +1613,24 @@ def loc_page(l):
     styku = f"""
 <section class="section" id="styku"><div class="wrap">{split("3D body insight", "03", 'Precision meets <span class="brush">progress</span>', ["Experience fast, private 3D body scans in under 60 seconds. Styku provides highly accurate measurements of body fat percentage, lean mass and circumferences — and before-and-after comparisons so you can see exactly what Emsculpt NEO and your drips are doing."], f"{IMG}/styku.webp", "Styku 3D body scanning", tag="Memorial Green only", cta=("Book a scan", "book.html", True)).replace('<section class="section ">', "<div>").replace("</section>", "</div>")}</div></section>""" if "styku" in l["services"] else ""
     maps_q = l["addr"].replace("&amp;", "and").replace(" ", "+")
+    a = l.get("about")
+    about = f"""
+<section class="section section--ice"><div class="wrap"><div class="intro-grid">
+  <div>
+    <p class="eyebrow">About the {l["label"]} lounge</p>
+    <h2 class="h-display reveal">{a["title"]}</h2>
+  </div>
+  <div class="intro-grid__right">
+    <p class="lede reveal">{a["paras"][0]}</p>
+    <div class="reveal">{"".join(f'<p class="body-copy">{x}</p>' for x in a["paras"][1:])}</div>
+    <div class="reveal"><h3>{a["list_title"]}</h3>
+    <ul class="checklist checklist--1" style="margin-top:8px">{"".join(f"<li>{x}</li>" for x in a["items"])}</ul></div>
+    <p class="body-copy reveal">{a["close"]}</p>
+    <div class="reveal"><a class="inline-link" href="{meevo(l)}" target="_blank" rel="noopener">Book IV therapy in {l["label"]} →</a></div>
+  </div>
+</div></div></section>""" if a else ""
     return hero_photo(
-        f'ThrIVe Drip Spa · {l["region"]}', [f'<span class="brush">{l["label"]}</span>', "drip lounge."],
+        f'ThrIVe Drip Spa · {l["region"]}', l.get("h1") or [f'<span class="brush">{l["label"]}</span>', "drip lounge."],
         f'{l["intro"]}',
         img=f"{IMG}/{l['img']}", alt=f"ThrIVe Drip Spa {l['label']}", crumb=f'<a href="locations.html">Locations</a> &nbsp;/&nbsp; {l["label"]}',
         actions=[("Book at " + l["label"], meevo(l), True), ("Call " + l["phone"], f'tel:{l["tel"]}', False)],
@@ -1499,7 +1641,7 @@ def loc_page(l):
   <div class="loc-item"><h4>Call or email</h4><a class="phone" href="tel:{l['tel']}">{l['phone']}</a><a href="mailto:{l['email']}" style="font-size:14px;font-weight:500;display:block;margin-top:6px">{l['email']}</a></div>
   <div class="loc-item"><h4>Spa hours</h4><dl class="hours">{hours}</dl></div>
   <div class="loc-item"><h4>Follow</h4><a href="https://www.instagram.com/{l['ig']}" target="_blank" rel="noopener">@{l['ig']}</a><span style="display:block;margin-top:8px"><span class="stars">★★★★★</span> <small style="color:var(--muted)">{l['reviews']}+ Google reviews</small></span></div>
-</div></div></section>
+</div></div></section>{about}
 <section class="section"><div class="wrap">
   {cards_head("01", l["kicker"], 'Twelve signature <span class="brush">drips</span>', ("Full menu &amp; pricing", "iv-therapy.html"), l["blurb"])}
   {drip_grid()}
@@ -1822,7 +1964,9 @@ page("packages.html", "IV Therapy, Shot & NAD+ Packages | ThrIVe Drip Spa", "Buy
 page("promotions.html", "Monthly Promotions | ThrIVe Drip Spa", "This month's offers at ThrIVe Drip Spa — 25% off your first IV, free Benadryl with the Migraine Drip, and more.", "promotions.html", promotions_body, og="guests-drinks.webp")
 page("locations.html", "Locations — Houston, Katy, The Woodlands, Clear Lake, Dallas & Fort Worth | ThrIVe Drip Spa", "Ten ThrIVe Drip Spa lounges across Greater Houston, Dallas and Fort Worth, plus mobile IV. Addresses, hours and booking.", "locations.html", locations_body, og="lounge-interior.webp")
 for l in LOCATIONS:
-    page(f'{l["slug"]}.html', f'ThrIVe Drip Spa {l["label"]} — IV Therapy in {l["city"]}, TX', f'IV drips, NAD+, boosters and shots at ThrIVe Drip Spa {l["label"]}, {l["addr"]}. Call {l["phone"]}. {l["blurb"]}', f'{l["slug"]}.html', loc_ld(l) + loc_page(l), og=l["img"])
+    page(f'{l["slug"]}.html', l.get("title") or f'ThrIVe Drip Spa {l["label"]} — IV Therapy in {l["city"]}, TX',
+         l.get("desc") or f'IV drips, NAD+, boosters and shots at ThrIVe Drip Spa {l["label"]}, {l["addr"]}. Call {l["phone"]}. {l["blurb"]}',
+         f'{l["slug"]}.html', loc_ld(l) + loc_page(l), og=l["img"])
 page("book.html", "Book Online — Under a Minute, No Card Required | ThrIVe Drip Spa", "Book IV therapy at any ThrIVe lounge in under a minute. New clients save 25% on their first drip.", "book.html", book_body, og="lounge-selfie.jpg")
 page("about.html", "About ThrIVe Drip Spa — The First IV Drip Spa in Texas", "Founded in Houston and led by Dr. Eugene Lou, ThrIVe Drip Spa modernized IV therapy with a spa-grade lounge experience. Ten lounges across Texas.", "about.html", about_body, og="front-desk-welcome.webp")
 page("gfe-process.html", "Good Faith Exam Process | ThrIVe Drip Spa", "How the Texas-required Good Faith Exam works at ThrIVe: video or in-lounge, $35 ($45 with bloodwork), credited back to your account.", "gfe-process.html", gfe_body, og="consult-tablet.webp")
@@ -1864,10 +2008,11 @@ for stale in ("emsculpt.html", "normatec.html"):
         pass
 
 # sitemap.xml + robots
+NOT_IN_SITEMAP = {"thank-you.html"}   # a confirmation page is not a search landing page
 # SITE_URL / CANON / NOINDEX are defined with the other constants at the top.
 with open(os.path.join(OUT, "sitemap.xml"), "w") as f:
     f.write('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
-            "".join(f"  <url><loc>{SITE_URL.rstrip(chr(47))}{public_url(fn)}</loc></url>\n" for fn, _ in PAGES) + "</urlset>\n")
+            "".join(f"  <url><loc>{SITE_URL.rstrip(chr(47))}{public_url(fn)}</loc></url>\n" for fn, _ in PAGES if fn not in NOT_IN_SITEMAP) + "</urlset>\n")
 with open(os.path.join(OUT, "robots.txt"), "w") as f:
     f.write(f"User-agent: *\nAllow: /\nSitemap: {SITE_URL}sitemap.xml\n")
 open(os.path.join(OUT, ".nojekyll"), "w").close()

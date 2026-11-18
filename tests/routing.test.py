@@ -32,6 +32,15 @@ def check(label, got, want):
         failures.append(label)
 
 
+def body(path):
+    """(status, body text) of a GET, including error responses."""
+    try:
+        r = urllib.request.urlopen(BASE + path, timeout=10)
+        return r.getcode(), r.read().decode("utf-8", "replace")
+    except urllib.error.HTTPError as e:
+        return e.code, e.read().decode("utf-8", "replace")
+
+
 def head(path):
     """(status, Location) without following the redirect."""
     class NoRedirect(urllib.request.HTTPRedirectHandler):
@@ -77,6 +86,31 @@ def main():
                          ("/emsculpt", "/emsculpt-neo/"), ("/normatec", "/body-contouring/")):
             code, loc = head(src)
             check(f"{src} -> {dst}", (code, loc), (301, dst))
+
+        print("old URLs that used to fall through to a catch-all still land where they did")
+        for src, dst in (("/drips/nad/", "/nad/"), ("/drips/detoxing/", "/detox-drip/"),
+                         ("/biotin/", "/shots/"), ("/beat-the-summer-heat/", "/blog/"),
+                         ("/7-wellness-boosters-that-support-energy-levels/", "/boosters/"),
+                         ("/how-long-does-iv-therapy-stay-in-your-system/", "/blog/how-long-does-iv-therapy-last/"),
+                         ("/iv-drip-therapy-in-fort-worth-texas/", "/fort-worth/")):
+            code, loc = head(src)
+            check(f"{src} -> {dst}", (code, loc), (301, dst))
+
+        print("an address that was never a page is a real 404 with the designed page")
+        for p in ("/this-page-does-not-exist/", "/no-such-page", "/fort-worth/extra/",
+                  "/blog/no-such-post/", "/wp-login.php", "/assets/img/", "/nad-typo/"):
+            code, loc = head(p)
+            check(f"{p} is 404, not a redirect", (code, loc), (404, None))
+        code, html = body("/this-page-does-not-exist/")
+        check("404 response shows the 404 page", (code, "page not found" in html.lower()), (404, True))
+
+        print("every listed redirect ends on a live page in one hop")
+        sys.path.insert(0, ROOT)
+        import serve
+        broken = [f"{src} -> {dst}" for src, dst in sorted(serve.REDIRECTS.items()) if head(dst)[0] != 200]
+        check("redirect targets that are not a 200", broken[:5] or 0, 0)
+        shadowed = [src for src in serve.REDIRECTS if serve.page_file(src.strip("/"))]
+        check("redirects that would hide a real page", shadowed[:5] or 0, 0)
 
         print("a redirect never points at another redirect")
         for src in ("/faqs", "/certified-medical-drips", "/fort-worth.html", "/emsculpt"):

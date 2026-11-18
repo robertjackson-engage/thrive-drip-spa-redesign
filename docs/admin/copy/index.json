@@ -8,28 +8,46 @@
    "text": "IV Therapy, NAD+ & Wellness Spa | ThrIVe Drip Spa — Houston, Dallas & Fort Worth"
   },
   {
-   "id": "077c9380a0",
+   "id": "76ca2dd467",
    "where": "Search-engine description",
-   "original": "ThrIVe Drip Spa: 12 signature IV drips, NAD+, boosters, shots, mobile IV, body contouring and infrared sauna in Houston, Dallas and Fort Worth. Feel better in about an hour.",
-   "text": "ThrIVe Drip Spa: 12 signature IV drips, NAD+, boosters, shots, mobile IV, body contouring and infrared sauna in Houston, Dallas and Fort Worth. Feel better in about an hour."
+   "original": "ThrIVe Drip Spa: 12 signature IV drips, NAD+, boosters, shots, mobile IV, body contouring and infrared sauna in Houston, Dallas and Fort Worth.",
+   "text": "ThrIVe Drip Spa: 12 signature IV drips, NAD+, boosters, shots, mobile IV, body contouring and infrared sauna in Houston, Dallas and Fort Worth."
   },
   {
-   "id": "85fe396c4c",
+   "id": "b1c3d41fcb",
    "where": "p",
-   "original": "Houston · Dallas · Fort Worth · Mobile",
-   "text": "Houston · Dallas · Fort Worth · Mobile"
+   "original": "The first IV drip spa in Texas",
+   "text": "The first IV drip spa in Texas"
   },
   {
-   "id": "a65752e48d",
+   "id": "d4c1aa34f8",
    "where": "span",
-   "original": "Hydrate.",
-   "text": "Hydrate."
+   "original": "IV Therapy in",
+   "text": "IV Therapy in"
   },
   {
-   "id": "5feb369278",
+   "id": "5cae55b43b",
    "where": "span",
-   "original": "Energize.",
-   "text": "Energize."
+   "original": "Houston, Dallas",
+   "text": "Houston, Dallas"
+  },
+  {
+   "id": "9e6ccc7bc5",
+   "where": "span",
+   "original": "&",
+   "text": "&"
+  },
+  {
+   "id": "903a37132d",
+   "where": "span",
+   "original": "Fort Worth",
+   "text": "Fort Worth"
+  },
+  {
+   "id": "6a3c974179",
+   "where": "p",
+   "original": "Hydrate. Energize.",
+   "text": "Hydrate. Energize."
   },
   {
    "id": "418300a4d7",
@@ -266,7 +284,7 @@
    "text": "Immuno"
   },
   {
-   "id": "b1c3d41fcb",
+   "id": "0454ad89b2",
    "where": "text",
    "original": "The first IV drip spa in Texas",
    "text": "The first IV drip spa in Texas"
@@ -1280,7 +1298,7 @@
    "text": "Dallas →"
   },
   {
-   "id": "903a37132d",
+   "id": "97e934ae35",
    "where": "h3 · Highland Park",
    "original": "Fort Worth",
    "text": "Fort Worth"

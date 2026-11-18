@@ -2,16 +2,16 @@
  "page": "west-university",
  "items": [
   {
-   "id": "3d0d03227a",
+   "id": "1261a7a8be",
    "where": "Browser tab title",
-   "original": "ThrIVe Drip Spa West University — IV Therapy in Houston, TX",
-   "text": "ThrIVe Drip Spa West University — IV Therapy in Houston, TX"
+   "original": "IV Therapy in West University, Houston | ThrIVe Drip Spa",
+   "text": "IV Therapy in West University, Houston | ThrIVe Drip Spa"
   },
   {
-   "id": "925a61c0b7",
+   "id": "0be4dedeb3",
    "where": "Search-engine description",
-   "original": "IV drips, NAD+, boosters and shots at ThrIVe Drip Spa West University, 3277 Southwest Freeway, Houston, TX 77027. Call (713) 955-3797. Serving the vibrant West U community, our spa is a wellness retreat for busy professionals, students and families seeking premium hydration and recovery.",
-   "text": "IV drips, NAD+, boosters and shots at ThrIVe Drip Spa West University, 3277 Southwest Freeway, Houston, TX 77027. Call (713) 955-3797. Serving the vibrant West U community, our spa is a wellness retreat for busy professionals, students and families seeking premium hydration and recovery."
+   "original": "IV therapy in West University, Houston: 12 signature IV drips, NAD+, boosters, EMFACE and Emsculpt NEO at 3277 Southwest Fwy. Open daily. (713) 955-3797.",
+   "text": "IV therapy in West University, Houston: 12 signature IV drips, NAD+, boosters, EMFACE and Emsculpt NEO at 3277 Southwest Fwy. Open daily. (713) 955-3797."
   },
   {
    "id": "4725591587",
@@ -44,16 +44,22 @@
    "text": "ThrIVe Drip Spa · Houston Metro"
   },
   {
+   "id": "50825b0718",
+   "where": "span",
+   "original": "IV Therapy in",
+   "text": "IV Therapy in"
+  },
+  {
    "id": "76af004a1e",
    "where": "span",
    "original": "West University",
    "text": "West University"
   },
   {
-   "id": "fbbe0e5ae2",
+   "id": "e834b2dc9c",
    "where": "span",
-   "original": "drip lounge.",
-   "text": "drip lounge."
+   "original": "Houston",
+   "text": "Houston"
   },
   {
    "id": "b4e21211ce",
@@ -176,14 +182,98 @@
    "text": "684+ Google reviews"
   },
   {
+   "id": "aa0b5ed8a9",
+   "where": "p",
+   "original": "About the West University lounge",
+   "text": "About the West University lounge"
+  },
+  {
+   "id": "e2c292a817",
+   "where": "h2",
+   "original": "IV therapy in West University,",
+   "text": "IV therapy in West University,"
+  },
+  {
+   "id": "1e6dada9dd",
+   "where": "span · IV therapy in West University,",
+   "original": "built around you",
+   "text": "built around you"
+  },
+  {
+   "id": "5b878edd03",
+   "where": "p · IV therapy in West University,",
+   "original": "ThrIVe Drip Spa West University is at 3277 Southwest Freeway, Houston, TX 77027, serving the West U community: busy professionals, students and families who want premium hydration and recovery without giving up half a day. Here we go beyond basic wellness to help you feel, look and perform at your best.",
+   "text": "ThrIVe Drip Spa West University is at 3277 Southwest Freeway, Houston, TX 77027, serving the West U community: busy professionals, students and families who want premium hydration and recovery without giving up half a day. Here we go beyond basic wellness to help you feel, look and perform at your best."
+  },
+  {
+   "id": "882d5a665e",
+   "where": "p · IV therapy in West University,",
+   "original": "Our IV therapy delivers hydration, essential vitamins and nutrients directly into your bloodstream. Whether you are after energy, recovery or general wellness support, our team customizes each treatment to fit you. Pick from twelve signature IV drips, from Hydrate and Myers to Immuno and NAD+, and add boosters or a vitamin shot if you like. Every guest completes a Good Faith Exam with a licensed provider before their first drip.",
+   "text": "Our IV therapy delivers hydration, essential vitamins and nutrients directly into your bloodstream. Whether you are after energy, recovery or general wellness support, our team customizes each treatment to fit you. Pick from twelve signature IV drips, from Hydrate and Myers to Immuno and NAD+, and add boosters or a vitamin shot if you like. Every guest completes a Good Faith Exam with a licensed provider before their first drip."
+  },
+  {
+   "id": "943c92b26b",
+   "where": "p · IV therapy in West University,",
+   "original": "West University is more than a drip lounge. In addition to IV therapy you will find NAD+ therapy, vitamin booster shots, EMFACE for needle-free facial lifting and toning, and Emsculpt NEO for building muscle and reducing fat, all designed to support recovery, performance and overall health.",
+   "text": "West University is more than a drip lounge. In addition to IV therapy you will find NAD+ therapy, vitamin booster shots, EMFACE for needle-free facial lifting and toning, and Emsculpt NEO for building muscle and reducing fat, all designed to support recovery, performance and overall health."
+  },
+  {
+   "id": "ba6aeadc2f",
+   "where": "h3 · IV therapy in West University,",
+   "original": "Why Houston chooses ThrIVe in West University",
+   "text": "Why Houston chooses ThrIVe in West University"
+  },
+  {
+   "id": "b7bf0a72f0",
+   "where": "li · Why Houston chooses ThrIVe in West University",
+   "original": "Customized IV therapy treatments",
+   "text": "Customized IV therapy treatments"
+  },
+  {
+   "id": "c9c9e8c3df",
+   "where": "li · Why Houston chooses ThrIVe in West University",
+   "original": "Experienced wellness professionals and registered nurses",
+   "text": "Experienced wellness professionals and registered nurses"
+  },
+  {
+   "id": "b83c24e3b3",
+   "where": "li · Why Houston chooses ThrIVe in West University",
+   "original": "Hydration and recovery solutions in one place",
+   "text": "Hydration and recovery solutions in one place"
+  },
+  {
+   "id": "4e9de633fb",
+   "where": "li · Why Houston chooses ThrIVe in West University",
+   "original": "A relaxing, modern spa environment",
+   "text": "A relaxing, modern spa environment"
+  },
+  {
+   "id": "55b4263efb",
+   "where": "li · Why Houston chooses ThrIVe in West University",
+   "original": "A convenient West University location on the Southwest Freeway",
+   "text": "A convenient West University location on the Southwest Freeway"
+  },
+  {
+   "id": "e530ec3acc",
+   "where": "p · Why Houston chooses ThrIVe in West University",
+   "original": "The West University lounge is open Monday to Friday, 9am to 7pm, and Saturday and Sunday, 10am to 6pm. Book online, call (713) 955-3797, or ask about memberships and Affirm financing when you visit.",
+   "text": "The West University lounge is open Monday to Friday, 9am to 7pm, and Saturday and Sunday, 10am to 6pm. Book online, call (713) 955-3797, or ask about memberships and Affirm financing when you visit."
+  },
+  {
+   "id": "33cfd8429a",
+   "where": "a · Why Houston chooses ThrIVe in West University",
+   "original": "Book IV therapy in West University →",
+   "text": "Book IV therapy in West University →"
+  },
+  {
    "id": "5c85136573",
-   "where": "text",
+   "where": "text · Why Houston chooses ThrIVe in West University",
    "original": "Wellness Without Limits",
    "text": "Wellness Without Limits"
   },
   {
    "id": "d0c2e4471b",
-   "where": "h2",
+   "where": "h2 · Why Houston chooses ThrIVe in West University",
    "original": "Twelve signature",
    "text": "Twelve signature"
   },

@@ -21,37 +21,10 @@
     try { sessionStorage.setItem("tds-util", "1"); } catch (e) {}
   });
 
-  /* ---------- preloader (once per session) ---------- */
-  var pre = document.querySelector(".preloader");
-  var skipIntro = docEl.classList.contains("no-preloader");
-  function reveal() { document.body.classList.add("is-loaded"); }
-
-  if (!pre || skipIntro) {
-    if (pre) pre.remove();
-    requestAnimationFrame(function () { requestAnimationFrame(reveal); });
-  } else {
-    var bar = pre.querySelector(".preloader__bar i");
-    var t0 = null, INTRO_MS = 1100, done = false;
-    function tick(t) {
-      if (done) return;
-      if (!t0) t0 = t;
-      var p = Math.min((t - t0) / INTRO_MS, 1);
-      var eased = 1 - Math.pow(1 - p, 3);
-      if (bar) bar.style.transform = "scaleX(" + eased + ")";
-      if (p < 1) requestAnimationFrame(tick); else setTimeout(introDone, 150);
-    }
-    function introDone() {
-      if (done) return;
-      done = true;
-      if (bar) bar.style.transform = "scaleX(1)";
-      pre.classList.add("is-done");
-      reveal();
-      try { sessionStorage.setItem("tds-intro", "1"); } catch (e) {}
-      setTimeout(function () { pre.remove(); }, 1000);
-    }
-    requestAnimationFrame(tick);
-    setTimeout(introDone, INTRO_MS + 1200); /* rAF pauses in background tabs */
-  }
+  /* ---------- reveal ---------- */
+  /* The page shows straight away: an inline script at the top of <body> adds is-loaded
+     on the first frame. This is the fallback if that script did not run. */
+  requestAnimationFrame(function () { requestAnimationFrame(function () { document.body.classList.add("is-loaded"); }); });
 
   /* ---------- page-to-page fade ---------- */
   document.addEventListener("click", function (e) {

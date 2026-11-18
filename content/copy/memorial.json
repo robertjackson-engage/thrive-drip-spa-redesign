@@ -2,16 +2,16 @@
  "page": "memorial",
  "items": [
   {
-   "id": "7bd7e8d06b",
+   "id": "b0a0be99db",
    "where": "Browser tab title",
-   "original": "ThrIVe Drip Spa Memorial — IV Therapy in Houston, TX",
-   "text": "ThrIVe Drip Spa Memorial — IV Therapy in Houston, TX"
+   "original": "IV Therapy in Memorial, Houston | ThrIVe Drip Spa",
+   "text": "IV Therapy in Memorial, Houston | ThrIVe Drip Spa"
   },
   {
-   "id": "a6f188d719",
+   "id": "e07351bd2d",
    "where": "Search-engine description",
-   "original": "IV drips, NAD+, boosters and shots at ThrIVe Drip Spa Memorial, 1014 Wirt Rd, Ste 210, Houston, TX 77055. Call (713) 955-3747. Located in the heart of Memorial, our spa offers a tranquil escape where wellness meets luxury — perfect for rejuvenation after a day in Houston's premier shopping and dining district.",
-   "text": "IV drips, NAD+, boosters and shots at ThrIVe Drip Spa Memorial, 1014 Wirt Rd, Ste 210, Houston, TX 77055. Call (713) 955-3747. Located in the heart of Memorial, our spa offers a tranquil escape where wellness meets luxury — perfect for rejuvenation after a day in Houston's premier shopping and dining district."
+   "original": "IV therapy in Memorial, Houston: 12 signature IV drips, NAD+, boosters, EMFACE, Emsculpt NEO and EMTONE at 1014 Wirt Rd. Open daily. (713) 955-3747.",
+   "text": "IV therapy in Memorial, Houston: 12 signature IV drips, NAD+, boosters, EMFACE, Emsculpt NEO and EMTONE at 1014 Wirt Rd. Open daily. (713) 955-3747."
   },
   {
    "id": "fa9d417c3d",
@@ -44,16 +44,22 @@
    "text": "ThrIVe Drip Spa · Houston Metro"
   },
   {
+   "id": "4ce97b86eb",
+   "where": "span",
+   "original": "IV Therapy in",
+   "text": "IV Therapy in"
+  },
+  {
    "id": "34d80d551c",
    "where": "span",
    "original": "Memorial",
    "text": "Memorial"
   },
   {
-   "id": "ed3081d4bd",
-   "where": "span",
-   "original": "drip lounge.",
-   "text": "drip lounge."
+   "id": "139bd122db",
+   "where": "text",
+   "original": ", Houston",
+   "text": ", Houston"
   },
   {
    "id": "79a4912464",
@@ -176,14 +182,92 @@
    "text": "753+ Google reviews"
   },
   {
+   "id": "1382ff18c8",
+   "where": "p",
+   "original": "About the Memorial lounge",
+   "text": "About the Memorial lounge"
+  },
+  {
+   "id": "40ec028729",
+   "where": "h2",
+   "original": "IV therapy in Memorial, with the full",
+   "text": "IV therapy in Memorial, with the full"
+  },
+  {
+   "id": "d9cdf95e3f",
+   "where": "span · IV therapy in Memorial, with the full",
+   "original": "body and face suite",
+   "text": "body and face suite"
+  },
+  {
+   "id": "334cd3850f",
+   "where": "p · IV therapy in Memorial, with the full",
+   "original": "ThrIVe Drip Spa Memorial is at 1014 Wirt Rd, Suite 210, Houston, TX 77055 — in the heart of Memorial, and a calm stop after a day in one of Houston's best-known shopping and dining districts. It is where your wellness journey can start: more than hydration, a science-backed approach to feeling and performing your best.",
+   "text": "ThrIVe Drip Spa Memorial is at 1014 Wirt Rd, Suite 210, Houston, TX 77055 — in the heart of Memorial, and a calm stop after a day in one of Houston's best-known shopping and dining districts. It is where your wellness journey can start: more than hydration, a science-backed approach to feeling and performing your best."
+  },
+  {
+   "id": "97aa84ba2b",
+   "where": "p · IV therapy in Memorial, with the full",
+   "original": "IV therapy at our Memorial lounge is built around what you need that day, whether that is hydration, energy or recovery support. A registered nurse places your IV, and your drip delivers fluids, vitamins and nutrients directly into the bloodstream while you settle into a reclining chair. Choose one of our twelve signature IV drips, add a booster, or ask our medical professionals to customize the formula for you.",
+   "text": "IV therapy at our Memorial lounge is built around what you need that day, whether that is hydration, energy or recovery support. A registered nurse places your IV, and your drip delivers fluids, vitamins and nutrients directly into the bloodstream while you settle into a reclining chair. Choose one of our twelve signature IV drips, add a booster, or ask our medical professionals to customize the formula for you."
+  },
+  {
+   "id": "cdb52a5444",
+   "where": "p · IV therapy in Memorial, with the full",
+   "original": "Beyond IV therapy, Memorial offers the latest non-invasive body and face treatments: EMFACE for skin lifting, Emsculpt NEO for building muscle and burning fat, and EMTONE for smoothing the look of cellulite. Memorial is one of the ThrIVe lounges where all three are available under one roof, so you can plan a drip and a treatment in the same visit.",
+   "text": "Beyond IV therapy, Memorial offers the latest non-invasive body and face treatments: EMFACE for skin lifting, Emsculpt NEO for building muscle and burning fat, and EMTONE for smoothing the look of cellulite. Memorial is one of the ThrIVe lounges where all three are available under one roof, so you can plan a drip and a treatment in the same visit."
+  },
+  {
+   "id": "433ded2376",
+   "where": "h3 · IV therapy in Memorial, with the full",
+   "original": "Your first IV therapy visit in Memorial",
+   "text": "Your first IV therapy visit in Memorial"
+  },
+  {
+   "id": "6518c33d04",
+   "where": "li · Your first IV therapy visit in Memorial",
+   "original": "Book online in under a minute, or call (713) 955-3747",
+   "text": "Book online in under a minute, or call (713) 955-3747"
+  },
+  {
+   "id": "e9f271438f",
+   "where": "li · Your first IV therapy visit in Memorial",
+   "original": "Complete a Good Faith Exam with a licensed provider",
+   "text": "Complete a Good Faith Exam with a licensed provider"
+  },
+  {
+   "id": "007282e3a4",
+   "where": "li · Your first IV therapy visit in Memorial",
+   "original": "Choose your drip with a spa consultant, or have one built for you",
+   "text": "Choose your drip with a spa consultant, or have one built for you"
+  },
+  {
+   "id": "ef902beb8a",
+   "where": "li · Your first IV therapy visit in Memorial",
+   "original": "Relax in the lounge while a registered nurse looks after your IV",
+   "text": "Relax in the lounge while a registered nurse looks after your IV"
+  },
+  {
+   "id": "6878cd6ec5",
+   "where": "p · Your first IV therapy visit in Memorial",
+   "original": "We are open Monday to Friday, 9am to 7pm, and Saturday and Sunday, 10am to 6pm. Memberships and Affirm financing are available at the Memorial lounge.",
+   "text": "We are open Monday to Friday, 9am to 7pm, and Saturday and Sunday, 10am to 6pm. Memberships and Affirm financing are available at the Memorial lounge."
+  },
+  {
+   "id": "49a16e6b6b",
+   "where": "a · Your first IV therapy visit in Memorial",
+   "original": "Book IV therapy in Memorial →",
+   "text": "Book IV therapy in Memorial →"
+  },
+  {
    "id": "9cd3a84de7",
-   "where": "text",
+   "where": "text · Your first IV therapy visit in Memorial",
    "original": "Health Innovated",
    "text": "Health Innovated"
   },
   {
    "id": "7129a92cb2",
-   "where": "h2",
+   "where": "h2 · Your first IV therapy visit in Memorial",
    "original": "Twelve signature",
    "text": "Twelve signature"
   },
